@@ -45,9 +45,21 @@ It can be done by adding the website prop with the url to the chapter heading:
 
 :::
 
+:::Chapter{headline="Typeless" widemd=1}
+
+## No Chapter Type
+
+When no chapter type is given in the header, the media panel shows an error message.
+
+```markdown
+:::Chapter{headline="Typeless"}
+```
+
+:::
+
 :::Chapter{headline="Wide Markdown" widemd=1}
 
-## Documentation
+## Wide Markdown
 
 This type of chapter is used for all markdown. The small left text panel becomes screen wide and there is no media panel. It can be done by adding the `widemd` prop:
 
@@ -62,3 +74,5 @@ Because the image lives in `static/stories/_multimedia`, the path to the image o
 ![This is the same image as in the image chapter.](stories/_multimedia/multimedia_image.avif)
 
 :::
+
+
