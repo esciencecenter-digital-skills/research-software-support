@@ -4,7 +4,6 @@
 
 ## A slide
 
-
 * Lorem ipsum dolor sit amet
 * consectetur adipiscing elit
 

@@ -7,9 +7,5 @@ author: eScience Center
 thumbnail: "nlesc-dummy-1.png"
 ---
 
-:::Chapter{headline="First presentation" image="presentation1.md"}
-:::
-
-
-:::Chapter{headline="Second presentation" image="presentation2.md"}
+:::Chapter{headline="An example presentation" image="presentation.md"}
 :::
