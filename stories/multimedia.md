@@ -45,18 +45,6 @@ It can be done by adding the website prop with the url to the chapter heading:
 
 :::
 
-:::Chapter{headline="Typeless" widemd=1}
-
-## No Chapter Type
-
-When no chapter type is given in the header, the media panel shows an error message.
-
-```markdown
-:::Chapter{headline="Typeless"}
-```
-
-:::
-
 :::Chapter{headline="Wide Markdown" widemd=1}
 
 ## Wide Markdown
@@ -75,4 +63,14 @@ Because the image lives in `static/stories/_multimedia`, the path to the image o
 
 :::
 
+:::Chapter{headline="Typeless"}
 
+## No Chapter Type
+
+When no chapter type (or a wrong one) is given in the header, the media panel shows an error message.
+
+```markdown
+:::Chapter{headline="Typeless"}
+```
+
+:::
