@@ -1,5 +1,6 @@
 # First presentation, markdown demo
 
+Note: Here are some notes that should appear at the side
 
 
 ## A slide
@@ -14,13 +15,14 @@ Note: This will only appear in the speaker notes window.
 
 * sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
+Note: Blah blah blah
 
 
 ## External 2
 
 Content 2.1
 
+Note: More notes
 
 
 ## External 3.1
@@ -32,6 +34,8 @@ Content 3.1
 
 Content 3.2
 
+Note: More blah
+
 
 ## External 3.3 (Image)
 
@@ -42,3 +46,4 @@ Content 3.2
 
 `\[ J(\theta_0,\theta_1) = \sum_{i=0} \]`
 
+Note: Look at this great equation
