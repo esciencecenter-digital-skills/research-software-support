@@ -18,7 +18,7 @@ When a project is done under employment, the copyright situation becomes more di
 
 In practice, it is often the case that (University) employees assume copyright of their own work, and in the absence of (open source) policy, decide on their own licenses. Being thorough and checking with the University's legal department may result in an overly cautious response that requires the use of a proprietary license, heavily limiting the options for software (re)use.
 
-This module will give you an overview of different standardized (open source) licenses, and things to look out for when choosing to apply a license to a project.
+To avoid getting stuck in the net of your institute's regulations and opinions (or absence of these), it is important to be well-informed yourself from the start. This module will give you an overview of different standardized (open source) licenses, and things to look out for when choosing to apply a license to a project.
 :::
 
 
