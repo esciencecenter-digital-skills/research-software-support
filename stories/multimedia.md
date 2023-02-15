@@ -55,7 +55,7 @@ This type of chapter is used for all markdown. The small left text panel becomes
 :::Chapter{headline="Wide Markdown" widemd=1}
 ```
 
-Something has to be added in the widemd prop, 1 is generally a safe value.
+Something has to be added in the widemd prop, 1 is generally a safe value. Note that 0 will not turn it off; the only way to disable `widemd` is simply to remove the prop entirely.
 
 An image can also be added here of course, as in any markdown. But do note that the path needs to be relative to the `static` directory that lives in root of this project.
 Because the image lives in `static/stories/_multimedia`, the path to the image on this page should read `stories/_multimedia/multimedia_image.avif`.
