@@ -26,7 +26,7 @@ This module will give you an overview of different standardized (open source) li
 ## Software licenses: resources
 
 ### The Turing Way (20 minutes)
-Read in the Turing Way about [Software licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) , as well as [Data](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html) and [Machine Learning Model licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-ml.html). It is good to realize that these are different in ways that are relevant for re-use, that need to be covered specifically in a license.
+Read in the Turing Way about [Software licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) , as well as [Data licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html) and [Machine Learning Model licenses](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-ml.html). It is good to realize that these are different in ways that are relevant for re-use, that need to be covered specifically in a license.
 
 ### Choose a license (10 minutes)
 By now you will have a good idea of what Open Source licenses are available. [Choosealicense.com](https://choosealicense.com/) tries to simplify the choice between them, and is an excellent resource to be aware of and recommend to others.
