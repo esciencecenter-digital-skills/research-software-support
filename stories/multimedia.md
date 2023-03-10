@@ -31,6 +31,13 @@ This is a video hosted on youtube. You have to specify the youtube ID in the cha
 The youtube video ID can be found in the url of your youtube video, after the url tag "v=" (e.g. w<span>ww.</span>youtube.com/watch?v=**IuWVAv0AxXY**). Note that any following ampersand (&) symbols mark the end of the ID.
 :::
 
+:::Chapter{headline="Presentation 1" presentation="presentation.md"}
+
+
+:::
+
+
+
 :::Chapter{headline="Website" website="https://esciencecenter-digital-skills.github.io/software-support-essentials/"}
 
 ## Website example
@@ -64,7 +71,10 @@ Because the image lives in `static/stories/_multimedia`, the path to the image o
 :::
 
 
-:::Chapter{headline="Presentation" presentation="presentation.md"}
+:::Chapter{headline="Presentation 2" presentation="presentation.md"}
+# First presentation, markdown demo
+
+Note: Here are some notes that should appear at the side.
 
 :::
 
