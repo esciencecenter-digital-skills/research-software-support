@@ -72,9 +72,6 @@ Because the image lives in `static/stories/_multimedia`, the path to the image o
 
 
 :::Chapter{headline="Presentation 2" presentation="presentation.md"}
-# First presentation, markdown demo
-
-Note: Here are some notes that should appear at the side.
 
 :::
 
