@@ -1,7 +1,7 @@
 ---
 id: 1
 trl: medium
-category: Software Quality
+category: Reusability
 title: Software Management Plans
 author: eScience Center
 thumbnail: "nlesc-dummy.png"

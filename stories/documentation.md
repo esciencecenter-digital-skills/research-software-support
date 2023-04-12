@@ -1,7 +1,7 @@
 ---
 id: 1
 trl: medium
-category: Software Quality
+category: Reusability
 title: Documentation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"

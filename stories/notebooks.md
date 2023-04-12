@@ -1,7 +1,7 @@
 ---
 id: 6
 trl: medium
-category: Software Quality
+category: Reusability
 title: Notebooks
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
