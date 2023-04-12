@@ -7,7 +7,7 @@ author: eScience Center
 thumbnail: "nlesc-dummy-1.png"
 ---
 
-:::Chapter{headline="Introduction" image="ghlogo.png"}
+:::Chapter{headline="Introduction" widemd=1}
 ## Software licenses: introduction
 
 Copyright is a basic element of many things we produce, including software. Copyright, roughly speaking, means that we get to say how this work can be re-used by others, and what rights they have in copying, modifying, and distributing the work. When we do not explicitly formalize these rules in a license, the software cannot be (re-)used by others than the copyright holder. Including a license with software or code is therefore extremely important.
@@ -22,7 +22,7 @@ To avoid getting stuck in the net of your institute's regulations and opinions (
 :::
 
 
-:::Chapter{headline="Resources" image="ghlogo.png"}
+:::Chapter{headline="Resources" widemd=1}
 ## Software licenses: resources
 
 ### The Turing Way (20 minutes)
@@ -60,7 +60,7 @@ It is important that the copyright holder (the university!) has a policy on soft
 
 :::
 
-:::Chapter{headline="Exercises" image="ghlogo.png"}
+:::Chapter{headline="Exercises"  widemd=1}
 ## Software licenses: exercises
 
 ### Exercise 1: does your university have a software licensing policy?
