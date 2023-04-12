@@ -4,16 +4,16 @@ trl: medium
 category: Resources
 title: Testing & CI/CD
 author: eScience Center
-thumbnail: "nlesc-dummy-5.png"
+thumbnail: "nlesc-dummy.png"
 ---
 
-:::Chapter{headline="Testing" image="ghlogo.png"}
+:::Chapter{headline="Testing" widemd=1}
 ## Testing
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 :::
 
-:::Chapter{headline="CI/CD" image="ghlogo.png"}
+:::Chapter{headline="CI/CD" widemd=1}
 ## CI/CD
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

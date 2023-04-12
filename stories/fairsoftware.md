@@ -1,7 +1,7 @@
 ---
 id: 3
 trl: medium
-category: Publishing & Citing
+category: Getting started
 title: FAIR software
 author: eScience Center
 thumbnail: "nlesc-dummy.png"

@@ -4,10 +4,10 @@ trl: high
 category: Getting started
 title: Version control, git and github
 author: eScience Center
-thumbnail: "nlesc-dummy-5.png"
+thumbnail: "nlesc-dummy.png"
 ---
 
-:::Chapter{headline="Version control" image="ghlogo.png"}
+:::Chapter{headline="Version control" widemd=1}
 ## Local version control
 Why version control is needed, and what systems exist
 
@@ -15,7 +15,7 @@ distributed VC
 
 :::
 
-:::Chapter{headline="Remote repositories" image="ghlogo.png"}
+:::Chapter{headline="Remote repositories" widemd=1}
 ## Remote repositories
 
 Gitlab, github, bitbucket

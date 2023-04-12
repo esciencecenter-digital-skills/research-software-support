@@ -4,8 +4,8 @@ trl: medium
 category: Publishing & Citing
 title: Publication
 author: eScience Center
-thumbnail: "nlesc-dummy-2.png"
+thumbnail: "nlesc-dummy.png"
 ---
 
-:::Chapter{headline="Publication" image="ghlogo.png"}
+:::Chapter{headline="Publication" widemd=1}
 ## Publication
