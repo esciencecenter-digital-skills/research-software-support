@@ -2,13 +2,13 @@
 id: 6
 trl: medium
 category: Software Quality
-title: Literate programming
+title: Notebooks
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 ---
 
-:::Chapter{headline="Literate programming" widemd=1}
-## Literate programming
+:::Chapter{headline="Notebooks" widemd=1}
+## Notebooks
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 :::
