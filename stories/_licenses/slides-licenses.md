@@ -2,9 +2,6 @@
 
 ## Software Licensing
 
-<br />
-
-Lourens Veen | Netherlands eScience Center
 
 
 
@@ -108,6 +105,9 @@ Open Source licenses also allow commercial use, which means that they are a very
 
 <!-- .slide: data-state="keepintouch" -->
 
-## X
 
+www.esciencecenter.nl
 
+info@esciencecenter.nl
+
+020 - 460 47 70
