@@ -5,7 +5,7 @@
 
 
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -25,7 +25,7 @@ If you make software as part of a job for an employer, then your employer owns t
 The owner of the copyright on a work can give permission to others to do things they would otherwise not be allowed to do, like copying, publishing and modifying the work. A document that describes what they can do is called a copyright license. These licenses can be given to a specific party, usually as part of a contract, or they can be offered to the general public.
 
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -43,7 +43,7 @@ To use software that was made by someone else, you need to (at least) get a copy
 There are a handful of Open Source licenses available, with different terms. Those differences are especially important when you use a package or library in your own software. There are websites available that explain all the standard Open Source licenses in ordinary language, so that you can easily decide whether you can use a certain software package. You don't need to be (or have) a lawyer to use Open Source software.
 
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -61,7 +61,7 @@ In most countries, including The Netherlands, any work you do as part of your ta
 Some limited permission is often granted in the Consortium Agreements typically governing scientific project(s), but these are only valid within the project. To make the software available outside of the project it was developed in, broader permissions must be given. Some universities have a policy on how and under which conditions this can be done; details can typically be had from the library or legal department.
 
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -83,7 +83,7 @@ If a scientist working at a university, in the course of doing their job, create
 - Finally, doing so will allow them to achieve better results, and continue to build on those results, thus achieving higher impact.
 
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -101,7 +101,7 @@ Open Source licenses also allow commercial use, which means that they are a very
 
 
 
-===
+---
 
 <!-- .slide: data-state="keepintouch" -->
 

@@ -4,7 +4,7 @@
 
 Note: Here are some notes that should appear at the side.
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -25,7 +25,7 @@ Note: This will only appear in the speaker notes window.
 
 Note: Blah blah blah
 
-===
+---
 
 <!-- .slide: data-state="standard" -->
 
@@ -61,7 +61,7 @@ Note: More blah
 
 Note: Look at this great equation
 
-===
+---
 
 <!-- .slide: data-state="keepintouch" -->
 
@@ -71,6 +71,6 @@ info@esciencecenter.nl
 
 020 - 460 47 70
 
-===
+---
 
 <!-- .slide: data-state="about" -->
