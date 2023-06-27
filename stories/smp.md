@@ -28,7 +28,7 @@ A software management plan (SMP) can help to:
 
 :::
 
-:::Chapter(headline="Exercise" widemd=1)
+:::Chapter{headline="Exercise" widemd=1}
 
 1. Think of a software project
 2. Go to: [tinyurl.com/SMP-guide](tinyurl.com/SMP-guide)
