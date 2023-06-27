@@ -16,7 +16,7 @@ Research software plays a crucial role in academic research and has become a key
 
 :::
 
-:::Chapter(headline="Why an SMP?" widemd=1)
+:::Chapter{headline="Why an SMP?" widemd=1}
 It’s not hard!
 
 A software management plan (SMP) can help to:
