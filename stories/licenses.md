@@ -7,6 +7,12 @@ author: eScience Center
 thumbnail: "nlesc-dummy-1.png"
 ---
 
+
+:::Chapter{headline="Intro slides" presentation="slides-licenses.md"}
+
+:::
+
+
 :::Chapter{headline="Introduction" widemd=1}
 ## Software licenses: introduction
 

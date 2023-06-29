@@ -1,7 +1,12 @@
+<!-- .slide: data-state="title" -->
+
 # First presentation, markdown demo
 
 Note: Here are some notes that should appear at the side.
 
+---
+
+<!-- .slide: data-state="standard" -->
 
 ## A slide
 
@@ -10,40 +15,32 @@ Note: Here are some notes that should appear at the side.
 
 Note: This will only appear in the speaker notes window.
 
+---
 
-## External 1.2
+<!-- .slide: data-state="standard" -->
 
-* sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Note: Blah blah blah
-
-
-## External 2
-
-Content 2.1
-
-Note: More notes
-
-
-## External 3.1
-
-Content 3.1
-
-
-## External 3.2
-
-Content 3.2
-
-Note: More blah
-
-
-## External 3.3 (Image)
+## An image
 
 ![External Image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
 
+---
 
-## External 3.4 (Math)
+## Some math
 
 `\[ J(\theta_0,\theta_1) = \sum_{i=0} \]`
 
 Note: Look at this great equation
+
+---
+
+<!-- .slide: data-state="keepintouch" -->
+
+www.esciencecenter.nl
+
+info@esciencecenter.nl
+
+020 - 460 47 70
+
+---
+
+<!-- .slide: data-state="about" -->
