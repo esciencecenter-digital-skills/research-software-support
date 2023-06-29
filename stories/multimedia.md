@@ -8,7 +8,7 @@ thumbnail: "multimedia_image.avif"
 ---
 :::Chapter{headline="Image" image="multimedia_image.avif"}
 
-## Testing
+## Image example
 
 This is the original image example. Which can be generated using the following chapter heading:
 
@@ -33,10 +33,7 @@ The youtube video ID can be found in the url of your youtube video, after the ur
 
 :::Chapter{headline="Presentation 1" presentation="presentation.md"}
 
-
 :::
-
-
 
 :::Chapter{headline="Website" website="https://esciencecenter-digital-skills.github.io/software-support-essentials/"}
 
