@@ -29,6 +29,37 @@ Principles were written for data, not software, but they can be useful and are p
 
 :::
 
+:::Chapter{headline="Software sustainability" widemd=1}
+
+## What is the role of research software?
+https://upstream.force11.org/defining-the-roles-of-research-software/
+
+:::
+
+:::Chapter{headline="Exercise 1" widemd=1}
+
+## Exercise: Where does software fit in the research life cycle?
+
+Take a look at the research life cycle below.
+
+Think of a piece of research software you have used or developed.
+
+Where does it fit in the research life cycle?
+
+### Existing software
+The following research software can also be used:
+
+- Xenon
+- ESMValTool
+- RS-Dat
+- EUCP Atlas
+- Haddock
+
+
+
+:::
+
+
 :::Chapter{headline="Five recommendations" widemd=1}
 ## Five recommendations for FAIR software
 
