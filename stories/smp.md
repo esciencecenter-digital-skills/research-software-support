@@ -38,3 +38,49 @@ A software management plan (SMP) can help to:
 Bonus: fill in the template for your chosen project
 
 :::
+
+:::Chapter{headline="Exercise: SMPs in practice" widemd=1}
+
+Role playing exercise:
+One person presents the software, the other person gives feedback.
+
+Tasks for presenter:
+
+- What is the software about?
+- Who will use it?
+- What is the expected lifecycle of the software?
+- What potential users or applications are untapped?
+
+Tasks for reviewer:
+
+- Which FAIR principles are addressed?
+- How can the software be made more FAIR?
+- What would be the next step (low-hanging fruit)?
+
+Together:
+
+- Define the next steps for the software
+-
+
+Goals:
+
+- Frame an assessment positively. Always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
+
+:::
+
+
+:::Chapter{headline="Resources" widemd=1}
+## Overview of practical guides
+
+- [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
+- [Testing](https://the-turing-way.netlify.app/reproducible-research/testing/testing-guidance.html)
+- [Packaging](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html)
+- [Documentation](https://guide.esciencecenter.nl/#/best_practices/documentation)
+  - User
+  - Deployment
+  - Developer
+- [Citation](https://the-turing-way.netlify.app/communication/citable/citable-cff.html#cm-citable-cff)
+- [Software licensing](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) and [compatibility](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html)
+
+
+:::
