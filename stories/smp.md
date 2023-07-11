@@ -6,6 +6,9 @@ title: Software Management Plans
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 ---
+:::Chapter{headline="Intro slides" presentation="slides-smp.md"}
+
+:::
 
 :::Chapter{headline="SMPs" widemd=1}
 ## Software Management Plans
@@ -40,6 +43,15 @@ Bonus: fill in the template for your chosen project
 :::
 
 :::Chapter{headline="Exercise: SMPs in practice" widemd=1}
+
+This exercise is done in pairs.
+
+## Step 1: Familiarize yourself with the software
+
+- Look at the software repository or page in the Research Software Directory
+- Assess what level of management the software needs
+-
+
 
 Role playing exercise:
 One person presents the software, the other person gives feedback.

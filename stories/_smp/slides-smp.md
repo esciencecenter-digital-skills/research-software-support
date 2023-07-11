@@ -4,6 +4,19 @@
 
 
 
+---
+
+<!-- .slide: data-state="standard" -->
+
+<center>
+<img src="stories/_smp/threelevels.png" width="60%">
+</center>
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![](stories/_smp/lowlevel.png)
 
 ---
 
