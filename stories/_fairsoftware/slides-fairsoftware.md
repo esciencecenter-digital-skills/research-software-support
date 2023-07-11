@@ -6,7 +6,13 @@
 
 <!-- .slide: data-state="standard" -->
 
-## Inspiring introduction
+## This is not a photo
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg" width="55%">
+</center>
+
+[The Event Horizon Telescope Collaboration et al. 2019](https://doi.org/10.3847/2041-8213/ab0ec7)
 
 Note:
 
@@ -16,16 +22,20 @@ What scientific software can you think of?
 
 What role does it play?
 
+An example here: the Event Horizon Telescope, which took a "picture" of a black hole.
+A "planet-scale array of eight ground-based radio telescopes forged through international collaboration" (wikipedia).
+The separate telescopes collect data that is synchronized with atomic clocks, and the data is combined at highly specialised supercomputers.
+They were then converted into an image using custom software.
+
 ---
 
 <!-- .slide: data-state="standard" -->
 
-## The place of software in science
+## Research Software is...
 
-Research Software:
-“software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis)” (UK Research Software Survey 2014, quoted in Lamprecht et al 2020)
+“software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis)”
 
-“Software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis). Research software can be anything from a few lines of code written by yourself, to a professionally developed software package. Software that does not generate, process or analyse results - such as word processing software, or the use of a web search - does not count as ‘research software’ for the purposes of this survey.” ([UK Research Software Survey 2014](https://doi.org/10.5281/zenodo.608046)
+*[UK Research Software Survey 2014](https://doi.org/10.5281/zenodo.608046)*
 
 Note:
 
@@ -38,30 +48,49 @@ Various studies highlight importance of research software, but attention for sof
 
 ## Research life cycle
 
+<center>
+<img src="stories/_fairsoftware/researchcycle.png" width="60%">
+</center>
+
 Note:
-Emphasize the role of software in all phases of research.
+Emphasize the role of software in all phases of research:
 
-
+- Planning: to design experiments
+- Collecting: to collect data, to control instruments, to run simulations
+- Analysing: to analyse data, to generate models
+- Publishing: to generate figures, to write papers
+- Preserving: preserve data and software, to make it available for reuse
+- Re-using: to re-use data and software, to reproduce results, to build upon
 
 ---
 
 <!-- .slide: data-state="standard" -->
 
-## FAIR
+## The FAIR principles
 
-- Findable
-- Accessible
-- Interoperable
-- Reusable
-
-Open Science principle, originally for data, but also applicable to software.
+<center>
+<img src="stories/_fairsoftware/fair.png" width="60%">
+</center>
 
 Note:
 FAIR is not a perfect, but a useful metric.
 It is a practical framework for thinking about software sustainability.
-FAIR is not a checklist, but a set of principles; as such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
+FAIR is not a checklist, but a set of principles.
+As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
 
 ---
+
+<!-- .slide: data-state="standard" -->
+
+![screenshot Wilkinson 2016](stories/_fairsoftware/fairwilkinson.png)
+
+Note:
+FAIR principles were originally designed for data, but are also applicable to software.
+Designed also with other digital objects in mind, though actual description was data-specific.
+This has been extended meanwhile.
+
+---
+
 
 <!-- .slide: data-state="standard" -->
 
@@ -69,10 +98,12 @@ FAIR is not a checklist, but a set of principles; as such, it informs a spectrum
 
 What challenges does software pose that data does not?
 
-- Software is more complex: it is more difficult to understand
-- Software is more dynamic: versioning is more common, and it can break over time
-- Software is interdependent: it depends on other software
-- Software is more diverse: many different types of software
+Software is...
+
+- **complex**: code is interconnected and multi-layered
+- **dynamic**: versioning is more common; also, it can break over time
+- **interdependent**: it builds upon and therefore depends on other software
+- **diverse**: there are many different languages and paradigms
 
 Note:
 Software requires maintenance to retain its value, and maintenance is not straightforward.
