@@ -6,7 +6,7 @@
 
 <!-- .slide: data-state="standard" -->
 
-## This is not a photo
+## *Ceci n'est pas une photo*
 
 <center>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg" width="55%">
