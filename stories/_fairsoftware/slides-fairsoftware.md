@@ -44,8 +44,8 @@ It is important that not all software that is used in research is research softw
 For example, a text editor that is used to write a paper is not research software.
 Nor is powerpoint, or a web browser.
 Even tools like R or Python are not necessarily research software.
-The code written for the analysis would research software, however.
-Just like a custom made Excel macro that is used to analyse data.
+The code written in R or Python for an analysis would be research software, however.
+Just like a custom-made Excel macro that is used to analyse data.
 
 ---
 
@@ -155,15 +155,52 @@ Consider also version control software, a good software development practice tha
 
 <!-- .slide: data-state="standard" -->
 
-## Findability
+![FAIR for Research Software paper](stories/_fairsoftware/fair4rs_paper.png)
 
-- Archive on Zenodo: DOI and persistence (GitHub is not guaranteed)
-- Include metadata, explicitly containing the DOI
-- Include it in a searchable software registry
+Fair 4 Research Software (FAIR4RS) working group (2022)
+[doi:10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
+
+![Contributing Organizations](stories/_fairsoftware/fair4rs_logos.png)
 
 Note:
+In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
+The group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
 
-Metadata: In the context of FAIR, software metadata should at least describe where to find a specific version of the software, how to cite it, who are the authors, what are the inputs and outputs, and what are dependencies.
+---
+
+<!-- .slide: data-state="standard" -->
+
+![FAIR for Research Software principles](stories/_fairsoftware/fair4rs_principles.png)
+
+Note:
+These are the interpretations given to the FAIR principles for software by the working group.
+In many cases these are rephrased to better fit software, but in some cases they are also extended.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Findability
+
+![FAIR4RS Findability](stories/_fairsoftware/fair4rs_F.png)
+
+- Archive on Zenodo for DOI and persistence<br />
+  <small> Note that persistence on GitHub is not guaranteed!</small>
+- Use (semantic) versioning with updates<br />
+  <small> Zenodo assigns a DOI to each version </small>
+- Include metadata, explicitly containing the DOI<br />
+  <small> but also license, version, dependencies, etc. </small>
+- Register the software in a community registry<br />
+  <small> such as PyPI or CRAN, depending on the language/domain </small>
+
+Note:
+For software findability, a few things need to work together:
+
+The software needs to be archived on a platform that provides a DOI and persistence. GitHub is not guaranteed to provide this, and while it is a useful tool is not a suitable archive for software.
+GitHub does work well together with Zenodo, which provides both.
+Together they also provide functionality for versioning: when releasing a new version on GitHub, and using the Zenodo integration, Zenodo will update the entry and assign a new DOI to the new version.
+
+For software-specific findability, though, Zenodo is insufficient. Here, you can think of more specific registries, such as PyPI, CRAN, or Bioconductor; depending on the language and domain of the software.
 
 ---
 
@@ -171,7 +208,16 @@ Metadata: In the context of FAIR, software metadata should at least describe whe
 
 ## Accessibility
 
+![FAIR4RS Accessibility](stories/_fairsoftware/fair4rs_A.png)
 
+- Community registries provide standard download protocols<br />
+  <small> e.g. `pip install my_software` </small>
+- Metadata on Zenodo is part of the persistent archive
+
+Note:
+A lot of accessibility is covered by the findability principles, but there are a few additional things to consider.
+Specifically, software may still be FAIR as long as its metadata is accessible.
+The code of the software itself, not the actual functional engine, could be considered metadata.
 
 ---
 
@@ -179,7 +225,18 @@ Metadata: In the context of FAIR, software metadata should at least describe whe
 
 ## Interoperability
 
+![FAIR4RS Interoperability](stories/_fairsoftware/fair4rs_I.png)
 
+- Input and output both needs to meet community standards<br />
+  <small> e.g. file formats, data models, ontologies </small>
+- References to external objects should be unambiguous<br />
+  <small> use URLs, DOIs, version numbers etc. </small>
+
+Note:
+As with data, interoperability refers partly to formats and standards (in this case: inputs, outputs, or other objects used). For example CSV, JSON, and XML are interoperable formats, while PDF is not.
+These standards may also be domain-specific, such as the use of ontologies in the life sciences.
+
+The second sub-principle refers to the use of unambiguous references to external objects, such as libraries, data, or models. A clear link allows the right object to be used by the software.
 
 ---
 
@@ -187,16 +244,70 @@ Metadata: In the context of FAIR, software metadata should at least describe whe
 
 ## Reusability
 
+![FAIR4RS Reusability](stories/_fairsoftware/fair4rs_R.png)
 
+- Include a software-specific license<br />
+  <small>as a file called `LICENSE` in the project's root</small>
+- Many Open Source software licenses exist<br />
+  <small> see [choosealicense.com](https://choosealicense.com/)</small>
+- License choice is not always straightforward<br />
+  <small> confirm with dependencies, copyright holder(s), and specialists </small>
+- Use version control (e.g. Git) with a public host (e.g. GitHub)<br />
+  <small> history and provenance is a public part of the repository </small>
+- Dependencies should be listed, and unambiguous<br />
+  <small> use a standardized file/protocol, and version numbers</small>
+
+Note:
+Licenses are an important part of reusability.
+Without a license, copyright disallows reuse.
+In an open science context especially, Open Source licenses are the default choice.
+They are numerous, but the choice is not always straightforward.
+It is advised to learn about the different licenses, about important considerations (e.g. dependencies and the role and identity of copyright holders) and to consult with specialists when in doubt.
 
 ---
 
+<!-- .slide: data-state="standard" -->
+
+## Let's get practical
+
+[fair-software.nl](https://fair-software.nl/)
+![Five Recommendations](stories/_fairsoftware/fiverecs.png)
+
+---
 
 <!-- .slide: data-state="standard" -->
 
-## What FAIR is not
+![Use a repository](stories/_fairsoftware/fiverecs_1.png)
 
-FAIR is not a quality checklist!
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Use a license](stories/_fairsoftware/fiverecs_2.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Community Registry](stories/_fairsoftware/fiverecs_3.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Enable Citation](stories/_fairsoftware/fiverecs_4.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Quality Checklist](stories/_fairsoftware/fiverecs_5.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+### FAIR is not a quality checklist
 
 Software quality is addressed insofar as it affects:
 
@@ -205,11 +316,10 @@ Software quality is addressed insofar as it affects:
 
 Quality aspects *not* part of FAIR:
 
-- computational efficiency
+- computational efficiency &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 - functional correctness
 - security
 - ...
-
 
 Note:
 The FAIR principles are limited in scope when it comes to software.
@@ -231,24 +341,18 @@ Software may adhere perfectly to FAIR, yet produce the wrong results, in a painf
 
 <!-- .slide: data-state="standard" -->
 
-## What FAIR is not
-
-Note:
-FAIR is not perfect.
-
-FAIR is a
-
----
-
-<!-- .slide: data-state="standard" -->
-
 ## FAIR is a spectrum
+
+<center>
+<img src="stories/_fairsoftware/spectrum.png" width="60%" />
+</center>
 
 Note:
 
 FAIR is not a checklist, but a set of principles.
 As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
 
+FAIR is not a perfect metric, but it is helpful, and tailored to specific values of open science.
 
 ---
 
@@ -257,12 +361,10 @@ As such, it informs a spectrum of software sustainability, and not a binary "FAI
 ## Take home messages
 
 - Software is found in all stages of the research cycle
-- Research software comes in many shapes and sizes
-- Software sustainability is important but challenging to achieve
-- Good software management leads to better science
-- FAIR principles give a practical framework for tackling software sustainability
-
-
+- FAIR4RS principles guide towards accessibility and openness of research software
+- FAIR is not a quality checklist
+- Software places unique demands on FAIR, and provides unique opportunities
+- FAIRness is a spectrum
 
 ---
 
