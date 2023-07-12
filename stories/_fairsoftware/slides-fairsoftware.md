@@ -51,26 +51,6 @@ Just like a custom-made Excel macro that is used to analyse data.
 
 <!-- .slide: data-state="standard" -->
 
-## Research life cycle
-
-<center>
-<img src="stories/_fairsoftware/researchcycle.png" width="60%">
-</center>
-
-Note:
-Emphasize the role of software in all phases of research:
-
-- Planning: to design experiments
-- Collecting: to collect data, to control instruments, to run simulations
-- Analysing: to analyse data, to generate models
-- Publishing: to generate figures, to write papers
-- Preserving: preserve data and software, to make it available for reuse
-- Re-using: to re-use data and software, to reproduce results, to build upon
-
----
-
-<!-- .slide: data-state="standard" -->
-
 <center>
 <img src="stories/_fairsoftware/unescoopenscience.png" width="50%">
 </center>
@@ -360,7 +340,7 @@ FAIR is not a perfect metric, but it is helpful, and tailored to specific values
 
 ## Take home messages
 
-- Software is found in all stages of the research cycle
+- Software is an important part of research
 - FAIR4RS principles guide towards accessibility and openness of research software
 - FAIR is not a quality checklist
 - Software places unique demands on FAIR, and provides unique opportunities
