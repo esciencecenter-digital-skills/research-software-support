@@ -23,9 +23,9 @@ What scientific software can you think of?
 What role does it play?
 
 An example here: the Event Horizon Telescope, which took a "picture" of a black hole.
-A "planet-scale array of eight ground-based radio telescopes forged through international collaboration" (wikipedia).
+The "telescope" is not a single tool, but complex: a "planet-scale array of eight ground-based radio telescopes" (wikipedia).
 The separate telescopes collect data that is synchronized with atomic clocks, and the data is combined at highly specialised supercomputers.
-They were then converted into an image using custom software.
+The data can be converted into an image using custom software.
 
 ---
 
@@ -111,34 +111,26 @@ This has been extended meanwhile.
 
 <!-- .slide: data-state="standard" -->
 
-## Software challenges
-
-What challenges does software pose that data does not?
+## Software is not data
 
 Software is...
 
-- **complex**: code is interconnected and multi-layered
-- **dynamic**: versioning is more common; also, it can break over time
+- **complex**: code is creatively generated, interconnected and multi-layered
 - **interdependent**: it builds upon and therefore depends on other software
-- **diverse**: there are many different languages and paradigms
+- **executable**: it is not static, but can be run
+- **dynamic**: it can break over time, and versioning is common
 
 Note:
-Software requires maintenance to retain its value, and maintenance is not straightforward.
-Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed).
+While technically, software is a special kind of data (in that it is representation of information in a digital state), they are in essence quite different.
 
-FAIR was designed for data, but aimed at much more.
-
-From Lamprecht et al 2020 (copied and sometimes paraphrased):
-Software is not data
-Technically, software is a special kind of data, in that it is representation of information in a digital state.
 Software and data both are digital objects, sharing certain characteristics: they can be assigned a DOI, and they can have a license.
 
-Differences between data and software:
-- Data are facts or observations that provide evidence.
-- In contrast, software is the result of a creative process that provides a tool for doing something, for example with data.
-- As such, software is executable, while data is not.
-- Software is often built using other software. Software is rarely built completely from scratch, and instead utilizes existing applications that leads to complex dependencies.
-- The lifetime of software is generally shorter than that of data, as versioning is applied more frequently and regularly leads to changes in behaviour and/or interfaces. Hence, dependencies as well as dependent software packages are subject to frequent changes.
+Software is quite different from data, however. Consider:
+
+- Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
+- Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time.
+- Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
+- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
 
 ---
 
@@ -146,16 +138,18 @@ Differences between data and software:
 
 ## Software opportunities
 
-FAIR is not a perfect, but a useful metric.
-It is a practical framework for thinking about software sustainability.
-FAIR is not a checklist, but a set of principles.
-As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
+- Software is a **living thing**
+- Creative process allows for **early adoption** of good practices
+- Openness and transparency are **inherent** to software
 
-- Software is a living thing
 
 Note:
-For example, while the process of making data FAIR is typically done when the data is published to an archive, open source software ideally should start working toward satis- fying the FAIR4RS Principles when it is initially being developed since it may be used by others directly from its development environment. This is especially true for software that is developed in the open, such as on GitHub, where it is common for users to clone the repository and use the software directly from the repository. In this case, the software is being used before it is published, and therefore it should be FAIR before it is published.
-(from Barker et al 2022 and copilot)
+The different nature of software also provides opportunities.
+Software is a living thing, and therefore it is easier to adopt good practices early on.
+Crucially, there is a community driven openness in software that long predates the open science movement.
+This is not to say that software is inherently open, but that there is a broad open culture, which also comes with existing tools and pathways to facilitate openness and transparency.
+Consider GitHub (and other code hosting platforms), which are designed for this purpose.
+Consider also version control software, a good software development practice that builds in provenance.
 
 ---
 
@@ -200,7 +194,7 @@ Metadata: In the context of FAIR, software metadata should at least describe whe
 
 <!-- .slide: data-state="standard" -->
 
-## FAIR and software quality
+## What FAIR is not
 
 FAIR is not a quality checklist!
 
@@ -214,72 +208,47 @@ Quality aspects *not* part of FAIR:
 - computational efficiency
 - functional correctness
 - security
+- ...
 
 
 Note:
+The FAIR principles are limited in scope when it comes to software.
+It is important to realize that their primary goal is not to address software quality itself.
+FAIR software can be of poor quality, and good quality software may not be FAIR.
 
-From Lamprecht et al 2020:
+Some quality aspects are addressed by FAIR, in particular usability and maintainability.
+Because software is dynamic and interdependent, its reusability requires that it is maintained to continue to work (or that a conserved context is provided, such as a virtual machine with required dependencies).
 
-Distinguish between form (that is, how a software is provided, the code itself) and function (that is, what a software actually does, how it behaves, the algorithm encoded), as different quality considerations apply.
+Secondary to maintainability are quality aspects like tests, modularized architecture, developer documentation, and so on.
 
-Quality aspects concerning the form of software can be considered as covered by FAIR, in particular by the interoperability and reusability principles. It is important to realise that unlike data, software is not static and can only be (re)used if it is sustainable and evolves along with the continuous development of the entire software ecosystem. The quality of its codebase is decisive for a software’s ability to evolve sustainably. This characteristic is often also referred to as maintainability, and includes aspects like modularity, understandability, changeability, analysability and testability [16]. Following guidelines for good scientific software development, as well as language- and/or community specific coding standards [17] are effective means to making and keeping the code base maintainable. Many of these qualities are measurable/quantifiable and could thus be covered with additional FAIR principles and metrics.
+Interoperable software is usable by others, and therefore it is important that it is well documented and that it is easy to install and run.
+This ties into quality aspects like user documentation, installation instructions, and so on.
 
-Quality aspects that concern the functionality of software, on the other hand, go beyond what is cov- ered by the FAIR principles. Arguably, the most important quality criterion for research software is functional correctness, i.e., the production of the correct results every time the software is run. Thorough validation of the functional correctness of research software can, however, be significantly more difficult than the testing that is required for code maintainability as discussed above [18,19]. For example, testing the software might require specific resources such as access to high performance computing, validated input/output data pairs to test the implementation of an algorithm might not be available yet (as the purpose of the software is to create them), or require the execution of very long computations. Other important quality criteria related to functionality of research software are security measures (guaran- teeing privacy and integrity of research data) and computational efficiency (striving to optimise use of resources and runtime performance). The latter cannot be measured statically and may require system- atic scientific benchmarking in order to arrive at meaningful performance estimates [20,21]. Discussion is ongoing to see if for these criteria workable principles and metrics can be developed, but specific training and adequate attention in the development process are certainly key to high functional quality of research software.
-
+Note though, that there is no mention of correctness, nor of efficiency or security.
+Software may adhere perfectly to FAIR, yet produce the wrong results, in a painfully slow and inefficient process, while leaking personal information.
 
 ---
 
 <!-- .slide: data-state="standard" -->
 
-## Software sustainability
+## What FAIR is not
 
 Note:
-Software breaks over time. It needs to be maintained, updated, and adapted to new environments. This is called software sustainability.
+FAIR is not perfect.
 
+FAIR is a
 
 ---
 
 <!-- .slide: data-state="standard" -->
 
-## Goal: reproducible research
+## FAIR is a spectrum
 
 Note:
-Is this actually the goal of research software? Or is it to make research more efficient, or to make it possible to do research that would otherwise be impossible?
-Or all of the above?
 
----
+FAIR is not a checklist, but a set of principles.
+As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
 
-<!-- .slide: data-state="standard" -->
-
-## Manage your software
-
-- Is there software we can already use/adapt?
-- How easy is it for others to take and use?
-- Who will use the software afterwards?
-- How will they use it?
-- NOT another bit of admin: software management leads to better science!
-
-
----
-
-<!-- .slide: data-state="standard" -->
-
-##
-
----
-
-<!-- .slide: data-state="standard" -->
-
-## Not all software is created equal
-
-Note:
-Research software comes in many shapes and sizes; can be single R package written by a PhD student to analyse data from a specific machine.
-It can also be a multinational collaboration to develop a tool that is used by thousands of researchers worldwide.
-
-Different software has different needs, but there are common principles in managing them and ensuring their sustainability.
-Acknowledging that research software is a broad term and all research software benefits good management is an important first step.
-
-From Lamprecht et al 2020: "Research software includes but is not limited to source code, binaries and web services, and covers a broad spectrum from short scripts written ad hoc by researchers to produce re- sults for a publication, to software rigorously developed for a mission-critical process"
 
 ---
 
