@@ -31,21 +31,22 @@ The data can be converted into an image using custom software.
 
 <!-- .slide: data-state="standard" -->
 
-## Research Software is...
+<center>
+<img src="stories/_fairsoftware/definition.png" width="55%">
+</center>
 
-“software that is used to generate, process or analyse results that you intend to appear in a publication (either in a journal, conference paper, monograph, book or thesis)”
-
-*[UK Research Software Survey 2014](https://doi.org/10.5281/zenodo.608046)*
+<small>definition of Research Software from the FAIR4RS working group</small>
 
 Note:
 
-A definition of research software, from the UK Research Software Survey 2014.
+A definition of research software, from the FAIR4RS working group.
 It is important that not all software that is used in research is research software.
 For example, a text editor that is used to write a paper is not research software.
-Nor is powerpoint, or a web browser.
+Nor is powerpoint, a web browser, or the software used to guide the telescope.
 Even tools like R or Python are not necessarily research software.
 The code written in R or Python for an analysis would be research software, however.
 Just like a custom-made Excel macro that is used to analyse data.
+Or a custom-made web application that is used to collect data.
 
 ---
 
