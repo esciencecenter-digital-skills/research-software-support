@@ -12,7 +12,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg" width="55%">
 </center>
 
-[The Event Horizon Telescope Collaboration et al. 2019](https://doi.org/10.3847/2041-8213/ab0ec7)
+<small>[The Event Horizon Telescope Collaboration et al. 2019](https://doi.org/10.3847/2041-8213/ab0ec7) (CC BY 3.0)</small>
 
 Note:
 
@@ -39,8 +39,13 @@ They were then converted into an image using custom software.
 
 Note:
 
-Open source software included in UNESCO recommendations on open science
-Various studies highlight importance of research software, but attention for software management is still limited
+A definition of research software, from the UK Research Software Survey 2014.
+It is important that not all software that is used in research is research software.
+For example, a text editor that is used to write a paper is not research software.
+Nor is powerpoint, or a web browser.
+Even tools like R or Python are not necessarily research software.
+The code written for the analysis would research software, however.
+Just like a custom made Excel macro that is used to analyse data.
 
 ---
 
@@ -66,6 +71,21 @@ Emphasize the role of software in all phases of research:
 
 <!-- .slide: data-state="standard" -->
 
+<center>
+<img src="stories/_fairsoftware/unescoopenscience.png" width="50%">
+</center>
+
+<small>[UNESCO Recommendation on Open Science, 2021](https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/) (CC BY IGO 3.0)</small>
+
+Note:
+Open Science encompasses many aspects of science.
+It is a movement that aims to make science — which includes software — more open, transparent, and accessible.
+This is supported by many organisations, including UNESCO.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
 ## The FAIR principles
 
 <center>
@@ -73,10 +93,7 @@ Emphasize the role of software in all phases of research:
 </center>
 
 Note:
-FAIR is not a perfect, but a useful metric.
-It is a practical framework for thinking about software sustainability.
-FAIR is not a checklist, but a set of principles.
-As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
+the FAIR principles standardize values that help openness, transparency, and accessibility.
 
 ---
 
@@ -128,6 +145,11 @@ Differences between data and software:
 <!-- .slide: data-state="standard" -->
 
 ## Software opportunities
+
+FAIR is not a perfect, but a useful metric.
+It is a practical framework for thinking about software sustainability.
+FAIR is not a checklist, but a set of principles.
+As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
 
 - Software is a living thing
 
