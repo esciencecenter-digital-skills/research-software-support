@@ -11,9 +11,11 @@
 ![Mapping the Via Appia](stories/_smp/viaappia.png)
 
 Note:
-The Via Appia was the most important road in the Roman Empire. It connected Rome to Brindisi in the south of Italy. It was built in 312 BC and was 540 km long. It was the first road to be built with a hard surface. It was used for military purposes, but also for trade and travel. It was used for 600 years, until the fall of the Roman Empire.
+The Via Appia was the most important road in the Roman Empire, connecting Rome to Brindisi in the south of Italy, spanning a distance of 540km.
+It was used for military purposes, but also for trade and travel.
+The Via Appia was built in 312 BC, and used for 600 years, until the fall of the Roman Empire.
 
-The eScience Center participated in a project to map the Via Appia. Using a combination of satellite imagery and ground-based measurements, the project created a 3D model of the Via Appia. The model was used to study the road and its surroundings.
+The eScience Center participated in a project to map the Via Appia. Using a combination of satellite imagery and ground-based measurements, the project created a 3D model of the road. The model was used to study the road and its surroundings.
 
 In this project, research software was used to process the satellite imagery and the ground-based measurements, and combine them into a 3D model of the Via Appia.
 
