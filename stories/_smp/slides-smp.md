@@ -29,15 +29,13 @@ In this project, research software was used to process the satellite imagery and
 <img src="stories/_smp/researchcycle.png" width="60%">
 </center>
 
-
 Note:
-
 All over the research cycle can we find examples of software created for research.
 Some more straightforward than others:
 
-Planning: to design experiments
-Collecting: to collect data, to control instruments, to run simulations
-Analysing: to analyse data, to generate models
+- Planning: to design experiments
+- Collecting: to collect data, to control instruments, to run simulations
+- Analysing: to analyse data, to generate models
 
 ---
 
@@ -53,15 +51,17 @@ Both reusability and reproducibility are important values in research software:
 
 For both, we need to be able to **find**, **access**, **use**, and **understand** software.
 
-
 Note:
+Reproducibility of research allows validation of its findings, and is therefore vital in building a solid foundation for scientific progress.
+We can only truly build upon existing research if we can reproduce its results.
 
-The ability to reproduce results in order to assess the reliability of findings is an integral part of the research process, as is the possibility of building upon those results. For the sake of research transparency,
-reproducibility, reuse, and recognition, research software should be shared by the authors of a study in such a way that it can be used to obtain the same results as in the original work or extend that work.
+When software has been used in research, this has enormous potential to facilitate the research reproducibility.
+However, it also comes with its own particular challenges: software reproducibility is not always straightforward.
 
-UNESCO Recommendation on Open Science identifies open source software as one of the key elements of open scientific knowledge. Open source software, alongside practices laid out in the FAIR principles, promotes collaboration among researchers, stakeholders, and the public. Furthermore, it enables software creators to extend or expand upon existing software instead of creating “yet another” stand-alone piece of software. By encouraging researchers to do so, research organisations and funders can save on investment of funds and researchers’ time.
+An additional feature of software, is that it may be a product on its own, and can be reused by others.
+This is a great opportunity to build on our collective knowledge and tools, and to avoid reinventing the wheel.
 
-Ideally, research software should be as open as possible, and as closed as necessary. All research software, whether open or closed source (for example, in case of security concerns or commercial inter- ests), can benefit from using SMPs.
+Ensuring that the software is findable, accessible, usable and understandable is key to both reproducibility and reusability.
 
 ---
 
