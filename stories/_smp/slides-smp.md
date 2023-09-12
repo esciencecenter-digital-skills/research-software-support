@@ -210,10 +210,19 @@ This will help the developers focus on the specific needs of the software.
 - How will you manage code quality?
 
 Note:
-• Version control - use a version control system. Adequate versioning of research software facilitates management of research software, allowing for the identification of specific versions of the software.
-- Testing - incorporate tests to ensure your software continues to work as intended. Different types of testing (unit, functional, inte- gration, linting, typing, regression, etc.) could be used. Tests in turn should also be documented. Coverage tools should also be used to assess the extent of the tested code.
-• Packaging - use appropriate package managers to allow users to install/deploy your software with ease.
- • Software Engineering quality - make sure your software adheres to relevant code quality standards (styling, modularity, etc.) and uses tools for collaborative development to measure code quality.
+On the engineering focus, several specific areas are addressed.
+
+*Version control* has a myriad of benefits: it allows keeping track of history and provenance, can support experimentation and collaboration, and is crucial for the identification of specific versions of the software.
+
+*Testing* ensures that software continues to work as intended.
+There are many different approaches to this: units of code can be tested in unit tests; entire workflows can be verified in integration tests; acceptance tests can be created to ensure specific requirements are met; regression testing can be done to ensure new changes do not break existing functionality; and so on.
+Deciding whether and if so what testing will be implemented is an important element of the SMP.
+
+*Packaging* is important for the distribution of software.
+The format in which the software will be distributed is an important decision that should be made early on.
+
+*Code quality* should be addressed: what standards will be adhered to, and how will they be measured and supported?
+There are many tools that can help with this, and it is important to choose them early on to maintain consistent code quality throughout the project.
 
 ---
 
@@ -229,10 +238,13 @@ Note:
 - How will you manage system requirements (e.g. dependencies)?
 
 Note:
+Documentation is an important component of software, and should be tailored to different audiences.
 
-• User documentation - explain clearly what the software does and how it should be used.
-• Deployment documentation - explain system requirements (e.g. de- pendencies) for deploying the software and instructions for installa- tion and testing.
-• Developer documentation - explain how the software can be modi- fied (docstrings, in-line comments, etc.), tested, and contributed to (governance, code of conduct, contributing guidelines, etc.).
+In *user documentation*, the software's function should be explained, and instructions on how to use it should be provided.
+
+In *developer documentation*, instructions on how to modify the software, and how to contribute to the project should be provided.
+
+*Deployment documentation* explains any system requirements (such as dependencies) for deploying the software, and installation and testing instructions.
 
 ---
 
@@ -250,23 +262,21 @@ Note:
   - e.g. infrastructure, personnel, training, hardware...
 - What risks and challenges do you foresee?
 
-
 Note:
+The project management focus is broad, and addresses various conditions for the software's long-term sustainability and re-use.
 
+Any reusable software should have an appropriate *license*, which is an important early decision.
 
-• Repository - deposit releases of your software in an appropriate repository. This should preferably be a publicly accessible reposito- ry, providing globally unique, persistent, and resolvable identifiers
-The most important consideration is that potential
-to each release.
-27
-users of the software are able to get a copy they can use.28
-• Software licensing and compatibility - assign a licence specifying conditions of use for your software, including patenting information (if relevant). Preferably the licence should be as open as possible, and as closed as necessary. Software licences must be compatible with the licence of external components (dependencies, libraries, etc.) that the software uses.
-• Citation - include relevant information indicating how your software should be cited.
+The *maintenance* of the software should be addressed in an SMP: who will maintain it, and for how long?
+How and when will it be retired?
 
-• Maintenance - make sure there are arrangements in place for the maintenance and reuse of your software. This could be through a community of developers who will continue to maintain it, or by in- cluding the maintenance of software as part of future projects, or by increasing the user base. Whenever suitable, develop a retirement strategy for your software.
-• Support (during the project) – plan resources for support-rela-
-ted activities such as training, hiring research software engineers, infrastructure, hardware, etc. The level of support should be in line with promises made regarding the level of service provided by your software (e.g. service level agreements).
-• Risk analysis - consider other factors that could have an impact on your software. For example compliance with privacy policies, secu- rity considerations, reliability requirements, portability / vendor lock, etc.
+Plan the *citation* of the software: how will you collect information about its use? What DOI will you use for this?
 
+The *repository* where the software will be deposited is preferably publicly accessible, and should allow users to obtain a functional copy of the software.
+
+What *resources* — human, infrastructure, financial - will be needed, and when?
+
+Finally, a *risk analysis* should be performed: for instance, are there privacy or security concerns? Is there potential for vendor lock, or other considerations for future reliability and reuse?
 
 ---
 
@@ -282,11 +292,11 @@ ted activities such as training, hiring research software engineers, infrastruct
   - Institution-specific resources available
 - Include an assessment rubric (e.g. with (un)acceptable answers)
 
-
 Note:
-From the institutional side, template is their task.
-Making a template can include guidance on how to fill it out, incl institution-specific regulations or resources
-Making a template should also include an assessment rubric, detailing (un)acceptable answers
+The Software Management Plan template is a duty of the institution.
+A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
+
+An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
 ---
 
@@ -297,15 +307,18 @@ Making a template should also include an assessment rubric, detailing (un)accept
 ![](stories/_smp/softwarespectrum.png)
 
 Note:
-Research software comes in many shapes and sizes; can be single R package written by a PhD student to analyse data from a specific machine.
+It is important to realize when making an SMP, that research software comes in many shapes and sizes.
+
+An ad-hoc R script written by a PhD student to analyse data from a specific machine, is research software.
+
 It can also be a multinational collaboration to develop a tool that is used by thousands of researchers worldwide.
 
 Different software has different needs, but there are common principles in managing them and ensuring their sustainability.
 
-From Lamprecht et al 2020: "Research software includes but is not limited to source code, binaries and web services, and covers a broad spectrum from short scripts written ad hoc by researchers to produce re- sults for a publication, to software rigorously developed for a mission-critical process"
+The diversity of research software does mean that not all requirements apply to every type of software.
+To address this, we can subset the core requirements to create different SMP templates tailored to software with different management needs.
 
-owever, software exists in many forms - from sin- gle purpose scripts to mission critical frameworks - which means that not all requirements are necessarily applicable to every category of software. In practice, it might be useful to define SMP templates based on subsets of the core SMP requirements (Section 5.1). In the following sections we illustrate how to create such SMP templates using soft- ware management levels.
-
+The SMP Guide distinguishes software with low, medium, and high management needs.
 
 ---
 
@@ -320,20 +333,16 @@ owever, software exists in many forms - from sin- gle purpose scripts to mission
   - Automates a routine task
 
 Note:
-6.1.1. Management level: low
-Purpose. This software is typically developed for a specific analysis
-(e.g. drawing a graph) or one-off project (e.g. practical examples in a course). The developer is the primary user and it is not intended to be used beyond a defined period or in a different context.
-Reliability. This software is generally smaller in terms of lines of code and due to its restricted scope the output can easily be judged to be
+Software with low management requirements is defined by its limited function: it performs a single analysis or automates a routine task.
+Its **purpose** is typically limited to a specific experiment, and the developer is the primary user.
 
-correct, either visually (the graph looks correct) or basic input/output testing (it gives an expected output for a defined input). Good software practices (e.g. version control and user documentation) are highly recommended.
-Maintenance. As this software is not intended to be used by others, either directly or as a dependency, its influence beyond the scope
-for which it was intended is likely small. While measures to enable its reuse (documentation, versioning, archiving) are appropriate, no addi- tional maintenance planning is required.
+The **reliability** of this type of software is usually easy to assess: the output can be visually inspected, or tested with a limited set of inputs.
 
-examples
-6.2.1. Software that requires low level management
-• A script that is used to create and format a single figure for a publi- cation, for example, when using a plotting package such as ggplot2 (R) or Matplotlib (Python).
-• Software written as part of a project to automate an administrative or routine process, e.g. monitoring a process or generating docu- ment templates.
-• Software written specifically for the analysis of a single experiment, data processing, and presentation of its results.32
+The **maintenance** of this type of software is usually limited to the duration of the project in which it was developed.
+It is not intended to be used by others, and therefore its influence beyond the scope for which it was intended is likely small.
+
+Best practices during development (e.g. version control), as well as measures to enable its reuse (documentation, versioning, archiving) are appropriate and recommended.
+They are however not requirements, nor is long term maintenance planning necessary.
 
 ---
 
@@ -347,19 +356,17 @@ examples
   - Implements a new or higher performance algorithm
   - Simulation software implementing a new model or method
 
-
 Note:
+Software requiring **medium** management, is defined as software that is the primary or secondary output of a research project.
 
-6.1.2. Management level: medium
-Purpose. Software of this level is typically developed as part of a re-
-search project or is the primary output of a research project. Although usually developed for a single purpose, it incorporates functionality that may be of use to others, either as a standalone tool, library, or module in an existing tool.
-Reliability. This software may have a direct influence on other re- searchers (e.g. project, research group) and/or software even if this was not the primary intention when it was conceptualised. As the software is more complicated and/or larger, in terms of lines of code, than those in the lower management level, good software practices such as version control using a system such as Git and user/technical documentation is essential here. More advanced requirements, such
-as code auditing, automated testing of major functionality, software packaging, and distribution also need to be considered.
-Maintenance. This software’s functionality is useful to researchers both in and outside the project, making it suitable for distribution. It will have a lifespan longer than the project in which it was developed and therefore long-term sustainability becomes more important. Software management requirements for this level include providing information on software archiving and citation as well as strategies for post-project maintenance and support.
+Its original **purpose** is typically limited to a single research project, but incorporates functionality that may be of use to others, either as a standalone tool, library, or module in an existing tool.
 
-6.2.2. Software that requires medium level management
-• Software that implements a new or higher performance algorithm and can be applied to different input data.
-• Simulation software that implements one or more models and/or numerical methods, e.g. computational fluid dynamics, chemical in- teractions, planetary evolution, partial differential equation solvers, numerical integration, etc.
+The **reliability** is more difficult to assess due to its increased complexity, but it is also also more important: this software likely has an effect on other research outside of the original project.
+Good software practices such as version control and user/technical documentation are therefore essential here.
+More advanced requirements, such as code auditing, automated testing, software packaging, and distribution also need to be considered.
+
+This software's longer term **maintenance** is relevant as it will have a lifespan longer than the project in which it was developed.
+Software management planning should include providing information on archiving and citation as well as strategies for post-project maintenance and support.
 
 ---
 
@@ -374,17 +381,15 @@ Maintenance. This software’s functionality is useful to researchers both in an
   - Preprocessing data coming from a telescope
   - Controlling a medical device
 
-
 Note:
-6.1.3. Management level: high
-Purpose. There are various types of software that require a high level of management, for example software developed and distributed for users other than the developers or software that has a direct (or sys- tematic) impact on something it interacts with. For instance, research results could be directly affected by the functioning of simulation software or training of machine learning models while physical effects could occur from the use of medical or engineering control software.
-Reliability. As software of this level was designed, or has evolved, to be “mission critical,” reliability is of utmost importance. All possible actions should be taken to ensure reliability, which includes soft- ware architecture design, code standards, the use of comprehensive cross-platform automated unit and functional testing frameworks,
-dependency management, and code auditing. In addition, legal development requirements, such as traceability, right to use, right to inspect, right to distribute, etc., and process documentation should be implemented as required (for example, software medical devices may require ISO or EC certified management processes).
-Maintenance. There is no defined maintenance period associated with this class of software as it must be maintained as long as it is in use.
-In order to maintain a high level of reliability, maintenance strategies, including funding and/or community development plans, should be in place. Build and release pipelines should be implemented so that not only source code availability but compiled software is maintained on evolving software/hardware platforms, OS, CPU, GPU etc.
+**High** management software is defined as mission critical software.
 
-• Software used in production on which an institute, department, or instrument depends on for their operation, e.g. software that is used for pre-processing all data coming from a particular telescope.
-• Software that cannot be rewritten during a project’s lifetime. If one requires functionality from high-impact software, replacing it may threaten a project.
+Its **purpose** is to perform a critical function, and its absence or replacement would threaten the research.
+
+The **reliability** of this software is of utmost importance, and all possible actions should be taken to ensure it.
+
+Its **maintenance** is not limited to the duration of the project in which it was developed, but should be maintained as long as it is in use.
+Thus, maintenance strategies, including funding and/or community development plans, should be in place.
 
 ---
 
@@ -399,17 +404,9 @@ In order to maintain a high level of reliability, maintenance strategies, includ
 Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
 
 Note:
-A software management level consists of a set of the core require- ments that should be considered when developing a certain type of software. These requirements can be applicable before, during, and after the formal software development (project) period. Software man- agement levels provide a recipe for grouping the core requirements into subsets and generating an appropriate SMP template. To deter- mine which set of core requirements are relevant to a software man- agement level, three important factors should be considered:
-1. Purpose. What is the current reason or expected end-use for de- veloping the software?
-2. Reliability. The effect of software failure and/or non-maintenance on:
-• Risk of harm to self or others. This includes injury, privacy violation, bias, and inappropriate content.
-• Reputation. For example to self, institution or other.
-• Research, either your own or of others. This effect could be
-due to an obvious software failure (“crash”) or a hidden one, for example, returning inconsistent numerical results on differ- ent operating systems.
-3. Maintenance. The long-term effort needed to maintain the soft- ware as long as it might be used as a standalone tool or depend- ency. This includes maintenance functions that can extend beyond the lifespan of the original development project and includes fixing bugs, dependency management, operating system compatibility, and security issues.
-Using these factors we define three typical management levels (low, medium, high) that underlie the software examples (Section 6.2) and example SMP templates (Section 6.3).
-
-
+Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
+The practical guide provides some guidance on how to make this decision.
+Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
 
 ---
 
@@ -418,6 +415,10 @@ Using these factors we define three typical management levels (low, medium, high
 <center>
 <img src="stories/_smp/threelevels.png" width="60%">
 </center>
+
+Note:
+With a specific level of management in mind, the core requirements that are relevant for this software's management can be determined.
+The practical guide provides a clear overview of this.
 
 ---
 
@@ -429,6 +430,11 @@ Using these factors we define three typical management levels (low, medium, high
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
+
+Note:
+Software is found in all stages of the research cycle, and is used for many different purposes.
+It comes in many shapes and sizes, and has different needs.
+Software stewardship starts with a good plan, and is an important scientific step: good software management leads to better science.
 
 ---
 
