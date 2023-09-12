@@ -30,8 +30,8 @@ In this project, research software was used to process the satellite imagery and
 </center>
 
 Note:
-All over the research cycle can we find examples of software created for research.
-Some more straightforward than others:
+All over the research life cycle we can find examples of software created for research.
+Some are more straightforward than others:
 
 - Planning: to design experiments
 - Collecting: to collect data, to control instruments, to run simulations
@@ -70,8 +70,10 @@ Ensuring that the software is findable, accessible, usable and understandable is
 ![Software Needs Maintenance](stories/_smp/maintenance.png)
 
 Note:
-Software breaks over time. It needs to be maintained, updated, and adapted to new environments. This is called software sustainability.
-
+Software and code have some unique features.
+One particular feature is that they depend on other software, and on the environment in which they are run.
+This means that it requires maintenance and updates to keep it functional, as the environments around it change.
+This is called software sustainability.
 
 ---
 
@@ -84,11 +86,16 @@ Software breaks over time. It needs to be maintained, updated, and adapted to ne
 - Different needs for different software
 - SMP template examples
 
+Note:
+This presentation will introduce you to the concept of software management plans, as a first step towards better software stewardship and sustainability.
+We will look at different aspects of good software managements, as well as different needs for different types of software.
+Finally, we will take a look at some concrete examples of software management plans.
+
 ---
 
 <!-- .slide: data-state="standard" -->
 
-### Software Management Plan
+### Software Management Plan (SMP)
 
 - Building on the success of Data Management Plans (DMPs)
 - A document detailing how research software will be managed
@@ -98,38 +105,43 @@ Software breaks over time. It needs to be maintained, updated, and adapted to ne
   - Who is responsible?
   - How long will it be available?
   - ...
-- Clarity early on, avoid problems later
 - Can be part of a project proposal, or generated in the early phases
 
 Note:
+Software management plans (SMPs) are inspired by the earlier adopted data management plans.
+In these documents, often created at or before the start of a project, plans and explicit decisions are made about various aspects around the management of these digital objects.
+They are increasingly required by funders and institutions.
 
-Research software is an integral part of the research process and sev- eral aspects of its development, maintenance and curation should be planned for. Data Management Plans (DMPs) have been used for many years to ensure that good data management practices are followed.21,22 In recent years, SMPs have becoming increasingly common.23,24,25
-
-An SMP is a document detailing how research software will be man- aged, usually as part of a project. An SMP makes explicit what research software does, who it is for, what the outputs are, who is responsible for the release and ensures that the software stays available to the community (and for how long).
-An SMP can help to establish a structured way of developing research software. By asking relevant questions, an SMP can also help to ensure
-that research software is (and remains) accessible and reusable.
+In an SMP it is explicitly stated what the software aims to do, who its target audience is, and what resources it is expected to need.
+It also addresses the intended lifespan, and allocates responsibility: who makes releases? Who maintains the software at the end of the project, and if so for how long?
 
 ---
 
 <!-- .slide: data-state="standard" -->
 
-## Why use a Software Management Plan?
+## Why use an SMP?
 
 - Make technical choices explicit
 - Plan for necessary resources
 - Assess whether new software is really needed
+- Clarity early on helps to avoid problems later
 - ...
 
 Note:
- More specifically, an SMP can help to:
-• Explain why developing new software is necessary. New software
-should not be developed when it would be more cost-efficient and
-beneficial for the overall community to contribute to existing soft-
-ware.
-• Make the research software reusable and sustainable. An SMP encourages software developers to think about, for example, tech- nical choices (such as programming language or operating system dependencies); whether the right documentation and metadata are provided (e.g. to allow for reproduction or extension of an analysis); and to ensure that the software is findable and adequately licensed for reuse for an extended period of time.
-• Plan for the necessary resources. Various types of resources exist: financial, human, infrastructure, etc. Whenever reusing, creating or building upon research software in a research project, additional resources might be needed. The questions in an SMP can help to predict which resources will be needed for developing and maintai- ning the software (e.g., hiring research software engineers, training), for making the software available to others (e.g., infrastructure) and for making and keeping the software accessible over time.
-• Allow for verification of work that went into software implementati- on. When a project is funded to build software, the funders and the community at large should be able to know if the project’s plans regarding the software have been carried out.
-Ideally an SMP should be drafted at the beginning of a research pro- ject. However, even for existing projects, it is valuable to create an SMP as it helps to summarise established practices and stimulate re- flection and evaluation in software development. Drafting an SMP with multiple stakeholders in larger projects can help develop or strengthen common ways of working.
+With an SMP, you make explicit plans and decisions in an early stage.
+The SMP provides the team with structured, relevant questions early on, with the aim to maximize the accessibility, reusability, and impact of the software in question.
+This supports good software management practices, and it makes sure they are known to the researchers involved.
+
+More specifically, in an SMP you:
+
+- Make explicit technical choices. For example, what programming language will be used? What operating system will be supported?
+- Plan for necessary resources; be they financial, human, infrastructure or other.
+- Assess whether new software is really needed; explore whether existing software can be reused, and to what extent;
+
+These are issues that arise during software development anyway, but all too often are not explicitly dealt with.
+By tackling them early, a conscious decision can be made rather than needing to deal with consequences of implicit choices.
+Resource planning moreover is vital for the sustainability of the software.
+Finally, the SMP will allow later verification of plans in a publicly funded project.
 
 ---
 
@@ -142,6 +154,11 @@ Ideally an SMP should be drafted at the beginning of a research pro- ject. Howev
 
 </center>
 
+Note:
+To get started on creating a Software Management Plan, this practical guide has been created by NWO and the Netherlands eScience Center.
+Its first version was released in August of 2022, but it has since been, and will continue to be, updated.
+All past versions and the latest release are available on Zenodo via this DOI.
+
 ---
 
 <!-- .slide: data-state="standard" -->
@@ -151,12 +168,17 @@ Ideally an SMP should be drafted at the beginning of a research pro- ject. Howev
 </center>
 
 Note:
+In the practical guide, the core requirements for an SMP are listed, and grouped into four categories.
 
-The core requirements for an SMP prompt the consideration of various aspects of software development, maintenance and curation. These aspects are grouped into four categories: Engineering aspects, Documentation aspects, Project management aspects.
-And its purpose.
+Focusing on the *engineering*, the guide asks about version control, packaging, testing, and software quality.
+
+Focusing on *documentation*, the guide discusses documentation needs for users, developers, and for deployment specifically.
+
+Focusing on *project management*, the guide addresses licensing, maintenance, resources, the project repository, and a risk analysis.
+
+Finally, the guide asks about the *purpose* of the software.
 
 ---
-
 
 <!-- .slide: data-state="standard" -->
 <center>
@@ -168,7 +190,11 @@ And its purpose.
 - What are its advantages and limitations?
 
 Note:
-• Purpose - clearly state the purpose of the software. Provide ge- neral information such as: what problem does it solve, who is the intended audience, what are its advantages and limitations, etc. A clear explanation of the purpose of the software helps the develo- per focus on its specific needs.
+The software's purpose is a central question in the SMP.
+
+It is important to be clear about the problem it addresses, and who the software is aimed at.
+Addressing the limitations of the software, as well as the advantages it will provide, help determine its scope.
+This will help the developers focus on the specific needs of the software.
 
 ---
 
