@@ -6,28 +6,33 @@ title: Software Management Plans
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 ---
-:::Chapter{headline="Intro slides" presentation="slides-smp.md"}
+:::Chapter{headline="Introduction: slides" presentation="slides-smp.md"}
 
 :::
 
 :::Chapter{headline="SMPs" widemd=1}
-## Software Management Plans
+
+## Software Management Plans (10 minutes)
 
 Research software plays a crucial role in academic research and has become a key output of many research projects. A software management plan helps to implement best practices during software development and ensures that software is accessible and reusable in the short and longer term. It also contributes to the reproducibility of results and stimulates collaborative work on open-source software for research.
 
-[A practical guide to software management plans](https://zenodo.org/record/7589725)
+In practice, a software management plan helps:
 
-:::
-
-:::Chapter{headline="Why an SMP?" widemd=1}
-It’s not hard!
-
-A software management plan (SMP) can help to:
-
-- Explain why developing new software is necessary
-- Make the research software reusable and sustainable
+- Assess whether developing new software is necessary
+- Plan to make the research software reusable and sustainable
 - Plan for necessary resources
 - Allow for verification of work that went into implementation
+
+In the Practical Guide to Software Management plans, this is described in more detail:
+
+[A practical guide to software management plans](https://zenodo.org/record/7589725)
+
+After reading this guide, you should:
+
+- Be aware of different types of research software
+- Understand different demands placed on these types of software
+- Know about various aspects of software management
+- Be able to explain the importance of a software management plan for software sustainability.
 
 :::
 
@@ -72,31 +77,10 @@ Discuss with your group and come to a consensus.
 
 From the assessment made in Step 1, get the requirements that match the level of management needed.
 
-[You can find a template here]().
-
-Copy the template, and fill it in for your software project.
-
-NB:
-
+Copy a template, and fill it in for your software project.
 
 :::
 
-
-:::Chapter{headline="Resources" widemd=1}
-## Overview of practical guides
-
-- [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
-- [Testing](https://the-turing-way.netlify.app/reproducible-research/testing/testing-guidance.html)
-- [Packaging](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html)
-- [Documentation](https://guide.esciencecenter.nl/#/best_practices/documentation)
-  - User
-  - Deployment
-  - Developer
-- [Citation](https://the-turing-way.netlify.app/communication/citable/citable-cff.html#cm-citable-cff)
-- [Software licensing](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) and [compatibility](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html)
-
-
-:::
 
 :::Chapter{headline="Exercise: SMP v FAIR" widemd=1}
 
@@ -130,12 +114,34 @@ In the following exercise, we will map the motivations we listed above to the ul
 
 Draw a Venn diagram with two circles: SMP and FAIR:
 
-<img src="/stories/_smp/venn_fairsmp.png" width="400">
+<img src="venn_fairsmp.png" width="400">
 
 Map the motivations listed above to the Venn diagram.
 
 - Which motivations are covered by SMPs, which by FAIR, and which by both?
 - Do you find any motivations that are not covered by either?
 - What does this tell you about the relationship between SMPs and FAIR?
+
+:::
+
+
+:::Chapter{headline="Resources" widemd=1}
+
+## Overview of practical guides
+
+There are various practical guides online to the different aspects of software management.
+
+Here is an (incomplete) list:
+
+- [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
+- [Testing](https://the-turing-way.netlify.app/reproducible-research/testing/testing-guidance.html)
+- [Packaging](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html)
+- [Documentation](https://guide.esciencecenter.nl/#/best_practices/documentation)
+  - User
+  - Deployment
+  - Developer
+- [Citation](https://the-turing-way.netlify.app/communication/citable/citable-cff.html#cm-citable-cff)
+- [Software licensing](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) and [compatibility](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html)
+
 
 :::
