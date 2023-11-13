@@ -11,6 +11,8 @@
 * Publishing the *software itself* (not just publishing an article *about* it)
 * There are many ways to do this
 
+---
+
 <!-- .slide: data-state="standard" -->
 
 ## Why Publish?
@@ -20,10 +22,9 @@
 * Reproducibility
 
 ### FAIRness
-* Findability
-* Accessibility
-* Interoperability
-* Reusability
+<center>
+<img src="stories/_fairsoftware/fair.png" width="60%">
+</center>
 
 Note:
 
@@ -56,6 +57,10 @@ Reusability - it's only reusable if it's available, and if people know what they
 ---
 
 <!-- .slide: data-state="standard" -->
+# Modern publishing pipeline
+---
+
+<!-- .slide: data-state="standard" -->
 
 ## Software repository
 [github logo, gitlab, etc]
@@ -63,37 +68,49 @@ Reusability - it's only reusable if it's available, and if people know what they
 Put all source files in a public version-controlled repository
 e.g. github, gitlab
 
+This makes software findable and naturally contains a log of all development history
+
 Include README, license, citation.cff
 
 Note:
 See license, citation and software management chapters
+---
 
+<!-- .slide: data-state="standard" -->
 ## Tag/semantic versioning
 
+It is important to communicate the actual version of the software used for a particular piece of research
+
+If your software is used as a dependency of another software/workflow then the version must be referenced precisely
+
 Tag versions
+---
 
 
+<!-- .slide: data-state="standard" -->
 ## Persistent Identifier
 DOI
+---
 
+<!-- .slide: data-state="standard" -->
 ## Registries
 RSD
 Awesome lists etc
-
-## Packaging
-
-## Software Paper
-
-
 ---
+
+<!-- .slide: data-state="standard" -->
+## Packaging
+---
+
+<!-- .slide: data-state="standard" -->
+## Software Paper
+---
+
+
 
 <!-- .slide: data-state="standard" -->
 
 ## The FAIR principles
-
-<center>
-<img src="stories/_fairsoftware/fair.png" width="60%">
-</center>
 
 Note:
 the FAIR principles standardize values that help openness, transparency, and accessibility.
