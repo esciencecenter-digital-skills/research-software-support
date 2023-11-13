@@ -1,0 +1,381 @@
+<!-- .slide: data-state="title" -->
+
+# Publishing Software
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## What do we mean by publishing?
+
+* Publishing the *software itself* (not just publishing an article *about* it)
+* There are many ways to do this
+
+<!-- .slide: data-state="standard" -->
+
+## Why Publish?
+
+### Major scientific considerations 
+* Citability
+* Reproducibility
+
+### FAIRness
+* Findability
+* Accessibility
+* Interoperability
+* Reusability
+
+Note:
+
+Citability - Allows the software authors to get credit for their work
+Reproducibility - If software is not published anywhere then few people will successfully reproduce analyses, simulations or other research results that were performed by other researchers
+
+Additionally, publishing is essential for meeting the FAIR principles:
+Findability - if software lives on someone's harddrive then it cannot be easily found by anyone
+Accessibility - the software can e.g. be downloaded and installed using a standard protocol (authentication is still a possibility)
+Interoperability - publishing the dependencies (e.g. software libraries) and input/output formats and versions is necessary for interoperability
+Reusability - it's only reusable if it's available, and if people know what they are allowed to do with it (based on its software license)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Traditional publishing pipeline
+
+* Write some code and leave it on your harddrive
+* Generate scientific results with it
+* Write a paper about those results
+* Possibly not even mentioning the software at all
+
+### Consequences
+
+* The software itself is not citable
+* Methods are not easily reproduced or even analysed
+* Nobody else can build on top of your research
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Software repository
+[github logo, gitlab, etc]
+
+Put all source files in a public version-controlled repository
+e.g. github, gitlab
+
+Include README, license, citation.cff
+
+Note:
+See license, citation and software management chapters
+
+## Tag/semantic versioning
+
+Tag versions
+
+
+## Persistent Identifier
+DOI
+
+## Registries
+RSD
+Awesome lists etc
+
+## Packaging
+
+## Software Paper
+
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## The FAIR principles
+
+<center>
+<img src="stories/_fairsoftware/fair.png" width="60%">
+</center>
+
+Note:
+the FAIR principles standardize values that help openness, transparency, and accessibility.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![screenshot Wilkinson 2016](stories/_fairsoftware/fairwilkinson.png)
+
+Note:
+FAIR principles were originally designed for data, but are also applicable to software.
+Designed also with other digital objects in mind, though actual description was data-specific.
+This has been extended meanwhile.
+
+---
+
+
+<!-- .slide: data-state="standard" -->
+
+## Software is not data
+
+Software is...
+
+- **complex**: code is creatively generated, interconnected and multi-layered
+- **interdependent**: it builds upon and therefore depends on other software
+- **executable**: it is not static, but can be run
+- **dynamic**: it can break over time, and versioning is common
+
+Note:
+While technically, software is a special kind of data (in that it is representation of information in a digital state), they are in essence quite different.
+
+Software and data both are digital objects, sharing certain characteristics: they can be assigned a DOI, and they can have a license.
+
+Software is quite different from data, however. Consider:
+
+- Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
+- Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time.
+- Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
+- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Software opportunities
+
+- Software is a **living thing**
+- Creative process allows for **early adoption** of good practices
+- Openness and transparency are **inherent** to software
+
+
+Note:
+The different nature of software also provides opportunities.
+Software is a living thing, and therefore it is easier to adopt good practices early on.
+Crucially, there is a community driven openness in software that long predates the open science movement.
+This is not to say that software is inherently open, but that there is a broad open culture, which also comes with existing tools and pathways to facilitate openness and transparency.
+Consider GitHub (and other code hosting platforms), which are designed for this purpose.
+Consider also version control software, a good software development practice that builds in provenance.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![FAIR for Research Software paper](stories/_fairsoftware/fair4rs_paper.png)
+
+Fair 4 Research Software (FAIR4RS) working group (2022)
+[doi:10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
+
+![Contributing Organizations](stories/_fairsoftware/fair4rs_logos.png)
+
+Note:
+In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
+The group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![FAIR for Research Software principles](stories/_fairsoftware/fair4rs_principles.png)
+
+Note:
+These are the interpretations given to the FAIR principles for software by the working group.
+In many cases these are rephrased to better fit software, but in some cases they are also extended.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Findability
+
+![FAIR4RS Findability](stories/_fairsoftware/fair4rs_F.png)
+
+- Archive on Zenodo for DOI and persistence<br />
+  <small> Note that persistence on GitHub is not guaranteed!</small>
+- Use (semantic) versioning with updates<br />
+  <small> Zenodo assigns a DOI to each version </small>
+- Include metadata, explicitly containing the DOI<br />
+  <small> but also license, version, dependencies, etc. </small>
+- Register the software in a community registry<br />
+  <small> such as PyPI or CRAN, depending on the language/domain </small>
+
+Note:
+For software findability, a few things need to work together:
+
+The software needs to be archived on a platform that provides a DOI and persistence. GitHub is not guaranteed to provide this, and while it is a useful tool is not a suitable archive for software.
+GitHub does work well together with Zenodo, which provides both.
+Together they also provide functionality for versioning: when releasing a new version on GitHub, and using the Zenodo integration, Zenodo will update the entry and assign a new DOI to the new version.
+
+For software-specific findability, though, Zenodo is insufficient. Here, you can think of more specific registries, such as PyPI, CRAN, or Bioconductor; depending on the language and domain of the software.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Accessibility
+
+![FAIR4RS Accessibility](stories/_fairsoftware/fair4rs_A.png)
+
+- Community registries provide standard download protocols<br />
+  <small> e.g. `pip install my_software` </small>
+- Metadata on Zenodo is part of the persistent archive
+
+Note:
+A lot of accessibility is covered by the findability principles, but there are a few additional things to consider.
+Specifically, software may still be FAIR as long as its metadata is accessible.
+The code of the software itself, not the actual functional engine, could be considered metadata.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Interoperability
+
+![FAIR4RS Interoperability](stories/_fairsoftware/fair4rs_I.png)
+
+- Input and output both needs to meet community standards<br />
+  <small> e.g. file formats, data models, ontologies </small>
+- References to external objects should be unambiguous<br />
+  <small> use URLs, DOIs, version numbers etc. </small>
+
+Note:
+As with data, interoperability refers partly to formats and standards (in this case: inputs, outputs, or other objects used). For example CSV, JSON, and XML are interoperable formats, while PDF is not.
+These standards may also be domain-specific, such as the use of ontologies in the life sciences.
+
+The second sub-principle refers to the use of unambiguous references to external objects, such as libraries, data, or models. A clear link allows the right object to be used by the software.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Reusability
+
+![FAIR4RS Reusability](stories/_fairsoftware/fair4rs_R.png)
+
+- Include a software-specific license<br />
+  <small>as a file called `LICENSE` in the project's root</small>
+- Many Open Source software licenses exist<br />
+  <small> see [choosealicense.com](https://choosealicense.com/)</small>
+- License choice is not always straightforward<br />
+  <small> confirm with dependencies, copyright holder(s), and specialists </small>
+- Use version control (e.g. Git) with a public host (e.g. GitHub)<br />
+  <small> history and provenance is a public part of the repository </small>
+- Dependencies should be listed, and unambiguous<br />
+  <small> use a standardized file/protocol, and version numbers</small>
+
+Note:
+Licenses are an important part of reusability.
+Without a license, copyright disallows reuse.
+In an open science context especially, Open Source licenses are the default choice.
+They are numerous, but the choice is not always straightforward.
+It is advised to learn about the different licenses, about important considerations (e.g. dependencies and the role and identity of copyright holders) and to consult with specialists when in doubt.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Let's get practical
+
+[fair-software.nl](https://fair-software.nl/)
+![Five Recommendations](stories/_fairsoftware/fiverecs.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Use a repository](stories/_fairsoftware/fiverecs_1.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Use a license](stories/_fairsoftware/fiverecs_2.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Community Registry](stories/_fairsoftware/fiverecs_3.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Enable Citation](stories/_fairsoftware/fiverecs_4.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+![Quality Checklist](stories/_fairsoftware/fiverecs_5.png)
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+### FAIR is not a quality checklist
+
+Software quality is addressed insofar as it affects:
+
+- usability, an aspect of interoperability
+- maintainability, an important element of reuse
+
+Quality aspects *not* part of FAIR:
+
+- computational efficiency &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- functional correctness
+- security
+- ...
+
+Note:
+The FAIR principles are limited in scope when it comes to software.
+It is important to realize that their primary goal is not to address software quality itself.
+FAIR software can be of poor quality, and good quality software may not be FAIR.
+
+Some quality aspects are addressed by FAIR, in particular usability and maintainability.
+Because software is dynamic and interdependent, its reusability requires that it is maintained to continue to work (or that a conserved context is provided, such as a virtual machine with required dependencies).
+
+Secondary to maintainability are quality aspects like tests, modularized architecture, developer documentation, and so on.
+
+Interoperable software is usable by others, and therefore it is important that it is well documented and that it is easy to install and run.
+This ties into quality aspects like user documentation, installation instructions, and so on.
+
+Note though, that there is no mention of correctness, nor of efficiency or security.
+Software may adhere perfectly to FAIR, yet produce the wrong results, in a painfully slow and inefficient process, while leaking personal information.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## FAIR is a spectrum
+
+<center>
+<img src="stories/_fairsoftware/spectrum.png" width="60%" />
+</center>
+
+Note:
+
+FAIR is not a checklist, but a set of principles.
+As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
+
+FAIR is not a perfect metric, but it is helpful, and tailored to specific values of open science.
+
+---
+
+<!-- .slide: data-state="standard" -->
+
+## Take home messages
+
+- Software is an important part of research
+- FAIR4RS principles guide towards accessibility and openness of research software
+- FAIR is not a quality checklist
+- Software places unique demands on FAIR, and provides unique opportunities
+- FAIRness is a spectrum
+
+---
+
+<!-- .slide: data-state="keepintouch" -->
+
+
+www.esciencecenter.nl
+
+info@esciencecenter.nl
+
+020 - 460 47 70
