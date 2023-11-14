@@ -57,13 +57,18 @@ Reusability - it's only reusable if it's available, and if people know what they
 ---
 
 <!-- .slide: data-state="standard" -->
-# Modern publishing pipeline
+## Modern publishing pipeline
+
+* Software repository
+* Tag/semantic versioning
+* Get a persistent identifier
+* Registries
+* Software Paper
+
 ---
 
 <!-- .slide: data-state="standard" -->
-
-## Software repository
-[github logo, gitlab, etc]
+### Software repository
 
 Put all source files in a public version-controlled repository
 e.g. github, gitlab
@@ -80,7 +85,18 @@ See license, citation and software management chapters
 ---
 
 <!-- .slide: data-state="standard" -->
-## Tag/semantic versioning
+### Software repository
+Which one?
+<img src="stories/_publication/repository_logos.png" width="80%">
+
+Note:
+
+Anything is better than nothing. Gitlab and Github are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
+
+---
+
+<!-- .slide: data-state="standard" -->
+### Tag/semantic versioning
 
 It is important to communicate the actual version of the software used for a particular piece of research
 
@@ -89,7 +105,7 @@ If your software is used as a dependency of another software/workflow then speci
 ---
 
 <!-- .slide: data-state="standard" -->
-## Get a Persistent Identifier
+### Get a Persistent Identifier
 
 Specific versions of the software should be published to an archiving service that provides persistent identifiers
 
@@ -103,7 +119,7 @@ See Citation story
 ---
 
 <!-- .slide: data-state="standard" -->
-## Registries
+### Registries
 Add a link to your software on a relevant public registry
 For example, the eScience Center maintains the Research Software Directory
 Can also be domain specific software registries
@@ -114,7 +130,7 @@ This aids greatly in Findability by relevant researchers
 ---
 
 <!-- .slide: data-state="standard" -->
-## Software Paper
+### Software Paper
 
 Publish a journal article about the software specifically
 
