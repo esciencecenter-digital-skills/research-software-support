@@ -5,6 +5,7 @@ category: Reusability
 title: Software Management Plans
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: visible
 ---
 :::Chapter{headline="Intro slides" presentation="slides-smp.md"}
 

@@ -5,6 +5,7 @@ category: Publishing & Citing
 title: Versioning & Changelog
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Versioning" widemd=1}

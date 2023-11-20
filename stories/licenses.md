@@ -5,6 +5,7 @@ category: Getting started
 title: Licenses
 author: eScience Center
 thumbnail: "nlesc-dummy-1.png"
+visibility: visible
 ---
 
 

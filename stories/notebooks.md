@@ -5,6 +5,7 @@ category: Reusability
 title: Notebooks
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Notebooks" widemd=1}

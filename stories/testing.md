@@ -5,6 +5,7 @@ category: Resources
 title: Testing & CI/CD
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Testing" widemd=1}

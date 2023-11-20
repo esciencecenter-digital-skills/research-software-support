@@ -5,6 +5,7 @@ category: Getting started
 title: Project organization
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Project organization" widemd=1}

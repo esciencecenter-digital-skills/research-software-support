@@ -5,6 +5,7 @@ category: Publishing & Citing
 title: Citation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: visible
 ---
 
 :::Chapter{headline="Citation" widemd=1}

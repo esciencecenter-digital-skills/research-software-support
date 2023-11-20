@@ -5,6 +5,7 @@ category: Getting started
 title: Version control, git and github
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Version control" widemd=1}

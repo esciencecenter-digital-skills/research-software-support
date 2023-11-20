@@ -5,6 +5,7 @@ category: Getting started
 title: FAIR software
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: visible
 ---
 
 :::Chapter{headline="Intro slides" presentation="slides-fairsoftware.md"}

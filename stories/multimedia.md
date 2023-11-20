@@ -5,6 +5,7 @@ category: Examples
 title: Multimedia
 author: eScience Center
 thumbnail: "multimedia_image.avif"
+visibility: hidden
 ---
 :::Chapter{headline="Image" image="multimedia_image.avif"}
 

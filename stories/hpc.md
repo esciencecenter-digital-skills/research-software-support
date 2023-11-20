@@ -5,6 +5,7 @@ category: Resources
 title: HPC
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="High Performance Cluster" widemd=1}

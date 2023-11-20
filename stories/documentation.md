@@ -5,6 +5,7 @@ category: Reusability
 title: Documentation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Documentation" widemd=1}

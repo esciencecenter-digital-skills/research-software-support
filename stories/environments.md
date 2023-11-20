@@ -5,6 +5,7 @@ category: Resources
 title: Environments & Containers
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
+visibility: hidden
 ---
 
 :::Chapter{headline="Environments" widemd=1}
