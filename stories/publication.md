@@ -14,7 +14,7 @@ thumbnail: "nlesc-dummy.png"
 :::Chapter{headline="Software publication pipeline" widemd=1}
 
 ## Steps
-It is recommended that all steps in the pipeline are followed, but they are not dependent on eachother. In this pipeline we provide resources to achieve the whole pipeline using GitHub or GitLab for hosting the source code 
+It is recommended that all steps in the pipeline are followed, but they are not dependent on each other. In this pipeline we provide resources to achieve the whole pipeline using GitHub or GitLab for hosting the source code 
 * Software repository
 * Tag/semantic versioning
 * Get a persistent identifier
@@ -24,7 +24,7 @@ It is recommended that all steps in the pipeline are followed, but they are not 
 
 ## Software repository
 If possible, during the development of Research Software, changes should be tracked using dedicated version control software like [git](https://git-scm.com/).  
-Put all source files in a public version-controlled repository, preferably GitHub or GitLab. Both GitHub and Gitlab provide online repositories for hosting source code. The nice thing about GitHub and GitLab is that it also stores the history of changes to the source code. As can be inferred from their names, they were designed to be used together with Git version control.  
+Put all source files in a public version-controlled repository, preferably GitHub or GitLab. Both GitHub and Gitlab provide online repositories for hosting source code. As can be inferred from their names, they were designed to be used together with Git version control.  The nice thing about using git together with GitHub and GitLab is that it stores the complete history of changes to the source code, rather than just a single version . 
 
 A quickstart tutorial for...
 
@@ -33,9 +33,9 @@ A quickstart tutorial for...
 
 
 ## Versions, tags and releases
-Every time software changes, and that history is stored, that can be considered a new **version** of the software. It is useful to add special identifiers, called **tags** to new versions that mark significant changes, so that specific versions of your software can be cited or referenced as dependency by other software. If you use git for version control, [creating tags in git](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+Every time software changes, and that history is stored, that can be considered a new **version** of the software. It is useful to add special identifiers, called **tags** to new versions that mark significant changes, so that specific versions of your software can be cited or referenced as dependency by other software. If you use git for version control, you can [create tags in git](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-It is good practice to use **[semantic versioning](https://semver.org/)** to tag the software, in this way, information about the impact of the change from one version to the next is stored in the tag. Usually, tagged versions of the software are opened up to the public in a **software release**, together with updated documentation and a documentation of the changes since the previous release in a so called **changelog**.
+It is good practice to use **[semantic versioning](https://semver.org/)** to tag the software. In this way, information about the impact of the change from one version to the next is stored in the tag. Usually, tagged versions of the software are opened up to the public in a **software release**, together with updated documentation and a documentation of the changes since the previous release in a so called **changelog**.
 
 The documentation of creating releases... 
 
@@ -46,7 +46,7 @@ The documentation of creating releases...
 ## Get a persistent identifier
 Specific versions of the software should be published to an archiving service that provides persistent identifiers
 
-For example, Zenodo is a long term archiving service for scientific data and software.
+For example, [Zenodo](https://zenodo.org/) is a long term archiving service for scientific data and software.
 Zenodo will assign a DOI to the published data, making it citable.
 
 Documentation on how to integrate Zenodo with your repository...
