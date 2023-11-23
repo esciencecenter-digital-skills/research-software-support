@@ -120,8 +120,9 @@ Go to [Choosealicense.com](https://choosealicense.com) and play around with the 
 :::
 
 :::Chapter{headline="Exercise 2" widemd=1}
-## Exercise 2: does your university have a software licensing policy?
-Try and find out whether your university has a license policy. If you can find it, compare it with the policies linked above. What elements are commonly found? Which differences do you see, and what is their respective motivation?
+## Exercise 2: Does your university have a software licensing policy?
+Try and find out whether your university has a software (licensing) policy. If you can find it, compare it with the ones from [TU Delft](https://zenodo.org/record/4629662), [ASTRON](https://zenodo.org/records/7307162) and [the Netherlands eScience Center](https://www.esciencecenter.nl/wp-content/uploads/2020/05/nlesc_ip_policy_2017.pdf). What elements are commonly found? Which differences do you see, and what is their respective motivation?
+
 :::
 
 :::Chapter{headline="Exercise 3"  widemd=1}
