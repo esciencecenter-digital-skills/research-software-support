@@ -129,24 +129,8 @@ Try and find out whether your university has a license policy. If you can find i
 Search on [GitHub](https://github.com/) or other software repositories for software created by researchers at your university. What licenses do they use? Do they adhere to a policy (if there is one?)
 :::
 
-:::Chapter{headline="License compatibility" widemd=1}
-## License compatibility
-
-Follow the links below to read about the compatibility of different open licenses.
-
-### License compatibility (15 minutes)
-What happens when software licenses meet? To start understanding the concept of license compatibility, [this blog post on mend.io is a good start](https://www.mend.io/resources/blog/license-compatibility/).
-
-### Licence compatibility in-depth case study (optional; 20 minutes)
-The Turing Way also discusses license compatibility with [an excellent in-depth analysis of a case study](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html). While this chapter is very informative, it goes quite deep into a specific case study, so it should be seen as illustrative rather than necessary background reading.
-
-#### You should now be able to...
-- Explain what license compatibility means
-- Roughly know which open source licenses mix, and which do not.
-:::
-
-:::Chapter{headline="More" widemd=1}
-
+:::Chapter{headline="Further reading" widemd=1}
+## Software licenses
 Follow the links below to read about different open licenses.
 
 ### The Turing Way (20 minutes)
@@ -161,9 +145,20 @@ By now you will have a good idea of what Open Source licenses are available. [Ch
 - Know the main Creative Commons permission marks (BY/SA/NC/ND)
 - Understand what it means for something to be "in the public domain"
 - Know that ML models, software, and data place different requirements on their respective licenses.
-:::
 
-:::Chapter{headline="Even more" widemd=1}
+## License compatibility
+
+Follow the links below to read about the compatibility of different open licenses.
+
+### License compatibility (15 minutes)
+What happens when software licenses meet? To start understanding the concept of license compatibility, [this blog post on mend.io is a good start](https://www.mend.io/resources/blog/license-compatibility/).
+
+### License compatibility in-depth case study (optional; 20 minutes)
+The Turing Way also discusses license compatibility with [an excellent in-depth analysis of a case study](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html). While this chapter is very informative, it goes quite deep into a specific case study, so it should be seen as illustrative rather than necessary background reading.
+
+#### You should now be able to...
+- Explain what license compatibility means
+- Roughly know which open source licenses mix, and which do not.
 
 ## University software policy (30 minutes)
 It is important that the copyright holder (the university!) has a policy on software licensing, to allow their researchers to share software with an open license. [TU Delft has such a policy](https://zenodo.org/record/4629662), as does [the Netherlands eScience Center](https://guide.esciencecenter.nl/#/best_practices/licensing). Does your university or institution have a software policy?
