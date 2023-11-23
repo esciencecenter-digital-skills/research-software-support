@@ -53,35 +53,28 @@ According to the Free Software Foundation:
 ### License categories
 
 <table>
-    <thead>
-        <tr>
-            <th colspan="3">Free and Open Source</th>
-            <th rowspan="3">Proprietary</th>
-        </tr>
-        <tr>
-            <th colspan="2">Copyleft</th>
-            <th rowspan="2">Permissive</th>
-        </tr>
-        <tr>
-            <th>Strong</th>
-            <th>Weak</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <td>GPL<sup>1</sup> AGPL<sup>2</sup></td>
-        <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
-        <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-            <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
-        </tr>
-    </tbody>
-    <caption>
-      <div class="footnote">
-        <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
-      </div>
-      Licenses can either be Free or Proprietary, with Free Licenses further classified as Copyleft or Permissive.
-    </caption>
+    <tr align="center">
+        <th colspan="3">Free and Open Source</th>
+        <th rowspan="3" valign="top">Proprietary</th>
+    </tr>
+    <tr align="center">
+        <th colspan="2">Copyleft</th>
+        <th rowspan="2">Permissive</th>
+    </tr>
+    <tr align="center">
+        <th>Strong</th>
+        <th>Weak</th>
+    </tr>
+    <tr align="center">
+      <td>GPL<sup>1</sup> AGPL<sup>2</sup></td>
+      <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
+      <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
+          <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
+    </tr>
 </table>
+<div class="footnote">
+  <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
+</div>
 
 :::
 
