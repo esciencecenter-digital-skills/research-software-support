@@ -74,37 +74,13 @@ After reading the piece, discuss the following questions:
 :::
 
 
-:::Chapter{headline="Exercise 1" widemd=1}
-
-## Exercise 1: Where does software fit in the research life cycle?
-
-Take a look at the research life cycle below.
-
-![The Research Life Cycle](stories/_fairsoftware/researchcycle.png)
-
-Think of a piece of research software you have used or developed.
-
-Where does it fit in the research life cycle?
-
-### Existing software
-
-The following research software can also be used as examples:
-
-- [Xenon](https://research-software-directory.org/software/xenon)
-- [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
-- [Haddock](https://research-software-directory.org/software/haddock3)
-- [worcs](https://cjvanlissa.github.io/worcs/index.html)
-
-:::
-
 :::Chapter{headline="Exercise: the Research Life Cycle" widemd=1}
 
 ## Exercise: Where does software fit in the research life cycle?
 
 Take a look at the research life cycle below.
 
-![The Research Life Cycle](researchcycle.png)
+![The Research Life Cycle](stories/_fairsoftware/researchcycle.png)
 
 Think of a piece of research software you have used or developed.
 
