@@ -80,7 +80,7 @@ After reading the piece, discuss the following questions:
 
 Take a look at the research life cycle below.
 
-![The Research Life Cycle](stories/_fairsoftware/researchcycle.png)
+<img src="stories/_fairsoftware/researchcycle.png" alt="The Research Life Cycle" width="400"/>
 
 Think of a piece of research software you have used or developed.
 
