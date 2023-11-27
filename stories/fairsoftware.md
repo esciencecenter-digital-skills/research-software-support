@@ -8,15 +8,15 @@ thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
 
-:::Chapter{headline="Intro slides" presentation="slides-fairsoftware.md"}
+:::Chapter{headline="Introduction: slides" presentation="slides-fairsoftware.md"}
 
 :::
 
-:::Chapter{headline="FAIR" widemd=1}
+:::Chapter{headline="What is FAIR?" widemd=1}
 
 ## What is FAIR?
 
-### FAIR principles (15 minutes, optional)
+### FAIR principles (15 minutes)
 
 The FAIR principles are:
 
@@ -55,7 +55,7 @@ It is a good read if you want to get a deeper understanding of software and its 
 
 :::
 
-:::Chapter{headline="Software sustainability" widemd=1}
+:::Chapter{headline="Research software" widemd=1}
 
 ## The role of research software (10 minutes)
 
@@ -72,6 +72,7 @@ After reading the piece, discuss the following questions:
 - How can we address these challenges?
 
 :::
+
 
 :::Chapter{headline="Exercise 1" widemd=1}
 
@@ -97,9 +98,33 @@ The following research software can also be used as examples:
 
 :::
 
+:::Chapter{headline="Exercise: the Research Life Cycle" widemd=1}
 
-:::Chapter{headline="Exercise 2" widemd=1}
-## Exercise 2: Mapping the principles
+## Exercise: Where does software fit in the research life cycle?
+
+Take a look at the research life cycle below.
+
+![The Research Life Cycle](researchcycle.png)
+
+Think of a piece of research software you have used or developed.
+
+Where does it fit in the research life cycle?
+
+### Existing software
+
+The following research software can also be used as examples:
+
+- [Xenon](https://research-software-directory.org/software/xenon)
+- [ESMValTool](https://research-software-directory.org/software/esmvaltool)
+- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [Haddock](https://research-software-directory.org/software/haddock3)
+- [worcs](https://cjvanlissa.github.io/worcs/index.html)
+
+:::
+
+:::Chapter{headline="Exercise: Mapping FAIR" widemd=1}
+
+## Exercise: Mapping the principles
 
 ### The FAIR4RS Principles are:
 
@@ -178,7 +203,7 @@ Do you agree with their assessment?
 
 :::
 
-:::Chapter{headline="Exercise 3" widemd=1}
+:::Chapter{headline="Exercise: FAIR in practice" widemd=1}
 
 ## FAIR in practice
 
@@ -201,10 +226,10 @@ Tasks for reviewer:
 Together:
 
 - Define the next steps for the software
--
+
 
 Goals:
 
-- Frame an assessment positively. Always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
+- Frame an assessment positively: always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
 
 :::
