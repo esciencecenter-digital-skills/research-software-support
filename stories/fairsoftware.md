@@ -178,17 +178,6 @@ Do you agree with their assessment?
 
 :::
 
-:::Chapter{headline="FAIR vs FOSS" widemd=1}
-<!--
-From Lamprecht et al 2020:
-
-Free and/or Open Source Software (FOSS). However, while there is a clear overlap between the objectives of FAIR and FOSS with regard to accessibility and reusability, they are not the same (see also [13]). FOSS is mostly concerned with source code being open and licensed under an open license. Open source and permissive licenses are desirable for FAIR software, but although FAIR has its roots in the “FOSS-loving” research software community, they are not a requirement as such. Indeed FAIR does not require data to be open, as clearly certain data sets (e.g., patients’ electronic health records, genomics sequences) require adequate access control (see go-fair FAQ [14]). However, such privacy and sensitivity concerns are not in the same way valid for research software that relates to published research, where there is an expectation that the methodology is made available. It remains to be discussed how open research software should be in order to meet the intentions behind FAIR.
-[13] R.Higman,D.BangertandS.Jones,Threecamps,onedestination:Theintersectionsofresearchdatamanagement,FAIR
-and Open, Insights 32 (2019), 18. doi:10.1629/uksg.468.
-[14] GO FAIR, What is the difference between ‘FAIR Data’ and ‘Open Data’ if there is one? https://www.go-fair.org/faq/
-ask-question-difference-fair-data-open-data/ (accessed August 16, 2019). -->
-:::
-
 :::Chapter{headline="Exercise" widemd=1}
 
 ## FAIR in practice
