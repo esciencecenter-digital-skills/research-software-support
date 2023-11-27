@@ -8,15 +8,15 @@ thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
 
-:::Chapter{headline="Intro slides" presentation="slides-fairsoftware.md"}
+:::Chapter{headline="Introduction: slides" presentation="slides-fairsoftware.md"}
 
 :::
 
-:::Chapter{headline="FAIR" widemd=1}
+:::Chapter{headline="What is FAIR?" widemd=1}
 
 ## What is FAIR?
 
-### FAIR principles (15 minutes, optional)
+### FAIR principles (15 minutes)
 
 The FAIR principles are:
 
@@ -55,7 +55,7 @@ It is a good read if you want to get a deeper understanding of software and its 
 
 :::
 
-:::Chapter{headline="Software sustainability" widemd=1}
+:::Chapter{headline="Research software" widemd=1}
 
 ## The role of research software (10 minutes)
 
@@ -70,30 +70,6 @@ After reading the piece, discuss the following questions:
 - What are the different roles of research software?
 - What are the challenges for each of these roles?
 - How can we address these challenges?
-
-:::
-
-:::Chapter{headline="Exercise 1" widemd=1}
-
-## Exercise 1: Where does software fit in the research life cycle?
-
-Take a look at the research life cycle below.
-
-![The Research Life Cycle](stories/_fairsoftware/researchcycle.png)
-
-Think of a piece of research software you have used or developed.
-
-Where does it fit in the research life cycle?
-
-### Existing software
-
-The following research software can also be used as examples:
-
-- [Xenon](https://research-software-directory.org/software/xenon)
-- [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
-- [Haddock](https://research-software-directory.org/software/haddock3)
-- [worcs](https://cjvanlissa.github.io/worcs/index.html)
 
 :::
 
@@ -139,8 +115,33 @@ The following research software can also be used as examples:
 ::: -->
 
 
-:::Chapter{headline="Exercise 2" widemd=1}
-## Exercise 2: Mapping the principles
+:::Chapter{headline="Exercise: the Research Life Cycle" widemd=1}
+
+## Exercise: Where does software fit in the research life cycle?
+
+Take a look at the research life cycle below.
+
+![The Research Life Cycle](researchcycle.png)
+
+Think of a piece of research software you have used or developed.
+
+Where does it fit in the research life cycle?
+
+### Existing software
+
+The following research software can also be used as examples:
+
+- [Xenon](https://research-software-directory.org/software/xenon)
+- [ESMValTool](https://research-software-directory.org/software/esmvaltool)
+- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [Haddock](https://research-software-directory.org/software/haddock3)
+- [worcs](https://cjvanlissa.github.io/worcs/index.html)
+
+:::
+
+:::Chapter{headline="Exercise: Mapping FAIR" widemd=1}
+
+## Exercise: Mapping the principles
 
 ### The FAIR4RS Principles are:
 
@@ -219,20 +220,9 @@ Do you agree with their assessment?
 
 :::
 
-:::Chapter{headline="FAIR vs FOSS" widemd=1}
-<!--
-From Lamprecht et al 2020:
+:::Chapter{headline="Exercise: Assessing FAIR software" widemd=1}
 
-Free and/or Open Source Software (FOSS). However, while there is a clear overlap between the objectives of FAIR and FOSS with regard to accessibility and reusability, they are not the same (see also [13]). FOSS is mostly concerned with source code being open and licensed under an open license. Open source and permissive licenses are desirable for FAIR software, but although FAIR has its roots in the “FOSS-loving” research software community, they are not a requirement as such. Indeed FAIR does not require data to be open, as clearly certain data sets (e.g., patients’ electronic health records, genomics sequences) require adequate access control (see go-fair FAQ [14]). However, such privacy and sensitivity concerns are not in the same way valid for research software that relates to published research, where there is an expectation that the methodology is made available. It remains to be discussed how open research software should be in order to meet the intentions behind FAIR.
-[13] R.Higman,D.BangertandS.Jones,Threecamps,onedestination:Theintersectionsofresearchdatamanagement,FAIR
-and Open, Insights 32 (2019), 18. doi:10.1629/uksg.468.
-[14] GO FAIR, What is the difference between ‘FAIR Data’ and ‘Open Data’ if there is one? https://www.go-fair.org/faq/
-ask-question-difference-fair-data-open-data/ (accessed August 16, 2019). -->
-:::
-
-:::Chapter{headline="Exercise" widemd=1}
-
-## FAIR in practice
+## Exercise: FAIR in practice
 
 Role playing exercise:
 One person presents the software, the other person gives feedback.
@@ -253,16 +243,10 @@ Tasks for reviewer:
 Together:
 
 - Define the next steps for the software
--
+
 
 Goals:
 
-- Frame an assessment positively. Always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
-
-:::
-
-
-:::Chapter{headline="Further reading" widemd=1}
-
+- Frame an assessment positively: always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
 
 :::
