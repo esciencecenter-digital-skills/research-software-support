@@ -7,14 +7,24 @@ author: eScience Center
 thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
+:::Chapter{headline="Discussion" widemd=1}
 
-:::Chapter{headline="Intro slides" presentation="slides-publication.md"}
+## Before we dive in...
+
+What do you already know about software publication? 
+
+Discuss how you would publish a piece of software.
+
+:::
+
+:::Chapter{headline="Slides" presentation="slides-publication.md"}
 
 :::
 
 :::Chapter{headline="Software publication pipeline" widemd=1}
 
 ## Steps
+
 It is recommended that all steps in the pipeline are followed, but they are not dependent on each other. In this pipeline we provide resources to achieve the whole pipeline using GitHub or GitLab for hosting the source code 
 * Software repository
 * Tag/semantic versioning
@@ -24,7 +34,9 @@ It is recommended that all steps in the pipeline are followed, but they are not 
 
 
 ## Software repository
+
 If possible, during the development of Research Software, changes should be tracked using dedicated version control software like [git](https://git-scm.com/).  
+
 Put all source files in a public version-controlled repository, preferably GitHub or GitLab. Both GitHub and Gitlab provide online repositories for hosting source code. As can be inferred from their names, they were designed to be used together with Git version control.  The nice thing about using git together with GitHub and GitLab is that it stores the complete history of changes to the source code, rather than just a single version . 
 
 A quickstart tutorial for...
