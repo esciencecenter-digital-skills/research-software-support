@@ -247,47 +247,6 @@ It is advised to learn about the different licenses, about important considerati
 
 ---
 
-<!-- .slide: data-state="standard" -->
-
-## Let's get practical
-
-[fair-software.nl](https://fair-software.nl/)
-![Five Recommendations](stories/_fairsoftware/fiverecs.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
-![Use a repository](stories/_fairsoftware/fiverecs_1.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
-![Use a license](stories/_fairsoftware/fiverecs_2.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
-![Community Registry](stories/_fairsoftware/fiverecs_3.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
-![Enable Citation](stories/_fairsoftware/fiverecs_4.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
-![Quality Checklist](stories/_fairsoftware/fiverecs_5.png)
-
----
-
-<!-- .slide: data-state="standard" -->
-
 ### FAIR is not a quality checklist
 
 Software quality is addressed insofar as it affects:
