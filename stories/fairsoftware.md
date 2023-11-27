@@ -208,9 +208,3 @@ Goals:
 - Frame an assessment positively. Always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
 
 :::
-
-
-:::Chapter{headline="Further reading" widemd=1}
-
-
-:::
