@@ -11,6 +11,12 @@
 * Publishing the *software itself* (not just publishing an article *about* it)
 * There are many ways to do this
 
+Note:
+
+This generally means the source code itself, ideally including instructions on how to use it, what dependencies it has on other software, etc.
+
+The goal is to allow others to find and use your code, if they so wish, without extreme levels of difficulty.
+
 ---
 
 <!-- .slide: data-state="standard" -->
@@ -21,9 +27,10 @@
 * Citability
 * Reproducibility
 
+
 ### FAIRness
 <center>
-<img src="stories/_fairsoftware/fair.png" width="60%">
+<img src="stories/_fairsoftware/fair.png" width="40%">
 </center>
 
 Note:
@@ -102,6 +109,8 @@ It is important to communicate the actual version of the software used for a par
 
 If your software is used as a dependency of another software/workflow then specific versions can be referenced
 
+Ideally, use "semantic versioning" in the form MAJOR.MINOR.PATCH (e.g. v2.1.5)
+
 ---
 
 <!-- .slide: data-state="standard" -->
@@ -121,9 +130,10 @@ See Citation story
 <!-- .slide: data-state="standard" -->
 ### Registries
 Add a link to your software on a relevant public registry
-For example, the eScience Center maintains the Research Software Directory
-Can also be domain specific software registries
-Or even list it on awesomelist
+
+* For example, the eScience Center maintains the Research Software Directory
+* Can also be domain specific software registries
+* Or even list it on awesomelist
 
 This aids greatly in Findability by relevant researchers
 
@@ -147,7 +157,9 @@ Some journals perform peer review of the software in question
 
 ## Automate as many steps as possible!
 
-- Demo
+For example, you can automate archiving on Zenodo by linking it to your github account
+
+See instructions in the "Automating software publication" tab of this story
 
 ---
 
