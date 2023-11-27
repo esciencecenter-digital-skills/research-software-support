@@ -17,15 +17,15 @@ visibility: visible
 :::Chapter{headline="Introduction" widemd=1}
 ## Software licenses: introduction
 
-Copyright is a basic element of many things we produce, including software. Copyright, roughly speaking, means that we get to say how this work can be re-used by others, and what rights they have in copying, modifying, and distributing the work. When we do not explicitly formalize these rules in a license, the software cannot be (re-)used by others than the copyright holder. Including a license with software or code is therefore extremely important.
+Creative works, like books, paintings and music, but also scientific articles and software, are covered by copyright. Copyright is a legal construct that gives the owner of the copyright on a work the exclusive right to reproduce, modify, publicly perform and distribute the work. As a result, anyone who is not the copyright holder needs to have permission from the copyright holder to also be able to do so. One way a copyright holder can give such permission is to publicly license the work.
 
-If someone codes in their own time for a project only they contribute to, then they are the copyright holder. When a project is authored by multiple people, all of these people have copyright, and therefore need to agree on the license.
+Newly created works are automatically covered by copyright. This copyright is owner by the creator of the work, unless they were employed and created the work as part of their employment, in which case their employer owns the work. If multiple persons or organisations contribute to a work, then they each own a share of the copyright, and all need to give permission for others to be able to do any of the things protected by copyright.
 
-When a project is done under employment, the copyright situation becomes more difficult. In most cases, copyright officially belongs to the employer, although the exact situation can differ depending on the employment contract. It is good practice therefore to check whether the employer has a policy for software licensing.
+Ownership can be transferred by contract. Employment contracts often state explicitly that the copyright of any created works will be owned by the employer. In Europe, certain rights, such as the right to be recognised as the author of the work (if you want to), are inalienable: they cannot be transferred away from the author.
 
-In practice, it is often the case that (University) employees assume copyright of their own work, and in the absence of (open source) policy, decide on their own licenses. Being thorough and checking with the University's legal department may result in an overly cautious response that requires the use of a proprietary license, heavily limiting the options for software (re)use.
+Research scientists are generally employed by universities, so that legally speaking their works are owned by the university they work for. In practice, for example when submitting a paper to a journal, it is often assumed that scientists can transfer copyright ownership or otherwise give permission to the publisher to publish the paper on behalf of the university, but strictly speaking there is usually no legal basis for this. Likewise, if scientists produce software as part of their scientific work, then that software is owned by the university, and publishing it as Open Source software, while often done, does not sit on solid legal footing.
 
-To avoid getting stuck in the net of your institute's regulations and opinions (or absence of these), it is important to be well-informed yourself from the start. This module will give you an overview of different standardized (open source) licenses, and things to look out for when choosing to apply a license to a project.
+Sharing scientific software offers great possibilities for collaboration, sharing of resources, and increased impact of the scientific work as well as of the software itself. This module gives an overview of the different kinds of Open Source licenses typically used to share and collaboratively develop software, and discusses which policies universities could enact to make it easier for their employees to properly license the software they create.
 
 :::
 
@@ -33,6 +33,105 @@ To avoid getting stuck in the net of your institute's regulations and opinions (
 :::Chapter{headline="License types" widemd=1}
 ## License types
 
+### Free and Open Source Software
+
+According to the Free Software Foundation:
+
+- The freedom to run the program as you wish, for any purpose.
+- The freedom to study how the program works, and change it, so it does your computing as you wish. Access to the source code is a precondition for this.
+- The freedom to redistribute copies so you can help others.
+- The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes. Access to the source code a precondition for this.
+
+### Changing and combining software
+
+- Software can be modified, by making small or larger changes to it
+- Software can be used as a component in a larger program
+- Those can be combined
+- Copyright law sees this as creating a derived work
+- Mechanical translations are not derived works
+
+### License categories
+
+<table>
+    <tr align="center">
+        <th colspan="3">Free and Open Source</th>
+        <th rowspan="3" valign="top">Proprietary</th>
+    </tr>
+    <tr align="center">
+        <th colspan="2">Copyleft</th>
+        <th rowspan="2">Permissive</th>
+    </tr>
+    <tr align="center">
+        <th>Strong</th>
+        <th>Weak</th>
+    </tr>
+    <tr align="center">
+      <td>GPL<sup>1</sup> AGPL<sup>2</sup></td>
+      <td>LGPL<sup>3</sup> MPL<sup>4</sup></td>
+      <td>BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
+          <td>Research Only: No&nbsp;copying, No&nbsp;modification</td>
+    </tr>
+</table>
+<div class="footnote">
+  <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup> MPL: Mozilla Public License <sup>5</sup> BSD: Berkeley Software Distribution <sup>6</sup> MIT: Massachusetts Institute of Technology
+</div>
+
+:::
+
+:::Chapter{headline="Exercise 1" widemd=1}
+## Exercise 1: Choose a license for or using your policy (10 minutes)
+
+One of the concerns typically addressed in a software policy is licensing of software developed at the institution. Policies can choose a single license, or offer a range of options.
+
+Try to find out whether your university has a license policy. What does it say about which license(s) to use? If you don't have a policy yet, which license(s) would you choose for your policy? Why?
+
+Go to [Choosealicense.com](https://choosealicense.com) and play around with the options to help you choose.
+
+:::
+
+:::Chapter{headline="University Policy" widemd=1}
+## University software policies
+
+### Why?
+
+- Ensure scientific software is properly licensed
+  - Including the software your employees use!
+- Increase collaboration
+- Increase impact
+
+### How?
+
+- Still in development
+- TU Delft
+- Astron
+- NLeSC
+
+### What?
+
+- Software quality
+- Software development processes and tooling
+- Adhering to others' licenses
+- How to publish as Open Source
+- Acceptable licenses
+- Registering output
+- Education of researchers in software development
+- Acknowledge funding
+
+:::
+
+:::Chapter{headline="Exercise 2" widemd=1}
+## Exercise 2: Does your university have a software licensing policy?
+Try and find out whether your university has a software (licensing) policy. If you can find it, compare it with the ones from [TU Delft](https://zenodo.org/record/4629662), [ASTRON](https://zenodo.org/records/7307162) and [the Netherlands eScience Center](https://www.esciencecenter.nl/wp-content/uploads/2020/05/nlesc_ip_policy_2017.pdf). What elements are commonly found? Which differences do you see, and what is their respective motivation?
+
+:::
+
+:::Chapter{headline="Exercise 3"  widemd=1}
+## Exercise 3: What licenses do researchers at your university use?
+Search on [GitHub](https://github.com/) or other software repositories for software created by researchers at your university. What licenses do they use? Do they adhere to a policy (if there is one?)
+:::
+
+:::Chapter{headline="Further reading" widemd=1}
+## Software licenses
 Follow the links below to read about different open licenses.
 
 ### The Turing Way (20 minutes)
@@ -47,9 +146,7 @@ By now you will have a good idea of what Open Source licenses are available. [Ch
 - Know the main Creative Commons permission marks (BY/SA/NC/ND)
 - Understand what it means for something to be "in the public domain"
 - Know that ML models, software, and data place different requirements on their respective licenses.
-:::
 
-:::Chapter{headline="License compatibility" widemd=1}
 ## License compatibility
 
 Follow the links below to read about the compatibility of different open licenses.
@@ -57,15 +154,12 @@ Follow the links below to read about the compatibility of different open license
 ### License compatibility (15 minutes)
 What happens when software licenses meet? To start understanding the concept of license compatibility, [this blog post on mend.io is a good start](https://www.mend.io/resources/blog/license-compatibility/).
 
-### Licence compatibility in-depth case study (optional; 20 minutes)
+### License compatibility in-depth case study (optional; 20 minutes)
 The Turing Way also discusses license compatibility with [an excellent in-depth analysis of a case study](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html). While this chapter is very informative, it goes quite deep into a specific case study, so it should be seen as illustrative rather than necessary background reading.
 
 #### You should now be able to...
 - Explain what license compatibility means
 - Roughly know which open source licenses mix, and which do not.
-:::
-
-:::Chapter{headline="University Policy" widemd=1}
 
 ## University software policy (30 minutes)
 It is important that the copyright holder (the university!) has a policy on software licensing, to allow their researchers to share software with an open license. [TU Delft has such a policy](https://zenodo.org/record/4629662), as does [the Netherlands eScience Center](https://guide.esciencecenter.nl/#/best_practices/licensing). Does your university or institution have a software policy?
@@ -76,18 +170,3 @@ It is important that the copyright holder (the university!) has a policy on soft
 
 :::
 
-:::Chapter{headline="Exercise 1"  widemd=1}
-## Exercise 1: does your university have a software licensing policy?
-Try and find out whether your university has a license policy. If you can find it, compare it with the policies linked above. What elements are commonly found? Which differences do you see, and what is their respective motivation?
-:::
-
-:::Chapter{headline="Exercise 2"  widemd=1}
-## Exercise 2: What licenses do researchers at your university use?
-Search on [GitHub](https://github.com/) or other software repositories for software created by researchers at your university. What licenses do they use? Do they adhere to a policy (if there is one?)
-:::
-
-:::Chapter{headline="Exercise 3"  widemd=1}
-## Exercise 3: Explore license (in)compatibilities
-Choose one program or package created by a researcher, either at your university or elsewhere, and explore the licenses of their dependencies. Can you spot potential licensing incompatibilities? (Note that dependencies do not automatically trigger compatibility issues; this too is a complex issue! It is however a good first step when choosing a license, to look at the licenses held by libraries you include.)
-
-:::
