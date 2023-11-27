@@ -178,7 +178,7 @@ Do you agree with their assessment?
 
 :::
 
-:::Chapter{headline="Exercise" widemd=1}
+:::Chapter{headline="Exercise 3" widemd=1}
 
 ## FAIR in practice
 
