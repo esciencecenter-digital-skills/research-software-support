@@ -129,6 +129,6 @@ In teams:
 1. Find out what the software is about if you don't already know.
 2. Look by yourself (without looking at your team mates) in the [Research Software Registries Awesome List](https://github.com/NLeSC/awesome-research-software-registries) for a registry that is suitable for your chosen piece of software.
 3. Discuss with your partner(s) why you chose that registry.
+4. Investigate the requirements for your chosen registry. What should the software and its documentation adhere to, to be added to the registry?
 
-**Discuss**: Would it be ok to add your software to multiple registries?
 
