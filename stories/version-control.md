@@ -1,24 +1,24 @@
 ---
 id: 10
 trl: high
-category: Getting started
+category: Upcoming (under construction)
 title: Version control, git and github
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: hidden
+visibility: visible
 ---
 
 :::Chapter{headline="Version control" widemd=1}
 ## Local version control
-Why version control is needed, and what systems exist
 
-distributed VC
+This module is still under development
+
 
 :::
 
 :::Chapter{headline="Remote repositories" widemd=1}
 ## Remote repositories
 
-Gitlab, github, bitbucket
+This module is still under development
 
 :::
