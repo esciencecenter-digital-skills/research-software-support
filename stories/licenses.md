@@ -2,7 +2,7 @@
 id: 5
 trl: high
 category: Reusability
-title: Licenses
+title: Software licenses
 author: eScience Center
 thumbnail: "nlesc-dummy-1.png"
 visibility: visible

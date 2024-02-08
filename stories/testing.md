@@ -2,13 +2,14 @@
 id: 9
 trl: medium
 category: Upcoming (under construction)
-title: Testing & CI/CD
+title: Software testing
+abstract: Local testing of your software and using Continuous Integration and Continuous Deployment (CI/CD)
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
 
-:::Chapter{headline="Testing" widemd=1}
+:::Chapter{headline="Software testing" widemd=1}
 ## Testing
 
 This module is still under development

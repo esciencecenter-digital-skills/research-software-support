@@ -2,7 +2,7 @@
 id: 1
 trl: medium
 category: Upcoming (under construction)
-title: Documentation
+title: Software documentation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 visibility: visible

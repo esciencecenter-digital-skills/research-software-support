@@ -2,13 +2,14 @@
 id: 10
 trl: high
 category: Upcoming (under construction)
-title: Version control, git and github
+title: Software version control
+abstract: Local version control and collaborative code development, for example using Git and GitHub
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
 
-:::Chapter{headline="Version control" widemd=1}
+:::Chapter{headline="Software version control" widemd=1}
 ## Local version control
 
 This module is still under development

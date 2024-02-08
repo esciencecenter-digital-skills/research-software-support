@@ -2,7 +2,7 @@
 id: 0
 trl: medium
 category: Publishing & Citing
-title: Citation
+title: Software citation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
 visibility: visible
