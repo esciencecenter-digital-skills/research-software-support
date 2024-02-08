@@ -55,48 +55,6 @@ It is a good read if you want to get a deeper understanding of software and its 
 
 :::
 
-:::Chapter{headline="Research software" widemd=1}
-
-## The role of research software (10 minutes)
-
-The following piece was written after a workshop called "The Future of Research Software", held in the Netherlands in 2022.
-
-It explores the different roles for research software in the research life cycle, strengthening the case for sustainable software.
-
-[Defining the Roles of Research Software](https://upstream.force11.org/defining-the-roles-of-research-software/)
-
-After reading the piece, discuss the following questions:
-
-- What are the different roles of research software?
-- What are the challenges for each of these roles?
-- How can we address these challenges?
-
-:::
-
-
-:::Chapter{headline="Exercise: the Research Life Cycle" widemd=1}
-
-## Exercise: Where does software fit in the research life cycle?
-
-Take a look at the research life cycle below.
-
-<img src="stories/_fairsoftware/researchcycle.png" alt="The Research Life Cycle" width="400"/>
-
-Think of a piece of research software you have used or developed.
-
-Where does it fit in the research life cycle?
-
-### Existing software
-
-The following research software can also be used as examples:
-
-- [Xenon](https://research-software-directory.org/software/xenon)
-- [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
-- [Haddock](https://research-software-directory.org/software/haddock3)
-- [worcs](https://cjvanlissa.github.io/worcs/index.html)
-
-:::
 
 :::Chapter{headline="Exercise: Mapping FAIR" widemd=1}
 

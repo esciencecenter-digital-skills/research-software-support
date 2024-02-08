@@ -21,7 +21,7 @@ Read the following blogpost about why this concept is so powerful:
 https://www.blackliszt.com/2014/04/fundamental-concepts-of-computing-software-is-data.html
 
 
-### Software is a special type of data
+### Software is a special type of data ()
 However for most practical purposes in most domains of scientific research (except maybe the domain of computer science) it is useful to make a distinction between the data that is software and other data. From now on, when we use the word data, we mean the kind fo data which is not software and which we use to store more static information.
 
 - Software is executable, data is not.
