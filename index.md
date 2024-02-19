@@ -2,4 +2,4 @@
 
 Here is some markdown content.
 
-[Demo lesson link](/content/stories/_citation)
+[Demo lesson link](/lessons/demo)
