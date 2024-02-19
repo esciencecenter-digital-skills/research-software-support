@@ -9,7 +9,7 @@ on:
 jobs:
   deploy_with_NEBULA:
 
-    uses: esciencecenter-digital-skills/NEBULA/blob/main/.github/workflows/deploy.yml
+    uses: esciencecenter-digital-skills/NEBULA/blob/main/.github/workflows/deploy.yml@main
     with:
       content-repo: https://github.com/esciencecenter-digital-skills/research-software-support
 
