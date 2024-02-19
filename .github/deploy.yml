@@ -1,0 +1,16 @@
+name: Deploy to gh-pages
+
+on: 
+  push:
+    branches:
+      main
+    workflow_dispatch:
+
+jobs:
+  deploy_with_NEBULA:
+
+    uses: esciencecenter-digital-skills/NEBULA/blob/main/.github/workflows/deploy.yml
+    with:
+      content-repo: https://github.com/esciencecenter-digital-skills/research-software-support
+
+
