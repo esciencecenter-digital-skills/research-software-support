@@ -11,6 +11,6 @@ jobs:
 
     uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
     with:
-      content-repo: https://github.com/esciencecenter-digital-skills/research-software-support
+      content-repo: esciencecenter-digital-skills/research-software-support
 
 
