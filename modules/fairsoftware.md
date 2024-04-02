@@ -167,3 +167,12 @@ Goals:
 - Frame an assessment positively: always start with assessing the things that have been done that contribute to good management and FAIR software. This is crucial, as well as motivating.
 
 :::
+
+:::Chapter{headline="Further reading" widemd=1}
+## FAIR software
+Follow the links below to read about other resources related to FAIR research software.
+
+### FAIR Research Software Principles adoption
+The FAIR4RS Principles were [released in 2022](https://doi.org/10.15497/RDA00068), and since then there have been many efforts for adopting them. The blog post [The FAIR for Research Software Principles after two years: an adoption update](https://www.researchsoft.org/blog/2024-03/) contains a summary of these efforts.
+
+:::
