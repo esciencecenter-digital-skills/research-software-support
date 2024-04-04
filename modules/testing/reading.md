@@ -12,6 +12,9 @@ Read in CodeRefinery about [Automated testing](https://coderefinery.github.io/te
 ### IBM
 Link to an [IBM article](https://www.ibm.com/topics/software-testing).
 
+### arXiv
+Read this interesting article about [Testing Research Software](https://arxiv.org/abs/2205.15982)
+
 ## CI/CD
 Follow the links below to read more about CI/CD.
 
@@ -20,3 +23,6 @@ Read in the Turing Way about [Continuous Integration](https://the-turing-way.net
 
 ### Code Refinery
 Read in CodeRefinery about [Continuous integration](https://coderefinery.github.io/testing/continuous-integration/)
+
+### ByteByteGo Newsletter
+Read in ByteByteGo newsletter about [A Crash Course in CI/CD](https://blog.bytebytego.com/p/a-crash-course-in-cicd)
