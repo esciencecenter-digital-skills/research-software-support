@@ -1,0 +1,1 @@
+import{_ as o,c as t,W as a,a as s,o as n}from"./entry.BqDT3lzy.js";const c={},l=s("p",null,"moduleLayout",-1);function r(e,u){return n(),t("main",null,[l,a(e.$slots,"default")])}const d=o(c,[["render",r]]);export{d as default};

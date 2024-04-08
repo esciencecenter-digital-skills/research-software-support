@@ -1,9 +1,15 @@
 {
-    "publicProps": {
-        "title": "Research Software Support platform",
-        "repoName":"research-software-support",
-        "repoOwner": "esciencecenter-digital-skills",
-        "repoTag": "main",
-        "categoryOrder": ["Getting Started", "Reusability", "Publishing & Citing", "Upcoming (under construction)"]
-    }
+  "publicProps": {
+    "title": "Research Software Support platform",
+    "repoName": "research-software-support",
+    "repoOwner": "esciencecenter-digital-skills",
+    "repoTag": "main",
+    "organization": "Netherlands eScience Center",
+    "categoryOrder": [
+      "Getting started",
+      "Reusability",
+      "Publishing & Citing",
+      "Upcoming (under construction)"
+    ]
+  }
 }
