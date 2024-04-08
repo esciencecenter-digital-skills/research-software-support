@@ -1,3 +1,11 @@
+# Presentation
+
+## Author
+
+### Date
+
+---
+
 <!-- .slide: data-state="title" -->
 
 # Software Management Plans
@@ -8,7 +16,7 @@
 
 ## Mapping the Via Appia
 
-![Mapping the Via Appia](stories/_smp/viaappia.png)
+![Mapping the Via Appia](media/viaappia.png)
 
 Note:
 The Via Appia was the most important road in the Roman Empire, connecting Rome to Brindisi in the south of Italy, spanning a distance of 540km.
@@ -26,7 +34,7 @@ In this project, research software was used to process the satellite imagery and
 ## The research life cycle
 
 <center>
-<img src="stories/_smp/researchcycle.png" width="60%">
+<img src="media/researchcycle.png" width="60%">
 </center>
 
 Note:
@@ -67,7 +75,7 @@ Ensuring that the software is findable, accessible, usable and understandable is
 
 <!-- .slide: data-state="standard" -->
 
-![Software Needs Maintenance](stories/_smp/maintenance.png)
+![Software Needs Maintenance](media/maintenance.png)
 
 Note:
 Software and code have some unique features.
@@ -148,7 +156,7 @@ Finally, the SMP will allow later verification of plans in a publicly funded pro
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/smpguide.png" width="50%" />
+<img src="media/smpguide.png" width="50%" />
 
 [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
 
@@ -164,7 +172,7 @@ All past versions and the latest release are available on Zenodo via this DOI.
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/groupedrequirements.png" width="60%" />
+<img src="media/groupedrequirements.png" width="60%" />
 </center>
 
 Note:
@@ -182,7 +190,7 @@ Finally, the guide asks about the *purpose* of the software.
 
 <!-- .slide: data-state="standard" -->
 <center>
-<img src="stories/_smp/purpose.png" width="40%" />
+<img src="media/purpose.png" width="40%" />
 </center>
 
 - What problem does it solve?
@@ -201,7 +209,7 @@ This will help the developers focus on the specific needs of the software.
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/engineering.png" width="30%" />
+<img src="media/engineering.png" width="30%" />
 </center>
 
 - What version control will you use?
@@ -229,7 +237,7 @@ There are many tools that can help with this, and it is important to choose them
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/documentation.png" width="30%" />
+<img src="media/documentation.png" width="30%" />
 </center>
 
 - What documentation will you provide
@@ -251,7 +259,7 @@ In *developer documentation*, instructions on how to modify the software, and ho
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/projectmanagement.png" width="30%" />
+<img src="media/projectmanagement.png" width="30%" />
 </center>
 
 - What license will you use?
@@ -304,7 +312,7 @@ An assessment rubric should accompany the template, indicating per question or f
 
 ## Not all software is equal
 
-![](stories/_smp/softwarespectrum.png)
+![](media/softwarespectrum.png)
 
 Note:
 It is important to realize when making an SMP, that research software comes in many shapes and sizes.
@@ -413,7 +421,7 @@ Addressing what purpose the software serves, how reliable it needs to be, and wh
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_smp/threelevels.png" width="60%">
+<img src="media/threelevels.png" width="60%">
 </center>
 
 Note:
