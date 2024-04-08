@@ -33,7 +33,7 @@ jobs:
     needs: get_content_config
     permissions: 
       contents: write
-    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@configuration
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
     with:
       config_artifact_name: content_config
       nebula_ref: main
