@@ -2,7 +2,7 @@
 
 Choose an alternative that correctly answers the following questions:
 
-**What is software testing?**
+**1.1 What is software testing?**
 
 a) A method for evaluating a software's compatibility with different operating systems.
 
