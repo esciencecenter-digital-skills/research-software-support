@@ -1,5 +1,3 @@
-:::Chapter{headline="Software Citation Principles" widemd=1}
-
 The FORCE11 working group published the [Software Citation Principles](https://force11.org/info/software-citation-principles-published-2016/)
 
 

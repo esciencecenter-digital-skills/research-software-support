@@ -1,5 +1,3 @@
-:::Chapter{headline="Exercise: When to cite?" widemd=1}
-
 ## Exercise: Which software should I cite?
 Suppose you are writing a paper on your latest research and are putting together the reference list. During your research you have used all the software mentioned below. 
 

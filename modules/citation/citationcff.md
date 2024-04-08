@@ -1,5 +1,3 @@
-
-:::Chapter{headline="CITATION.cff" widemd=1}
 ## The `CITATION.cff` file
 
 To facilitate the citation of scientific software, a group of software developers, researchers, and publishers have come together to develop the `CITATION.cff` format. A `CITATION.cff` file is a lightweight, machine-readable file that provides information about the software, its creators, and how it should be cited. This file can be included in the software, and should be easy to find and access.

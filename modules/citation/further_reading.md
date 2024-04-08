@@ -1,5 +1,3 @@
-:::Chapter{headline="Further reading" widemd=1}
-
 ## Links for further reading
 
 - The FORCE11 [Software Citation Principles](https://force11.org/info/software-citation-principles-published-2016/) describe the rationale behind software citation. 
