@@ -2,15 +2,42 @@ name: Deploy to gh-pages
 
 on: 
   push:
-    branches:
-      main
-    workflow_dispatch:
 
 jobs:
-  deploy_with_NEBULA:
+  get_content_config:
+    runs-on: ubuntu-latest
 
-    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
+    steps:
+      - name: Checkout content
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: config.json
+          sparse-checkout-cone-mode: false
+          path: ./content_config/
+    
+      - name: Show config path
+        run: |
+          pwd
+          ls -la
+          cd content_config
+          ls -la
+          cd -
+
+      - name: Upload content config file
+        uses: actions/upload-artifact@v4
+        with:
+          name: content_config
+          path: ./content_config/config.json
+  
+  deploy_with_NEBULA:
+    needs: get_content_config
+    permissions: 
+      contents: write
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@configuration
     with:
-      content_repo: esciencecenter-digital-skills/research-software-support
+      config_artifact_name: content_config
+      nebula_ref: main
+
+
 
 
