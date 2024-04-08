@@ -3,10 +3,16 @@
 
 https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-overview
 
-# README
+# Documentation types and formats
 
-makeareadme.come
+user, development, deployment
 
-# Popular tools foor documentation
+## README
+
+What is a README file, how to write a good README
+
+https://makeareadme.com
+
+## Popular tools foor building more complex documentation
 
 https://coderefinery.github.io/documentation/tools
