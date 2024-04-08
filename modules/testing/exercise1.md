@@ -16,7 +16,7 @@ e) The practice of documenting software functionalities.
 
 ---
 
-**Why is software testing important?**
+**1.2 Why is software testing important?**
 
 a) To build and maintain the community's trust by demonstrating commitment to quality.
 
