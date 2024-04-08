@@ -1,3 +1,11 @@
+# Presentation
+
+## Author
+
+### Date
+
+---
+
 <!-- .slide: data-state="title" -->
 
 # FAIR software
@@ -32,7 +40,7 @@ The data can be converted into an image using custom software.
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_fairsoftware/definition.png" width="55%">
+<img src="media/definition.png" width="55%">
 </center>
 
 <small>definition of Research Software from the FAIR4RS working group</small>
@@ -53,7 +61,7 @@ Or a custom-made web application that is used to collect data.
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_fairsoftware/unescoopenscience.png" width="50%">
+<img src="media/unescoopenscience.png" width="50%">
 </center>
 
 <small>[UNESCO Recommendation on Open Science, 2021](https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/) (CC BY IGO 3.0)</small>
@@ -70,7 +78,7 @@ This is supported by many organisations, including UNESCO.
 ## The FAIR principles
 
 <center>
-<img src="stories/_fairsoftware/fair.png" width="60%">
+<img src="media/fair.png" width="60%">
 </center>
 
 Note:
@@ -80,7 +88,7 @@ the FAIR principles standardize values that help openness, transparency, and acc
 
 <!-- .slide: data-state="standard" -->
 
-![screenshot Wilkinson 2016](stories/_fairsoftware/fairwilkinson.png)
+![screenshot Wilkinson 2016](media/fairwilkinson.png)
 
 Note:
 FAIR principles were originally designed for data, but are also applicable to software.
@@ -136,12 +144,12 @@ Consider also version control software, a good software development practice tha
 
 <!-- .slide: data-state="standard" -->
 
-![FAIR for Research Software paper](stories/_fairsoftware/fair4rs_paper.png)
+![FAIR for Research Software paper](media/fair4rs_paper.png)
 
 Fair 4 Research Software (FAIR4RS) working group (2022)
 [doi:10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
 
-![Contributing Organizations](stories/_fairsoftware/fair4rs_logos.png)
+![Contributing Organizations](media/fair4rs_logos.png)
 
 Note:
 In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
@@ -151,7 +159,7 @@ The group behind this was a collaboration between the Research Software Alliance
 
 <!-- .slide: data-state="standard" -->
 
-![FAIR for Research Software principles](stories/_fairsoftware/fair4rs_principles.png)
+![FAIR for Research Software principles](media/fair4rs_principles.png)
 
 Note:
 These are the interpretations given to the FAIR principles for software by the working group.
@@ -163,7 +171,7 @@ In many cases these are rephrased to better fit software, but in some cases they
 
 ## Findability
 
-![FAIR4RS Findability](stories/_fairsoftware/fair4rs_F.png)
+![FAIR4RS Findability](media/fair4rs_F.png)
 
 - Archive on Zenodo for DOI and persistence<br />
   <small> Note that persistence on GitHub is not guaranteed!</small>
@@ -189,7 +197,7 @@ For software-specific findability, though, Zenodo is insufficient. Here, you can
 
 ## Accessibility
 
-![FAIR4RS Accessibility](stories/_fairsoftware/fair4rs_A.png)
+![FAIR4RS Accessibility](media/fair4rs_A.png)
 
 - Community registries provide standard download protocols<br />
   <small> e.g. `pip install my_software` </small>
@@ -206,7 +214,7 @@ The code of the software itself, not the actual functional engine, could be cons
 
 ## Interoperability
 
-![FAIR4RS Interoperability](stories/_fairsoftware/fair4rs_I.png)
+![FAIR4RS Interoperability](media/fair4rs_I.png)
 
 - Input and output both needs to meet community standards<br />
   <small> e.g. file formats, data models, ontologies </small>
@@ -225,7 +233,7 @@ The second sub-principle refers to the use of unambiguous references to external
 
 ## Reusability
 
-![FAIR4RS Reusability](stories/_fairsoftware/fair4rs_R.png)
+![FAIR4RS Reusability](media/fair4rs_R.png)
 
 - Include a software-specific license<br />
   <small>as a file called `LICENSE` in the project's root</small>
@@ -284,7 +292,7 @@ Software may adhere perfectly to FAIR, yet produce the wrong results, in a painf
 ## FAIR is a spectrum
 
 <center>
-<img src="stories/_fairsoftware/spectrum.png" width="60%" />
+<img src="media/spectrum.png" width="60%" />
 </center>
 
 Note:
