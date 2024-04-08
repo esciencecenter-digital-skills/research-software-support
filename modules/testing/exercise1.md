@@ -30,4 +30,7 @@ e) To facilitate easier collaboration among developers.
 
 ---
 
-<small> correct answers: c) and b) </small>
+<small> **answers:** 
+1.1 c) 
+1.2 The most obvious answer is b), but in fact all answers except c) are correct
+</small>
