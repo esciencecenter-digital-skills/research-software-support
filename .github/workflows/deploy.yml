@@ -14,8 +14,6 @@ jobs:
       - name: Checkout content
         uses: actions/checkout@v4
         with:
-          repository: esciencecenter-digital-skills/research-software-support
-          ref: configuration
           sparse-checkout: config.json
           sparse-checkout-cone-mode: false
           path: ./content_config/
@@ -35,10 +33,13 @@ jobs:
           path: ./content_config/config.json
   
   deploy_with_NEBULA:
-
-    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@vmain
+    needs: get_content_config
+    permissions: 
+      contents: write
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@configuration
     with:
-      content_repo: $GITHUB_REPOSITORY
+      config_artifact_name: content_config
+
 
 
 
