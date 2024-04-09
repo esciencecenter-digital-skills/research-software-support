@@ -1,0 +1,9 @@
+copyright.md
+
+university_policy.md
+    ex_have_licensing_policy.md
+    ex_licenses_in_use.md
+
+licenses.md
+    ex_choose_a_license.md
+
