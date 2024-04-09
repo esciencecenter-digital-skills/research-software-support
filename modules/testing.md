@@ -9,15 +9,4 @@ thumbnail: "nlesc-dummy.png"
 visibility: visible
 ---
 
-:::Chapter{headline="Software testing" widemd=1}
-## Testing
-
-This module is still under development
-
-:::
-
-:::Chapter{headline="CI/CD" widemd=1}
-## CI/CD
-
-This module is still under development
-:::
+# Software testing
