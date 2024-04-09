@@ -104,6 +104,7 @@ Integration tests are a level of software testing where individual units are com
 The complete, integrated system is checked via the so-called system tests. The purpose here is to evaluate whether the software as a whole gives the correct outputs for given inputs.
 
 Finally, regression tests check for unexpected side-effects in existing features after changes.
+
 ---
 
 <!-- .slide: data-state="standard" -->
