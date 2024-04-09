@@ -20,7 +20,7 @@ So first of all, thank you very much for your interest in contributing to this p
 
 If you want to contribute to the content: look whether the issue you want to tackle [already exists](https://github.com/esciencecenter-digital-skills/research-software-support/issues) or make a [new issue](https://github.com/esciencecenter-digital-skills/research-software-support/issues/new), and [create a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with your changes from a fork or a branch.
 
-It is useful to [review the structure of the project](#directory-structure-and-content-tags) before you start.
+It is useful to [review the structure of the project](https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/README.md#directory-structure-and-content-tags) before you start.
 
 ## Target audience
 
@@ -82,8 +82,8 @@ It is important to include notes, however brief, on ever slide.
 The notes are crucial for any instructor preparing to teach with the materials.
 They are also relevant for self-study participants, who can use the slides with accompanying notes to get a quick introduction to the subject.
 
-Slides are written in a markdown file, which should be placed in the _modulename/ directory and rendered with Reveal.js.
-Technical information about the structure of these files [is here](#slides-with-revealjs).
+Slides are written in a markdown file, which should be placed in the `/modules/{modulename}` directory and rendered with Reveal.js.
+Technical information about the structure of these files [is here](https://github.com/esciencecenter-digital-skills/research-software-support/blob/main/README.md#slides-with-revealjs).
 
 ### Text
 
