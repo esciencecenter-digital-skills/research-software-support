@@ -2,6 +2,11 @@ name: Deploy to gh-pages
 
 on: 
   push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   get_content_config:
@@ -36,7 +41,7 @@ jobs:
     uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
     with:
       config_artifact_name: content_config
-      nebula_ref: main
+      nebula_ref: v0.3.0
 
 
 
