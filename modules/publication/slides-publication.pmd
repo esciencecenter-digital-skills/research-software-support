@@ -30,7 +30,7 @@ The goal is to allow others to find and use your code, if they so wish, without 
 
 ### FAIRness
 <center>
-<img src="stories/_fairsoftware/fair.png" width="40%">
+<img src="/modules/fairsoftware/media/fair.png" width="40%">
 </center>
 
 Note:
@@ -94,7 +94,7 @@ See license, citation and software management chapters
 <!-- .slide: data-state="standard" -->
 ### Software repository
 Which one?
-<img src="stories/_publication/repository_logos.png" width="80%">
+<img src="media/repository_logos.png" width="80%">
 
 Note:
 
