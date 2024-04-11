@@ -3,7 +3,7 @@
         "title": "Research Software Support platform",
         "repoName":"research-software-support",
         "repoOwner": "esciencecenter-digital-skills",
-        "repoTag": "format_testing",
+        "repoTag": "main",
         "organization": "Netherlands eScience Center",
         "categoryOrder": ["Getting started", "Reusability", "Publishing & Citing", "Development", "Upcoming (under construction)"]
     }
