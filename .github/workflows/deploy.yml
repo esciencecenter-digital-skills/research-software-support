@@ -1,7 +1,7 @@
 name: Deploy to gh-pages
 
 on: 
-  push:
+  [release, workflow_dispatch]
 
 jobs:
   get_content_config:
