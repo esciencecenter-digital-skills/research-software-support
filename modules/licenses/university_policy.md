@@ -1,3 +1,9 @@
+---
+title: University software policies
+type: reading
+order: 3
+---
+
 ## University software policies
 
 Universities employ researchers, who often create and use software in the course of doing research. That means that they create and use copyrighted works, activities governed by copyright law. Works created by employees as part of their work are normally owned by their employer. This is the default legally in many places, and is almost always stated in the employment contract as well. So, the university owns the software created by its employees, and because the employees also act on behalf of their employer, is responsible for any violations of copyright by their employees.
