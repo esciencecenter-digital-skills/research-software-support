@@ -1,4 +1,10 @@
-# Exercise 2
+---
+title: FAIR in practice
+type: exercise
+order: 4
+---
+
+# Exercise 3
 
 ## FAIR in practice
 

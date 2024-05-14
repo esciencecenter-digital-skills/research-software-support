@@ -1,3 +1,9 @@
+---
+title: Mapping the principles
+type: exercise
+order: 3
+---
+
 # Exercise 2
 
 ## Mapping the principles
