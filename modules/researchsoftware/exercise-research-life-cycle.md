@@ -1,3 +1,8 @@
+---
+title: Where does software fit in the research life cycle?
+type: exercise
+order: 4
+---
 
 ## Exercise: Where does software fit in the research life cycle?
 
