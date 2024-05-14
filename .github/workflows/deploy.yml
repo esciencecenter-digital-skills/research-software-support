@@ -2,7 +2,8 @@ name: Deploy to gh-pages
 
 on: 
   push:
-
+env:
+  NUXT_APP_CDN_URL: https://esciencecenter-digital-skills.github.io/research-software-support
 jobs:
   get_content_config:
     runs-on: ubuntu-latest
