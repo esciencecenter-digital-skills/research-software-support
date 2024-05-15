@@ -35,6 +35,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
+        cache-dependency-path: './NEBULA/package-lock.json'
     - run: |
         cd NEBULA
         npm ci
