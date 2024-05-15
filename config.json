@@ -1,7 +1,7 @@
 {
     "publicProps": {
         "title": "Research Software Support platform",
-        "baseURL": "research-software-support"
+        "baseURL": "research-software-support",
         "repoName":"research-software-support",
         "repoOwner": "esciencecenter-digital-skills",
         "repoTag": "NEBULA-update",
