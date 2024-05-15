@@ -1,5 +1,5 @@
 ---
-title: Does your university have a software licensing policy?
+title: Is there a policy?
 type: exercise
 order: 6
 ---

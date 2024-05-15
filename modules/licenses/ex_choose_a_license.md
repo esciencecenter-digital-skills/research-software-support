@@ -1,5 +1,5 @@
 ---
-title: Choose a license for or using your policy
+title: Choose a license
 type: exercise
 order: 5
 ---

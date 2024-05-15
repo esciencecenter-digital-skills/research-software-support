@@ -1,12 +1,11 @@
 ---
-title: Exercise 1
-type: exercise
+title: Practical Guide
+type: reading
 order: 2
 ---
 
-# Exercise 1
 
-## Software Management Plans (10 minutes)
+## Practical Guide to Software Management Plans (15 minutes)
 
 Research software plays a crucial role in academic research and has become a key output of many research projects. A software management plan helps to implement best practices during software development and ensures that software is accessible and reusable in the short and longer term. It also contributes to the reproducibility of results and stimulates collaborative work on open-source software for research.
 

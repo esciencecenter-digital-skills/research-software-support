@@ -1,7 +1,7 @@
 ---
-title: Is it research software?
+title: Research software?
 type: exercise
-order: 3
+order: 5
 ---
 
 ## Exercise: Is it research software?

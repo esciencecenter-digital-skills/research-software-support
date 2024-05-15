@@ -1,5 +1,5 @@
 ---
-title: Using cffinit to create `CITATION.cff`
+title: CFFinit tool
 type: exercise
 order: 5
 ---

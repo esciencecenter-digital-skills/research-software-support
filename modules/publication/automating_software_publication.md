@@ -1,5 +1,5 @@
 ---
-title: Automating software publication
+title: Automating publication
 type: exercise
 order: 4
 ---

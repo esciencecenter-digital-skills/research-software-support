@@ -1,5 +1,5 @@
 ---
-title: Which software should I cite?
+title: What to cite?
 type: exercise
 order: 6
 ---

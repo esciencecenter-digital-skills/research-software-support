@@ -4,9 +4,7 @@ type: exercise
 order: 4
 ---
 
-# Exercise 3
-
-## FAIR in practice
+## Exercise: FAIR in practice
 
 Role playing exercise:
 One person presents the software, the other person gives feedback.

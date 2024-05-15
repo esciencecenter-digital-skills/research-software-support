@@ -1,5 +1,5 @@
 ---
-title: What licenses do researchers at your university use?
+title: What's used?
 type: exercise
 order: 7
 ---

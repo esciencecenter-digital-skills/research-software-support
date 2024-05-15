@@ -1,5 +1,5 @@
 ---
-title: Reading material
+title: Further reading
 type: reading
 order: 6
 ---
