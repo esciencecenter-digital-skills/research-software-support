@@ -1,3 +1,9 @@
+---
+title: Exercise 2
+type: exercise
+order: 3
+---
+
 # Exercise 2
 
 *In a live setting, this exercise is done in groups.

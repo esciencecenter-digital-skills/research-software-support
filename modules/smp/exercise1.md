@@ -1,3 +1,9 @@
+---
+title: Exercise 1
+type: exercise
+order: 2
+---
+
 # Exercise 1
 
 ## Software Management Plans (10 minutes)
