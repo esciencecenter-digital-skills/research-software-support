@@ -1,3 +1,9 @@
+---
+title: Exercise 2
+type: exercise
+order: 3
+---
+
 # Exercise 2
 
 ## Instructions

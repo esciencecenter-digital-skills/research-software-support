@@ -1,3 +1,9 @@
+---
+title: Exercise 1
+type: exercise
+order: 2
+---
+
 # Exercise 1
 
 Choose an alternative that correctly answers the following questions:
