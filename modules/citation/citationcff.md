@@ -1,5 +1,5 @@
 ---
-title: The `CITATION.cff` file
+title: CITATION.cff
 type: reading
 order: 4
 ---
