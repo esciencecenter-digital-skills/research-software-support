@@ -31,15 +31,11 @@ The goal is to allow others to find and use your code, if they so wish, without 
 
 ## Why Publish?
 
-### Major scientific considerations 
-* Citability
-* Reproducibility
-
-
-### FAIRness
-<center>
-<img src="/modules/fairsoftware/media/fair.png" width="40%">
-</center>
+* Major scientific considerations 
+    * Citability
+    * Reproducibility
+* FAIRness
+<img src="media/fair.png" width="30%">
 
 Note:
 
