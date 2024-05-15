@@ -1,10 +1,10 @@
 ---
-title: Exercise 2
+title: Software Assessment
 type: exercise
 order: 3
 ---
 
-# Exercise 2
+# Assess your software
 
 *In a live setting, this exercise is done in groups.
 Each group will be assigned a software project.

@@ -1,10 +1,8 @@
 ---
-title: Exercise 3
+title: SMP vs FAIR
 type: exercise
 order: 4
 ---
-
-# Exercise 3
 
 ## SMP vs FAIR
 
