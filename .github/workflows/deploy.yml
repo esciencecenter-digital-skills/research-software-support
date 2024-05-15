@@ -12,8 +12,8 @@ jobs:
     with:
       content_organization: esciencecenter-digital-skills
       content_repository: research-software-support
-      content_ref: v0.1.1
+      content_ref: main
       base_url: research-software-support
-      nebula_ref: v0.4.1
+      nebula_ref: v0.4.2
 
 
