@@ -2,7 +2,8 @@ name: Deploy to gh-pages
 
 on: 
   [release, workflow_dispatch]
-
+env:
+  NUXT_APP_CDN_URL: https://esciencecenter-digital-skills.github.io/research-software-support
 jobs:
   deploy_with_NEBULA:
     permissions: 
