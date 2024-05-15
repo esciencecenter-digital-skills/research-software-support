@@ -4,9 +4,7 @@ type: exercise
 order: 2
 ---
 
-# Exercise 1
-
-## What is FAIR?
+## Exercise: What is FAIR?
 
 ### FAIR principles (15 minutes)
 
