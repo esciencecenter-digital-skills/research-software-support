@@ -1,5 +1,5 @@
 ---
-title: Software publication pipeline
+title: Publication pipeline
 type: reading
 order: 3
 ---
