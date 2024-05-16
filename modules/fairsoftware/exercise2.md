@@ -1,6 +1,10 @@
-# Exercise 2
+---
+title: Mapping the principles
+type: exercise
+order: 3
+---
 
-## Mapping the principles
+## Exercise: Mapping the principles
 
 ### The FAIR4RS Principles are:
 
@@ -39,7 +43,7 @@ The following three examples of software have been described with statements tha
 
 #### Example 1: [Comet](https://doi.org/10.1002/pmic.201200439)
 
-Comet is a command-line tool and desktop application for tandem mass spectrometry sequence database search6.
+[Comet](https://doi.org/10.1002/pmic.201200439) is a command-line tool and desktop application for tandem mass spectrometry sequence database search6.
 
 - Comet is licensed under the Apache 2.0 open source licence.
 - Comet is registered in the bio.tools catalogue of bioinformatics tools, where it has a globally unique and persistent identifier, and rich metadata that includes the identifier and is searchable and indexable.
@@ -51,7 +55,7 @@ Comet is a command-line tool and desktop application for tandem mass spectrometr
 
 #### Example 2: [PureGoMe](https://doi.org/10.5281/zenodo.4337242)
 
-PuReGoMe is a project aimed at understanding Dutch public sentiment during the COVID-19 outbreak period by analysing real-time Twitter data. It provides a collection of Python scripts and Jupyter notebooks for this purpose.
+[PureGoMe](https://doi.org/10.5281/zenodo.4337242) is a project aimed at understanding Dutch public sentiment during the COVID-19 outbreak period by analysing real-time Twitter data. It provides a collection of Python scripts and Jupyter notebooks for this purpose.
 
 - PureGoMe can be downloaded from the project repository, while metadata is accessible independently from the registry.
 - PuReGoMe's GitHub repository has detailed records of the development history.
@@ -64,7 +68,7 @@ PuReGoMe is a project aimed at understanding Dutch public sentiment during the C
 
 #### Example 3: [gammaShiny](https://doi.org/10.5281/zenodo.4139005)
 
-gammaShiny is an application that provides enhanced graphical user interfaces for the R gamma package8. It is used to process in-situ gamma-ray spectrometry measurements for luminescence dating.
+[gammaShiny](https://doi.org/10.5281/zenodo.4139005) is an application that provides enhanced graphical user interfaces for the R gamma package8. It is used to process in-situ gamma-ray spectrometry measurements for luminescence dating.
 
 - gammaShiny has been deposited in the HAL French national archive and it has a persistent globally unique identifier, with the HAL identifier of the metadata record and a SWHID, identifying specifically the software artefact on the Software Heritage universal software source code archive.
 - Thanks to the HAL platform, where a licence is mandatory, gammaShiny is under a GNU General Public Licence v3.0.

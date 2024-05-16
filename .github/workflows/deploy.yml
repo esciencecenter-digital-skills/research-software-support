@@ -1,44 +1,19 @@
 name: Deploy to gh-pages
 
 on: 
-  push:
+  [release, workflow_dispatch]
 env:
   NUXT_APP_CDN_URL: https://esciencecenter-digital-skills.github.io/research-software-support
 jobs:
-  get_content_config:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout content
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: config.json
-          sparse-checkout-cone-mode: false
-          path: ./content_config/
-    
-      - name: Show config path
-        run: |
-          pwd
-          ls -la
-          cd content_config
-          ls -la
-          cd -
-
-      - name: Upload content config file
-        uses: actions/upload-artifact@v4
-        with:
-          name: content_config
-          path: ./content_config/config.json
-  
   deploy_with_NEBULA:
-    needs: get_content_config
     permissions: 
       contents: write
-    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v0.4.0
     with:
-      config_artifact_name: content_config
-      nebula_ref: main
-
-
+      content_organization: esciencecenter-digital-skills
+      content_repository: research-software-support
+      content_ref: main
+      base_url: research-software-support
+      nebula_ref: v0.4.2
 
 
