@@ -1,7 +1,7 @@
 ---
 title: Exercise 3
 type: exercise
-order: 4
+order: 6
 ---
 
 # Exercise 3
@@ -9,6 +9,8 @@ order: 4
 ## Scenario
 
 You are part of a research team working on a complex simulation software that models climate change. The software is developed collaboratively by a diverse group of scientists, each contributing to different modules (e.g., ocean temperature modeling, atmospheric chemistry, etc.). The team has faced issues with code integration, where new contributions occasionally break existing functionalities or cause unexpected results, leading to delays in their research. You are considering the adoption of **Continuous Integration**.
+
+---
 
 ## Question
 
