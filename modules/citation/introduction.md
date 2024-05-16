@@ -1,3 +1,9 @@
+---
+title: Citing software
+type: reading
+order: 2
+---
+
 ## Citing software
 
 Software has become a crucial part of scientific research, yet it is not cited or credited as often and as easily as traditional research outputs. However, it is important to properly cite software, for many reasons, among which:

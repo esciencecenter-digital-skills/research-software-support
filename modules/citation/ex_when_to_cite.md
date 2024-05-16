@@ -1,3 +1,9 @@
+---
+title: What to cite?
+type: exercise
+order: 6
+---
+
 ## Exercise: Which software should I cite?
 Suppose you are writing a paper on your latest research and are putting together the reference list. During your research you have used all the software mentioned below. 
 
@@ -11,5 +17,3 @@ Suppose you are writing a paper on your latest research and are putting together
 - Your own local python script, used to execute the analysis
 
 Which software would you cite and which not? Why?
-
-:::

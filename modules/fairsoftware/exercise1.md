@@ -1,6 +1,10 @@
-# Exercise 1
+---
+title: What is FAIR?
+type: exercise
+order: 2
+---
 
-## What is FAIR?
+## Exercise: What is FAIR?
 
 ### FAIR principles (15 minutes)
 

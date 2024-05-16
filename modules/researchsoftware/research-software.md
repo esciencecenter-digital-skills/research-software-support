@@ -1,3 +1,8 @@
+---
+title: Research software
+type: reading
+order: 4
+---
 
 ## The role of research software (10 minutes)
 

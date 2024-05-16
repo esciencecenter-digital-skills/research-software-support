@@ -1,6 +1,10 @@
-# Exercise 2
+---
+title: FAIR in practice
+type: exercise
+order: 4
+---
 
-## FAIR in practice
+## Exercise: FAIR in practice
 
 Role playing exercise:
 One person presents the software, the other person gives feedback.

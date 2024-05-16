@@ -1,3 +1,9 @@
+---
+title: Research Software
+type: slides
+order: 3
+---
+
 <!-- .slide: data-state="title" -->
 
 # Research software
@@ -35,7 +41,7 @@ The data can be converted into an image using custom software.
 ## The research lifecycle
 
 <center>
-<img src="stories/_fairsoftware/researchcycle.png" alt="The Research Life Cycle" width="55%"/>
+<img src="media/researchcycle.png" alt="The Research Life Cycle" width="55%"/>
 </center>
 
 <small>Software is used all across the research lifecycle</small>
@@ -49,7 +55,7 @@ Software is used all across the research life cycle.
 <!-- .slide: data-state="standard" -->
 
 <center>
-<img src="stories/_fairsoftware/definition.png" width="55%">
+<img src="media/definition.png" width="55%">
 </center>
 
 <small>definition of Research Software from the FAIR4RS working group</small>

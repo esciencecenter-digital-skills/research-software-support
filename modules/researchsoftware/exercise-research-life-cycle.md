@@ -1,9 +1,14 @@
+---
+title: Research life cycle
+type: exercise
+order: 6
+---
 
 ## Exercise: Where does software fit in the research life cycle?
 
 Take a look at the research life cycle below.
 
-<img src="stories/_fairsoftware/researchcycle.png" alt="The Research Life Cycle" width="400"/>
+<img src="media/researchcycle.png" alt="The Research Life Cycle" width="400"/>
 
 Think of a piece of research software you have used or developed.
 

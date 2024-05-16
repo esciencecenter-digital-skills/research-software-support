@@ -1,9 +1,9 @@
 {
     "publicProps": {
-        "title": "Research Software Support platform",
+        "title": "Research Software Support",
+        "baseURL": "research-software-support",
         "repoName":"research-software-support",
         "repoOwner": "esciencecenter-digital-skills",
-        "repoTag": "main",
         "organization": "Netherlands eScience Center",
         "categoryOrder": ["Getting started", "Reusability", "Publishing & Citing", "Development", "Upcoming (under construction)"]
     }
