@@ -34,12 +34,12 @@ Untested software can be compared to uncalibrated experimental devices.
 
 <!-- .slide: data-state="standard" -->
 
-## Consequences of not testing your (research) software
+## Risks of untested research software
 
 <center>
-<img src="media/testing-motivation1.png" width="30%">
-<img src="media/testing-motivation2.png" width="30%">
-<img src="media/testing-motivation3.png" width="30%">
+<img src="media/testing-motivation1.png" width="30%" style="display:inline;">
+<img src="media/testing-motivation2.png" width="30%" style="display:inline;">
+<img src="media/testing-motivation3.png" width="30%" style="display:inline;">
 </center>
 
 
@@ -112,7 +112,7 @@ Finally, regression tests check for unexpected side-effects in existing features
 ## Continuous Integration and Continuous Deployment (CI/CD)
 
 <center>
-<img src="media/cicd_scheme.png" width="80%">
+<img src="media/cicd_scheme.png" width="50%">
 </center>
 
 Note:
@@ -128,7 +128,7 @@ Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown
 ## Benefits of continuous integration
 
 <center>
-<img src="media/benefits_of_ci.png" width="80%">
+<img src="media/benefits_of_ci.png" width="70%">
 </center>
 
 ---

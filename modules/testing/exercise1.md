@@ -1,7 +1,7 @@
 ---
 title: Exercise 1
 type: exercise
-order: 2
+order: 4
 ---
 
 # Exercise 1
