@@ -4,8 +4,6 @@ type: slides
 order: 2
 ---
 
----
-
 <!-- .slide: data-state="title" -->
 
 # Publishing Software

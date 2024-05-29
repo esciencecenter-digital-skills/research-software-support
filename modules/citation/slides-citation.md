@@ -4,8 +4,6 @@ type: slides
 order: 1
 ---
 
----
-
 <!-- .slide: data-state="title" -->
 
 # Software Citation
