@@ -4,13 +4,11 @@ type: slides
 order: 2
 ---
 
----
-
 <!-- .slide: data-state="title" -->
 
 # Publishing Software
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -25,7 +23,7 @@ This generally means the source code itself, ideally including instructions on h
 
 The goal is to allow others to find and use your code, if they so wish, without extreme levels of difficulty.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -48,7 +46,7 @@ Accessibility - the software can e.g. be downloaded and installed using a standa
 Interoperability - publishing the dependencies (e.g. software libraries) and input/output formats and versions is necessary for interoperability
 Reusability - it's only reusable if it's available, and if people know what they are allowed to do with it (based on its software license)
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -65,7 +63,7 @@ Reusability - it's only reusable if it's available, and if people know what they
 * Methods are not easily reproduced or even analysed
 * Nobody else can build on top of your research
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ## Modern publishing pipeline
@@ -76,7 +74,7 @@ Reusability - it's only reusable if it's available, and if people know what they
 * Registries
 * Software Paper
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Software repository
@@ -93,7 +91,7 @@ Note:
 
 See license, citation and software management chapters
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Software repository
@@ -104,7 +102,7 @@ Note:
 
 Anything is better than nothing. Gitlab and Github are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Tag/semantic versioning
@@ -115,7 +113,7 @@ If your software is used as a dependency of another software/workflow then speci
 
 Ideally, use "semantic versioning" in the form MAJOR.MINOR.PATCH (e.g. v2.1.5)
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Get a Persistent Identifier
@@ -129,7 +127,7 @@ Note:
 
 See Citation story
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Registries
@@ -141,7 +139,7 @@ Add a link to your software on a relevant public registry
 
 This aids greatly in Findability by relevant researchers
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ### Software Paper
@@ -155,7 +153,7 @@ Publish a journal article about the software specifically
 
 Some journals perform peer review of the software in question
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -165,7 +163,7 @@ For example, you can automate archiving on Zenodo by linking it to your github a
 
 See instructions in the "Automating software publication" tab of this story
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 

@@ -8,7 +8,7 @@ order: 3
 
 # Research software
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -34,7 +34,7 @@ The separate telescopes collect data that is synchronized with atomic clocks, an
 The data can be converted into an image using custom software.
 
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -50,7 +50,7 @@ Note:
 
 Software is used all across the research life cycle.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -71,7 +71,7 @@ The code written in R or Python for an analysis would be research software, howe
 Just like a custom-made Excel macro that is used to analyse data.
 Or a custom-made web application that is used to collect data.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -85,7 +85,7 @@ Note:
 
 The distinction is important
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -95,7 +95,7 @@ The distinction is important
 - Not all software used in research is research software
 - It is important to regard research software in the whole research lifecycle
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 

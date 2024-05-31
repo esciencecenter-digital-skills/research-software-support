@@ -4,13 +4,11 @@ type: slides
 order: 1
 ---
 
----
-
 <!-- .slide: data-state="title" -->
 
 # What is software?
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -29,7 +27,7 @@ Some data enthousiasts might say: *"Software is just data"*
 Note:
 Inside the computer, software is just some type of data. 
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -47,7 +45,7 @@ Software is ...
 Note:
 Software is stored as bits and read from disk, loaded into memory and processed in exactly the same way as other data. Software can be input, and software can be output.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -69,7 +67,7 @@ Note:
 For all other practical purposes it is often helpful to make a distinction between software and other data.
 Software is a tool, while data is the material that you use the tool on.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -95,7 +93,7 @@ Software is quite different from data, however. Consider:
 - Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
 - Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -114,7 +112,7 @@ This is not to say that software is inherently open, but that there is a broad o
 Consider GitHub (and other code hosting platforms), which are designed for this purpose.
 Consider also version control software, a good software development practice that builds in provenance.
 
----
+===
 
 
 <!-- .slide: data-state="standard" -->
@@ -125,7 +123,7 @@ Consider also version control software, a good software development practice tha
 - Some FAIR data management 
 - Wee need extra and different techniques for software management
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 

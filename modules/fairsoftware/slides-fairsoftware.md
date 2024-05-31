@@ -4,13 +4,11 @@ type: slides
 order: 1
 ---
 
----
-
 <!-- .slide: data-state="title" -->
 
 # FAIR software
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -35,7 +33,7 @@ The "telescope" is not a single tool, but complex: a "planet-scale array of eigh
 The separate telescopes collect data that is synchronized with atomic clocks, and the data is combined at highly specialised supercomputers.
 The data can be converted into an image using custom software.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -56,7 +54,7 @@ The code written in R or Python for an analysis would be research software, howe
 Just like a custom-made Excel macro that is used to analyse data.
 Or a custom-made web application that is used to collect data.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -71,7 +69,7 @@ Open Science encompasses many aspects of science.
 It is a movement that aims to make science — which includes software — more open, transparent, and accessible.
 This is supported by many organisations, including UNESCO.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -84,7 +82,7 @@ This is supported by many organisations, including UNESCO.
 Note:
 the FAIR principles standardize values that help openness, transparency, and accessibility.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -95,7 +93,7 @@ FAIR principles were originally designed for data, but are also applicable to so
 Designed also with other digital objects in mind, though actual description was data-specific.
 This has been extended meanwhile.
 
----
+===
 
 
 <!-- .slide: data-state="standard" -->
@@ -121,7 +119,7 @@ Software is quite different from data, however. Consider:
 - Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
 - Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -140,7 +138,7 @@ This is not to say that software is inherently open, but that there is a broad o
 Consider GitHub (and other code hosting platforms), which are designed for this purpose.
 Consider also version control software, a good software development practice that builds in provenance.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -155,7 +153,7 @@ Note:
 In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
 The group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -165,7 +163,7 @@ Note:
 These are the interpretations given to the FAIR principles for software by the working group.
 In many cases these are rephrased to better fit software, but in some cases they are also extended.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -191,7 +189,7 @@ Together they also provide functionality for versioning: when releasing a new ve
 
 For software-specific findability, though, Zenodo is insufficient. Here, you can think of more specific registries, such as PyPI, CRAN, or Bioconductor; depending on the language and domain of the software.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -208,7 +206,7 @@ A lot of accessibility is covered by the findability principles, but there are a
 Specifically, software may still be FAIR as long as its metadata is accessible.
 The code of the software itself, not the actual functional engine, could be considered metadata.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -227,7 +225,7 @@ These standards may also be domain-specific, such as the use of ontologies in th
 
 The second sub-principle refers to the use of unambiguous references to external objects, such as libraries, data, or models. A clear link allows the right object to be used by the software.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -253,7 +251,7 @@ In an open science context especially, Open Source licenses are the default choi
 They are numerous, but the choice is not always straightforward.
 It is advised to learn about the different licenses, about important considerations (e.g. dependencies and the role and identity of copyright holders) and to consult with specialists when in doubt.
 
----
+===
 
 ### FAIR is not a quality checklist
 
@@ -285,7 +283,7 @@ This ties into quality aspects like user documentation, installation instruction
 Note though, that there is no mention of correctness, nor of efficiency or security.
 Software may adhere perfectly to FAIR, yet produce the wrong results, in a painfully slow and inefficient process, while leaking personal information.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -302,7 +300,7 @@ As such, it informs a spectrum of software sustainability, and not a binary "FAI
 
 FAIR is not a perfect metric, but it is helpful, and tailored to specific values of open science.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -314,7 +312,7 @@ FAIR is not a perfect metric, but it is helpful, and tailored to specific values
 - Software places unique demands on FAIR, and provides unique opportunities
 - FAIRness is a spectrum
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 
