@@ -8,7 +8,7 @@ order: 1
 
 # Software Management Plans
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -25,7 +25,7 @@ The eScience Center participated in a project to map the Via Appia. Using a comb
 
 In this project, research software was used to process the satellite imagery and the ground-based measurements, and combine them into a 3D model of the Via Appia.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -43,7 +43,7 @@ Some are more straightforward than others:
 - Collecting: to collect data, to control instruments, to run simulations
 - Analysing: to analyse data, to generate models
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -69,7 +69,7 @@ This is a great opportunity to build on our collective knowledge and tools, and 
 
 Ensuring that the software is findable, accessible, usable and understandable is key to both reproducibility and reusability.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -81,7 +81,7 @@ One particular feature is that they depend on other software, and on the environ
 This means that it requires maintenance and updates to keep it functional, as the environments around it change.
 This is called software sustainability.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -97,7 +97,7 @@ This presentation will introduce you to the concept of software management plans
 We will look at different aspects of good software managements, as well as different needs for different types of software.
 Finally, we will take a look at some concrete examples of software management plans.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -121,7 +121,7 @@ They are increasingly required by funders and institutions.
 In an SMP it is explicitly stated what the software aims to do, who its target audience is, and what resources it is expected to need.
 It also addresses the intended lifespan, and allocates responsibility: who makes releases? Who maintains the software at the end of the project, and if so for how long?
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -149,7 +149,7 @@ By tackling them early, a conscious decision can be made rather than needing to 
 Resource planning moreover is vital for the sustainability of the software.
 Finally, the SMP will allow later verification of plans in a publicly funded project.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -165,7 +165,7 @@ To get started on creating a Software Management Plan, this practical guide has 
 Its first version was released in August of 2022, but it has since been, and will continue to be, updated.
 All past versions and the latest release are available on Zenodo via this DOI.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -184,7 +184,7 @@ Focusing on *project management*, the guide addresses licensing, maintenance, re
 
 Finally, the guide asks about the *purpose* of the software.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 <center>
@@ -202,7 +202,7 @@ It is important to be clear about the problem it addresses, and who the software
 Addressing the limitations of the software, as well as the advantages it will provide, help determine its scope.
 This will help the developers focus on the specific needs of the software.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -230,7 +230,7 @@ The format in which the software will be distributed is an important decision th
 *Code quality* should be addressed: what standards will be adhered to, and how will they be measured and supported?
 There are many tools that can help with this, and it is important to choose them early on to maintain consistent code quality throughout the project.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -252,7 +252,7 @@ In *developer documentation*, instructions on how to modify the software, and ho
 
 *Deployment documentation* explains any system requirements (such as dependencies) for deploying the software, and installation and testing instructions.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -284,7 +284,7 @@ What *resources* — human, infrastructure, financial - will be needed, and when
 
 Finally, a *risk analysis* should be performed: for instance, are there privacy or security concerns? Is there potential for vendor lock, or other considerations for future reliability and reuse?
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -304,7 +304,7 @@ A good SMP includes guidance on how to fill it out, including institution-specif
 
 An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -326,7 +326,7 @@ To address this, we can subset the core requirements to create different SMP tem
 
 The SMP Guide distinguishes software with low, medium, and high management needs.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -350,7 +350,7 @@ It is not intended to be used by others, and therefore its influence beyond the 
 Best practices during development (e.g. version control), as well as measures to enable its reuse (documentation, versioning, archiving) are appropriate and recommended.
 They are however not requirements, nor is long term maintenance planning necessary.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -374,7 +374,7 @@ More advanced requirements, such as code auditing, automated testing, software p
 This software's longer term **maintenance** is relevant as it will have a lifespan longer than the project in which it was developed.
 Software management planning should include providing information on archiving and citation as well as strategies for post-project maintenance and support.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -397,7 +397,7 @@ The **reliability** of this software is of utmost importance, and all possible a
 Its **maintenance** is not limited to the duration of the project in which it was developed, but should be maintained as long as it is in use.
 Thus, maintenance strategies, including funding and/or community development plans, should be in place.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -414,7 +414,7 @@ Deciding what level of management, and therefore which SMP template, is appropri
 The practical guide provides some guidance on how to make this decision.
 Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -426,7 +426,7 @@ Note:
 With a specific level of management in mind, the core requirements that are relevant for this software's management can be determined.
 The practical guide provides a clear overview of this.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -442,7 +442,7 @@ Software is found in all stages of the research cycle, and is used for many diff
 It comes in many shapes and sizes, and has different needs.
 Software stewardship starts with a good plan, and is an important scientific step: good software management leads to better science.
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 

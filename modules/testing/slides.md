@@ -8,7 +8,7 @@ order: 1
 
 ## Software Testing
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -28,7 +28,7 @@ Software testing can be done manually, where a human actively uses the software 
 
 Untested software can be compared to uncalibrated experimental devices.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -55,7 +55,7 @@ The loss of the Mars Climate Orbiter in 1999 is another prominent example of a c
 
 There is also the case of the Ariane flight V88, an European Space Agency rocket which was destroyed just 40 seconds after its launch due to a software bug; see https://en.wikipedia.org/wiki/Ariane_flight_V88.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -80,7 +80,7 @@ They preserve the expected functionality of the software.
 
 Manage complexity: Code that is easy to test is often easier to understand and maintain.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -103,7 +103,7 @@ The complete, integrated system is checked via the so-called system tests. The p
 
 Finally, regression tests check for unexpected side-effects in existing features after changes.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -119,7 +119,7 @@ Continuous Integration (CI) is a practice in software development where team mem
 
 Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown in the figure. CD is the practice of automatically deploying every working version of the project that passes the automated testing phase to its end-users.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -129,7 +129,7 @@ Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown
 <img src="media/benefits_of_ci.png" width="70%">
 </center>
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -139,7 +139,7 @@ Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown
 - Unit tests verify individual components, integration tests check component interactions
 - CI/CD streamline development and enhance deployment efficiency.
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 
