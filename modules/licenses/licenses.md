@@ -1,7 +1,7 @@
 ---
 title: Software licenses
 type: reading
-order: 4
+order: 6
 ---
 
 ## Software licenses

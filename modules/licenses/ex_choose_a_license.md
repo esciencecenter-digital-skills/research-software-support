@@ -1,10 +1,10 @@
 ---
 title: Choose a license
 type: exercise
-order: 5
+order: 7
 ---
 
-## Exercise 1: Choose a license for or using your policy (10 minutes)
+## Exercise 3: Choose a license for or using your policy (10 minutes)
 
 One of the concerns typically addressed in a software policy is licensing of software developed at the institution. Policies can choose a single license, or offer a range of options.
 

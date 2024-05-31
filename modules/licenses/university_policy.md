@@ -1,5 +1,5 @@
 ---
-title: University Policies
+title: Software policies
 type: reading
 order: 3
 ---
