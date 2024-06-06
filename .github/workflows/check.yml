@@ -12,7 +12,7 @@ jobs:
   deploy_with_NEBULA:
     permissions: 
       contents: write
-    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v1.0.0
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@main
     with:
       content_organization: ${{ github.event.repository.owner.name }}
       content_repository: ${{ github.event.repository.name }}
