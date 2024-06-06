@@ -14,7 +14,7 @@ jobs:
       contents: write
     uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v1.0.0
     with:
-      content_organization: ${{ github.event.repository.owner }}
+      content_organization: ${{ github.event.repository.owner.name }}
       content_repository: ${{ github.event.repository.name }}
       content_ref: ${{ github.sha }}
       nebula_ref: v1.0.0
