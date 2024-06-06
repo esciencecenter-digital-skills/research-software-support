@@ -1,7 +1,4 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
-name: Clean install and build check (no deploy) with dummy content
+name: Clean install and build check with content (no deployment)
 
 on:
   push:
@@ -12,33 +9,13 @@ on:
       - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout NEBULA
-      uses: actions/checkout@v4
-      with:
-          repository: esciencecenter-digital-skills/NEBULA
-          ref: v0.4.2
-          path: ./NEBULA
-
-    - name: Checkout content
-      uses: actions/checkout@v4
-      with:
-        path: ./content
-
-    - name: Set content path environment variable
-      run: echo "CONTENT_PATH=${PWD}/content" >> $GITHUB_ENV
-
-    - name: Run CI on Node.js 18.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18.x
-        cache: 'npm'
-        cache-dependency-path: './NEBULA/package-lock.json'
-    - run: |
-        cd NEBULA
-        npm ci
-    - run: |
-        cd NEBULA
-        npm run build
+  deploy_with_NEBULA:
+    permissions: 
+      contents: write
+    uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v0.4.2
+    with:
+      content_organization: ${{ github.repository_owner }}
+      content_repository: ${{ github.repository }}
+      content_ref: ${{ github.sha }}
+      nebula_ref: v0.4.2
+      deploy_to_ghpages: false
