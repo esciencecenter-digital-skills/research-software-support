@@ -1,7 +1,5 @@
 # Contributing to this Research Software Support platform
 
-## Quick start
-
 In the Research Software Support modules we want to provide a comprehensive overview of the different aspects of Research Software and how to provide support to researchers.
 This, as you can imagine, is no easy feat, and we need your help!
 So first of all, thank you very much for your interest in contributing to this project.

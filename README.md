@@ -4,6 +4,9 @@ This repository contains the contents for the Research Software Support platform
 ## Target audience
 The target audience for this material is University management and support staff. University management taking part in courses involving these modules may be involved in creating university policy around research software. The University support staff targeted are not themselves researchers or software engineers, but they support researchers and research software engineers in creating research software.
 
+## Contributing
+We welcome contributions to the content of the Research Software Support platform. Please view [the contributing guidelines](https://github.com/esciencecenter-digital-skills/research-software-support/blob/main/CONTRIBUTING.md) for more information.
+
 ## Technical documentation
 This platform uses the [NEBULA framework](https://github.com/esciencecenter-digital-skills/NEBULA).
 
