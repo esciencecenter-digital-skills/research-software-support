@@ -2,25 +2,22 @@
 
 ## Quick start
 
-In the Research Software Support modules we want to provide a comprehensive overview of the different aspects of research software support.
+In the Research Software Support modules we want to provide a comprehensive overview of the different aspects of Research Software and how to provide support to researchers.
 This, as you can imagine, is no easy feat, and we need your help!
 So first of all, thank you very much for your interest in contributing to this project.
 
 ### What can I do?
 
-- Contribute to the content discussion in the [chapter issues](https://github.com/esciencecenter-digital-skills/research-software-support/issues?q=is%3Aissue+is%3Aopen+label%3Astory), e.g. by listing good resources for information.
-- [Author a lesson](#elements-of-a-module), e.g. by:
-  - [Creating slides](#slides)
-  - [Designing an exercise](#exercises)
-  - [Curating online resources](#online-resources)
+- Contribute to the content discussion in the [module issues](https://github.com/esciencecenter-digital-skills/research-software-support/issues?q=is%3Aissue+is%3Aopen+label%3A%22module+update%22%2C%22new+module%22%2C%22all+modules%22), e.g. by listing good resources for information.
+- Author a new module by creating a [new issue and pr](#how-can-i-do-it), while taking into account the [documentation for creating a new module](https://github.com/esciencecenter-digital-skills/NEBULA-docs/blob/main/module-dir-structure.md)
 - Review a lesson module; both by looking at [open PRs](https://github.com/esciencecenter-digital-skills/research-software-support/pulls), as well as flagging issues for improvement in the [existing content](https://esciencecenter-digital-skills.github.io/research-software-support/).
 - [Provide feedback](https://github.com/esciencecenter-digital-skills/research-software-support/issues) on the different subjects covered: what did we miss? Should something be restructured?
 
 ### How can I do it?
 
-If you want to contribute to the content: look whether the issue you want to tackle [already exists](https://github.com/esciencecenter-digital-skills/research-software-support/issues) or make a [new issue](https://github.com/esciencecenter-digital-skills/research-software-support/issues/new), and [create a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with your changes from a fork or a branch.
+If you want to contribute to the content: look whether the issue you want to tackle [already exists](https://github.com/esciencecenter-digital-skills/research-software-support/issues) or make a [new issue](https://github.com/esciencecenter-digital-skills/research-software-support/issues/new), and [create a PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with your changes from a fork or a branch. 
 
-It is useful to [review the structure of the project](https://github.com/esciencecenter-digital-skills/NEBULA/blob/main/README.md#directory-structure-and-content-tags) before you start.
+It is useful to take a look at [the NEBULA documentation](https://github.com/esciencecenter-digital-skills/NEBULA-docs) and specifically review [the section on directory structure and content tags](https://github.com/esciencecenter-digital-skills/NEBULA-docs/blob/main/module-dir-structure.md) before you start. 
 
 ## Target audience
 
@@ -58,79 +55,3 @@ Where it is useful to mention these, consider linking to external resources that
 
 In general, it is better to link to external resources than to rewrite information that already exists elsewhere.
 This, too, will limit the amount of maintenance that is required.
-
-## Elements of a module
-
-A module can contain the following elements:
-
-- [slides](#slides), to be used in a classroom setting
-- [text](#text), targeted at self study participants
-- [exercises](#exercises), both for self study and for classroom use
-- curated [online resources](#online-resources), both for self study and for classroom use
-
-Ideally, all modules contain all elements.
-In the current state of the project, however, modules are still shifting and may be split up or combined with others.
-Therefore, the focus at this point is to accumulate material and to create a structure that makes sense.
-Completing all elements will be done at a future stage.
-
-### Slides
-
-Slides are essential when teaching a module in a classroom setting.
-They do not need to be long, however; a few slides to provide context and motivation is sufficient.
-
-It is important to include notes, however brief, on ever slide.
-The notes are crucial for any instructor preparing to teach with the materials.
-They are also relevant for self-study participants, who can use the slides with accompanying notes to get a quick introduction to the subject.
-
-Slides are written in a markdown file, which should be placed in the `/modules/{modulename}` directory and rendered with Reveal.js.
-Technical information about the structure of these files [is here](https://github.com/esciencecenter-digital-skills/research-software-support/blob/main/README.md#slides-with-revealjs).
-
-### Text
-
-As this material is partly targeted at self-study participants, we explicitly want to include text.
-
-This type of section is meant to illustrate the concepts that are also covered in the presentations but for self study purpose. In the future we might replace many of these with recorded videos.
-
-### Exercises
-
-Any excercises are welcome, and there are no limits to the type of exercises that can be included.
-However, be explicit about the type of exercise at the top of the page:
-
-- Should it be done live or online?
-- Is it done individually or in groups, and if in groups, how big should the groups be?
-- What is the expected duration of the exercise?
-
-Furthermore, provide information on preparation for the instructor:
-
-- What materials, if any, are necessary?
-- What preparation, if any, is necessary?
-
-If there are online resources that are relevant for the exercise, provide direct links instead of descriptions.
-
-Finally, provide information on the expected outcome of the exercise.
-
-Exercises are written in markdown, as chapters in the `modulename.md` file.
-Technical information about the structure of this file [is here](#the-modulenamemd-file).
-
-### Online resources
-
-The online resources are the meat of the modules.
-They provide the most detailed information to relevant content, and their collection should be comprehensive.
-
-An online resource should be linked (see [lesson philosophy](#philosophy)), but in a specific way, and with clear context:
-
-- Why is this resource relevant?
-- What is the goal of reading the resource?
-- What is the expected time investment?
-
-In addition, be clear about the part of the resource that is important.
-The links should go directly to the relevant part of the resource, and if that is not possible, clear pointers (e.g. the name of sub-headers) should be provided.
-If the relevant part is over before the end of the linked page, explicitly add this information before the link.
-
-And optionally, consider adding:
-
-- Target audience or level of the resource (e.g. "technical resource, optional")
-- Discussion points for the classroom
-
-Online resources are written in markdown, in `modules/{modulename}/recources.md`.
-Technical information about the structure of this file [is here](#the-modulenamemd-file).
