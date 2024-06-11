@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: Versioning & Changelog
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Versioning" widemd=1}

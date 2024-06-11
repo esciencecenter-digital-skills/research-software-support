@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: Software documentation
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Documentation" widemd=1}

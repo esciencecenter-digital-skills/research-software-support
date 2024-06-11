@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: High Performance Computing (HPC)
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="High Performance Cluster" widemd=1}

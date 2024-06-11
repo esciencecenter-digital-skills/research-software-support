@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: Software project organization
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Software project organization" widemd=1}

@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: Environments & Containers
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Environments" widemd=1}

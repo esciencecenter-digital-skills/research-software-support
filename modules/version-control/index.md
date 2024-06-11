@@ -6,7 +6,7 @@ title: Software version control
 abstract: Local version control and collaborative code development, for example using Git and GitHub
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Software version control" widemd=1}

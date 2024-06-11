@@ -5,7 +5,7 @@ category: Upcoming (under construction)
 title: Notebooks
 author: eScience Center
 thumbnail: "nlesc-dummy.png"
-visibility: visible
+visibility: hidden
 ---
 
 :::Chapter{headline="Notebooks" widemd=1}
