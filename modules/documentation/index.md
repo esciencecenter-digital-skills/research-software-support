@@ -1,6 +1,5 @@
 ---
 id: 1
-trl: medium
 category: Upcoming (under construction)
 title: Software documentation
 author: eScience Center

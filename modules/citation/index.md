@@ -1,9 +1,9 @@
 ---
 id: 3
-trl: medium
 category: Publishing & Citing
 title: Software citation
 author: eScience Center
+description: 
 thumbnail: "thumbnail-citation.jpg"
 visibility: visible
 ---

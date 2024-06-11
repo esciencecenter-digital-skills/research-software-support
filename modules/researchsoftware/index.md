@@ -1,9 +1,9 @@
 ---
 id: 0
-trl: medium
 category: Getting started
 title: Research software
 author: eScience Center
+description: What is software, how is it made and what makes research software so special?
 thumbnail: "thumbnail-research-software.png"
 visibility: visible
 ---
