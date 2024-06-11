@@ -4,4 +4,6 @@ type: info
 order: 0
 ---
 
-Learning objectives for the Software Management Plans module
+- Understand what is a software management plan and why use it.
+- Get familiar with basic aspects of software management.
+- Appreciate the different needs for different software.
