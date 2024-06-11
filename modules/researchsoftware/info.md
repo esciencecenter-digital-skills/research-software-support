@@ -4,4 +4,5 @@ type: info
 order: 0
 ---
 
-Learning objectives for the Research Software module
+- Understand the concepts of software and research software.
+- Appreciate the difference between "research software" and "software in research".
