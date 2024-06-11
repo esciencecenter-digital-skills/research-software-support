@@ -4,4 +4,6 @@ type: info
 order: 0
 ---
 
-Learning objectives for the Citation module
+- Appreciate the importance of properly citing software.
+- Get familiar with the principles of software citation.
+- Learn how to make software citable.
