@@ -4,4 +4,5 @@ type: info
 order: 0
 ---
 
-Learning objectives for the Software Publication module
+- How, where and why publishing your software.
+- Understand the basis steps of a modern publication workflow.
