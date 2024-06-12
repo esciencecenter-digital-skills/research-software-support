@@ -80,7 +80,7 @@ Reusability - it's only reusable if it's available, and if people know what they
 ### Software repository
 
 Put all source files in a public version-controlled repository
-e.g. github, gitlab
+e.g. GitHub, GitLab
 
 * Software is immediately Findable
 * Naturally contains a log of all development history
