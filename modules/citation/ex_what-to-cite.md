@@ -4,7 +4,7 @@ type: exercise
 order: 6
 ---
 
-## Exercise: Which software should I cite?
+## Exercise: To cite, or not to cite, that is the question...
 Suppose you are writing a paper on your latest research and are putting together the reference list. During your research you have used all the software mentioned below. 
 
 - Ubuntu - Operating System ()
