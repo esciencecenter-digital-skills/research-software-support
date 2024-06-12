@@ -2,7 +2,7 @@
 title: Software testing
 category: Development
 order: 49
-description: Local testing of your software and using Continuous Integration and Continuous Deployment (CI/CD)
+abstract: Local testing of your software and using Continuous Integration and Continuous Deployment (CI/CD)
 author: eScience Center
 thumbnail: "thumbnail-testing.jpg"
 visibility: visible
