@@ -4,6 +4,10 @@ type: info
 order: 0
 ---
 
-- Understand what is a software management plan and why use it.
-- Get familiar with basic aspects of software management.
-- Appreciate the different needs for different software.
+Obtain the skills and knowledge necessary to address the following questions:
+
+- What is a software management plan?
+- Why are software management plans important for science?
+- Why is making a software management plan useful to researchers?
+- How do I identify what should be in a software management plan for a given piece of software?
+- How do I guide a researcher through tailoring a software management plan to their software?
