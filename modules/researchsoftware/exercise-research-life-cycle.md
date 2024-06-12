@@ -18,8 +18,9 @@ Where does it fit in the research life cycle?
 
 The following research software can also be used as examples:
 
-- [Xenon](https://research-software-directory.org/software/xenon)
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [Cross-Perspective Topic Modeling](https://research-software-directory.org/software/cptm)
+- [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [Xenon](https://research-software-directory.org/software/xenon)
