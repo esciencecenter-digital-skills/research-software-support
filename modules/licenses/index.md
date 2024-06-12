@@ -1,7 +1,7 @@
 ---
-id: 5
-category: Reusability
 title: Software licenses
+category: Reusability
+order: 25
 author: eScience Center
 description: What are software licenses, copyright and open-source, how are they related and why is it important to think about? 
 thumbnail: "thumbnail-licenses.jpg"

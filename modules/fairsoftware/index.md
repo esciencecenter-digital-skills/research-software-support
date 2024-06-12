@@ -1,9 +1,8 @@
 ---
-id: 3
-trl: medium
-category: Getting started
-description: FAIR stands for Findable, Accessible, Interoperable and Reusable. What does this mean for software?
 title: FAIR software
+category: Getting started
+order: 13
+description: FAIR stands for Findable, Accessible, Interoperable and Reusable. What does this mean for software?
 author: eScience Center
 thumbnail: "thumbnail-fair-software.jpg"
 visibility: visible

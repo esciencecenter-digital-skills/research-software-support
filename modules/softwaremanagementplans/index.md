@@ -1,8 +1,7 @@
 ---
-id: 1
-trl: medium
-category: Reusability
 title: Software Management Plans
+category: Reusability
+order: 21
 author: eScience Center
 description: Writing a Software Management Plan will help you to think ahead about important steps in software management.
 thumbnail: "thumbnail-smp.jpg"
