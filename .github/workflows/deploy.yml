@@ -14,5 +14,5 @@ jobs:
       content_organization: ${{ github.repository_owner}}
       content_repository: ${{ github.event.repository.name }}
       content_ref: ${{ github.sha }}
-      nebula_ref: v1.0.0
+      nebula_ref: v1.1.0
       deploy_to_ghpages: true
