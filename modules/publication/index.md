@@ -1,9 +1,9 @@
 ---
-id: 1
-trl: medium
-category: Publishing & Citing
 title: Software publication
+category: Publishing & Citing
+order: 31
 author: eScience Center
+abstract: Publication of research output is important for findability and reusability, but how does that work for software?
 thumbnail: "thumbnail-publication.jpg"
 visibility: visible
 ---
