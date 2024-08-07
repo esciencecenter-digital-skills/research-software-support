@@ -1,4 +1,4 @@
-# Improve a README
+# Include a README file
 
 The README file is usually the first thing users/collaborators see when visiting your GitHub repository.
 Use it to communicate important information about your project! For many smaller or mid-size projects, this is enough documentation.
