@@ -1,3 +1,9 @@
+---
+title: What is suitable documentation?
+type: exercise
+order: 4
+---
+
 # What is suitable documentation?
 
 ## Step 1: Choose a software project

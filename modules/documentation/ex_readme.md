@@ -1,3 +1,10 @@
+---
+title: Include a README file
+type: exercise
+order: 4
+---
+
+
 # Include a README file
 
 The README file is usually the first thing users/collaborators see when visiting your GitHub repository.

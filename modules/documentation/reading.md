@@ -12,6 +12,6 @@ order: 5
 
 <https://makeareadme.com>
 
-## Popular tools foor documentation
+## Popular tools foor building more complex documentation
 
 <https://coderefinery.github.io/documentation/tools>
