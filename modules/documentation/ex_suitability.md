@@ -11,10 +11,8 @@ order: 4
 Choose a software project for this exercise, preferably one you are familiar with.
 
 If you don't have a project in mind, you can use one of the following:
-- [Xenon](https://research-software-directory.org/software/xenon)
 - [Democracy Topic Modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
 
