@@ -1,3 +1,9 @@
+---
+title: When to use which documentation?
+type: exercise
+order: 4
+---
+
 # When to use which documentation?
 Joanne is working on her research software 'WeatherMap' that analyses and summarizes measurements from weather stations.
 
