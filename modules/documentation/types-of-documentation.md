@@ -1,6 +1,10 @@
-# Types of documentation and when to use them
-
 ---
+title: Types of documentation
+type: reading
+order: 3
+---
+
+# Types of documentation and when to use them
 
 ## Why document projects?
 
