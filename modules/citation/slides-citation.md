@@ -1,8 +1,14 @@
+---
+title: Software Citation
+type: slides
+order: 1
+---
+
 <!-- .slide: data-state="title" -->
 
 # Software Citation
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -24,7 +30,7 @@ Note:
 
 **Reproducibility**: Citation of specific software used is necessary for reproducibility, although not sufficient. Additional information such as configurations and platform issues are also needed.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ## The software citation principles
@@ -52,7 +58,7 @@ Note:
 
 **Specificity**: Software citations should facilitate identification of, and access to, the specific version of software that was used. Software identification should be as specific as necessary, such as using version numbers, revision numbers, or variants such as platforms.
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ## What software to cite?
@@ -61,14 +67,14 @@ Note:
 
 Which software would you cite?
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ## How to make your software citable?
 ##  
 ## `CITATION.cff`
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 ```
@@ -86,7 +92,7 @@ identifiers:
 date-released: 2021-08-11
 ```
 
----
+===
 
 <!-- .slide: data-state="keepintouch" -->
 

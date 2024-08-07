@@ -1,3 +1,9 @@
+---
+title: Reading material
+type: reading
+order: 7
+---
+
 # Reading material
 
 ## Testing
