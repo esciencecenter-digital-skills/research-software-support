@@ -1,8 +1,14 @@
+---
+title: Documentation
+type: slides
+order: 1
+---
+
 <!-- .slide: data-state="title" -->
 
 # Documentation
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -11,7 +17,7 @@
 - Provides context for your work
 - Allows your collaborators and future you to understand what has been done and why
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -23,7 +29,7 @@ Make your software reusable:
 - A user should be able to install your software
 - A contributor should be able to add or improve code
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -39,7 +45,7 @@ Developer documentation
 Deployment documentation
 - Hardware and software requirements
 
----
+===
 
 <!-- .slide: data-state="standard" -->
 
