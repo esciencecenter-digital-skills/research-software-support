@@ -12,26 +12,129 @@ order: 1
 
 <!-- .slide: data-state="standard" -->
 
-## Software is data
-
-Some data enthousiasts might say: *"Software is just data"*
+## Some history
 <center>
-<img src="media/bits_heart.jpg" width="55%">
+<img class="rotate-90" src="media/Lochkarte_Tanzorgel_cutout.jpg"  width="40%" data-rotate="90">
 </center>
-
-<small>Photo by <a href="https://unsplash.com/@swimstaralex?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alexander Sinn</a> on <a href="https://unsplash.com/photos/a-heart-is-shown-on-a-computer-screen-KgLtFCgfC28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<small>Photo by <a href="https://www.wikidata.org/wiki/Q106975068">Stefan Kuhn</a> on <a href="https://commons.wikimedia.org/wiki/File:Lochkarte_Tanzorgel.jpg">Wikimedia</a>
 </small>
 
 
+Note:
+Who knows what this is?
+
+See next slide for explanation.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Some history
+<center>
+<img class="" src="media/Lochkarte_Tanzorgel.jpg"  width="40%">
+</center>
+<small>Photo by <a href="https://www.wikidata.org/wiki/Q106975068">Stefan Kuhn</a> on <a href="https://commons.wikimedia.org/wiki/File:Lochkarte_Tanzorgel.jpg">Wikimedia</a>
+</small>
+
+
+Note:
+A street organ's machinery is instructed by long "books" of cardboard with holes punched in it. Each hole triggers one specific note and/or instrument to play in the organ. In this way the organ can be "programmed" and the punch book can be considered the software of the organ.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Some history
+<center>
+<iframe width="560" height="315" src="https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
+</center>
+
+<small><a href="https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275">https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275</a>
+</small>
+
 <!-- Speaker notes -->
 Note:
-Inside the computer, software is just some type of data. 
+A long book of cardboard with holes punched in it is used to give the barrel organ instructions on which mechanical instruments should play what note at which time. 
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Software is data
+## Some history
+
+<center>
+<img src="media/Punch-card-cobol.jpg" width="55%">
+</center>
+
+<small>Photo by Rainer Gerhards on <a href="https://commons.wikimedia.org/wiki/File:Punch-card-cobol.jpg">Wikimedia</a>
+</small>
+
+
+<!-- Speaker notes -->
+Note:
+Who knows what this is? Looks similar to the previous thing, right? This is software.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Some history
+
+<center>
+<iframe width="560" height="315" src="https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
+</center>
+<small><a href="https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540">https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540</a>
+</small>
+
+<!-- Speaker notes -->
+Note:
+This software was written using special typewriters that would punch holes in cardboard cards. It would encode instructions to the computer hardware, in this case the hardware is a UNIVAC 90/30 (1974). One punchcard from the old UNIVAC 90/30 system would hold a single line of code. A program usually consisted of a whole stack of these cards.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Some history
+
+<center>
+<iframe width="560" height="315" src="https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
+</center>
+<small><a href="https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793">https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793</a>
+</small>
+
+<!-- Speaker notes -->
+Note:
+These punchcards would be loaded into the computer to instruct which parts of the hardware should act in which way and when. In this video, you see an even older computer, the Harwell Dekatron or W.I.T.C.H. (1952), which reads its software from perforated paper tape. 
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Software now
+
+<center>
+<img src="media/software-development.jpg" width="55%">
+</center>
+<small>Photo by <a href="https://unsplash.com/@cdr6934?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Ried</a> on <a href="https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+  
+<!-- Speaker notes -->
+Note:
+These days, software usually gets written using a computer, in a text editor program, so the act of writing software requires software itself. The software is stored in memory and on a hard disk rather than on cardboard (remember, one card per line...), but it basically still does the same: Software is a set of instructions that tells hardware what to do.
+
+==
+
+<!-- .slide: data-state="empty-slide" data-background-iframe="https://www.online-python.com/" -->
+
+<!-- Speaker notes -->
+Note:
+On this website you can experiment with writing software (python code) yourself: 
+https://www.online-python.com
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Software is like other data
 
 Software is ...
 
@@ -39,39 +142,17 @@ Software is ...
 - read, loaded and processed
 - can be input, and can be output
 
-... just like all other data
 
 <!-- Speaker notes -->
 Note:
-Software is stored as bits and read from disk, loaded into memory and processed in exactly the same way as other data. Software can be input, and software can be output.
+Software is stored as bits and read from disk, loaded into memory and processed in exactly the same way as other data. Software can be input, and software can be output. In fact, one of the major breakthroughs in computer science was when people realized that the instructions of the machine could be handled and stored the same as the data that it operated on. 
+
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Software is <u>not</u> data
-
-Everyone but the data enthousiast: *"Software is not data"*
-
-
-<center>
-<img src="media/tools.jpg" width="55%">
-</center>
-
-<small>Photo by <a href="https://unsplash.com/@barnimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Barn Images</a> on <a href="https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-</small>
-
-<!-- Speaker notes -->
-Note:
-For all other practical purposes it is often helpful to make a distinction between software and other data.
-Software is a tool, while data is the material that you use the tool on.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Software is <u>not</u> data
+## Software is <u>not</u> 'just' data
 
 Software is...
 
@@ -119,9 +200,9 @@ Consider also version control software, a good software development practice tha
 
 ## Take home messages
 
-- Software is a special kind of data
-- Some FAIR data management 
-- Wee need extra and different techniques for software management
+- Software are the instructions that tell the hardware (computer) what to do
+- Software is a 'living thing'
+- We need extra and different techniques for good software management
 
 ===
 
