@@ -23,6 +23,8 @@ order: 1
 Note:
 Who knows what this is?
 
+See next slide for explanation.
+
 ==
 
 <!-- .slide: data-state="standard" -->
@@ -36,7 +38,7 @@ Who knows what this is?
 
 
 Note:
-Who knows what this is?
+A street organ's machinery is instructed by long "books" of cardboard with holes punched in it. Each hole triggers one specific note and/or instrument to play in the organ. In this way the organ can be "programmed" and the punch book can be considered the software of the organ.
 
 ==
 
