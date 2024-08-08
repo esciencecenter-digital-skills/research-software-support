@@ -1,3 +1,9 @@
+---
+title: Research software
+type: exercise
+order: 3
+---
+
 ## Exercise 2
 
 In breakout groups of 3-4 people, identify 3 commonly used version control systems or tools that you have heard of (or used yourself) (for example: Git). 

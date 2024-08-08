@@ -1,3 +1,8 @@
+---
+title: Research software
+type: exercise
+order: 2
+---
 
 ## Exercise 1
 
