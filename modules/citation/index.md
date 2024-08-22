@@ -3,7 +3,7 @@ title: Software citation
 category: Publishing & Citing
 order: 33
 author: eScience Center
-dabstract: Learn how and when to cite research software and make your software citable and why it is important. 
+abstract: Learn how and when to cite research software and make your software citable and why it is important. 
 thumbnail: "thumbnail-citation.jpg"
 visibility: visible
 ---
