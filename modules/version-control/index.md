@@ -5,7 +5,7 @@ category: Development
 title: Software version control
 abstract: Local version control and collaborative code development, for example using Git and GitHub
 author: eScience Center, TU Delft
-thumbnail: "nlesc-dummy.png"
+thumbnail: "thumbnail-versioncontrol.jpg"
 visibility: visible
 ---
 
