@@ -8,7 +8,7 @@ thumbnail: "thumbnail-citation.jpg"
 visibility: visible
 ---
 
-[thumbnail-citation](https://unsplash.com/photos/green-and-black-rope-BW0vK-FA3eg)
 
-Photo by <a href="https://unsplash.com/@clintadair?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clint Adair</a> on <a href="https://unsplash.com/photos/green-and-black-rope-BW0vK-FA3eg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@mrika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mrika Selimi</a> on <a href="https://unsplash.com/photos/a-pen-sitting-on-top-of-a-piece-of-paper-1ZO0QLfGe0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
   
