@@ -40,11 +40,23 @@ In version control systems, documents start with a base version and record all t
 
 ## Changes are stored
 <center>
-<img src="media/commit-message.png" width="80%">
+<img src="media/git-diff.png" width="80%">
 </center>
 
 note:
-A version control system (like git) keeps track of the individual changes for us, along with some useful metadata. A set of changes, along with its metadata in git is called a "commit". 
+A version control system (like git) keeps track of the individual changes for us. 
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Changes are stored
+<center>
+<img src="media/git-log.png" width="80%">
+</center>
+
+note:
+The changes are stored along with some useful metadata. A set of changes, along with its metadata is called a "commit". 
 
 ===
 
