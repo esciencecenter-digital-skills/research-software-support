@@ -8,5 +8,9 @@ thumbnail: "thumbnail-testing.jpg"
 visibility: visible
 ---
 
-[thumbnail-testing](https://unsplash.com/photos/macbook-pro-2JDDn7iSGH8?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
-Photo by <a href="https://unsplash.com/@wocintechchat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christina @ wocintechchat.com</a> on <a href="https://unsplash.com/photos/macbook-pro-2JDDn7iSGH8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+A cut-out of the following image:
+
+Crash test dummy in a 2010 Hyundai Tucson GLS at the Insurance Institute for Highway Safety Vehicle Research Center.
+This file is licensed under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en) license.
+[thumbnail-testing](https://commons.wikimedia.org/wiki/File:IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg)
+Photo by Brady Holt
