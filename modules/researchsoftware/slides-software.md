@@ -114,6 +114,18 @@ These days, software usually gets written using a computer, in a text editor pro
 
 ==
 
+<!-- .slide: data-state="standard center" -->
+
+## Modern software
+<img src="media/VScode_snapshot.png" width="70%">
+<small>Screenshot of source code for <a href="https://github.com/DeepRank/deeprank2">DeepRank2</a></small>
+  
+<!-- Speaker notes -->
+Note:
+In this image, we can get a glimpse of the complexity of modern software. We can see that software has a certain structure (indicated by differently colored text), is often composed of many lines of code (right side of image shows the entire length of the code), and is split over multiple files (left).
+
+==
+
 <!-- .slide: data-state="empty-slide" data-background-iframe="https://www.online-python.com/" -->
 
 <!-- Speaker notes -->
