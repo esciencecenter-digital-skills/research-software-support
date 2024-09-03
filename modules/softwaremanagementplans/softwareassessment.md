@@ -16,7 +16,6 @@ Choose a software project for this exercise, preferably one you are familiar wit
 
 If you don't have a project in mind, you can use one of the following:
 
-
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
 - [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)

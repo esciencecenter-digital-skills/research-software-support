@@ -11,10 +11,12 @@ order: 4
 Choose a software project for this exercise, preferably one you are familiar with.
 
 If you don't have a project in mind, you can use one of the following:
-- [Democracy Topic Modelling](https://research-software-directory.org/software/democracy-topic-modelling)
+
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
+- [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 ## Step 2: Discuss type(s) of documentation
 
