@@ -15,17 +15,16 @@ You are probably using version control every day. Word documents store a history
 
 ===
 
-<!-- .slide: data-state="standard" -->
-<center>
+<!-- .slide: data-state="standard center" -->
 <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="45%">
-</center>
 
 <small> "Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com </small>
 
 ===
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard center"  -->
 ## Documents are...
+
 <div class="fragment">
   a series of changes
   <img style="height: 30vh; margin: 0; padding: 0;" src="https://swcarpentry.github.io/git-novice/fig/play-changes.svg"/>
@@ -36,24 +35,22 @@ In version control systems, documents start with a base version and record all t
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Changes are stored
-<center>
+
 <img src="media/git-diff.png" width="80%">
-</center>
 
 note:
 A version control system (like git) keeps track of the individual changes for us. 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Changes are stored
-<center>
+
 <img src="media/git-log.png" width="80%">
-</center>
 
 note:
 The changes are stored along with some useful metadata. A set of changes, along with its metadata is called a "commit". 
@@ -79,12 +76,11 @@ As long as the changes are not made to the same section (line of text) in a docu
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## The right tool?
-<center>
+
 <img src="media/repository_logos.png" width="90%">
-</center>
 
 note:
 Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents. It is often good to know what is the default or most-used tool in your university, institute or group. 
