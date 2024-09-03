@@ -117,9 +117,10 @@ These days, software usually gets written using a computer, in a text editor pro
 <!-- .slide: data-state="standard center" -->
 
 ## Modern software
+
 <img src="media/VScode_snapshot.png" width="70%">
 <small>Screenshot of source code for <a href="https://github.com/DeepRank/deeprank2">DeepRank2</a></small>
-  
+
 <!-- Speaker notes -->
 Note:
 In this image, we can get a glimpse of the complexity of modern software. We can see that software has a certain structure (indicated by differently colored text), is often composed of many lines of code (right side of image shows the entire length of the code), and is split over multiple files (left).
@@ -137,32 +138,61 @@ https://www.online-python.com
 
 <!-- .slide: data-state="standard" -->
 
-## Software is like other data
+## Software is also data
 
-Software is ...
+==
 
-- stored as bits 
-- read, loaded and processed
-- can be input, and can be output
+<!-- .slide: data-state="standard" -->
+
+## Software is a form of data
+
+<table style="width: 100%; text-align: left;">
+  <tr>
+    </td>
+    <td style="vertical-align: top">
+      <p style="font-size: 1.5em; font-weight: bold">Software can be</p>
+      <ul style="margin-top: 10px; margin-left: 0">
+        <li style="margin-bottom: 20px;">stored as bits</li>
+        <li style="margin-bottom: 20px;">read, loaded, and processed</li>
+        <li style="margin-bottom: 20px;">input and/or output</li>
+        <ul style="text-align: right; padding:0">... just like other data</ul> 
+      </ul>
+    </td>
+    <td class="fragment" data-fragment-index="1" style="vertical-align: top; width: 55%;">
+      <img src="media/data_definition.png" width="100%">
+      <div style="text-align: center;">
+        <small>Definition by <a href="https://www.merriam-webster.com/dictionary/data/">Merriam Webster English Dictionary</a></small>
+      </div>
+  </tr>
+</table>
+
 
 
 <!-- Speaker notes -->
 Note:
-Software is stored as bits and read from disk, loaded into memory and processed in exactly the same way as other data. Software can be input, and software can be output. In fact, one of the major breakthroughs in computer science was when people realized that the instructions of the machine could be handled and stored the same as the data that it operated on. 
+- Software is stored as bits and read from disk, loaded into memory, and processed similar to other types of data. 
+- Software can be input, and software can be output. In fact, one of the major breakthroughs in computer science was when people realized that the instructions of the machine could be handled and stored the same as the data that it operated on. 
+- And fits all 3 dictionary definitions of data quite well. 
 
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
-## Software is <u>not</u> 'just' data
+## BUT
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Software is a special type of data
 
 Software is...
 
-- **complex**: code is creatively generated, interconnected and multi-layered
-- **interdependent**: it builds upon and therefore depends on other software
-- **executable**: it is not static, but can be run (to process data)
-- **dynamic**: it can (and will) break soon, needs to be updated 
+- **complex**: it is creatively generated, interconnected, and multi-layered
+- **interdependent**: it builds upon and therefore depends on other software (and data)
+- **executable**: it needs to be run to have a value (e.g. to process data)
+- **dynamic**: it can (and will) break soon and therefore needs to be regularly updated 
 
 <!-- Speaker notes -->
 Note:
@@ -173,9 +203,34 @@ Software and data both are digital objects, sharing certain characteristics: the
 Software is quite different from data, however. Consider:
 
 - Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
-- Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time.
-- Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
-- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
+- Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time. In the context of research software it also often depends on the data, data formats, data standards, metadata, etc, which also change when new equipment becomes available.
+- Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. While most forms of data can stand on their own (e.g. I can look at the list of ages of all the people in a room and make conclusions about average age, etc.), software cannot be directly interpreted (only in the context of what it does).
+- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Versioning of software is very common, while data is often static (though versions may happen).
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Software requires dedicated maintenance
+
+- Software needs to be actively maintained to remain useable.
+  - This is contrary to 'regular' data, which is expected to remain static forever.
+- Maintenance is often lacking in academic contexts
+  - lack of funding
+  - lack of incentives/rewards
+  - lack of understanding and expertise (maintenance is a different from creation)
+  - individualistic work with fast turnover
+
+
+<!-- Speaker notes -->
+Note:
+'Regular' data can sometimes be versioned, but this is more the exception than the rule.
+
+Regarding the reasons for lack of maintenance:
+- funding opportunities for this do exist, but are rare and usually only for large projects
+- while you can sometimes publish a major update to a software package, this is also rare, and will even more rarely result in a high-impact/highly cited paper. it is also not highly appreciated e.g. on a CV.
+- while academics can often create software that "does the job" well, a different skillset is required to maintain the software (or write it in a way to facilitate maintenance)
+- academics often work on projects by themselves and then move on soon after their papers are published, leaving a knowledge gap for others to maintain the software
 
 ===
 
