@@ -1,7 +1,7 @@
 ---
 title: Further reading
 type: reading
-order: 4
+order: 5
 ---
 
 ## Resources

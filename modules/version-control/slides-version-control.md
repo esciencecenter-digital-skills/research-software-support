@@ -1,5 +1,5 @@
 ---
-title: Slides
+title: Version Control Slides
 type: slides
 order: 1
 ---
@@ -25,7 +25,7 @@ You are probably using version control every day. Word documents store a history
 <!-- .slide: data-state="standard center"  -->
 ## Documents are...
 
-<div class="fragment">
+<div >
   a series of changes
   <img style="height: 30vh; margin: 0; padding: 0;" src="https://swcarpentry.github.io/git-novice/fig/play-changes.svg"/>
 </div>
@@ -34,6 +34,7 @@ note:
 In version control systems, documents start with a base version and record all the changes that happened on top of that base version. Because of this you can always "play back" to an earlier version, while it does not store duplicates.
 
 ===
+
 
 <!-- .slide: data-state="standard center" -->
 
@@ -59,12 +60,13 @@ The changes are stored along with some useful metadata. A set of changes, along 
 
 <!-- .slide: data-state="standard" -->
 ## More than one...
-<div class="fragment" style="float: left; width: 49%;">
+
+<div style="float: left; width: 49%;">
   independent changes
   <img style="height: 350px;" src="media/versions.svg"/>
 </div>
 
-<div class="fragment" style="float: right; width: 49%;">
+<div style="float: right; width: 49%;">
   can be merged
   <img style="height: 350px;" src="media/merge.svg"/>
 </div>
@@ -73,6 +75,19 @@ note:
 When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches".
 
 As long as the changes are not made to the same section (line of text) in a document (**conflict!**), the various changes can be merged together. 
+
+===
+
+<!-- .slide: data-state="standard center" -->
+## Collaboration
+
+<img style="height: 350px;" src="https://www.researchgate.net/profile/Mark-Ziemann/publication/371671830/figure/fig2/AS:11431281168661745@1687060872300/Distributed-version-control-Adapted-from-48.png" alt="Distributed version control. Adapted from [48]."/>
+
+<small>[The five pillars of computational reproducibility: Bioinformatics and beyond](https://www.researchgate.net/figure/Distributed-version-control-Adapted-from-48_fig2_371671830)</small>
+
+
+note:
+Collaborative code developers often make use of a remote server (like GitHub, or GitLab) as a central repository from which all other repositories derive. But this is not the only way you can use version control to do collaborative development. 
 
 ===
 
@@ -93,44 +108,9 @@ Git (for version control) with Gitlab and Github (for collaboration) are the mai
 ## Key Points
 - Version control is "track changes" on steroids, an unlimited **undo**.
 - Version control also allows many people to work in parallel.
-- 
+- For collaborative development a remote, cloud hosted repository is often used as central hub from which everyone . 
 
 ===
-
-<!-- .slide: data-state="standard" -->
-## The Holy Realms of Git
-
-<img src="https://swcarpentry.github.io/git-novice/fig/git-staging-area.svg">
-
-<ul>
-  <li><b>workspace</b>&nbsp;&nbsp;📂</li>
-  <ul>
-    <li>Your filesystem</li>
-  </ul>
-  <li class="fragment"><b>index</b>&nbsp;&nbsp;🕒
-    <ul>
-      <li>Staging area</li>
-      <li>Files wait patiently to be committed</li>
-    </ul>
-  </li>
-  <li class="fragment"><b>local repository</b>&nbsp;&nbsp;🗂️
-    <ul>
-      <li>Contains branches, commits, history, etc.</li>
-    </ul>
-  </li>
-<ul>
-
-===
-
-<!-- .slide: data-state="standard" -->
-## Crowded Staging Area / Index
-
-<img src="https://swcarpentry.github.io/git-novice/fig/git-committing.svg">
-
-The Staging Area / Index can hold many files and folders.
-
-===
-
 
 <!-- .slide: data-state="standard" data-background="media/footprint-g55586a507_1920.jpg" -->
 ## Tracking Changes: Key Points
@@ -139,7 +119,4 @@ The Staging Area / Index can hold many files and folders.
   - **working directory**: the files you can see
   - **staging area / index**: files about to be committed
   - **local repository**: the permanent record
-- **git status**&nbsp; shows the status of a repository
-- **git add**&nbsp; puts files in the staging area
-- **git commit**&nbsp; saves the staged content as a new commit in the local repository
-- Write short, descriptive, and imperative commit messages
+  - **remote repository**: a copy of the repository which is stored online and often acts as the central repository

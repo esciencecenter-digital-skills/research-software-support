@@ -1,7 +1,7 @@
 ---
 title: Terminology
 type: reading
-order: 1.5
+order: 2
 ---
 
 ## Terminology
