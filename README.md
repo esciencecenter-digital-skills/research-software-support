@@ -37,16 +37,39 @@ git clone git@github.com:esciencecenter-digital-skills/NEBULA.git
 To make sure that NEBULA knows where to find the content, we create the following environment variable:
 
 ```bash
-export CONTENT_PATH="~/path/to/your/content/repository"
+export CONTENT_PATH="/path/to/your/content/repository"
 ```
 
 ### Install dependencies
 
-Install the dependencies using the [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm):
+
+Check whether you have npm installed:
+```bash
+node -v
+npm -v
+```
+The above commands should output the installed versions, *e.g.*, `10.6.0` and `v20.9.0`.
+
+If this is not the case, proceed with installing the [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+First, [install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
 
 ```bash
-# node package manager
-npm install
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+Now, install node:
+```bash
+nvm install node
+```
+
+Finally, you can install the node package manager itself. Make sure you install it in the content repository directory
+```bash
+cd /path/to/your/content/repository
+npm install -g npm
 ```
 
 ### Local development build
