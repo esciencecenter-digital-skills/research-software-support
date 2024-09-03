@@ -91,6 +91,17 @@ Collaborative code developers often make use of a remote server (like GitHub, or
 
 ===
 
+<!-- .slide: data-state="standard" -->
+## Some terminology
+
+Files can be stored in:
+ - **working directory**: the files you can see
+ - **staging area / index**: files about to be committed
+ - **local repository**: the permanent record
+ - **remote repository**: a copy of the repository which is stored online and often acts as the central repository
+
+===
+
 <!-- .slide: data-state="standard center" -->
 
 ## The right tool?
@@ -106,17 +117,7 @@ Git (for version control) with Gitlab and Github (for collaboration) are the mai
 
 <!-- .slide: data-state="standard" -->
 ## Key Points
-- Version control is "track changes" on steroids, an unlimited **undo**.
-- Version control also allows many people to work in parallel.
-- For collaborative development a remote, cloud hosted repository is often used as central hub from which everyone . 
+- Version control is like unlimited **undo** in MS Word, and more
+- Version control also allows many people to work in parallel
+- For collaborative development a remote, cloud hosted repository is often used as central hub
 
-===
-
-<!-- .slide: data-state="standard" data-background="media/footprint-g55586a507_1920.jpg" -->
-## Tracking Changes: Key Points
-
-- Files can be stored in
-  - **working directory**: the files you can see
-  - **staging area / index**: files about to be committed
-  - **local repository**: the permanent record
-  - **remote repository**: a copy of the repository which is stored online and often acts as the central repository
