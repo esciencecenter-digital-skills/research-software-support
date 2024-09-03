@@ -59,7 +59,7 @@ A long book of cardboard with holes punched in it is used to give the street org
 
 <!-- .slide: data-state="standard center" -->
 
-## Some history
+## Some more history
 
 <img src="media/Punch-card-cobol.jpg" width="55%">
 
@@ -75,7 +75,7 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 <!-- .slide: data-state="standard center" -->
 
-## Some history
+## Some more history
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kaQmAybWn-w?si=OxhzN1myjx6d4vZt&amp;start=540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <small><a href="https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540">https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540</a>
@@ -89,7 +89,7 @@ This software was written using special typewriters that would punch holes in ca
 
 <!-- .slide: data-state="standard center" -->
 
-## Some history
+## Some more history
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYpPPIsxq64?si=ixgCa3fUJY5ccAkE&amp;start=793" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <small><a href="https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793">https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793</a>
