@@ -10,12 +10,12 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
-<center>
+
 <img class="rotate-90" src="media/Lochkarte_Tanzorgel_cutout.jpg"  width="40%" data-rotate="90">
-</center>
+
 <small>Photo by <a href="https://www.wikidata.org/wiki/Q106975068">Stefan Kuhn</a> on <a href="https://commons.wikimedia.org/wiki/File:Lochkarte_Tanzorgel.jpg">Wikimedia</a>
 </small>
 
@@ -27,12 +27,12 @@ See next slide for explanation.
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
-<center>
+
 <img class="" src="media/Lochkarte_Tanzorgel.jpg"  width="40%">
-</center>
+
 <small>Photo by <a href="https://www.wikidata.org/wiki/Q106975068">Stefan Kuhn</a> on <a href="https://commons.wikimedia.org/wiki/File:Lochkarte_Tanzorgel.jpg">Wikimedia</a>
 </small>
 
@@ -42,29 +42,26 @@ A street organ's machinery is instructed by long "books" of cardboard with holes
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
-<center>
-<iframe width="560" height="315" src="https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wbLuMd5zYww?si=a_eppMknE5TOFPCY&amp;start=277" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <small><a href="https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275">https://youtu.be/wbLuMd5zYww?si=3o0zptLY4c3i1ppk&t=275</a>
 </small>
 
 <!-- Speaker notes -->
 Note:
-A long book of cardboard with holes punched in it is used to give the barrel organ instructions on which mechanical instruments should play what note at which time. 
+A long book of cardboard with holes punched in it is used to give the street organ instructions on which mechanical instruments should play what note at which time. 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
 
-<center>
 <img src="media/Punch-card-cobol.jpg" width="55%">
-</center>
 
 <small>Photo by Rainer Gerhards on <a href="https://commons.wikimedia.org/wiki/File:Punch-card-cobol.jpg">Wikimedia</a>
 </small>
@@ -76,13 +73,11 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
 
-<center>
-<iframe width="560" height="315" src="https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-</center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kaQmAybWn-w?si=OxhzN1myjx6d4vZt&amp;start=540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <small><a href="https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540">https://youtu.be/kaQmAybWn-w?si=zRmBx4Df68gWuw3e&t=540</a>
 </small>
 
@@ -92,13 +87,11 @@ This software was written using special typewriters that would punch holes in ca
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Some history
 
-<center>
-<iframe width="560" height="315" src="https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-</center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SYpPPIsxq64?si=ixgCa3fUJY5ccAkE&amp;start=793" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <small><a href="https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793">https://youtu.be/SYpPPIsxq64?si=m__szsXBDI6SP5kx&t=793</a>
 </small>
 
@@ -108,13 +101,11 @@ These punchcards would be loaded into the computer to instruct which parts of th
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## Software now
 
-<center>
 <img src="media/software-development.jpg" width="55%">
-</center>
 <small>Photo by <a href="https://unsplash.com/@cdr6934?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Ried</a> on <a href="https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
   
 <!-- Speaker notes -->
