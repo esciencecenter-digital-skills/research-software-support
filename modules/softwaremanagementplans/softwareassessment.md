@@ -16,12 +16,12 @@ Choose a software project for this exercise, preferably one you are familiar wit
 
 If you don't have a project in mind, you can use one of the following:
 
+
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [Cross-Perspective Topic Modeling](https://research-software-directory.org/software/cptm)
 - [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
-- [Xenon](https://research-software-directory.org/software/xenon)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 Find the Practical Guide at [tinyurl.com/SMP-guide](https://doi.org/10.5281/zenodo.7589725).
 

@@ -19,7 +19,6 @@ Where does it fit in the research life cycle?
 The following research software can also be used as examples:
 
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [Cross-Perspective Topic Modeling](https://research-software-directory.org/software/cptm)
 - [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
