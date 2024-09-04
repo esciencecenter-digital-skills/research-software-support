@@ -1,8 +1,8 @@
 ---
-title: FAIR software
+title: Software in the Scientific Landscape
 category: Getting started
 order: 13
-abstract: FAIR stands for Findable, Accessible, Interoperable and Reusable. What does this mean for software?
+abstract: What role does software play in the scientific landscape? 
 author: eScience Center
 thumbnail: "thumbnail-fair-software.jpg"
 visibility: visible
