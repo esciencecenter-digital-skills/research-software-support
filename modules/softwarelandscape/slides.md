@@ -25,36 +25,31 @@ order: 1
 
 Note:
 
-
 ===
 
-<!-- .slide: data-state="standard center" id="landscape" data-background-image="media/landscape.jpg" -->
-## Landscape
+<!-- .slide: data-state="standard center black-overlay" id="landscape" data-background-image="media/landscape.jpg" -->
+## Current Landscape
 
-
+<img src="media/research-software-landscape-logos.svg" />
 
 note:
-- Discuss diversity of research support and the current state of the landscape (still developing, lots of uncertainty, non-existence of policies and actual positions)
-- Discuss reason why this is important and it should be on the agenda
-- Discuss that they might not get any questions about this, because researchers are not aware. They don't know they should ask, or what to ask. This might change once NWO implements the software management plans as requirement for grant applications.
+Research Software Engineers communities and networks
+Open Science 
+FAIR for Research Software 
+  - ReSA (Research Software Alliance)
+  - RDA (Research Data Alliance)
+  - FORCE11 (SCholarly Communication)
+
+FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
+Software Heritage (https://www.softwareheritage.org/)
+Research Software training
+  - Carpentries 
+  - Code Refinery
+
+Software Management Plan working group (NWO, eScience Center)
 
 ===
 
-<!-- .slide: data-state="standard center" -->
-## Initiatives
-
-- Research Software Engineers
-- Open Science 
-- FAIR for Research Software 
-- FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
-- Software Heritage (https://www.softwareheritage.org/)
-- Software Management Plan
-
-Note:
-There many initiatives related to research software which try to address these (previous slide) problems. 
-Many of these initiatives are related, they sometimes overlap.
-
-===
 
 <!-- .slide: data-state="standard center" id="rse-world" -->
 ## The worldwide RSE movement
@@ -256,13 +251,11 @@ Software may adhere perfectly to FAIR, yet produce the wrong results, in a painf
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
 ## FAIR is a spectrum
 
-<center>
 <img src="media/spectrum.png" width="60%" />
-</center>
 
 Note:
 
@@ -270,6 +263,22 @@ FAIR is not a checklist, but a set of principles.
 As such, it informs a spectrum of software sustainability, and not a binary "FAIR or not FAIR".
 
 FAIR is not a perfect metric, but it is helpful, and tailored to specific values of open science.
+
+===
+
+<!-- .slide: data-state="standard center" -->
+## Challenges
+- Still developing (the data community is further advanced)
+- As a result:
+  - Lots of uncertainty
+  - Few policies and job positions
+  - Researchers might not be aware of the issue
+- How can we activate the scientific community?
+
+Note:
+- Discuss diversity of research support and the current state of the landscape (still developing, lots of uncertainty, non-existence of policies and actual positions)
+- Discuss reason why this is important and it should be on the agenda
+- Discuss that they might not get any questions about this, because researchers are not aware. They don't know they should ask, or what to ask. This might change once NWO implements the software management plans as requirement for grant applications.
 
 ===
 
