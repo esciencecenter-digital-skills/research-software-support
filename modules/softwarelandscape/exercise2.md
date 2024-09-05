@@ -4,44 +4,14 @@ type: exercise
 order: 3
 ---
 
-## Exercise: Mapping the principles
+## **Exercise:** Mapping the principles
 
-### The FAIR4RS Principles are:
+Choose one of the three examples of software below. They have been described with statements that can be mapped to the FAIR4RS Principles. With each statement in the software description, identify the principle(s) it maps to, and the (sub)facet(s) of the principle(s) it addresses. A single statement may map to multiple (sub)facets.
 
-#### F: Software, and its associated metadata, is easy for both humans and machines to find.
+![FAIR for Research Software principles](media/fair4rs_principles.png)
 
-- F1. Software is assigned a globally unique and persistent identifier.
-  - F1.1. Components of the software representing levels of granularity are assigned distinct identifiers.
-  - F1.2. Different versions of the software are assigned distinct identifiers.
-- F2. Software is described with rich metadata.
-- F3. Metadata clearly and explicitly include the identifier of the software they describe.
-- F4. Metadata are FAIR, searchable and indexable.
 
-#### A: Software, and its metadata, is retrievable via standardised protocols.
-
-- A1. Software is retrievable by its identifier using a standardised communications protocol.
-  - A1.1. The protocol is open, free, and universally implementable.
-  - A1.2. The protocol allows for an authentication and authorization procedure, where necessary.
-- A2. Metadata are accessible, even when the software is no longer available.
-
-#### I: Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.
-
-- I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards.
-- I2. Software includes qualified references to other objects.
-
-#### R: Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).
-
-- R1. Software is described with a plurality of accurate and relevant attributes.
-  - R1.1. Software is given a clear and accessible license.
-  - R1.2. Software is associated with detailed provenance.
-- R2. Software includes qualified references to other software.
-- R3. Software meets domain-relevant community standards.
-
-### Three examples
-
-The following three examples of software have been described with statements that can be mapped to the FAIR4RS Principles. With each statement, identify the principle(s) it maps to, and the (sub)facet(s) of the principle(s) it addresses. A single statement may map to multiple (sub)facets.
-
-#### Example 1: [Comet](https://doi.org/10.1002/pmic.201200439)
+### Software 1: [Comet](https://doi.org/10.1002/pmic.201200439)
 
 [Comet](https://doi.org/10.1002/pmic.201200439) is a command-line tool and desktop application for tandem mass spectrometry sequence database search6.
 
@@ -53,7 +23,7 @@ The following three examples of software have been described with statements tha
 - Comet can be downloaded via the browser following the links provided in the metadata using https.
 - Comet uses standard data types from the proteomics domain for its input and output data that are documented in the metadata as functional annotations.
 
-#### Example 2: [PureGoMe](https://doi.org/10.5281/zenodo.4337242)
+### Software 2: [PureGoMe](https://doi.org/10.5281/zenodo.4337242)
 
 [PureGoMe](https://doi.org/10.5281/zenodo.4337242) is a project aimed at understanding Dutch public sentiment during the COVID-19 outbreak period by analysing real-time Twitter data. It provides a collection of Python scripts and Jupyter notebooks for this purpose.
 
@@ -66,7 +36,7 @@ The following three examples of software have been described with statements tha
 - PuReGoMe refers to other objects such as websites.
 - PureGoMe is registered in the Research Software Directory that captures the most relevant metadata, including the identifier, in searchable and indexable form.
 
-#### Example 3: [gammaShiny](https://doi.org/10.5281/zenodo.4139005)
+### Software 3: [gammaShiny](https://doi.org/10.5281/zenodo.4139005)
 
 [gammaShiny](https://doi.org/10.5281/zenodo.4139005) is an application that provides enhanced graphical user interfaces for the R gamma package8. It is used to process in-situ gamma-ray spectrometry measurements for luminescence dating.
 
