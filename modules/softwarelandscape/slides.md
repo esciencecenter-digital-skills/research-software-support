@@ -13,22 +13,35 @@ order: 1
 <!-- .slide: data-state="standard center" -->
 ## Some general observations:
 
-- Science increasingly dependends on software/code
-- Commercial software is often based on "proven" principles
+- Research depends on building on previous research
+- Science increasingly depends on software/code
+- Commercial software is often not *bleeding edge*
 - Commercial software is often closed source
-- Commercial research software decreases flexibility
+- Closed source software decreases flexibility
 - Closed source software hides the research method
-- Scientists write software themselves 
-- Scientists are not trained as software engineers
-- Software is not regarded as valuable research output
+- **So** Scientists write software themselves 
+- **But** Scientists are not trained as software engineers
+- Software is not (yet) regarded as valuable research output
 
 Note:
 
 
 ===
 
-<!-- .slide: data-state="standard center" id="landscape" -->
-## The landscape
+<!-- .slide: data-state="standard center" id="landscape" data-background-image="media/landscape.jpg" -->
+## Landscape
+
+
+
+note:
+- Discuss diversity of research support and the current state of the landscape (still developing, lots of uncertainty, non-existence of policies and actual positions)
+- Discuss reason why this is important and it should be on the agenda
+- Discuss that they might not get any questions about this, because researchers are not aware. They don't know they should ask, or what to ask. This might change once NWO implements the software management plans as requirement for grant applications.
+
+===
+
+<!-- .slide: data-state="standard center" -->
+## Initiatives
 
 - Research Software Engineers
 - Open Science 

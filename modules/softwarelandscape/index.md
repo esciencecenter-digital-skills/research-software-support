@@ -4,10 +4,9 @@ category: Getting started
 order: 13
 abstract: What role does software play in the scientific landscape? 
 author: eScience Center
-thumbnail: "thumbnail-fair-software.jpg"
+thumbnail: "thumbnail-landscape.jpg"
 visibility: visible
 ---
 
-<!-- [thumbnail-fair-software](https://unsplash.com/photos/three-men-sitting-while-using-laptops-and-watching-man-beside-whiteboard-wD1LRb9OeEo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
-
-Photo by <a href="https://unsplash.com/@austindistel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Distel</a> on <a href="https://unsplash.com/photos/three-men-sitting-while-using-laptops-and-watching-man-beside-whiteboard-wD1LRb9OeEo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+Photo by <a href="https://unsplash.com/@kalenemsley?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kalen Emsley</a> on <a href="https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
