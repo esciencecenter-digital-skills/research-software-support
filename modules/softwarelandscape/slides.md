@@ -1,161 +1,119 @@
 ---
-title: FAIR software
+title: Software Landscape
 type: slides
 order: 1
 ---
 
 <!-- .slide: data-state="title" -->
 
-# FAIR software
+# Software in the Scientific Landscape
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
+## Some general observations:
 
-## *Ceci n'est pas une photo*
-
-<center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg" width="55%">
-</center>
-
-<small>[The Event Horizon Telescope Collaboration et al. 2019](https://doi.org/10.3847/2041-8213/ab0ec7) (CC BY 3.0)</small>
+- Science increasingly dependends on software/code
+- Commercial software is often based on "proven" principles
+- Commercial software is often closed source
+- Commercial research software decreases flexibility
+- Closed source software hides the research method
+- Scientists write software themselves 
+- Scientists are not trained as software engineers
+- Software is not regarded as valuable research output
 
 Note:
 
-Software plays an important role in science. A first thought may be its role in data collection and analysis. Further, it may play a role in designing experiments, based on models generated. It may _be_ the experiment itself, simulate a research outcome based on data or ideas entered; it may also be the "brain" behind controlling crucial instrumentation.
-
-What scientific software can you think of?
-
-What role does it play?
-
-An example here: the Event Horizon Telescope, which took a "picture" of a black hole.
-The "telescope" is not a single tool, but complex: a "planet-scale array of eight ground-based radio telescopes" (wikipedia).
-The separate telescopes collect data that is synchronized with atomic clocks, and the data is combined at highly specialised supercomputers.
-The data can be converted into an image using custom software.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" id="landscape" -->
+## The landscape
 
-<center>
-<img src="media/definition.png" width="55%">
-</center>
-
-<small>definition of Research Software from the FAIR4RS working group</small>
+- Research Software Engineers
+- Open Science 
+- FAIR for Research Software 
+- FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
+- Software Heritage (https://www.softwareheritage.org/)
+- Software Management Plan
 
 Note:
-
-A definition of research software, from the FAIR4RS working group.
-It is important that not all software that is used in research is research software.
-For example, a text editor that is used to write a paper is not research software.
-Nor is powerpoint, a web browser, or the software used to guide the telescope.
-Even tools like R or Python are not necessarily research software.
-The code written in R or Python for an analysis would be research software, however.
-Just like a custom-made Excel macro that is used to analyse data.
-Or a custom-made web application that is used to collect data.
+There many initiatives related to research software which try to address these (previous slide) problems. 
+Many of these initiatives are related, they sometimes overlap.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" id="rse-world" -->
+## The worldwide RSE movement
 
-<center>
-<img src="media/unescoopenscience.png" width="50%">
-</center>
+<img src="https://www.fz-juelich.de/en/rse/about/rse-worldwide/rse-worldwide-1-2.jpg/@@images/image/great" >
+
+<small>[The national associations around the world as at 2023. (image courtesy of Ian Cosden, US RSE Association)](https://www.fz-juelich.de/en/rse/about/rse-worldwide)</small>
+
+Note:
+RSE stands for Research Software Engineer. This is a person that writes or contributes to Research Software. 
+The community of RSE's is growing and many strive for recognition of the RSE trade and respecting software as scientific output. 
+
+The eScience Center published their role description of RSEs in general and a job profile specific to RSEs at the eScience Center. 
+
+===
+
+<!-- .slide: data-state="standard center" -->
+## Open Science
+
+<img src="media/unescoopenscience.png" width=40%>
 
 <small>[UNESCO Recommendation on Open Science, 2021](https://creativecommons.org/2021/12/02/unesco-recommendation-on-open-science-ratified/) (CC BY IGO 3.0)</small>
 
-Note:
+note:
 Open Science encompasses many aspects of science.
 It is a movement that aims to make science — which includes software — more open, transparent, and accessible.
 This is supported by many organisations, including UNESCO.
 
 ===
 
-<!-- .slide: data-state="standard" -->
-
+<!-- .slide: data-state="standard center" -->
 ## The FAIR principles
 
-<center>
 <img src="media/fair.png" width="60%">
-</center>
 
-Note:
-the FAIR principles standardize values that help openness, transparency, and accessibility.
+note:
+The FAIR principles standardize values that help openness, transparency, and accessibility.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
+
+## FAIR (for data)
 
 ![screenshot Wilkinson 2016](media/fairwilkinson.png)
 
-Note:
-FAIR principles were originally designed for data, but are also applicable to software.
-Designed also with other digital objects in mind, though actual description was data-specific.
+note:
+FAIR principles were originally also with other digital objects in mind than just plain research data, though the actual description was very data-specific.
 This has been extended meanwhile.
 
 ===
 
+<!-- .slide: data-state="standard center" -->
 
-<!-- .slide: data-state="standard" -->
-
-## Software is not data
-
-Software is...
-
-- **complex**: code is creatively generated, interconnected and multi-layered
-- **interdependent**: it builds upon and therefore depends on other software
-- **executable**: it is not static, but can be run
-- **dynamic**: it can break over time, and versioning is common
-
-Note:
-While technically, software is a special kind of data (in that it is representation of information in a digital state), they are in essence quite different.
-
-Software and data both are digital objects, sharing certain characteristics: they can be assigned a DOI, and they can have a license.
-
-Software is quite different from data, however. Consider:
-
-- Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
-- Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time.
-- Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. Data, by contrast, stand on their own.
-- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Maintenance is also counter to academic culture; it does not fit in existing structures (both in terms of reward/recognition, but also in terms of funding and understanding of what is needed). Versioning of software is very common, while data is often static (though versions may happen).
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Software opportunities
-
-- Software is a **living thing**
-- Creative process allows for **early adoption** of good practices
-- Openness and transparency are **inherent** to software
-
-
-Note:
-The different nature of software also provides opportunities.
-Software is a living thing, and therefore it is easier to adopt good practices early on.
-Crucially, there is a community driven openness in software that long predates the open science movement.
-This is not to say that software is inherently open, but that there is a broad open culture, which also comes with existing tools and pathways to facilitate openness and transparency.
-Consider GitHub (and other code hosting platforms), which are designed for this purpose.
-Consider also version control software, a good software development practice that builds in provenance.
-
-===
-
-<!-- .slide: data-state="standard" -->
+## FAIR (for software)
 
 ![FAIR for Research Software paper](media/fair4rs_paper.png)
 
-Fair 4 Research Software (FAIR4RS) working group (2022)
+Fair for Research Software (FAIR4RS) working group (2022)
 [doi:10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
 
 ![Contributing Organizations](media/fair4rs_logos.png)
 
-Note:
+note:
 In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
 The group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
 
 ===
 
 <!-- .slide: data-state="standard" -->
+
+## FAIR (for software)
 
 ![FAIR for Research Software principles](media/fair4rs_principles.png)
 
