@@ -1,8 +1,8 @@
 ---
 title: Documentation
-category: Development
+category: Good Practices
 order: 13
-abstract: Why should researchers document their code?
+abstract: Why should researchers document their code? Which kinds of documentation are useful for what purpose?
 author: eScience Center
 thumbnail: "thumbnail-documentation.jpg"
 visibility: visible
