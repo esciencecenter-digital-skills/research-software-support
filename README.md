@@ -52,7 +52,7 @@ The above commands should output the installed versions, *e.g.*, `10.6.0` and `v
 
 If this is not the case, proceed with installing the [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-First, [install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
+First, [use nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script), the "node version manager", this is a shell script that enables the installation, management and use of multiple versions of the node runtime environment and package manager.
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
