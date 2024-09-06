@@ -43,7 +43,7 @@ export CONTENT_PATH="/path/to/your/content/repository"
 ### Install dependencies
 
 
-Check whether you have npm installed:
+Check whether you have node and npm installed:
 ```bash
 node -v
 npm -v
