@@ -68,7 +68,7 @@ nvm install node
 
 Finally, you can use npm (node package manager) to install the dependencies of NEBULA. Navigate to the NEBULA respository:
 ```bash
-cd /path/to/your/content/repository
+cd /path/to/your/NEBULA/repository
 npm install -g npm
 ```
 
