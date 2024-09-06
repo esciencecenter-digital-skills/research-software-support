@@ -61,7 +61,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-Now, install node:
+Now, install the the node Javascript runtime environment which includes the node package manager (npm):
 ```bash
 nvm install node
 ```
