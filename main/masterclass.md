@@ -3,8 +3,8 @@ title: Masterclass
 order: 3
 ---
 
-## Schedule
-
+## About
+The Research Software Support Masterclass is the live workshop version of these online materials. If you are interested in following or even hosting such a masterclass, have a look at the [training page](https://www.esciencecenter.nl/digital-skills/) or contact the [training team](mailto:training@esciencecenter.nl) at the Netherlands eScience Center.
 
 ## Homework
 
