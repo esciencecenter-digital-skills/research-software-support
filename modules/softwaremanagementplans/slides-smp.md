@@ -29,6 +29,12 @@ In this project, research software was used to process the satellite imagery and
 
 <!-- .slide: data-state="standard" -->
 
+<iframe width="800px" height="500px" src="https://www.youtube.com/embed/FvXZOHmOoSQ?si=OfFPQTpVvusgYqH5&amp;start=323" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+===
+
+<!-- .slide: data-state="standard" -->
+
 ## The research life cycle
 
 <center>
