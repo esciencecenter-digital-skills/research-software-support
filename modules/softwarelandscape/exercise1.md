@@ -6,7 +6,7 @@ order: 2
 
 ## Exercise: Study and present (20 - 30 minutes)
 
-Pick a concept, initiative or organization from this module's [slide deck](/modules/softwarelandscape/slides) and do a little research:
+Pick a concept, initiative or organization from this module's [slide deck](/modules/softwarelandscape/slides) or the [yellow pages](/main/yellowpages) and do a little research:
 
 ### Find out the following (10 minutes):
 
