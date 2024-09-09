@@ -18,7 +18,7 @@ One person (the researcher) takes some time to prepare to present a piece of sof
 
 Then you play out one of the following two situations:
 
-1. A researcher comes to a supporter with their piece of software and asks for support on managing their piece of software.
+1. A researcher comes to a supporter with their piece of software and asks for support on managing it.
 2. A research supporter approaches a researcher who is, according to the organization's records, a contributer to the software.
 
 Things for **the researcher** to be aware of and prepare before the conversation starts:
