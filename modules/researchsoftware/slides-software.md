@@ -247,15 +247,6 @@ Consider also version control software, a good software development practice tha
 - Software is a 'living thing'
 - We need extra and different techniques for good software management
 
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Further reading on software as data
-
-- https://www.blackliszt.com/2014/04/fundamental-concepts-of-computing-software-is-data.html
-- https://github.com/danielskatz/software-vs-data
-- https://doi.org/10.7287/peerj.preprints.2630v1
 
 ===
 
