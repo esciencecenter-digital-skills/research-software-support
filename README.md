@@ -37,15 +37,38 @@ git clone git@github.com:esciencecenter-digital-skills/NEBULA.git
 To make sure that NEBULA knows where to find the content, we create the following environment variable:
 
 ```bash
-export CONTENT_PATH="~/path/to/your/content/repository"
+export CONTENT_PATH="/path/to/your/content/repository"
 ```
 
 ### Install dependencies
 
-Install the dependencies using the [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm):
+
+Check whether you have node and npm installed:
+```bash
+node -v
+npm -v
+```
+The above commands should output the installed versions, *e.g.*, `10.6.0` and `v20.9.0`.
+
+If this is not the case, proceed with installing the [node package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+First, [use nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script), the "node version manager", this is a shell script that enables the installation, management and use of multiple versions of the node runtime environment and package manager.
 
 ```bash
-# node package manager
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+Now, install the the node Javascript runtime environment which includes the node package manager (npm):
+```bash
+nvm install node
+```
+
+Finally, you can use npm (node package manager) to install the dependencies of NEBULA. Navigate to the NEBULA respository:
+```bash
+cd /path/to/your/NEBULA/repository
 npm install
 ```
 
