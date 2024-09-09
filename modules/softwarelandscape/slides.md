@@ -6,47 +6,80 @@ order: 1
 
 <!-- .slide: data-state="title" -->
 
-# Software in the Scientific Landscape
+# Software in the Research Landscape
+
+===
+
+
+<!-- .slide: data-state="standard" -->
+### Why do researchers write software?
+**Trends in research**
+- Research depends on building on previous research
+- Research increasingly depends on software/code
+- Researchers want/need control over their methods
 
 ===
 
 <!-- .slide: data-state="standard center" -->
-## Some general observations:
+### Why do researchers write software?
+**Existing software not enough**
 
-- Research depends on building on previous research
-- Science increasingly depends on software/code
-- Commercial software is often not *bleeding edge*
-- Commercial software is often closed source
-- Closed source software decreases flexibility
-- Closed source software hides the research method
-- **So** Scientists write software themselves 
-- **But** Scientists are not trained as software engineers
-- Software is not (yet) regarded as valuable research output
-
-Note:
+- Existing software is not *bleeding edge*
+- Existing software is often closed source
+- Using closed-source software decreases flexibility
+- Closed-source software hides the research method
 
 ===
 
-<!-- .slide: data-state="standard center black-overlay" id="landscape" data-background-image="media/landscape.jpg" -->
+
+<!-- .slide: data-state="standard center" -->
+### Problems in research software
+
+- **So** researchers often write software themselves 
+- **But** researchers are not trained as software engineers
+- **And** Software is not (yet) regarded as valuable research output
+
+
+
+Note:
+First is a true statement. 
+Second statement describes a problem with code quality, sustainability and reproducibility
+Third statement uncovers a problem with attribution, funding, etc.
+
+===
+
+<!-- .slide: data-state="standard center" -->
+### This results in problems with:
+
+- Software quality and sustainability
+- Reproducibility of research
+- Attribution for researchers writing code
+- Funding for research software
+
+===
+
+<!-- .slide: data-state="standard black-overlay" id="landscape" data-background-image="media/landscape.jpg" -->
 ## Current Landscape
 
 <img src="media/research-software-landscape-logos.svg" />
 
 note:
-Research Software Engineers communities and networks
-Open Science 
-FAIR for Research Software 
+Many initiatives have been started to solve the problems that were mentioned. 
+
+- Research Software Engineers communities and networks
+- Open Science 
+- FAIR for Research Software 
   - ReSA (Research Software Alliance)
   - RDA (Research Data Alliance)
   - FORCE11 (SCholarly Communication)
 
-FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
-Software Heritage (https://www.softwareheritage.org/)
-Research Software training
+- FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
+- Software Heritage (https://www.softwareheritage.org/)
+- Research Software training
   - Carpentries 
   - Code Refinery
 
-Software Management Plan working group (NWO, eScience Center)
+- Software Management Plan working group (NWO, eScience Center)
 
 ===
 
@@ -149,10 +182,11 @@ Note:
 ## Take home messages
 
 - Software is an important part of research
-- FAIR4RS principles guide towards accessibility and openness of research software
-- FAIR is not a quality checklist
-- Software places unique demands on FAIR, and provides unique opportunities
-- FAIRness is a spectrum
+- Some problems arise due to 
+  - the role of software in research
+  - the nature of software
+  - how software is developed
+- Many initiatives have started in the last ten years to tackle these issues
 
 ===
 
