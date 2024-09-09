@@ -18,19 +18,18 @@ order: 1
 - Research increasingly depends on software/code
 - Researchers want/need control over their methods
 
-===
+==
 
 <!-- .slide: data-state="standard center" -->
 ### Why do researchers write software?
-**Existing software not enough**
+**Existing software is not ... enough**
 
 - Existing software is not *bleeding edge*
 - Existing software is often closed source
 - Using closed-source software decreases flexibility
 - Closed-source software hides the research method
 
-===
-
+==
 
 <!-- .slide: data-state="standard center" -->
 ### Problems in research software
@@ -39,14 +38,12 @@ order: 1
 - **But** researchers are not trained as software engineers
 - **And** Software is not (yet) regarded as valuable research output
 
-
-
 Note:
 First is a true statement. 
 Second statement describes a problem with code quality, sustainability and reproducibility
 Third statement uncovers a problem with attribution, funding, etc.
 
-===
+==
 
 <!-- .slide: data-state="standard center" -->
 ### This results in problems with:
@@ -69,7 +66,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 - Research Software Engineers communities and networks
 - Open Science 
 - FAIR for Research Software 
-  - ReSA (Research Software Alliance)
+  - [ReSA (Research Software Alliance)](https://www.researchsoft.org/)
   - RDA (Research Data Alliance)
   - FORCE11 (SCholarly Communication)
 
@@ -78,6 +75,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 - Research Software training
   - Carpentries 
   - Code Refinery
+  - The Turing Way
 
 - Software Management Plan working group (NWO, eScience Center)
 
@@ -109,7 +107,7 @@ The eScience Center published their role description of RSEs in general and a jo
 note:
 Open Science encompasses many aspects of science.
 It is a movement that aims to make science — which includes software — more open, transparent, and accessible.
-This is supported by many organisations, including UNESCO.
+This is supported by many organisations, including UNESCO. The Netherlands recently started its own program dedicated to open science called "Regie Orgaan Open Science NL"
 
 ===
 
@@ -121,7 +119,7 @@ This is supported by many organisations, including UNESCO.
 note:
 The FAIR principles standardize values that help openness, transparency, and accessibility.
 
-===
+==
 
 <!-- .slide: data-state="standard center" -->
 
@@ -133,7 +131,7 @@ note:
 FAIR principles were originally also with other digital objects in mind than just plain research data, though the actual description was very data-specific.
 This has been extended meanwhile.
 
-===
+==
 
 <!-- .slide: data-state="standard center" -->
 
@@ -145,9 +143,9 @@ This has been extended meanwhile.
 
 note:
 In 2022, the results of extensive community consultation were published in the FAIR for Research Software paper.
-The group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
+The working group behind this was a collaboration between the Research Software Alliance, the Research Data Alliance, and FORCE11.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -162,8 +160,24 @@ In many cases these are rephrased to better fit software, but in some cases they
 ===
 
 <!-- .slide: data-state="standard center" -->
-## Challenges
-- Still developing (the data community is further advanced)
+
+## Training
+
+
+![Research Software Training logo](media/RStraining.png)
+
+https://researchsoftwaretraining.nl/
+
+
+Note:
+The dutch research software training network brings together all initiatives on training for research software and related topics. You may know of the Carpentries, and you might be following these materials because you know of the Netherlands eScience Center's training program, but there is much more!
+
+===
+
+
+<!-- .slide: data-state="standard center" -->
+## Challenges of the Research Software Landscape
+- Still developing
 - As a result:
   - Lots of uncertainty
   - Few policies and job positions
@@ -175,6 +189,17 @@ Note:
 - Discuss reason why this is important and it should be on the agenda
 - Discuss that they might not get any questions about this, because researchers are not aware. They don't know they should ask, or what to ask. This might change once NWO implements the software management plans as requirement for grant applications.
 
+==
+
+<!-- .slide: data-state="standard center" -->
+## Practical implications for your work
+
+- Educate yourself and your surroundings
+- Familiarize yourself with your institute's software
+- Reach out to researchers (in a friendly manner) if they do not come to you
+- Inquire about software policies with management
+- Be aware that researchers might not be too willing
+
 ===
 
 <!-- .slide: data-state="standard" -->
@@ -182,11 +207,12 @@ Note:
 ## Take home messages
 
 - Software is an important part of research
-- Some problems arise due to 
+- Some problems arise due to the combination of:
   - the role of software in research
   - the nature of software
   - how software is developed
-- Many initiatives have started in the last ten years to tackle these issues
+- Many initiatives have started in the last decade to tackle these issues
+- The landscape is still under heavy development
 
 ===
 

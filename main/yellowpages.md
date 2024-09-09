@@ -21,6 +21,7 @@ order: 3
 - [FORCE11 (Future of Research Communications and e-Scholarship)](https://force11.org/)
 
 ## Research Software training/learning
+- [Research Software Training](https://researchsoftwaretraining.nl)
 - [Carpentries](https://carpentries.org/) 
 - [Code Refinery](https://coderefinery.org/)
 - [The Turing Way](https://book.the-turing-way.org/)
