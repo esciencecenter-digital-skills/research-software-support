@@ -1,7 +1,7 @@
 ---
-title: Research life cycle
+title: Research Life Cycle
 type: exercise
-order: 6
+order: 5
 ---
 
 ## Exercise: Where does software fit in the research life cycle?
