@@ -4,9 +4,11 @@ type: exercise
 order: 2
 ---
 
-## Exercise: Study and present (20 - 30 minutes)
+## Exercise: Study and present (20 - 30 minutes for 2-5 groups)
 
-Pick a concept, initiative or organization from this module's [slide deck](/modules/softwarelandscape/slides) or the [yellow pages](/main/yellowpages) and do a little research:
+Pick a concept, initiative or organization from this module's [slide deck](/modules/softwarelandscape/slides) or the [yellow pages](/main/yellowpages) related to the Research Software Landscape (or find one you think should be there and while you are at it, [start a contribution](/main/contribute)). 
+
+Then do a little research:
 
 ### Find out the following (10 minutes):
 
@@ -18,5 +20,5 @@ Pick a concept, initiative or organization from this module's [slide deck](/modu
 1. Are there other concepts related to your chosen concept?
 1. What else can you tell? Spicy details, fun facts? 
 
-### Present (5 minutes)
-With your group, present what you learned in 5 minutes of which you reserve one minute for questions. 
+### Present (4 minutes):
+With your group, present what you learned in 4 minutes of which you reserve one minute for questions. 
