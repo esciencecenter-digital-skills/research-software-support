@@ -103,27 +103,33 @@ These punchcards would be loaded into the computer to instruct which parts of th
 
 <!-- .slide: data-state="standard center" -->
 
-## Software now
+## Software today
 
-<img src="media/software-development.jpg" width="55%">
-<small>Photo by <a href="https://unsplash.com/@cdr6934?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Ried</a> on <a href="https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
-  
+<img src="media/modern-software.avif" width="55%">
+<small>Photo by <a href="https://unsplash.com/@thisisengineering">ThisisEngineering</a> on <a href="https://unsplash.com/photos/black-flat-screen-computer-monitor-hoivM01c-vg?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+
+
 <!-- Speaker notes -->
 Note:
-These days, software usually gets written using a computer, in a text editor program, so the act of writing software requires software itself. The software is stored in memory and on a hard disk rather than on cardboard (remember, one card per line...), but it basically still does the same: Software is a set of instructions that tells hardware what to do.
+Q: In what way is modern software different from historic punch-card "software"
+
+Some possible answers:
+These days, software usually gets written using a computer, in a text editor program, so the act of writing software requires software itself. The software is stored in memory and on a hard disk rather than on cardboard (remember, one card per line...). Modern software often builds on other software, or used specific parts of other software packages, rather than re-defining the wheel.
+
+However, it ultimately still basically does the same: Software is a set of instructions that tells hardware what to do.
 
 ==
 
 <!-- .slide: data-state="standard center" -->
 
-## Modern software
+## Complexity of modern software
 
 <img src="media/VScode_snapshot.png" width="70%">
 <small>Screenshot of source code for <a href="https://github.com/DeepRank/deeprank2">DeepRank2</a></small>
 
 <!-- Speaker notes -->
 Note:
-In this image, we can get a glimpse of the complexity of modern software. We can see that software has a certain structure (indicated by differently colored text), is often composed of many lines of code (right side of image shows the entire length of the code), and is split over multiple files (left).
+In this image, we can get a glimpse of the complexity of modern software. We can see that software has a certain structure (indicated by differently colored text), is often composed of many lines of code (right side of image shows the entire length of the code), and is split over multiple intercommunicating files (left).
 
 ===
 
