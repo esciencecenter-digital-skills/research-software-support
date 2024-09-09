@@ -1,14 +1,14 @@
 ---
-title: Software Assessment
+title: Build a Template
 type: exercise
 order: 3
 ---
 
-# Assess your software
+# Build your own Software Management Plan template
 
 *In a live setting, this exercise is done in groups.
 Each group will be assigned a software project.
-The group will then create an SMP for this project.*
+The group will then create an SMP template for this project.*
 
 ## Step 1: Choose a software project
 
@@ -24,10 +24,11 @@ If you don't have a project in mind, you can use one of the following:
 
 Find the Practical Guide at [tinyurl.com/SMP-guide](https://doi.org/10.5281/zenodo.7589725).
 
-## Step 2: Assess the management level needed
+## Step 2: Building blocks
 
-- Look at the software repository or page in the Research Software Directory.
-- Assess what level of management the software needs: low, medium, or high.
+- Print the following [figure from the Practical Guide](media/SMP-requirements.pdf) and cut out the various hexagons/requirements. 
+- Look at the software repository or page in the Research Software Directory or any other information you can find about your software. 
+- Take a fresh sheet of paper and some glue and glue the requirements that you think are relevant to your chosen software. You can also use the physical space on your sheet of paper to group the various requirements together. 
 
 For this, use the following considerations (section 5 in [the guide](https://doi.org/10.5281/zenodo.7589725)):
 
@@ -38,12 +39,9 @@ For this, use the following considerations (section 5 in [the guide](https://doi
     - Research, either your own or of others. This effect could be due to an obvious software failure ("crash") or a hidden one, for example, returning inconsistent numerical results on different operating systems.
 3. **Maintenance**. The long-term effort needed to maintain the software as long as it might be used as a standalone tool or dependency. This includes maintenance functions that can extend beyond the lifespan of the original development project and includes fixing bugs, dependency management, operating system compatibility, and security issues.
 
-This may not be a clear-cut decision, but that is fine.
-The goal is to get a sense of the level of management needed.
-Discuss with your group and come to a consensus.
 
-## Step 3: Fill in the SMP template
+## Step 3: Assess your template
 
-From the assessment made in Step 1, get the requirements that match the level of management needed.
-
-Copy a template, and fill it in for your software project.
+- Assess what level of management (low, medium, high) your custom template matches most. 
+- What is different from your custom template and the default management level template? Does this difference make sense?
+- Finally use section 6 (Implementation Examples) from the [Practical Guide to Software Management Plans](https://doi.org/10.5281/zenodo.7589725) to create the Software Management Plan template with questions that a researcher/developer would have to answer. 

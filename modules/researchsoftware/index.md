@@ -1,5 +1,5 @@
 ---
-title: Research software
+title: What is (Research) Software?
 category: Getting started
 order: 0
 author: eScience Center
