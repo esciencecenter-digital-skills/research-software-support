@@ -15,11 +15,12 @@ The group will then create an SMP for this project.*
 Choose a software project for this exercise, preferably one you are familiar with.
 
 If you don't have a project in mind, you can use one of the following:
-- [Xenon](https://research-software-directory.org/software/xenon)
+
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 Find the Practical Guide at [tinyurl.com/SMP-guide](https://doi.org/10.5281/zenodo.7589725).
 

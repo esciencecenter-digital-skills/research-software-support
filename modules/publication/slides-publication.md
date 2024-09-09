@@ -12,6 +12,18 @@ order: 2
 
 <!-- .slide: data-state="standard" -->
 
+## Before we dive in...
+
+What do you already know about software publication? 
+
+Note: Let participants discuss how they would publish a piece of software.
+
+Answers can potentially be collected in a collaborative document.
+
+===
+
+<!-- .slide: data-state="standard" -->
+
 ## What do we mean by publishing?
 
 * Publishing the *software itself* (not just publishing an article *about* it)

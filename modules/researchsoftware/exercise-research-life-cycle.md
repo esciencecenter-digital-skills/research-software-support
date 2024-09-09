@@ -16,11 +16,11 @@ Think of a piece of software you have used, contributed to or developed in a res
 
 The following research software can also be used as examples:
 
-- [Xenon](https://research-software-directory.org/software/xenon)
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 ### Answer the following questions 
 Write a short paragraph (max. 100 words) per question:

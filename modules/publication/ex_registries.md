@@ -11,11 +11,11 @@ A collection of software registries can be found here: [Research Software Regist
 
 Choose a piece of research software that you know, or pick one of the packages in this list:
 
-- [Xenon](https://research-software-directory.org/software/xenon)
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [RS-DAT](https://research-software-directory.org/projects/rs-dat)
+- [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 In teams:
 1. Find out what the software is about if you don't already know.

@@ -17,11 +17,11 @@ Choose a software project for this exercise, preferably one you are familiar wit
 If you don't have a software in mind, you can use one of the following:
 
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
-- [Cross-Perspective Topic Modeling](https://research-software-directory.org/software/cptm)
 - [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
 - [worcs](https://cjvanlissa.github.io/worcs/index.html)
-- [Xenon](https://research-software-directory.org/software/xenon)
+- [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
+
 
 ## Step 2: Fill the JOSS review checklist
 
