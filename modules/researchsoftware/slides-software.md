@@ -125,15 +125,6 @@ These days, software usually gets written using a computer, in a text editor pro
 Note:
 In this image, we can get a glimpse of the complexity of modern software. We can see that software has a certain structure (indicated by differently colored text), is often composed of many lines of code (right side of image shows the entire length of the code), and is split over multiple files (left).
 
-==
-
-<!-- .slide: data-state="empty-slide" data-background-iframe="https://www.online-python.com/" -->
-
-<!-- Speaker notes -->
-Note:
-On this website you can experiment with writing software (python code) yourself: 
-https://www.online-python.com
-
 ===
 
 <!-- .slide: data-state="standard center" -->
