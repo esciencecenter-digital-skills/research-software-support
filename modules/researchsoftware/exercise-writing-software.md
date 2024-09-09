@@ -1,5 +1,5 @@
 ---
-title: Writing software
+title: Writing Software
 type: exercise
 order: 2
 ---

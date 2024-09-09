@@ -1,5 +1,5 @@
 ---
-title: What is software?
+title: What is Software?
 type: slides
 order: 1
 ---

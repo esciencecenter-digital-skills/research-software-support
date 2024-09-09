@@ -1,5 +1,5 @@
 ---
-title: Research life cycle
+title: Research Life Cycle
 type: exercise
 order: 5
 ---
