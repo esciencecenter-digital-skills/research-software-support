@@ -1,5 +1,6 @@
 ---
 title: Masterclass
+order: 3
 ---
 
 ## Schedule
