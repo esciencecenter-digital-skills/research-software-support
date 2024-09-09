@@ -12,7 +12,7 @@ Take a look at the research life cycle below.
 
 ### Pick a piece of software
 
-Think of a piece of software you have used, contributed to or developed in a research context.
+Think of a piece of software you have heard about, used, contributed to or developed in a research context.
 
 The following research software can also be used as examples:
 
