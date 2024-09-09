@@ -1,5 +1,6 @@
 ---
 title: Contribute
+order: 4
 ---
 
 ## Contributing to the Research Software Support

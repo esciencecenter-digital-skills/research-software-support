@@ -1,5 +1,6 @@
 ---
 title: About
+order: 1
 ---
 
 ## About the Research Software Support
