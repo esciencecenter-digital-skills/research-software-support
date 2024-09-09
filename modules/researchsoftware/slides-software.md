@@ -238,10 +238,18 @@ Regarding the reasons for lack of maintenance:
 
 ## Software vs data management
 
-- Software is a **living thing**
-- Some FAIR data management practices apply to software
-- Many FAIR principles do not apply easily to software
-- Good data management will not ensure good software management
+<ul style="margin-bottom: 20px;">
+  <li>Software is a <strong>living thing</strong></li>
+  <li>Good data management will not ensure good software management</li>
+  <li>While some FAIR data management practices apply directly to software, others do not apply as easily
+    <ul>
+      <li>see <a href="https://www.nature.com/articles/s41597-022-01710-x">FAIR software paper</a></li>
+    </ul>
+  </li>
+  <li>There is a thriving open-software community that has generated many tools and standards to facilitate good practices</li>
+</ul>
+
+<img src="media/FAIR-software-paper.png" width="40%" alt="FAIR Software Paper" style="display: block; border-style: none; margin: 0 auto;">
 
 Note:
 The different nature of software also provides opportunities but also requires extra thought on its management.
