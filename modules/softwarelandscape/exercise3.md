@@ -14,7 +14,7 @@ Pick a piece of software you know of or pick one from the following examples:
 - [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 
-One person (the researcher) takes some time to prepare to presents a piece of software, the other person reads up on the [reading materials](reading.md) from this module. 
+One person (the researcher) takes some time to prepare to present a piece of software, while the other person reads up on the [reading materials](reading.md) from this module. 
 
 Then you play out one of the following two situations:
 
