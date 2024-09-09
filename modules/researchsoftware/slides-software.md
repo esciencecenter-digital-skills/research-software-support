@@ -136,44 +136,30 @@ https://www.online-python.com
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard center" -->
 
-## Software is also data
+## Software is a form of data
+
+<img src="media/data_definition.png" width="70%">
+<small>Definition by <a href="https://www.merriam-webster.com/dictionary/data/">Merriam Webster English Dictionary</a></small>
 
 ==
 
 <!-- .slide: data-state="standard" -->
 
-## Software is a form of data
+## Software is data
 
-<table style="width: 100%; text-align: left;">
-  <tr>
-    </td>
-    <td style="vertical-align: top">
-      <p style="font-size: 1.5em; font-weight: bold">Software can be</p>
-      <ul style="margin-top: 10px; margin-left: 0">
-        <li style="margin-bottom: 20px;">stored as bits</li>
-        <li style="margin-bottom: 20px;">read, loaded, and processed</li>
-        <li style="margin-bottom: 20px;">input and/or output</li>
-        <ul style="text-align: right; padding:0">... just like other data</ul> 
-      </ul>
-    </td>
-    <td class="fragment" data-fragment-index="1" style="vertical-align: top; width: 55%;">
-      <img src="media/data_definition.png" width="100%">
-      <div style="text-align: center;">
-        <small>Definition by <a href="https://www.merriam-webster.com/dictionary/data/">Merriam Webster English Dictionary</a></small>
-      </div>
-  </tr>
-</table>
+Software can be ...
 
-
+- stored as bits
+- read, loaded, and processed
+- input and/or output
 
 <!-- Speaker notes -->
 Note:
 - Software is stored as bits and read from disk, loaded into memory, and processed similar to other types of data. 
 - Software can be input, and software can be output. In fact, one of the major breakthroughs in computer science was when people realized that the instructions of the machine could be handled and stored the same as the data that it operated on. 
 - And fits all 3 dictionary definitions of data quite well. 
-
 
 ==
 
