@@ -8,7 +8,7 @@ order: 3
 
 *In a live setting, this exercise is done in groups.
 Each group will be assigned a software project.
-The group will then create an SMP for this project.*
+The group will then create an SMP template for this project.*
 
 ## Step 1: Choose a software project
 
