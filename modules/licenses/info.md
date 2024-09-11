@@ -4,7 +4,7 @@ type: info
 order: 0
 ---
 
-Obtain the skills and knowledge necessary to address the following questions:
+In this module you will learn to answer the following questions:
 
 - What is a software license? What is copyright?
 - What are the different kinds of software license?
