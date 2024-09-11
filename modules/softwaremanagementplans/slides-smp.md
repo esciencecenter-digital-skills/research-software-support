@@ -341,7 +341,7 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 - Single purpose scripts
 - Developer is the primary user
 - Performs limited function:
-  - Analyses a single experiment or dataset
+  - Analyses a single/few experiment(s) or dataset(s)
   - Automates a routine task
 
 Note:
@@ -386,7 +386,7 @@ Software management planning should include providing information on archiving a
 
 ## SMP level: high
 
-- Mission critical software
+- "Mission critical" software
 - High standards required for reliability
 - Absence or replacement of the software would threaten research
 - Software that is continually in use:
@@ -412,6 +412,7 @@ Thus, maintenance strategies, including funding and/or community development pla
 - **Purpose**: what is the reason or expected end-use for the software?
 - **Reliability**: what is the effect of software failure and/or non-maintenance?
 - **Maintenance**: what is the long-term effort needed to maintain the software?
+- **Lifetime**: How long do you expect (wish) the software to remain in use?
 
 Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
 
