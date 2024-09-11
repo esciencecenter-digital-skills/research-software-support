@@ -4,7 +4,8 @@ type: info
 order: 0
 ---
 
-## Learning Objectives
+In this module you will learn to answer the following questions:
+
 - Explain what version control of research software is
 - Illustrate the importance of using version control
 - Identify when in the research cycle to employ version control

@@ -4,7 +4,8 @@ type: info
 order: 0
 ---
 
-Obtain the skills and knowledge necessary to address the following questions:
+In this module you will learn to answer the following questions:
+
 - What does publishing software mean?
 - Why should researchers publish their software?
 - Where should researchers publish their software?
