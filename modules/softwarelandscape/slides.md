@@ -36,7 +36,7 @@ order: 1
 
 - **So** researchers often write software themselves 
 - **But** researchers are not trained as software engineers
-- **And** Software is not (yet) regarded as valuable research output
+- **And** software is not (yet) regarded as valuable research output
 
 Note:
 First is a true statement. 
