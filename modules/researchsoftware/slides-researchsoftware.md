@@ -129,7 +129,7 @@ By defining research software:
 
 - Software is an important part of research
 - Not all software used in research is Research Software
-- Defining "Research Software" provides recognzition in the research community
+- Defining "Research Software" provides recognition in the research community
 
 ===
 
