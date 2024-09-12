@@ -302,6 +302,7 @@ Finally, a *risk analysis* should be performed: for instance, are there privacy 
   - Resources for information and support
   - Institution-specific regulations
   - Institution-specific resources available
+  - Who to contact for clarification/further information
 - Include an assessment rubric (e.g. with (un)acceptable answers)
 
 Note:
