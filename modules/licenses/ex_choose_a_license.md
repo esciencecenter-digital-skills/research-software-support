@@ -1,7 +1,7 @@
 ---
 title: Choose a license
 type: exercise
-order: 7
+order: 6
 ---
 
 ## Exercise 3: Choose a license for or using your policy (10 minutes)

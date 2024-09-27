@@ -1,7 +1,7 @@
 ---
 title: Software policies
 type: reading
-order: 3
+order: 7
 ---
 
 ## University software policies
