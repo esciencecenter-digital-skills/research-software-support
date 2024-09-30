@@ -78,6 +78,30 @@ As long as the changes are not made to the same section (line of text) in a docu
 
 ===
 
+<!-- .slide: data-state="standard" -->
+## Merge conflicts
+
+However, if multiple contributors work on the same thing...
+
+```bash
+This line contains a typos.
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+... then "merge conflicts" may arise: 
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+```bash
+<<<<<<< contributor1
+This line contains typos.
+=======
+This line contains a typo.
+>>>>>>> contributor2
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+===
+
 <!-- .slide: data-state="standard center" -->
 ## Collaboration
 
