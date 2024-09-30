@@ -102,7 +102,12 @@ note:
 
 If changes are made to the same section (usually the same or consectutive line(s) of text) of a document a **conflict** aruises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
 
-Resolving merge conflicts can be time-consuming and error prone, especially for larger conflicts. Therefore, it is best to create some practices to avoid conflicts (as much as possible) in the first place: 
+===
+
+<!-- .slide: data-state="standard center" -->
+## Avoiding merge conflicts
+
+How to minimize creating merge conflicts:
 
 - Communicate:
   - discuss who is working on what
@@ -114,6 +119,11 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
   - use "feature branches" rather than making changes to the main document directly 
   - avoid "scope creep" and instead create separate indepedent branches for isolated topics
   - review each other's changes before merging them
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+note:
+Resolving merge conflicts can be time-consuming and error prone, especially for larger changes/conflicts. Therefore it is a good idea for teams to agree on some basic practices to avoid creating conflicts in the first place. Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but they will need some attention to resolve. 
 
 ===
 
