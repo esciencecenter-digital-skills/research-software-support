@@ -72,9 +72,7 @@ The changes are stored along with some useful metadata. A set of changes, along 
 </div>
 
 note:
-When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches".
-
-As long as the changes are not made to the same section (line of text) in a document (**conflict!**), the various changes can be merged together. 
+When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
 
 ===
 
@@ -99,6 +97,23 @@ This line contains a typo.
 >>>>>>> contributor2
 ```
 <!-- .element: class="fragment" data-fragment-index="2" -->
+
+note:
+
+If changes are made to the same section (usually the same or consectutive line(s) of text) of a document a **conflict** aruises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
+
+Resolving merge conflicts can be time-consuming and error prone, especially for larger conflicts. Therefore, it is best to create some practices to avoid conflicts (as much as possible) in the first place: 
+
+- Communicate:
+  - discuss who is working on what
+  - agree on common standards such as formatting, (conflicting) style guides, linting rules, etc.
+- Frequent merging:
+  - Merge (small) changes back to the central repository often
+  - Pull changes to your local repository regularly
+- Organize changes:
+  - use "feature branches" rather than making changes to the main document directly 
+  - avoid "scope creep" and instead create separate indepedent branches for isolated topics
+  - review each other's changes before merging them
 
 ===
 
