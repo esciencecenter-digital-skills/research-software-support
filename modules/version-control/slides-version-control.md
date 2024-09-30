@@ -62,7 +62,7 @@ The changes are stored along with some useful metadata. A set of changes, along 
 ## More than one...
 
 <div style="float: left; width: 49%;">
-  independent changes
+  independent change
   <img style="height: 350px;" src="media/versions.svg"/>
 </div>
 
@@ -136,8 +136,8 @@ Collaborative code developers often make use of a remote server (like GitHub, or
 Files can be stored in:
  - **working directory**: the files you can see
  - **staging area / index**: files about to be committed
- - **local repository**: the permanent record
- - **remote repository**: a copy of the repository which is stored online and often acts as the central repository
+ - **local repository**: the (permanent) record on a given user's disk 
+ - **remote repository**: an online copy of the record, often used as the central repository
 
 ===
 
@@ -159,4 +159,4 @@ Git (for version control) with Gitlab and Github (for collaboration) are the mai
 - Version control is like unlimited **undo** in MS Word, and more
 - Version control also allows many people to work in parallel
 - For collaborative development a remote, cloud hosted repository is often used as central hub
-
+- Communication is key to avoid conflicting versions of the same software
