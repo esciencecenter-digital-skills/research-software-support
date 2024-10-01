@@ -117,7 +117,7 @@ How to minimize creating merge conflicts:
   - Pull changes to your local repository regularly
 - Organize changes:
   - use "feature branches" rather than making changes to the main document directly 
-  - avoid "scope creep" and instead create separate indepedent branches for isolated topics
+  - avoid "scope creep" and instead create separate independent branches for isolated topics
   - review each other's changes before merging them
 
 <!-- .element: class="fragment" data-fragment-index="1" -->
