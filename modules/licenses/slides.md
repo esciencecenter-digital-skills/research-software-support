@@ -34,11 +34,28 @@ Software is covered by copyright, and that's the main legal context in which we'
 
 <!-- .slide: data-state="standard" -->
 
+<div style="width: 70%; float: left; margin-top: 10%">
+
 ## About copyright
 
 - Berne convention on copyright
 - Owned by author or employer?
 - Can be licensed
+
+</div>
+
+<div style="width: 30%; float: right">
+
+<img src="media/Zytgloggeturm_Bern.jpg" width="100%">
+
+</div>
+
+<div style="float: left; clear: both; padding-left: 25%; padding-top: 1em">
+
+<small>Photo by <a href="//commons.wikimedia.org/wiki/User:JoachimKohler-HB" title="User:JoachimKohler-HB">JoachimKohler-HB</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=140063312">Link</a></small>
+
+</div>
+
 
 
 Note:
@@ -78,10 +95,29 @@ It's better if the software has an Open Source license, because these are profes
 
 ## Kinds of licenses
 
-- Open Source or proprietary
-- Copyleft or permissive
-- Strong copyleft or weak copyleft
-- The Affero GPL
+<table style="border: 0.1em solid black; border-collapse: collapse; width: 100%">
+    <tr align="center" style="border: 0.1em solid black">
+        <th colspan="3" align="center" style="border: 0.1em solid black">Free and Open Source</th>
+        <th rowspan="3" align="center" valign="center" style="border: 0.1em solid black">Proprietary</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+        <th colspan="2" align="center" style="border: 0.1em solid black">Copyleft</th>
+        <th rowspan="2" align="center" style="border: 0.1em solid black">Permissive</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+        <th align="center" style="border: 0.1em solid black">Strong</th>
+        <th align="center" style="border: 0.1em solid black">Weak</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+      <td align="center" style="border: 0.1em solid black; padding: 1em">GPL<sup>1</sup> AGPL<sup>2</sup></td>
+      <td align="center" style="border: 0.1em solid black; padding: 1em">LGPL<sup>3</sup> MPL<sup>4</sup></td>
+      <td align="center" style="border: 0.1em solid black; padding: 1em">BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
+          <td align="center" >Research Only: No&nbsp;copying, No&nbsp;modification</td>
+    </tr>
+</table>
+<div style="margin-top: 1em; font-size: 70%; line-height: 2em">
+  <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup>MPL: Mozilla Public License <sup>5</sup>BSD: Berkeley Software Distribution <sup>6</sup>MIT: Massachusetts Institute of Technology
+</div>
 
 
 Note:
@@ -98,6 +134,8 @@ Finally, the Affero GPL is designed for use with software that is designed to be
 
 <!-- .slide: data-state="standard" -->
 
+<div style="width: 50%; float: left">
+
 ## Why share software?
 
 - Reproducibility
@@ -105,6 +143,16 @@ Finally, the Affero GPL is designed for use with software that is designed to be
 - Academic freedom of employees
 - Saving by collaborating
 - Public funding
+
+</div>
+
+<div style="width: 40%; float: right">
+<img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
+</div>
+
+<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+</div>
 
 
 Note:
@@ -121,12 +169,25 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
 
 <!-- .slide: data-state="standard" -->
 
+<div style="width: 50%; float: left">
+
 ## How to share software
 
-- Need to give a license
-- Who owns the software?
-- Dependencies
-- Kinds of licenses
+- Put it online
+- Add a license
+    1. Who owns the software?
+    2. Dependencies?
+    3. Kinds of licenses
+
+</div>
+
+<div style="width: 40%; float: right">
+<img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
+</div>
+
+<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+</div>
 
 
 Note:
@@ -181,12 +242,27 @@ Finally, there are some nice tools available that make it easier to select an Op
 
 <!-- .slide: data-state="standard" -->
 
+<div style="width: 50%; float: left">
+
 ## Contributing to software
 
 - Under the license
 - Contributor License Agreements
     - Who are you dealing with?
-    - Transfer of ownership? Or explicit license?
+    - Transfer or license?
+
+</div>
+
+<div style="width: 50%; float: right">
+<img src="media/Kleine_Dinge.jpg" width="100%">
+</div>
+
+<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<small>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/white-and-green-quote-board-xCEuxxhpY3o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+</div>
+
+
+
 
 Note:
 
