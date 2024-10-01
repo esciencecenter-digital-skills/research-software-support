@@ -76,7 +76,7 @@ The owner of the copyright on a work can give permission to others to do things 
 - Two ways of using software
 - You need a license
 - Licenses sometimes implicit, or home-made
-- Open Source makes it easy to do better
+- Open Source is better and safer
 - Different Open Source licenses available
 
 
@@ -88,47 +88,6 @@ So you need copyright permission, which is to say a license. In science, these a
 
 It's better if the software has an Open Source license, because these are professionally written and have standard, well-known meanings. We will go into that a bit more later. There are websites available that explain all the standard Open Source licenses in ordinary language, so that you can easily decide whether you can use a certain software package. You don't need to be (or have) a lawyer to use Open Source software.
 
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Kinds of licenses
-
-<table style="border: 0.1em solid black; border-collapse: collapse; width: 100%">
-    <tr align="center" style="border: 0.1em solid black">
-        <th colspan="3" align="center" style="border: 0.1em solid black">Free and Open Source</th>
-        <th rowspan="3" align="center" valign="center" style="border: 0.1em solid black">Proprietary</th>
-    </tr>
-    <tr align="center" style="border: 0.1em solid black">
-        <th colspan="2" align="center" style="border: 0.1em solid black">Copyleft</th>
-        <th rowspan="2" align="center" style="border: 0.1em solid black">Permissive</th>
-    </tr>
-    <tr align="center" style="border: 0.1em solid black">
-        <th align="center" style="border: 0.1em solid black">Strong</th>
-        <th align="center" style="border: 0.1em solid black">Weak</th>
-    </tr>
-    <tr align="center" style="border: 0.1em solid black">
-      <td align="center" style="border: 0.1em solid black; padding: 1em">GPL<sup>1</sup> AGPL<sup>2</sup></td>
-      <td align="center" style="border: 0.1em solid black; padding: 1em">LGPL<sup>3</sup> MPL<sup>4</sup></td>
-      <td align="center" style="border: 0.1em solid black; padding: 1em">BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-          <td align="center" >Research Only: No&nbsp;copying, No&nbsp;modification</td>
-    </tr>
-</table>
-<div style="margin-top: 1em; font-size: 70%; line-height: 2em">
-  <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup>MPL: Mozilla Public License <sup>5</sup>BSD: Berkeley Software Distribution <sup>6</sup>MIT: Massachusetts Institute of Technology
-</div>
-
-
-Note:
-
-Software licenses can be classified into different categories, which is helpful to get a quick idea for what kind of license you are dealing with. First, there are Open Source and non-Open Source licenses. Open Source licenses allow you to use the software, share it, change it, and share your changes. Proprietary software licenses do not allow one or more of these things. Note that this is not about being commercial, you can actually sell copies of Open Source programs, although you're not very likely to find buyers.
-
-Copyleft licenses say that if you modify the licensed software or incorporate it into your own, that that new software package must then be licensed under the same license. A permissive license allows licensing the new work under any license. As a result, copyleft software needs to remain open source, while permissively licensed software can be made proprietary.
-
-Within the copyleft licenses we can distinguish strong copyleft, which covers both modified versions and use in other programs, from weak copyleft, which only limits modification. So a weak copyleft license keeps the licensed software package itself Open Source, but can be used as a part of proprietary software, while a strong copyleft license keeps the software from being used in (but not with) proprietary software (it is a bit vague legally where the limit is).
-
-Finally, the Affero GPL is designed for use with software that is designed to be installed on a server and accessed remotely, for example through a web browser. A normal copyleft license does not require the server owner to give a copy of the software running on the server to the users, while the AGPL does.
 
 ===
 
@@ -218,6 +177,47 @@ In most countries, including The Netherlands, any work you do as part of your ta
 Science is often done in consortia, which are typically governed by a Consortium Agreement. Those often have a section on Intellectual Property that applies. Sadly those sections often don't mention copyright, but they do usually state that each partner gets to own the things they've made. That means that if your researcher has worked together on the software with researcher at one of the partners, that there are two owners that need to decide on licensing together.
 
 Funding may also come with restrictions or stipulations regarding ownership. For example, eScience Center grants come with a rule that says that both parties co-own the software, even if it was written by one of them, and that it will be published under the Apache License unless otherwise agreed.
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Kinds of licenses
+
+<table style="border: 0.1em solid black; border-collapse: collapse; width: 100%">
+    <tr align="center" style="border: 0.1em solid black">
+        <th colspan="3" align="center" style="border: 0.1em solid black">Free and Open Source</th>
+        <th rowspan="3" align="center" valign="center" style="border: 0.1em solid black">Proprietary</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+        <th colspan="2" align="center" style="border: 0.1em solid black">Copyleft</th>
+        <th rowspan="2" align="center" style="border: 0.1em solid black">Permissive</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+        <th align="center" style="border: 0.1em solid black">Strong</th>
+        <th align="center" style="border: 0.1em solid black">Weak</th>
+    </tr>
+    <tr align="center" style="border: 0.1em solid black">
+      <td align="center" style="border: 0.1em solid black; padding: 1em">GPL<sup>1</sup> AGPL<sup>2</sup></td>
+      <td align="center" style="border: 0.1em solid black; padding: 1em">LGPL<sup>3</sup> MPL<sup>4</sup></td>
+      <td align="center" style="border: 0.1em solid black; padding: 1em">BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
+          <td align="center" >Research Only: No&nbsp;copying, No&nbsp;modification</td>
+    </tr>
+</table>
+<div style="margin-top: 1em; font-size: 70%; line-height: 2em">
+  <sup>1</sup>GPL: GNU General Public License <sup>2</sup>AGPL: Affero General Public License <sup>3</sup>LGPL: GNU Lesser General Public License <sup>4</sup>MPL: Mozilla Public License <sup>5</sup>BSD: Berkeley Software Distribution <sup>6</sup>MIT: Massachusetts Institute of Technology
+</div>
+
+
+Note:
+
+Software licenses can be classified into different categories, which is helpful to get a quick idea for what kind of license you are dealing with. First, there are Open Source and non-Open Source licenses. Open Source licenses allow you to use the software, share it, change it, and share your changes. Proprietary software licenses do not allow one or more of these things. Note that this is not about being commercial, you can actually sell copies of Open Source programs, although you're not very likely to find buyers.
+
+Copyleft licenses say that if you modify the licensed software or incorporate it into your own, that that new software package must then be licensed under the same license. A permissive license allows licensing the new work under any license. As a result, copyleft software needs to remain open source, while permissively licensed software can be made proprietary.
+
+Within the copyleft licenses we can distinguish strong copyleft, which covers both modified versions and use in other programs, from weak copyleft, which only limits modification. So a weak copyleft license keeps the licensed software package itself Open Source, but can be used as a part of proprietary software, while a strong copyleft license keeps the software from being used in (but not with) proprietary software (it is a bit vague legally where the limit is).
+
+Finally, the Affero GPL is designed for use with software that is designed to be installed on a server and accessed remotely, for example through a web browser. A normal copyleft license does not require the server owner to give a copy of the software running on the server to the users, while the AGPL does.
 
 ===
 
