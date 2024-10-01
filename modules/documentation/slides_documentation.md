@@ -34,7 +34,7 @@ Make your software reusable:
 
 <!-- .slide: data-state="standard" -->
 
-## Documentation types
+## Documentation purpose types
 
 Documentation can have different purposes:
 
