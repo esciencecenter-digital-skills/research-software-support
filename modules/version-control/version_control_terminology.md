@@ -12,3 +12,5 @@ order: 2
 * **Pull/merge request**: Contributions to a source code repository that uses a distributed version control system are commonly made by means of a pull request or merge request (synonyms). The contributor requests the project maintainer to pull their changes, hence the name "pull request". The maintainer has to merge the pull request if the contribution should become part of the source base.
 * **Repository**: In version control systems, a repository is a data structure that stores metadata for a set of files or directory structure.
 * **Working copy**: The working copy is the local copy of files from a repository. All work done to the files in a repository is initially done on a working copy, hence the name.
+
+[Git commands cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
