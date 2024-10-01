@@ -6,6 +6,8 @@ order: 3
 
 ## Exercise: Which of the following do you think should be part of a code repository (5-10 mins)
 
+Discuss with your neighbor which of the following should be part of the code repository and why it should or should not.
+
 - installation instructions
 - user documentation
 - full dataset to reproduce figures from a paper
