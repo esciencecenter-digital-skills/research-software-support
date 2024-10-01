@@ -201,7 +201,7 @@ Funding may also come with restrictions or stipulations regarding ownership. For
       <td align="center" style="border: 0.1em solid black; padding: 1em">GPL<sup>1</sup> AGPL<sup>2</sup></td>
       <td align="center" style="border: 0.1em solid black; padding: 1em">LGPL<sup>3</sup> MPL<sup>4</sup></td>
       <td align="center" style="border: 0.1em solid black; padding: 1em">BSD<sup>5</sup> MIT<sup>6</sup> Apache</td>
-          <td align="center" >Research Only: No&nbsp;copying, No&nbsp;modification</td>
+          <td align="center" >Research only, No&nbsp;copying, No&nbsp;modification</td>
     </tr>
 </table>
 <div style="margin-top: 1em; font-size: 70%; line-height: 2em">
@@ -260,8 +260,6 @@ Finally, there are some nice tools available that make it easier to select an Op
 <div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
 <small>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/white-and-green-quote-board-xCEuxxhpY3o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
-
-
 
 
 Note:
