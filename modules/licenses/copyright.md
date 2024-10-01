@@ -4,7 +4,7 @@ type: reading
 order: 2
 ---
 
-## Copyright and software
+## Copyright and software (2 minutes)
 
 Creative works, like books, paintings and music, but also scientific articles and software, are covered by copyright. Copyright is a legal construct that gives the owner of the copyright on a work the exclusive right to reproduce, modify, publicly perform and distribute the work. As a result, anyone who is not the copyright holder needs to have permission from the copyright holder to also be able to do so.
 

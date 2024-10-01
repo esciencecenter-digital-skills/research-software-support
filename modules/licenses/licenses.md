@@ -1,10 +1,10 @@
 ---
 title: Software licenses
 type: reading
-order: 6
+order: 4
 ---
 
-## Software licenses
+## Software licenses (8 minutes)
 
 Software licenses are legal statements that give permission to use, modify and/or distribute software. By copyright law, only the copyright owner(s) can give this permission, so the license must be granted by those owners.
 

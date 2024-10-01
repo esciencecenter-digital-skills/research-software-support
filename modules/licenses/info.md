@@ -7,6 +7,7 @@ order: 0
 Obtain the skills and knowledge necessary to address the following questions:
 
 - What is a software license? What is copyright?
-- What are the different kinds of software license?
-- Why is it important to provide a license with research software?
-- How do I support researchers in choosing the right license for their software?
+- How to legally use software made by others in your organisation?
+- How to license software created by your organisation?
+- How to license contributions to external Open Source projects?
+
