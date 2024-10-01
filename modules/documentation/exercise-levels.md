@@ -1,5 +1,5 @@
 ---
-title: When to use which documentation?
+title: Levels of documentation
 type: exercise
 order: 3
 ---
@@ -13,9 +13,9 @@ two basic examples of how you can use the software.
 2. A tutorial: 'Finding unusual patterns in daily average temperatures using WeatherMap'.
 3. In-code documentation: Comments in her code that explain why she made certain implementation choices.
 5. API reference: Detailed description of each function/class of WeatherMap.
-6. Overview of components: A detailed overview of each component in the software
-7. User documentation: Extensive documentation on how users can use each of the functionalities of WeatherMap
-8. Naming: Logical names for functions, modules and classes so that it is immediately clear what the corresponding piece of code does
+6. Overview of components: A detailed overview of each component in the software.
+7. User documentation: Extensive documentation on how users can use each of the functionalities of WeatherMap.
+8. Naming: Logical names for functions, modules, and classes so that it is immediately clear what the corresponding piece of code does.
 
 
 For the following scenarios, which forms of documentation would you suggest Joanne to incorporate in her project:
