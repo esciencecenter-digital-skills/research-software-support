@@ -18,3 +18,8 @@ Pick a software package from the following list, and try to find out whether it 
 - Glotaran
 - LinkAhead
 
+A few hints:
+
+- The researcher only gave you the name. You'll have to find the code on the Internet first.
+- Licenses are not always advertised on a code's website. Try looking somewhere more technical if you can't find it in the documentation.
+
