@@ -1,7 +1,7 @@
 ---
 title: When to use which documentation?
 type: exercise
-order: 4
+order: 3
 ---
 
 # When to use which documentation?
@@ -32,4 +32,3 @@ and finds it important that when she moves on to a different job that the softwa
 ## Scenario C:
 Joanne and her colleagues spend half of their time updating and improving WeatherMap. 
 They have a large community of users around the globe that depend on WeatherMap for their research.
-
