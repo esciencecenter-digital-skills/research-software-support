@@ -4,7 +4,7 @@ type: reading
 order: 5
 ---
 
-## How to share software
+## How to share software (6 minutes)
 
 Sharing software is done these days by making it available through the Internet, via e.g. GitHub or Zenodo. As we have seen however, that's not all you need to do. Because of copyright law, the software also needs a license. Sharing scientific software is sometimes simple from a legal perspective, but it can also be quite complicated. This section explains the main issues to take into account, which are ownership of the copyright, constraints imposed by dependencies, and choosing a license.
 
