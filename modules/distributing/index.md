@@ -1,10 +1,10 @@
 ---
-title: Software dependencies
+title: Distributing Software
 category: Good Practices
 order: 15
-abstract: Software management is hard because of the dependency on other software. What techniques exist to manage these dependencies? 
+abstract: Software needs to be distributed to be used by others. What are environments, packages and containers and how do they help?
 author: eScience Center
-thumbnail: "thumbnail-containers.png"
+thumbnail: "thumbnail-containers.jpg"
 visibility: visible
 ---
 

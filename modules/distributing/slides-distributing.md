@@ -1,13 +1,13 @@
 ---
-title: Software Dependencies
+title: Distributing Software
 type: slides
 order: 1
-author: Jaro Camphuijsen
+author: Jaro Camphuijsen, Lourens Veen
 ---
 
 <!-- .slide: data-state="title" -->
 
-# Software Dependencies
+# Software Distribution
 
 ===
 
@@ -64,6 +64,7 @@ note: Sometimes you enter dependency hell
 |Concept |a | d|
 |----|----|---|
 | Containers  |   |   |
+| Package | | | 
 | Environments  |   |   |
 | Requirements file|    |   |
 

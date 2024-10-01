@@ -5,6 +5,6 @@ order: 0
 ---
 
 Obtain the skills and knowledge necessary to address the following questions:
-- What are software dependencies?
+- What is software distribution and what aspects of it are important for research software?
 - Why is it important to think about dependency management?
-- What solutions exist for managing software dependencies?
+- What are environments, dependencies, packages and containers?
