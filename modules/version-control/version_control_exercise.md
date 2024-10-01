@@ -8,6 +8,8 @@ order: 3
 
 Discuss with your neighbor which of the following should be part of the code repository and why it should or should not.
 
+Discuss with your neighbor which of the following should be part of the code repository and why it should or should not.
+
 - installation instructions (i.e. detailed instructions on how to install the software)
 - user documentation
 - full dataset to reproduce figures from a paper
