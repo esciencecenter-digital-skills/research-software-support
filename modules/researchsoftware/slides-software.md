@@ -151,12 +151,12 @@ Software can be ...
 - stored as bits
 - read, loaded, and processed
 - input and/or output
+- can be assigned a DOI, licence, etc
 
 <!-- Speaker notes -->
 Note:
 - Software is stored as bits and read from disk, loaded into memory, and processed similar to other types of data. 
 - Software can be input, and software can be output. In fact, one of the major breakthroughs in computer science was when people realized that the instructions of the machine could be handled and stored the same as the data that it operated on. 
-- And fits all 3 dictionary definitions of data quite well. 
 
 ==
 
@@ -180,10 +180,6 @@ Software is...
 <!-- Speaker notes -->
 Note:
 While technically, software is a special kind of data (in that it is representation of information in a digital state), they are in essence quite different.
-
-Software and data both are digital objects, sharing certain characteristics: they can be assigned a DOI, and they can have a license.
-
-Software is quite different from data, however. Consider:
 
 - Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
 - Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time. In the context of research software it also often depends on the data, data formats, data standards, metadata, etc, which also change when new equipment becomes available.
