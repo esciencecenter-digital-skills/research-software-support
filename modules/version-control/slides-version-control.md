@@ -100,7 +100,7 @@ This line contains a typo.
 
 note:
 
-If changes are made to the same section (usually the same or consectutive line(s) of text) of a document a **conflict** aruises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
+If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a **conflict** arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
 
 ===
 
