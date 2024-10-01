@@ -270,7 +270,7 @@ Larger, more professionally run Open Source projects sometimes require a Contrib
 
 When evaluating these, it's good to look at who you're dealing with. A commercial entity, like Google, or a governance organisation like the Apache Foundation. The latter non-profit offers support for Open Source projects, including making sure that everything is properly licensed. Google is of course a commercial entity.
 
-Some CLAs require you to transfer ownership of the copyright on your contribution to someone else, which can be a good idea if that sole copyright holder can be trusted, for example because it makes it easier to upgrade the license. In other cases, you're just giving explicit permission to distribute your contribution as Open Source software, which seems more just.
+Some CLAs require you to transfer ownership of the copyright on your contribution to someone else, which can be a good idea if that sole copyright holder can be trusted, for example because it makes it easier to upgrade the license. It may also allow them to turn your work proprietary however. In other cases, you're just giving explicit permission to distribute your contribution as Open Source software, which seems more just.
 
 In general with CLAs, you should be careful with commercial entities (state aid!), and it's in any case probably wise to get your legal department involved.
 
