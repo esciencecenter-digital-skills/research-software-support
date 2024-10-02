@@ -7,32 +7,42 @@ author: Jaro Camphuijsen, Lourens Veen
 
 <!-- .slide: data-state="title" -->
 
-# Software Distribution
+# Distributing Software
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## What are software dependencies?
+## Why distribute?
+
+- For your future self
+- For others that might be interesting
+- For reproducibility 
+- For reusability
+
+note:
+There are many reasons why you would want to distribute your software. 
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Why can't I just publish and be done?
 
 - A piece of software never operates in isolation. 
 - Depends on other software (third party packages, libraries)
 - Depends on system software (operating system, drivers, firmware)
-- Depends on hardware (your computer and the chips inside, display)
+- Depends on hardware (your computer and the chips inside, display or printer)
+- The world (hardware, software, people) around your software is constantly evolving
 
 note:
 Software by nature always depends on other software and hardware. 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard" data-background-image="media/fire.png"-->
 
-## What issues arise during development?
-
-- Some dependencies might need (specific versions of) other dependencies, and so on...
-- For different projects you might need different versions of the same library
-- Dependencies might be updated during development
-
+note: Sometimes you enter dependency hell
 
 ===
 
@@ -47,13 +57,8 @@ Software by nature always depends on other software and hardware.
 - Package manager dependencies
 - Diamond dependency
 
+... and all of these are changing.
 
-===
-
-
-<!-- .slide: data-state="standard" data-background-image="media/fire.png"-->
-
-note: Sometimes you enter dependency hell
 
 ===
 
@@ -61,12 +66,38 @@ note: Sometimes you enter dependency hell
 
 ## What solutions exist?
 
-|Concept |a | d|
-|----|----|---|
-| Containers  |   |   |
-| Package | | | 
-| Environments  |   |   |
-| Requirements file|    |   |
+Isolation or specification
 
 ===
 
+<!-- .slide: data-state="standard" -->
+
+## Isolation
+
+![Layers of isolation](media/distributing-software-layers.png)
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Specification
+
+Let the user (or some tool) solve the probem...
+
+- requirements.txt
+- environment.yml
+- pyproject.toml
+- package.json
+etc...
+
+note:
+Specify the dependencies in a file and let the user build their own environment, container or vm.
+
+===
+
+## Drawbacks
+
+Large amount of isolation enhances reproducibility but decreases flexibility.
+
+
+===
