@@ -1,7 +1,7 @@
 ---
 title: Types of documentation
 type: reading
-order: 3
+order: 2
 ---
 
 # Types of documentation and when to use them

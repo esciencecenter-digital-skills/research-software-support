@@ -16,7 +16,7 @@ author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Pau
 ## What is documentation?
 
 - Provides context for your work
-- Allows your collaborators and future you to understand what has been done and why
+- Allows your collaborators **and future you** to understand what has been done and why
 
 ===
 
@@ -25,26 +25,27 @@ author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Pau
 ## Why document software?
 
 Make your software reusable:
- 
+
 - A user should be able to run your software in the same way as you do now 
 - A user should be able to install your software
-- A contributor should be able to add or improve code
+- A contributor should be able to add to, improve, or fix code
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Documentation types
+## Documentation purpose types
 
-User documentation
-- Purpose: What does the software do?
-- How can it be used: provide examples
+Documentation can have different purposes:
 
-Developer documentation
-- How can your software be modified or extended?
+- **User documentation**: What does the software do? How can it be used?
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
-Deployment documentation
-- Hardware and software requirements
+- **Developer documentation**: How can your software be modified or extended?
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+- **Deployment documentation**: What hardware and software requirements are there?
+<!-- .element: class="fragment" data-fragment-index="3" -->
 
 ===
 
@@ -98,7 +99,7 @@ Note:
 In-code documentation:
 
 + Makes code more understandable
-+ Explains decisions we made
++ Explains decisions that were made
 
 ===
 
@@ -196,12 +197,12 @@ They follow a standardized syntax.
 
 ## Tools
 
-+ **Sphinx** (documentation generator)
++ **Sphinx** / **mkdocs** (documentation generator)
   - creates nicely-formatted HTML pages out of .md or .rst files
   - programming language independent
 + **Github pages** (deploy your documentation)
   - set up inside your GitHub repository
-  - automatically deploys your Sphinx-generated documentation
+  - automatically deploys documentation generated above
 
 ===
 
@@ -209,11 +210,13 @@ They follow a standardized syntax.
 
 ## Take-home message
 
-+ Depending on the purpose and state of the project documentation needs to meet different criteria.
-+ Documentation can take different shapes:
-  + Readable code
-  + In-code comments
-  + Docstrings
-  + README files
-  + Tutorials/notebooks
-+ Documentation is a vital part of a project, and should be kept and created alongside the corresponding code.
+Documentation is a vital part of a project, and should be kept and created alongside the corresponding code.
+
+Depending on the purpose and state of the project documentation needs to meet different criteria.
+
+Documentation can take different shapes:
++ Readable code
++ In-code comments
++ Docstrings
++ README files
++ Tutorials/notebooks
