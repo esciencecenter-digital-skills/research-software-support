@@ -16,7 +16,7 @@ author: Jaro Camphuijsen, Lourens Veen
 ## Why distribute?
 
 - For your future self
-- For others that might be interesting
+- For others that might be interested
 - For reproducibility 
 - For reusability
 
@@ -102,7 +102,7 @@ Specify the dependencies in a file and let the user build their own environment,
 
 ===
 
-## Rules of thumb
+## Rules of thumb   
 
 - Simple scripts can use a simple dependency specification
 - If other software might depend on this software, package it
