@@ -100,6 +100,7 @@ Specify the dependencies in a file and let the user build their own environment,
 - Large amount of isolation enhances reproducibility but decreases flexibility.
 - Leaving it up to the user can be done for simple scripts (most research software)
 
+
 ===
 
 ## Rules of thumb   
@@ -107,5 +108,3 @@ Specify the dependencies in a file and let the user build their own environment,
 - Simple scripts can use a simple dependency specification
 - If other software might depend on this software, package it
 - To archive a specific software version and its environment, you could use a container
-
-===
