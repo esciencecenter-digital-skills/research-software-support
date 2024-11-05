@@ -171,7 +171,11 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 
 <!-- .slide: data-state="standard" -->
 
-### Exercise: how important is it?
+## Mentimeter: how important is it?
+
+==
+
+<!-- .slide: data-state="standard" -->
 
 Consider the following list of software:
 - [NEMO](https://www.nemo-ocean.eu/), a state of the art modelling framework, used for research and forecasting in ocean and climate sciences.
