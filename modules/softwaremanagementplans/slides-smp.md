@@ -141,48 +141,16 @@ All past versions and the latest release are available on Zenodo via this DOI.
 Note:
 In the practical guide, the core requirements for an SMP are listed, and grouped into four categories.
 
-Focusing on the *engineering*, the guide asks about version control, packaging, testing, and software quality.
 
-Focusing on *documentation*, the guide discusses documentation needs for users, developers, and for deployment specifically.
+**Purpose:**
+The software's purpose is the most important aspect of the SMP.
 
-Focusing on *project management*, the guide addresses licensing, maintenance, resources, the project repository, and a risk analysis.
-
-Finally, the guide asks about the *purpose* of the software.
-
-===
-
-<!-- .slide: data-state="standard" -->
-<center>
-<img src="media/purpose.png" width="40%" />
-</center>
-
-- What problem does it solve?
-- Who is the intended audience?
-- What are its advantages and limitations?
-
-Note:
-The software's purpose is a central question in the SMP.
-
-It is important to be clear about the problem it addresses, and who the software is aimed at.
+It allows you to be clear about the problem it addresses, and who the software is aimed at, as well as set boundaries on its scope.
 Addressing the limitations of the software, as well as the advantages it will provide, help determine its scope.
 This will help the developers focus on the specific needs of the software.
 
-===
 
-<!-- .slide: data-state="standard" -->
-
-<center>
-<img src="media/engineering.png" width="30%" />
-</center>
-
-- What version control will you use?
-- How will you test the software?
-- How will the project be organized or packaged?
-- How will you manage code quality?
-
-Note:
-On the engineering focus, several specific areas are addressed.
-
+**Engineering:**
 *Version control* has a myriad of benefits: it allows keeping track of history and provenance, can support experimentation and collaboration, and is crucial for the identification of specific versions of the software.
 
 *Testing* ensures that software continues to work as intended.
@@ -195,20 +163,8 @@ The format in which the software will be distributed is an important decision th
 *Code quality* should be addressed: what standards will be adhered to, and how will they be measured and supported?
 There are many tools that can help with this, and it is important to choose them early on to maintain consistent code quality throughout the project.
 
-===
 
-<!-- .slide: data-state="standard" -->
-
-<center>
-<img src="media/documentation.png" width="30%" />
-</center>
-
-- What documentation will you provide
-  - for users?
-  - for developers?
-- How will you manage system requirements (e.g. dependencies)?
-
-Note:
+**Documentation:**
 Documentation is an important component of software, and should be tailored to different audiences.
 
 In *user documentation*, the software's function should be explained, and instructions on how to use it should be provided.
@@ -217,23 +173,9 @@ In *developer documentation*, instructions on how to modify the software, and ho
 
 *Deployment documentation* explains any system requirements (such as dependencies) for deploying the software, and installation and testing instructions.
 
-===
 
-<!-- .slide: data-state="standard" -->
+**Project Management:** 
 
-<center>
-<img src="media/projectmanagement.png" width="30%" />
-</center>
-
-- What license will you use?
-- How will the software be maintained? For how long?
-- How should the software be cited?
-- What repository(ies) will you use?
-- What resources will you need?
-  - e.g. infrastructure, personnel, training, hardware...
-- What risks and challenges do you foresee?
-
-Note:
 The project management focus is broad, and addresses various conditions for the software's long-term sustainability and re-use.
 
 Any reusable software should have an appropriate *license*, which is an important early decision.
@@ -249,7 +191,6 @@ What *resources* — human, infrastructure, financial - will be needed, and when
 
 Finally, a *risk analysis* should be performed: for instance, are there privacy or security concerns? Is there potential for vendor lock, or other considerations for future reliability and reuse?
 
-===
 
 <!-- .slide: data-state="standard" -->
 
