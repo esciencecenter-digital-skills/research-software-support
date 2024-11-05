@@ -69,6 +69,10 @@ Reusability - it's only reusable if it's available, and if people know what they
 * Write a paper about those results
 * Possibly not even mentioning the software at all
 
+===
+
+<!-- .slide: data-state="standard" -->
+
 ### Consequences
 
 * The software itself is not citable

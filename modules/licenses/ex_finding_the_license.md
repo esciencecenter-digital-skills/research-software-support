@@ -1,5 +1,5 @@
 ---
-title: Finding the license
+title: Find the license
 type: exercise
 order: 3
 ---
@@ -23,3 +23,4 @@ A few hints:
 - The researcher only gave you the name. You'll have to find the code on the Internet first.
 - Licenses are not always advertised on a code's website. Try looking somewhere more technical if you can't find it in the documentation.
 
+## Exercise 2: What advice would you give?
