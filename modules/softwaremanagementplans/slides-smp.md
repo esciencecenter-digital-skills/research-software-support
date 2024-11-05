@@ -38,6 +38,14 @@ Ensuring that the software is findable, accessible, usable and understandable is
 
 <!-- .slide: data-state="standard" -->
 
+## Benefits of a Software Management Plan
+
+#TODO: Create slide from section 4 of guide
+
+===
+
+<!-- .slide: data-state="standard" -->
+
 ![Software Needs Maintenance](media/maintenance.png)
 
 Note:
