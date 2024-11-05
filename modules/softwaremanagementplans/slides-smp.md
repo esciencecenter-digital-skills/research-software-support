@@ -139,26 +139,11 @@ All past versions and the latest release are available on Zenodo via this DOI.
 </center>
 
 Note:
-In the practical guide, the core requirements for an SMP are listed, and grouped into four categories. See xxx for more details.
-
-
-<!-- .slide: data-state="standard" -->
-
-## SMP template
-
-- Should be provided by the institution
-- Include guidance:
-  - Instructions on how to fill it out
-  - Resources for information and support
-  - Institution-specific regulations
-  - Institution-specific resources available
-- Include an assessment rubric (e.g. with (un)acceptable answers)
-
-Note:
-The Software Management Plan template is a duty of the institution.
-A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
-
-An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
+In the practical guide, the core requirements for an SMP are listed, and grouped into four foci:
+- Purpose
+- Engineering
+- Documentation
+- Project Management.
 
 ===
 
@@ -181,6 +166,25 @@ The diversity of research software does mean that not all requirements apply to 
 To address this, we can subset the core requirements to create different SMP templates tailored to software with different management needs.
 
 The SMP Guide distinguishes software with low, medium, and high management needs.
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+### Exercise: how important is it?
+
+Consider the following list of software:
+- [NEMO](https://www.nemo-ocean.eu/), a state of the art modelling framework, used for research and forecasting in ocean and climate sciences.
+- [AlphaFold](https://alphafold.com/), an AI system developed by Google DeepMind that predicts a protein’s 3D structure from its amino acid sequence.
+- [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
+- A Jupyter notebook to get the average length of everyone in this classroom.
+- A software package you yourself have been involved in, if any.
+
+Randomly choose 5 requirements and rate on a scale of 1-5 how important those aspects are to include in the SMP.
+It is not necessary to look any of these up, give your best estimation given the stated information.
+
+Note:
+We would usually do this exercise using a mentimeter survey.
 
 ===
 
@@ -281,6 +285,26 @@ Addressing what purpose the software serves, how reliable it needs to be, and wh
 Note:
 With a specific level of management in mind, the core requirements that are relevant for this software's management can be determined.
 The practical guide provides a clear overview of this.
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## SMP template
+
+- Should be provided by the institution
+- Include guidance:
+  - Instructions on how to fill it out
+  - Resources for information and support
+  - Institution-specific regulations
+  - Institution-specific resources available
+- Include an assessment rubric (e.g. with (un)acceptable answers)
+
+Note:
+The Software Management Plan template is a duty of the institution.
+A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
+
+An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
 ===
 
