@@ -190,6 +190,25 @@ We would usually do this exercise using a mentimeter survey.
 
 <!-- .slide: data-state="standard" -->
 
+## Making that call
+
+Determine whether the software has a low, medium, or high management level, mainly based on the following criteria:
+
+- **Purpose**: what is the reason or expected end-use for the software?
+- **Reliability**: what is the effect of software failure and/or non-maintenance?
+- **Maintenance**: what is the long-term effort needed to maintain the software?
+
+Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
+
+Note:
+Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
+The practical guide provides some guidance on how to make this decision.
+Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
 ## SMP level: low
 
 - Single purpose scripts
@@ -210,7 +229,7 @@ It is not intended to be used by others, and therefore its influence beyond the 
 Best practices during development (e.g. version control), as well as measures to enable its reuse (documentation, versioning, archiving) are appropriate and recommended.
 They are however not requirements, nor is long term maintenance planning necessary.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -234,7 +253,7 @@ More advanced requirements, such as code auditing, automated testing, software p
 This software's longer term **maintenance** is relevant as it will have a lifespan longer than the project in which it was developed.
 Software management planning should include providing information on archiving and citation as well as strategies for post-project maintenance and support.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -256,23 +275,6 @@ The **reliability** of this software is of utmost importance, and all possible a
 
 Its **maintenance** is not limited to the duration of the project in which it was developed, but should be maintained as long as it is in use.
 Thus, maintenance strategies, including funding and/or community development plans, should be in place.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Making that call
-
-- **Purpose**: what is the reason or expected end-use for the software?
-- **Reliability**: what is the effect of software failure and/or non-maintenance?
-- **Maintenance**: what is the long-term effort needed to maintain the software?
-
-Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
-
-Note:
-Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
-The practical guide provides some guidance on how to make this decision.
-Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
 
 ===
 
@@ -316,6 +318,7 @@ An assessment rubric should accompany the template, indicating per question or f
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
+- Institutes should provide a template SMP
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
