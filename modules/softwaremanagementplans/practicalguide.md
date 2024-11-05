@@ -1,7 +1,7 @@
 ---
 title: Practical Guide
 type: reading
-order: 2
+order: 3
 ---
 
 

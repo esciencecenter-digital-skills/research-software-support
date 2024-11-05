@@ -1,7 +1,7 @@
 ---
 title: SMP vs FAIR
 type: exercise
-order: 4
+order: 5
 ---
 
 ## SMP vs FAIR
