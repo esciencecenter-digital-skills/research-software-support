@@ -32,7 +32,7 @@ Untested software can be compared to uncalibrated experimental devices.
 
 <!-- .slide: data-state="standard" -->
 
-## Risks of untested research software
+## Risks of poorly tested (research) software
 
 <center>
 <img src="media/testing-motivation1.png" width="30%" style="display:inline;">
@@ -59,7 +59,7 @@ There is also the case of the Ariane flight V88, an European Space Agency rocket
 
 <!-- .slide: data-state="standard" -->
 
-## Why testing your software ?
+## Why test your software ?
 
 - Ensure software reliability, validity, and reproducibility.
 - Confirm correct installation and demonstrate use.
