@@ -4,7 +4,7 @@ type: info
 order: 0
 ---
 
-Obtain the skills and knowledge necessary to address the following questions:
+In this module you will learn to answer the following questions:
 
 - What is a software management plan?
 - Why are software management plans important for science?
