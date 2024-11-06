@@ -1,6 +1,6 @@
 ---
 title: Software in the Scientific Landscape
-category: Getting started
+category: Getting Started
 order: 13
 abstract: What role does software play in the scientific landscape? 
 author: eScience Center

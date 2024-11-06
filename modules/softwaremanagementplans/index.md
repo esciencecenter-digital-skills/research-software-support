@@ -1,6 +1,6 @@
 ---
 title: Software Management Plans
-category: Reusability
+category: Getting Started
 order: 21
 author: eScience Center
 abstract: Writing a Software Management Plan will help you to think ahead about important steps in software management.

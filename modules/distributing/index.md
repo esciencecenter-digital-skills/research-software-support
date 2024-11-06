@@ -1,6 +1,6 @@
 ---
-title: Distributing Software
-category: Good Practices
+title: Software Distribution
+category: Sharing Software
 order: 15
 abstract: Software needs to be distributed to be used by others. What are environments, packages and containers and how do they help?
 author: eScience Center
