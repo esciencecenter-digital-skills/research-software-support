@@ -15,13 +15,12 @@ author: Jaro Camphuijsen, Lourens Veen
 
 ## Why distribute?
 
-- For your future self
-- For others that might be interested
-- For reproducibility 
-- For reusability
+- For users that want to use your software
+- For developers that want to use your software
+- For reproducibility / transparency
 
 note:
-There are many reasons why you would want to distribute your software. 
+There are many reasons why you would want to distribute your software. "Users" and "developers" can include you. 
 
 ===
 
@@ -29,14 +28,13 @@ There are many reasons why you would want to distribute your software.
 
 ## Why can't I just publish and be done?
 
+
+note:
 - A piece of software never operates in isolation. 
 - Depends on other software (third party packages, libraries)
 - Depends on system software (operating system, drivers, firmware)
 - Depends on hardware (your computer and the chips inside, display or printer)
 - The world (hardware, software, people) around your software is constantly evolving
-
-note:
-Software by nature always depends on other software and hardware. 
 
 ===
 
@@ -108,4 +106,3 @@ Specify the dependencies in a file and let the user build their own environment,
 - If other software might depend on this software, package it
 - To archive a specific software version and its environment, you could use a container
 
-===
