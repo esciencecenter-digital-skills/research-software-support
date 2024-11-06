@@ -1,6 +1,6 @@
 ---
 title: What is (Research) Software?
-category: Getting started
+category: Getting Started
 order: 0
 author: eScience Center
 abstract: What is software, how is it made and what makes research software so special?

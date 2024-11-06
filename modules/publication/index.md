@@ -1,6 +1,6 @@
 ---
-title: Software publication
-category: Publishing & Citing
+title: Software Publication
+category: Sharing Software
 order: 31
 author: eScience Center
 abstract: Publication of research output is important for findability and reusability, but how does that work for software?
