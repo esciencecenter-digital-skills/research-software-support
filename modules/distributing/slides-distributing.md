@@ -108,4 +108,3 @@ Specify the dependencies in a file and let the user build their own environment,
 - If other software might depend on this software, package it
 - To archive a specific software version and its environment, you could use a container
 
-===
