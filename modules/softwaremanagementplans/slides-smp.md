@@ -202,20 +202,27 @@ We would usually do this exercise using a mentimeter survey.
 
 <!-- .slide: data-state="standard" -->
 
-## Making that call
+## Making the call
 
-Determine whether the software has a low, medium, or high management level, mainly based on the following criteria:
+<div style="width: 60%; float: left">
+Determine the management level, based on:  
+<br></br>
 
-- **Purpose**: what is the reason or expected end-use for the software?
-- **Reliability**: what is the effect of software failure and/or non-maintenance?
-- **Maintenance**: what is the long-term effort needed to maintain the software?
+1. **Purpose**: what is the reason or expected end-use for the software?
+2. **Reliability**: what is the effect of software failure and/or non-maintenance?
+3. **Maintenance**: what is the long-term effort needed to maintain the software?
+</div>
 
-Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
+<div style="width: 40%; float: right" class="fragment" data-fragment-index="1">
+<img src="media/threelevels.png" width="80%">
+</div>
 
 Note:
 Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
 The practical guide provides some guidance on how to make this decision.
 Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
+
+Note that the requirements and categories listed are one example of what the division could look like, and in practice most project will fall between what is considered "low" and "medium" here!
 
 ==
 
@@ -223,11 +230,14 @@ Addressing what purpose the software serves, how reliable it needs to be, and wh
 
 ## SMP level: low
 
+For low management level projects, the SMP can be part of the DMP.
+
+Purpose:
 - Single purpose scripts
 - Developer is the primary user
 - Performs limited function:
   - Analyses a single experiment or dataset
-  - Automates a routine task
+  - Automates a simple routine task
 
 Note:
 Software with low management requirements is defined by its limited function: it performs a single analysis or automates a routine task.
@@ -292,19 +302,7 @@ Thus, maintenance strategies, including funding and/or community development pla
 
 <!-- .slide: data-state="standard" -->
 
-<center>
-<img src="media/threelevels.png" width="60%">
-</center>
-
-Note:
-With a specific level of management in mind, the core requirements that are relevant for this software's management can be determined.
-The practical guide provides a clear overview of this.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## SMP template
+## SMP templates
 
 - Should be provided by the institution
 - Include guidance:
