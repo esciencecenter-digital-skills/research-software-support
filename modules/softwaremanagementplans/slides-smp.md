@@ -69,7 +69,8 @@ Finally, we will take a look at some concrete examples of software management pl
   - Who is responsible?
   - How long will it be available?
   - ...
-- Can be part of a project proposal, or generated in the early phases
+- Can be part of a project proposal or generated in the early phases
+- Should be a "living document", to be updated as plans change
 
 Note:
 Software management plans (SMPs) are inspired by the earlier adopted data management plans.
@@ -83,15 +84,31 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 <!-- .slide: data-state="standard" -->
 
-## Why use an SMP?
+## Benefits of an SMP
 
-- Make technical choices explicit
-- Plan for necessary resources
-- Assess whether new software is really needed
-- Clarity early on helps to avoid problems later
-- ...
+SMPs should not be presented as addition bureaucratic hoops to jump through,
+but rather as a tool allowing researchers to get the most out of their effort.  
+
+An SMP helps ...
+- thinking about the purpose and necessity (!) of the software;
+- planning for requirement resources (human, financial, infrastrural, ...);
+- providing clarity early on to avoid problems later
+- structuring the development process of research software;
+- making technical choices explicit, rather than rolling with the first idea;
+- making and keeping research software accessible, reusable, and sustainable;
 
 Note:
+
+It is a common trap to present such documents to researchers and "force" them
+to fill them in without too much context. This is then often perceived as a
+bureaucratic burden that is not done with a lot of care or attention. 
+
+Instead, we recommend presenting SMPs as an agent allowing researchers to
+minimize their efforts, by making considerations early in the process and
+working towards their goals, rather than having to make the call in the moment,
+when there may be other priorities/deadlines (publication, grant application,
+...)
+
 With an SMP, you make explicit plans and decisions in an early stage.
 The SMP provides the team with structured, relevant questions early on, with the aim to maximize the accessibility, reusability, and impact of the software in question.
 This supports good software management practices, and it makes sure they are known to the researchers involved.
