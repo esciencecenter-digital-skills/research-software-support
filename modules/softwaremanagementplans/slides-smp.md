@@ -159,6 +159,26 @@ In the practical guide, the core requirements for an SMP are listed, and grouped
 
 <!-- .slide: data-state="standard" -->
 
+<!-- .slide: data-state="standard" -->
+
+## SMP templates
+
+- Should be provided by the institution
+- Include guidance:
+  - Instructions on how to fill it out
+  - Resources for information and support
+  - Institution-specific regulations
+  - Institution-specific resources available
+- Include an assessment rubric (e.g. with (un)acceptable answers)
+
+Note:
+The Software Management Plan template is a duty of the institution.
+A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
+
+An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
+
+===
+
 ## Not all software is equal
 
 ![](media/softwarespectrum.png)
@@ -206,7 +226,7 @@ We would usually do this exercise using a mentimeter survey.
 
 ## Making the call
 
-<div style="width: 60%; float: left">
+<div style="width: 55%; float: left">
 Determine the management level, based on:  
 <br></br>
 
@@ -216,7 +236,10 @@ Determine the management level, based on:
 </div>
 
 <div style="width: 40%; float: right" class="fragment" data-fragment-index="1">
-<img src="media/threelevels.png" width="80%">
+A template could look like this
+<br></br>
+
+<img src="media/threelevels.png" width="70%">
 </div>
 
 Note:
@@ -299,26 +322,6 @@ The **reliability** of this software is of utmost importance, and all possible a
 
 Its **maintenance** is not limited to the duration of the project in which it was developed, but should be maintained as long as it is in use.
 Thus, maintenance strategies, including funding and/or community development plans, should be in place.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## SMP templates
-
-- Should be provided by the institution
-- Include guidance:
-  - Instructions on how to fill it out
-  - Resources for information and support
-  - Institution-specific regulations
-  - Institution-specific resources available
-- Include an assessment rubric (e.g. with (un)acceptable answers)
-
-Note:
-The Software Management Plan template is a duty of the institution.
-A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
-
-An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
 ===
 
