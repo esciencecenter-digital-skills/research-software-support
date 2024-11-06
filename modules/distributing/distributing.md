@@ -6,9 +6,10 @@ order: 4
 
 # Distributing software (10 minutes)
 
-How do you make it easy for someone else to obtain a copy and get it set up on their computer so that they can use it?
+Modern software contsists of an often large collection of components (libraries, packages) that are combined together to form an application. This whole collection needs to be reproduced on the computer of the user for things to work. There are two ways of doing that: 
 
-Modern software contsists of an often large collection of components (libraries, packages) that are combined together to form an application. This whole collection needs to be reproduced on the computer of the user for things to work. There are two ways of doing that: 1) combining them all together on the computer of the developer, and then wrapping everything up into a package, installer, container image, or VM image that is sent to the user, or 2) putting the components that you made yourself on the Internet (as a package), and relying on the user to download the other components (packages) and assembling it all together into a working application.
+1) combining them all together on the computer of the developer, and then wrapping everything up into a package, installer, container image, or VM image that is sent to the user, or 
+2) putting the components that you made yourself on the Internet (as a package), and relying on the user to download the other components (packages) and assembling it all together into a working application
 
 ## Monolithic applications
 
