@@ -26,7 +26,7 @@ For each reason, score how generally applicable they are to research software:
 
 ### Mapping motivations
 
-(**NB:** If you are not yet familiar with the FAIR principles for research software, take a look at the chapter on [Software Landscapes](modules/softwarelandscape/slides.md) before doing the following exercise.)
+(**NB:** If you are not yet familiar with the FAIR principles for research software, take a look at the chapter on [Software Landscapes](/modules/softwarelandscape/slides) before doing the following exercise.)
 
 The motivations we listed above were important considerations for the development of Software Management Plans as well as the FAIR principles for research software.
 They do not match completely, however.
