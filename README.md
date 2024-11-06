@@ -74,7 +74,7 @@ npm install
 
 ### Local development build
 
-Start the development server on `http://localhost:3000`:
+Navigate to the NEBULA folder and run
 
 ```bash
 # node package manager
