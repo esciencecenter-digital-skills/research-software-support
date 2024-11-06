@@ -1,7 +1,7 @@
 ---
 title: Build a Template
 type: exercise
-order: 3
+order: 5
 ---
 
 # Build your own Software Management Plan template

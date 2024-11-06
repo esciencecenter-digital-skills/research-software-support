@@ -12,58 +12,22 @@ order: 1
 
 <!-- .slide: data-state="standard" -->
 
-## Mapping the Via Appia
+## Reusability & Reproducibility
 
-![Mapping the Via Appia](media/viaappia.png)
+These important values in research mean something slightly different for software than for data:
+- **Reproducible** software can be re-run (by others) with consistent results.
+- **Reusable** software can be built upon (by others) in their own packages.
 
-Note:
-The Via Appia was the most important road in the Roman Empire, connecting Rome to Brindisi in the south of Italy, spanning a distance of 540km.
-It was used for military purposes, but also for trade and travel.
-The Via Appia was built in 312 BC, and used for 600 years, until the fall of the Roman Empire.
-
-The eScience Center participated in a project to map the Via Appia. Using a combination of satellite imagery and ground-based measurements, the project created a 3D model of the road. The model was used to study the road and its surroundings.
-
-In this project, research software was used to process the satellite imagery and the ground-based measurements, and combine them into a 3D model of the Via Appia.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-<iframe width="800px" height="500px" src="https://www.youtube.com/embed/FvXZOHmOoSQ?si=OfFPQTpVvusgYqH5&amp;start=323" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## The research life cycle
-
-<center>
-<img src="media/researchcycle.png" width="60%">
-</center>
-
-Note:
-All over the research life cycle we can find examples of software created for research.
-Some are more straightforward than others:
-
-- Planning: to design experiments
-- Collecting: to collect data, to control instruments, to run simulations
-- Analysing: to analyse data, to generate models
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Reuse & reproduce
-
-Both reusability and reproducibility are important values in research software:
-
-- **Reproducibility** is an integral part of the research process
-
-- Software **reusability** allows building upon existing software
+<img src="media/maintenance.png" width="40%" title="Software Needs Maintenance">
 
 For both, we need to be able to **find**, **access**, **use**, and **understand** software.
 
 Note:
+Software and code have some unique features.
+One particular feature is that they depend on other software, and on the environment in which they are run.
+This means that it requires maintenance and updates to keep it functional, as the environments around it change.
+This is called software sustainability.
+
 Reproducibility of research allows validation of its findings, and is therefore vital in building a solid foundation for scientific progress.
 We can only truly build upon existing research if we can reproduce its results.
 
@@ -74,18 +38,6 @@ An additional feature of software, is that it may be a product on its own, and c
 This is a great opportunity to build on our collective knowledge and tools, and to avoid reinventing the wheel.
 
 Ensuring that the software is findable, accessible, usable and understandable is key to both reproducibility and reusability.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-![Software Needs Maintenance](media/maintenance.png)
-
-Note:
-Software and code have some unique features.
-One particular feature is that they depend on other software, and on the environment in which they are run.
-This means that it requires maintenance and updates to keep it functional, as the environments around it change.
-This is called software sustainability.
 
 ===
 
@@ -117,7 +69,8 @@ Finally, we will take a look at some concrete examples of software management pl
   - Who is responsible?
   - How long will it be available?
   - ...
-- Can be part of a project proposal, or generated in the early phases
+- Can be part of a project proposal or generated in the early phases
+- Should be a "living document", to be updated as plans change
 
 Note:
 Software management plans (SMPs) are inspired by the earlier adopted data management plans.
@@ -131,15 +84,31 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 <!-- .slide: data-state="standard" -->
 
-## Why use an SMP?
+## Benefits of an SMP
 
-- Make technical choices explicit
-- Plan for necessary resources
-- Assess whether new software is really needed
-- Clarity early on helps to avoid problems later
-- ...
+SMPs should not be presented as addition bureaucratic hoops to jump through,
+but rather as a tool allowing researchers to get the most out of their effort.  
+
+An SMP helps ...
+- thinking about the purpose and necessity (!) of the software;
+- planning for requirement resources (human, financial, infrastrural, ...);
+- providing clarity early on to avoid problems later
+- structuring the development process of research software;
+- making technical choices explicit, rather than rolling with the first idea;
+- making and keeping research software accessible, reusable, and sustainable;
 
 Note:
+
+It is a common trap to present such documents to researchers and "force" them
+to fill them in without too much context. This is then often perceived as a
+bureaucratic burden that is not done with a lot of care or attention. 
+
+Instead, we recommend presenting SMPs as an agent allowing researchers to
+minimize their efforts, by making considerations early in the process and
+working towards their goals, rather than having to make the call in the moment,
+when there may be other priorities/deadlines (publication, grant application,
+...)
+
 With an SMP, you make explicit plans and decisions in an early stage.
 The SMP provides the team with structured, relevant questions early on, with the aim to maximize the accessibility, reusability, and impact of the software in question.
 This supports good software management practices, and it makes sure they are known to the researchers involved.
@@ -180,121 +149,19 @@ All past versions and the latest release are available on Zenodo via this DOI.
 </center>
 
 Note:
-In the practical guide, the core requirements for an SMP are listed, and grouped into four categories.
-
-Focusing on the *engineering*, the guide asks about version control, packaging, testing, and software quality.
-
-Focusing on *documentation*, the guide discusses documentation needs for users, developers, and for deployment specifically.
-
-Focusing on *project management*, the guide addresses licensing, maintenance, resources, the project repository, and a risk analysis.
-
-Finally, the guide asks about the *purpose* of the software.
-
-===
-
-<!-- .slide: data-state="standard" -->
-<center>
-<img src="media/purpose.png" width="40%" />
-</center>
-
-- What problem does it solve?
-- Who is the intended audience?
-- What are its advantages and limitations?
-
-Note:
-The software's purpose is a central question in the SMP.
-
-It is important to be clear about the problem it addresses, and who the software is aimed at.
-Addressing the limitations of the software, as well as the advantages it will provide, help determine its scope.
-This will help the developers focus on the specific needs of the software.
+In the practical guide, the core requirements for an SMP are listed, and grouped into four foci:
+- Purpose
+- Engineering
+- Documentation
+- Project Management.
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-<center>
-<img src="media/engineering.png" width="30%" />
-</center>
-
-- What version control will you use?
-- How will you test the software?
-- How will the project be organized or packaged?
-- How will you manage code quality?
-
-Note:
-On the engineering focus, several specific areas are addressed.
-
-*Version control* has a myriad of benefits: it allows keeping track of history and provenance, can support experimentation and collaboration, and is crucial for the identification of specific versions of the software.
-
-*Testing* ensures that software continues to work as intended.
-There are many different approaches to this: units of code can be tested in unit tests; entire workflows can be verified in integration tests; acceptance tests can be created to ensure specific requirements are met; regression testing can be done to ensure new changes do not break existing functionality; and so on.
-Deciding whether and if so what testing will be implemented is an important element of the SMP.
-
-*Packaging* is important for the distribution of software.
-The format in which the software will be distributed is an important decision that should be made early on.
-
-*Code quality* should be addressed: what standards will be adhered to, and how will they be measured and supported?
-There are many tools that can help with this, and it is important to choose them early on to maintain consistent code quality throughout the project.
-
-===
-
 <!-- .slide: data-state="standard" -->
 
-<center>
-<img src="media/documentation.png" width="30%" />
-</center>
-
-- What documentation will you provide
-  - for users?
-  - for developers?
-- How will you manage system requirements (e.g. dependencies)?
-
-Note:
-Documentation is an important component of software, and should be tailored to different audiences.
-
-In *user documentation*, the software's function should be explained, and instructions on how to use it should be provided.
-
-In *developer documentation*, instructions on how to modify the software, and how to contribute to the project should be provided.
-
-*Deployment documentation* explains any system requirements (such as dependencies) for deploying the software, and installation and testing instructions.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-<center>
-<img src="media/projectmanagement.png" width="30%" />
-</center>
-
-- What license will you use?
-- How will the software be maintained? For how long?
-- How should the software be cited?
-- What repository(ies) will you use?
-- What resources will you need?
-  - e.g. infrastructure, personnel, training, hardware...
-- What risks and challenges do you foresee?
-
-Note:
-The project management focus is broad, and addresses various conditions for the software's long-term sustainability and re-use.
-
-Any reusable software should have an appropriate *license*, which is an important early decision.
-
-The *maintenance* of the software should be addressed in an SMP: who will maintain it, and for how long?
-How and when will it be retired?
-
-Plan the *citation* of the software: how will you collect information about its use? What DOI will you use for this?
-
-The *repository* where the software will be deposited is preferably publicly accessible, and should allow users to obtain a functional copy of the software.
-
-What *resources* — human, infrastructure, financial - will be needed, and when?
-
-Finally, a *risk analysis* should be performed: for instance, are there privacy or security concerns? Is there potential for vendor lock, or other considerations for future reliability and reuse?
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## SMP template
+## SMP templates
 
 - Should be provided by the institution
 - Include guidance:
@@ -312,8 +179,6 @@ A good SMP includes guidance on how to fill it out, including institution-specif
 An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
 ===
-
-<!-- .slide: data-state="standard" -->
 
 ## Not all software is equal
 
@@ -337,13 +202,69 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 
 <!-- .slide: data-state="standard" -->
 
+## Mentimeter: how important is it?
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+Consider the following list of software:
+- [NEMO](https://www.nemo-ocean.eu/), a state of the art modelling framework, used for research and forecasting in ocean and climate sciences.
+- [AlphaFold](https://alphafold.com/), an AI system developed by Google DeepMind that predicts a protein’s 3D structure from its amino acid sequence.
+- [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
+- A Jupyter notebook to get the average length of everyone in this classroom.
+- A software package you yourself have been involved in, if any.
+
+Randomly choose 5 requirements and rate on a scale of 1-5 how important those aspects are to include in the SMP.
+It is not necessary to look any of these up, give your best estimation given the stated information.
+
+Note:
+We would usually do this exercise using a mentimeter survey.
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Making the call
+
+<div style="width: 55%; float: left">
+Determine the management level, based on:  
+<br></br>
+
+1. **Purpose**: what is the reason or expected end-use for the software?
+2. **Reliability**: what is the effect of software failure and/or non-maintenance?
+3. **Maintenance**: what is the long-term effort needed to maintain the software?
+4. **Lifetime**: How long do you expect (wish) the software to remain in use?
+</div>
+
+<div style="width: 40%; float: right" class="fragment" data-fragment-index="1">
+A template could look like this
+<br></br>
+
+<img src="media/threelevels.png" width="70%">
+</div>
+
+Note:
+Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
+The practical guide provides some guidance on how to make this decision.
+Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
+
+Note that the requirements and categories listed are one example of what the division could look like, and in practice most project will fall between what is considered "low" and "medium" here!
+
+==
+
+<!-- .slide: data-state="standard" -->
+
 ## SMP level: low
 
+For low management level projects, the SMP can be part of the DMP.
+
+Purpose:
 - Single purpose scripts
 - Developer is the primary user
 - Performs limited function:
   - Analyses a single/few experiment(s) or dataset(s)
-  - Automates a routine task
+  - Automates a simple routine task
 
 Note:
 Software with low management requirements is defined by its limited function: it performs a single analysis or automates a routine task.
@@ -357,7 +278,7 @@ It is not intended to be used by others, and therefore its influence beyond the 
 Best practices during development (e.g. version control), as well as measures to enable its reuse (documentation, versioning, archiving) are appropriate and recommended.
 They are however not requirements, nor is long term maintenance planning necessary.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -381,7 +302,7 @@ More advanced requirements, such as code auditing, automated testing, software p
 This software's longer term **maintenance** is relevant as it will have a lifespan longer than the project in which it was developed.
 Software management planning should include providing information on archiving and citation as well as strategies for post-project maintenance and support.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -408,35 +329,6 @@ Thus, maintenance strategies, including funding and/or community development pla
 
 <!-- .slide: data-state="standard" -->
 
-## Making that call
-
-- **Purpose**: what is the reason or expected end-use for the software?
-- **Reliability**: what is the effect of software failure and/or non-maintenance?
-- **Maintenance**: what is the long-term effort needed to maintain the software?
-- **Lifetime**: How long do you expect (wish) the software to remain in use?
-
-Check the Practical Guide: [doi:10.5281/zenodo.7038280](https://doi.org/10.5281/zenodo.7038280)
-
-Note:
-Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
-The practical guide provides some guidance on how to make this decision.
-Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-<center>
-<img src="media/threelevels.png" width="60%">
-</center>
-
-Note:
-With a specific level of management in mind, the core requirements that are relevant for this software's management can be determined.
-The practical guide provides a clear overview of this.
-
-===
-
-<!-- .slide: data-state="standard" -->
 
 ## Take home messages
 
@@ -444,6 +336,7 @@ The practical guide provides a clear overview of this.
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
+- Institutes should provide a template SMP
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
