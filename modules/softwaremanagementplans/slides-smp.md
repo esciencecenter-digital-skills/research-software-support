@@ -12,17 +12,22 @@ order: 1
 
 <!-- .slide: data-state="standard" -->
 
-## Reuse & reproduce
+## Reusability & Reproducibility
 
-Both reusability and reproducibility are important values in research software:
+These important values in research mean something slightly different for software than for data:
+- **Reproducible** software can be re-run (by others) with consistent results.
+- **Reusable** software can be built upon (by others) in their own packages.
 
-- **Reproducibility** is an integral part of the research process
-
-- Software **reusability** allows building upon existing software
+<img src="media/maintenance.png" width="40%" title="Software Needs Maintenance">
 
 For both, we need to be able to **find**, **access**, **use**, and **understand** software.
 
 Note:
+Software and code have some unique features.
+One particular feature is that they depend on other software, and on the environment in which they are run.
+This means that it requires maintenance and updates to keep it functional, as the environments around it change.
+This is called software sustainability.
+
 Reproducibility of research allows validation of its findings, and is therefore vital in building a solid foundation for scientific progress.
 We can only truly build upon existing research if we can reproduce its results.
 
@@ -33,26 +38,6 @@ An additional feature of software, is that it may be a product on its own, and c
 This is a great opportunity to build on our collective knowledge and tools, and to avoid reinventing the wheel.
 
 Ensuring that the software is findable, accessible, usable and understandable is key to both reproducibility and reusability.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Benefits of a Software Management Plan
-
-#TODO: Create slide from section 4 of guide
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-![Software Needs Maintenance](media/maintenance.png)
-
-Note:
-Software and code have some unique features.
-One particular feature is that they depend on other software, and on the environment in which they are run.
-This means that it requires maintenance and updates to keep it functional, as the environments around it change.
-This is called software sustainability.
 
 ===
 
