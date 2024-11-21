@@ -7,6 +7,7 @@ order: 5
 # Reading material
 
 ## Software Management Plans
+[Software Management Plans – Current Concepts, Tools, and Application](https://doi.org/10.5334/dsj-2024-043) provides a good overview of SMPs
 
 ### Zenodo
 Read in Zenodo about [Practical guide to Software Management Plans](https://zenodo.org/records/7589725)
