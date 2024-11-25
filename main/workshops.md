@@ -16,7 +16,7 @@ The Research Software Support can be taught as a live workshop. If you are inter
 
 ## Homework
 
-These are potential homework exercises that can be 
+These are potential homework exercises that can be used in a live workshop setting.
 
 ### Research Software
 

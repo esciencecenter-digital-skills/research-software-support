@@ -6,7 +6,7 @@
         "repoOwner": "esciencecenter-digital-skills",
         "organization": "Netherlands eScience Center",
         "organizationURL": "https://www.esciencecenter.nl",
-        "organizationLogo": "nlesc-logo.svg",
+        "organizationLogo": "/main/media/nlesc-logo.svg",
         "categoryOrder": ["Getting Started", "Developing Software", "Sharing Software"]
     }
 }
