@@ -63,7 +63,7 @@ Note:
 <!-- .slide: data-state="standard" -->
 ## What software to cite?
 
-*""...the software itself should be cited on the same basis as any other research product; authors should cite the appropriate set of software products."*
+*"...the software itself should be cited on the same basis as any other research product; authors should cite the appropriate set of software products."*
 
 Which software would you cite?
 
