@@ -4,6 +4,10 @@ type: reading
 order: 2
 ---
 
+# **Requirements for a Software Management Plan**
+
+This section gives a brief explanation of each SMP requirement listed in the [Practical Guide to Software Managament Plans](https://zenodo.org/records/7589725). These represent different aspects of the software management for researchers to consider before (and while) embarking on a software related project
+Note that not each SMP actually needs to address every single requirement, as this depends on the "level" of the SMP in question. Please refer to the guide or [our slides](#placeholder) above for more information on SMP levels.
 
 
 ## **Purpose**
