@@ -1,6 +1,6 @@
 ---
 title: SMP requirements
-type: info
+type: reading
 order: 2
 ---
 
