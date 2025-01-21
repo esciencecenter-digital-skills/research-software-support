@@ -19,6 +19,8 @@ These important values in research mean something slightly different for softwar
 - **Reusable** software can be built upon (by others) in their own packages.
 
 <img src="media/maintenance.png" width="40%" title="Software Needs Maintenance">
+<small>Image by [Carlos Martinez-Ortiz](https://github.com/c-martinez)</small>
+
 
 For both, we need to be able to **find**, **access**, **use**, and **understand** software.
 
@@ -37,7 +39,7 @@ However, it also comes with its own particular challenges: software reproducibil
 An additional feature of software, is that it may be a product on its own, and can be reused by others.
 This is a great opportunity to build on our collective knowledge and tools, and to avoid reinventing the wheel.
 
-Ensuring that the software is findable, accessible, usable and understandable is key to both reproducibility and reusability.
+Ensuring that the software is findable, accessible, usable, and understandable is key to both reproducibility and reusability.
 
 ===
 
@@ -159,8 +161,6 @@ In the practical guide, the core requirements for an SMP are listed, and grouped
 
 <!-- .slide: data-state="standard" -->
 
-<!-- .slide: data-state="standard" -->
-
 ## SMP templates
 
 - Should be provided by the institution
@@ -202,24 +202,25 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 
 <!-- .slide: data-state="standard" -->
 
-## Mentimeter: how important is it?
+## Exercise: How important is it?
 
 ==
 
 <!-- .slide: data-state="standard" -->
 
-Consider the following list of software:
+#### Consider the following list of software:
+
 - [NEMO](https://www.nemo-ocean.eu/), a state of the art modelling framework, used for research and forecasting in ocean and climate sciences.
 - [AlphaFold](https://alphafold.com/), an AI system developed by Google DeepMind that predicts a protein’s 3D structure from its amino acid sequence.
-- [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
 - A Jupyter notebook to get the average length of everyone in this classroom.
 - A software package you yourself have been involved in, if any.
+- [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
 
 Randomly choose 5 requirements and rate on a scale of 1-5 how important those aspects are to include in the SMP.
 It is not necessary to look any of these up, give your best estimation given the stated information.
 
 Note:
-We would usually do this exercise using a mentimeter survey.
+While teaching, we would usually do this exercise using a [mentimeter](https://www.mentimeter.com/app/folder/2612404)
 
 ===
 
@@ -234,11 +235,10 @@ Determine the management level, based on:
 1. **Purpose**: what is the reason or expected end-use for the software?
 2. **Reliability**: what is the effect of software failure and/or non-maintenance?
 3. **Maintenance**: what is the long-term effort needed to maintain the software?
-4. **Lifetime**: How long do you expect (wish) the software to remain in use?
 </div>
 
 <div style="width: 40%; float: right" class="fragment" data-fragment-index="1">
-A template could look like this
+An overview of the various management levels:
 <br></br>
 
 <img src="media/threelevels.png" width="70%">
@@ -336,7 +336,7 @@ Thus, maintenance strategies, including funding and/or community development pla
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
-- Institutes should provide a template SMP
+- Institutes should provide one or more SMP templates
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
