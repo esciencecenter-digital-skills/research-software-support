@@ -11,7 +11,10 @@ The Research Software Support can be taught as a live workshop. If you are inter
 
 | Date               | Organisation                 | Location                              | Comments                    |
 |-------------------:|:-----------------------------|:--------------------------------------|:----------------------------|
-| 2024-09-10         | Netherlands eScience Center  | Utrecht & Amsterdam, The Netherlands  |                             |
+| 2023-11-28         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Pilot workshop, VU          |
+| 2024-05-16         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Pilot workshop, UvA/HvA     |
+| 2024-09-10         | Netherlands eScience Center  | Utrecht & Amsterdam, The Netherlands  | Split-day workshop          |
+| 2025-02-03         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Split-day workshop, DCC-PO  |
 
 
 ## Homework
