@@ -260,102 +260,51 @@ We recommend scrolling up and down between this and previous slide to do the exe
 
 ## Making the call
 
-<div style="width: 55%; float: left">
-Determine the management level, based on:  
-<br></br>
+Not all SMPs need to encompass every single requirement, this will generally depend on:
+  - **Purpose**: what is the reason or expected end-use for the software?
+  - **Reliability**: what is the effect of software failure and/or non-maintenance?
+  - **Maintenance**: what is the long-term effort needed to maintain the software?
 
-1. **Purpose**: what is the reason or expected end-use for the software?
-2. **Reliability**: what is the effect of software failure and/or non-maintenance?
-3. **Maintenance**: what is the long-term effort needed to maintain the software?
+DCCs or organizations need to decide how it is determined which requirements to include and who is responsible for the decision.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Example 1: Templates per "management level"
+
+DCCs create a few SMP templates based on the management level of software
+<small> (example from SMP guide, we recommend making a variation of this theme)</small>
+
+<div style="width: 50%; float: left">
+  <ul>
+    <strong>Management level</strong>:
+    <li><strong>Low</strong>: single purpose/single user script with limited functionality</li>
+    <li><strong>Medium</strong>: primary research output with unique functionality may be reused</li>
+    <li><strong>High</strong>: mission critical software in continuous use, failure of which would threaten research line</li>
+  </ul>
 </div>
 
-<div style="width: 40%; float: right" class="fragment" data-fragment-index="1">
-An overview of the various management levels:
-<br></br>
-
+<div style="width: 50%; float: right">
 <img src="media/threelevels.png" width="70%">
 </div>
 
 Note:
-Deciding what level of management, and therefore which SMP template, is appropriate for a specific software project, is not always straightforward.
-The practical guide provides some guidance on how to make this decision.
-Addressing what purpose the software serves, how reliable it needs to be, and what efforts will be required for its longer term maintenance, will help determine the appropriate level of management.
-
-Note that the requirements and categories listed are one example of what the division could look like, and in practice most project will fall between what is considered "low" and "medium" here!
+In practice, we recommend creating more groups and/or redefining which requirements belong to each category (in the current form most software will fall in between Low and Medium). 
 
 ==
 
 <!-- .slide: data-state="standard" -->
 
-## SMP level: low
+## Example 2: Guidelines per requirement
 
-For low management level projects, the SMP can be part of the DMP.
+DCCs provide a guidelines for each requirement in which cases it should or should not be included in the SMP
 
-Purpose:
-- Single purpose scripts
-- Developer is the primary user
-- Performs limited function:
-  - Analyses a single/few experiment(s) or dataset(s)
-  - Automates a simple routine task
-
-Note:
-Software with low management requirements is defined by its limited function: it performs a single analysis or automates a routine task.
-Its **purpose** is typically limited to a specific experiment, and the developer is the primary user.
-
-The **reliability** of this type of software is usually easy to assess: the output can be visually inspected, or tested with a limited set of inputs.
-
-The **maintenance** of this type of software is usually limited to the duration of the project in which it was developed.
-It is not intended to be used by others, and therefore its influence beyond the scope for which it was intended is likely small.
-
-Best practices during development (e.g. version control), as well as measures to enable its reuse (documentation, versioning, archiving) are appropriate and recommended.
-They are however not requirements, nor is long term maintenance planning necessary.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## SMP level: medium
-
-- Primary or secondary output of a research project
-- Adds a library or module to existing tool, or even works standalone
-- Unique functionality that will be reused
-  - Implements a new or higher performance algorithm
-  - Simulation software implementing a new model or method
-
-Note:
-Software requiring **medium** management, is defined as software that is the primary or secondary output of a research project.
-
-Its original **purpose** is typically limited to a single research project, but incorporates functionality that may be of use to others, either as a standalone tool, library, or module in an existing tool.
-
-The **reliability** is more difficult to assess due to its increased complexity, but it is also also more important: this software likely has an effect on other research outside of the original project.
-Good software practices such as version control and user/technical documentation are therefore essential here.
-More advanced requirements, such as code auditing, automated testing, software packaging, and distribution also need to be considered.
-
-This software's longer term **maintenance** is relevant as it will have a lifespan longer than the project in which it was developed.
-Software management planning should include providing information on archiving and citation as well as strategies for post-project maintenance and support.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## SMP level: high
-
-- "Mission critical" software
-- High standards required for reliability
-- Absence or replacement of the software would threaten research
-- Software that is continually in use:
-  - Preprocessing data coming from a telescope
-  - Controlling a medical device
-
-Note:
-**High** management software is defined as mission critical software.
-
-Its **purpose** is to perform a critical function, and its absence or replacement would threaten the research.
-
-The **reliability** of this software is of utmost importance, and all possible actions should be taken to ensure it.
-
-Its **maintenance** is not limited to the duration of the project in which it was developed, but should be maintained as long as it is in use.
-Thus, maintenance strategies, including funding and/or community development plans, should be in place.
+For example:
+- **Purpose**: Always include.
+- **User Documentation**: If you want or expect users other than your direct colleagues to interact with the software.
+- **Citation**: If you would like the software to be citable independently of e.g. research paper.
+- **Risk analysis**: For mission critical software or software that needs to run 24/7.
 
 ===
 
@@ -368,7 +317,7 @@ Thus, maintenance strategies, including funding and/or community development pla
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
-- Institutes should provide one or more SMP templates
+- Institutes should provide one or more SMP templates or guidelines
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
