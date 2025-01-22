@@ -19,7 +19,7 @@ These important values in research mean something slightly different for softwar
 - **Reusable** software can be built upon (by others) in their own packages.
 
 <img src="media/maintenance.png" width="40%" title="Software Needs Maintenance">
-<small>Image by [Carlos Martinez-Ortiz](https://github.com/c-martinez)</small>
+<small>Image by <a href="https://github.com/c-martinez">Carlos Martinez-Ortiz</a></small>
 
 
 For both, we need to be able to **find**, **access**, **use**, and **understand** software.
