@@ -1,8 +1,8 @@
 ---
 order: 1
 trl: high
-category: Good Practices
-title: Software version control
+category: Developing Software
+title: Software Version Control
 abstract: Local version control and collaborative code development, for example using Git and GitHub
 author: eScience Center, TU Delft
 thumbnail: "thumbnail-version-control.jpg"

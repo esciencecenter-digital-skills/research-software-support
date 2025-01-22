@@ -1,12 +1,25 @@
 ---
-title: Masterclass
-order: 3
+title: Workshops
+order: 4
 ---
 
 ## About
-The Research Software Support Masterclass is the live workshop version of these online materials. If you are interested in following or even hosting such a masterclass, have a look at the [training page](https://www.esciencecenter.nl/digital-skills/) or contact the [training team](mailto:training@esciencecenter.nl) at the Netherlands eScience Center.
+The Research Software Support can be taught as a live workshop. If you are interested in following or even hosting such a workshop, have a look at the [training page](https://www.esciencecenter.nl/digital-skills/) or contact the [training team](mailto:training@esciencecenter.nl) at the Netherlands eScience Center.
+
+
+## Past workshops
+
+| Date               | Organisation                 | Location                              | Comments                    |
+|-------------------:|:-----------------------------|:--------------------------------------|:----------------------------|
+| 2023-11-28         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Pilot workshop, VU          |
+| 2024-05-16         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Pilot workshop, UvA/HvA     |
+| 2024-09-10         | Netherlands eScience Center  | Utrecht & Amsterdam, The Netherlands  | Split-day workshop          |
+| 2025-02-03         | Netherlands eScience Center  | Amsterdam, The Netherlands            | Split-day workshop, DCC-PO  |
+
 
 ## Homework
+
+These are potential homework exercises that can be used in a live workshop setting.
 
 ### Research Software
 
@@ -26,4 +39,3 @@ The Research Software Support Masterclass is the live workshop version of these 
 1. Create a software management plan template which fits your piece of software by using step 2 and 3 from the [Template Building exercise](/modules/softwaremanagementplans/templatebuilding) in the software management plan module.
 
 2. Fill out your own software management plan template. Keep it short and to the point. 
-

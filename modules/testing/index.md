@@ -1,7 +1,7 @@
 ---
-title: Software testing
-category: Good Practices
-order: 49
+title: Software Testing
+category: Developing Software
+order: 4
 abstract: Local testing of your software and using Continuous Integration and Continuous Deployment (CI/CD)
 author: eScience Center
 thumbnail: "thumbnail-testing.jpg"

@@ -6,7 +6,7 @@ Do you want to teach Research Software Support? This material is open-source and
 Are you planning on using our material in your teaching? 
 We would love to help you prepare to teach the lesson and receive feedback on how it could be further improved, based on your experience in the workshop.
 
-You can notify us that you plan to teach this lesson by creating an issue in this repository. Also, it would be great if you can update [this overview of all workshops taught with this lesson material](workshops.md). This helps us show the impact of developing open-source lessons to our funders.
+You can notify us that you plan to teach this lesson by creating an issue in this repository. Also, it would be great if you can update [this overview of all workshops taught with this lesson material](main/workshops.md). This helps us show the impact of developing open-source lessons to our funders.
 
 ## Target audience
 The target audience for this material is University management and support staff. University management taking part in courses involving these modules may be involved in creating university policy around research software. The University support staff targeted are not themselves researchers or software engineers, but they support researchers and research software engineers in creating research software.

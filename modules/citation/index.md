@@ -1,6 +1,6 @@
 ---
-title: Software citation
-category: Publishing & Citing
+title: Software Citation
+category: Sharing Software
 order: 33
 author: eScience Center
 abstract: Learn how and when to cite research software and make your software citable and why it is important. 
