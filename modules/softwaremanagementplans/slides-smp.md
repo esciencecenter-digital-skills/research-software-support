@@ -215,6 +215,11 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 
 ## Exercise: How important is it?
 
+Note:
+While teaching, we will usually do this exercise using [mentimeter](https://www.mentimeter.com/app/folder/2612404) (this link is only accessible using an eScience Center account). It is not necessary to go to the slides vertically below this one.
+
+For self-studiers: see slides vertically below this one to see the exercise.
+
 ==
 
 <!-- .slide: data-state="standard" -->
@@ -227,11 +232,27 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 - A software package you yourself have been involved in, if any.
 - [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
 
-Randomly choose 5 requirements and rate on a scale of 1-5 how important those aspects are to include in the SMP.
-It is not necessary to look any of these up, give your best estimation given the stated information.
+Go to next slide
 
 Note:
-While teaching, we would usually do this exercise using a [mentimeter](https://www.mentimeter.com/app/folder/2612404)
+
+We recommend scrolling up and down between this and previous slide to do the exercise.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+#### How important are the different requirements for each?
+
+- Randomly choose 5 SMP requirements for each software from the previous slide
+- Rate on a scale of 1-5 how important those aspects are to include in the SMP.
+    - It is not necessary to look them up, make an estimation from stated information.
+
+<img src="media/groupedrequirements.png" width="30%" />
+
+Note:
+
+We recommend scrolling up and down between this and previous slide to do the exercise.
 
 ===
 
