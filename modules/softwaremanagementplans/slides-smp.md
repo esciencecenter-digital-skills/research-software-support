@@ -12,34 +12,45 @@ order: 1
 
 <!-- .slide: data-state="standard" -->
 
-## Reusability & Reproducibility
-
-These important values in research mean something slightly different for software than for data:
-- **Reproducible** software can be re-run (by others) with consistent results.
-- **Reusable** software can be built upon (by others) in their own packages.
+## Research reproducibility
 
 <img src="media/maintenance.png" width="40%" title="Software Needs Maintenance">
 <small>Image by <a href="https://github.com/c-martinez">Carlos Martinez-Ortiz</a></small>
 
-
-For both, we need to be able to **find**, **access**, **use**, and **understand** software.
+What role does research software play in promoting reproducibility?
 
 Note:
-Software and code have some unique features.
-One particular feature is that they depend on other software, and on the environment in which they are run.
-This means that it requires maintenance and updates to keep it functional, as the environments around it change.
-This is called software sustainability.
-
 Reproducibility of research allows validation of its findings, and is therefore vital in building a solid foundation for scientific progress.
 We can only truly build upon existing research if we can reproduce its results.
 
 When software has been used in research, this has enormous potential to facilitate the research reproducibility.
 However, it also comes with its own particular challenges: software reproducibility is not always straightforward.
 
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Software reusability
+
+- Reproducibility relies on re-using research software.
+  - Users need to **find**, **access**, and **use** the software.
+- Reproduction may just be a first step towards diversifying a study.
+  - Users need to **understand** the software.
+
+Software reusability encompasses both **reproducing** existing results obtained with RS, as well as **building upon** existing RS to use it in new or different ways.
+
+Software Management Plans help developers ensuring that their research software is reusable.
+
+
+Note:
 An additional feature of software, is that it may be a product on its own, and can be reused by others.
 This is a great opportunity to build on our collective knowledge and tools, and to avoid reinventing the wheel.
 
 Ensuring that the software is findable, accessible, usable, and understandable is key to both reproducibility and reusability.
+
+Software needs to be understood both from a:
+- functional perspective: what steps does the software take to get to the results
+- developmental perspective: how are these steps put into code
 
 ===
 
