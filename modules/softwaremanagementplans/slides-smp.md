@@ -193,7 +193,7 @@ An assessment rubric should accompany the template, indicating per question or f
 
 ## Not all software is equal
 
-![](media/softwarespectrum.png)
+![](media/softwarespectrum2.png)
 
 Note:
 It is important to realize when making an SMP, that research software comes in many shapes and sizes.
