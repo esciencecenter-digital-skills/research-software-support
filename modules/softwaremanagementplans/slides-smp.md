@@ -117,7 +117,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center; margin-top: 60px; margin-bottom: 60px;">
   <div>
-    <img src="media/benefits/structure.png" style="height: 100px;">
+    <img src="media/benefits/sdhbfvkdshk.png" style="height: 100px;">
     <sub>... structuring<br>development</sub>
   </div>
   <div>
