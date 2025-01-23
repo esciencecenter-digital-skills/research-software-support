@@ -19,3 +19,5 @@ jobs:
         run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
       - name: Run linkspector
         uses: umbrelladocs/action-linkspector@v1
+        with:
+          level: info
