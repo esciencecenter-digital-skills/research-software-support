@@ -155,7 +155,7 @@ Finally, the SMP will allow later verification of plans in a publicly funded pro
 
 ## An SMP is not ...
 
-an addition bureaucratic hoop for researchers to jump through.
+an additional bureaucratic hoop for researchers to jump through.
 
 Make sure you represent it as a tool allowing researchers to get the most out of their effort.  
 
