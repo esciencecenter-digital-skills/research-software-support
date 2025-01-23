@@ -106,7 +106,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
     <sub>... thinking about<br>purpose & necessity</sub>
   </div>
   <div>
-    <img src="media/benefits/resources2.png" style="height: 100px;">
+    <img src="media/benefits/resources.png" style="height: 100px;">
     <sub>... planning<br>resource management</sub>
   </div>
   <div>
@@ -121,7 +121,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
     <sub>... structuring<br>development</sub>
   </div>
   <div>
-    <img src="./media/benefits/explicit3.png" style="height: 100px;">
+    <img src="./media/benefits/explicit.png" style="height: 100px;">
     <sub>... making technical<br>choices explicit</sub>
   </div>
   <div>
