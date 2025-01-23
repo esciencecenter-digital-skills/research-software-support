@@ -102,11 +102,11 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center;">
   <div>
-    <img src="media/benefits/thinking.png" style="height: 100px;">
+    <img src="media/benefits/purpose.png" style="height: 100px;">
     <sub>... thinking about<br>purpose & necessity</sub>
   </div>
   <div>
-    <img src="media/benefits/resources.png" style="height: 100px;">
+    <img src="media/benefits/resources2.png" style="height: 100px;">
     <sub>... planning<br>resource management</sub>
   </div>
   <div>
@@ -121,7 +121,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
     <sub>... structuring<br>development</sub>
   </div>
   <div>
-    <img src="./media/benefits/explicit.png" style="height: 100px;">
+    <img src="./media/benefits/explicit3.png" style="height: 100px;">
     <sub>... making technical<br>choices explicit</sub>
   </div>
   <div>
