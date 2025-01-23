@@ -5,11 +5,13 @@ on:
     branches:
       - main
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
     branches:
       - main
 
 jobs:
   deploy_with_NEBULA:
+    if: github.event.pull_request.draft == false
     permissions: 
       contents: write
     uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v1.4.0
