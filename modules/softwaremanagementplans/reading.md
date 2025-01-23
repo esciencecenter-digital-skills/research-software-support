@@ -9,7 +9,7 @@ order: 6
 ## Software Management Plans
 
 ### Zenodo
-Read in Zenodo about [Practical guide to Software Management Plans](https://zenodo.org/records/7589725)
+Read in Zenodo about [Practical guide to Software Management Plans](https://zenodo.org/records/nvfgbjdskfdlksanhkfjsd)
 
 ### Software Sustainability Institute
 Read in SSI Resources Hub about [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
