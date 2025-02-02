@@ -82,14 +82,38 @@ special kind of package that runs in isolation (different degrees, e.g. snap/fla
 2. For users that want to use your software
 
 note:
-Remember, scientists usually write software for themselves, they are not really.
-
+Remember, scientists usually write software for themselves, they are not really thinking about other people using their software. But it's often useful to turn it around. I want to use someone else's software, what would be ideal for me?
 
 There are many reasons why you would want to distribute your software. "Users" and "developers" can include you. 
 
+==
+
+### Scenario 1: reproduce results and review research method 
+
+(and modify -> "notebook" or "script")
+
+Install onto your system, with all the dependencies, and source code, and data
+Can be separate from everything else
 
 ==
 
+### Scenario 2: reuse parts or methods
+
+(if you've made a new method, or a new implementation -> "library")
+
+Needs an API
+Install onto your system, with all dependencies, no source needed
+Needs to integrate with other code via programming
+
+==
+
+### Scenario 3: use the application
+
+(if you have a stand-alone tool -> "program", mostly outside of science)
+
+Needs a user interface
+Install onto your system, with all dependencies, no source needed
+No need to integrate with other code via programming
 
 ===
 
@@ -131,47 +155,45 @@ note: Sometimes you enter dependency hell
 
 <!-- .slide: data-state="standard" -->
 
-## What solutions exist?
+## Software distribution technology
 
-Isolation or specification
+==
 
-===
+### Scenario 1: need to reproduce the environment (dependencies) and then download the notebook/script
 
-<!-- .slide: data-state="standard" -->
+- environment definition, e.g. requirements.txt, environment.yml
+- make script/notebook available for download
+- user uses a package manager to recreate the environment from publicly available software
+- use an image (mostly long-term archival)
 
-## Isolation
+==
 
-![Layers of isolation](media/distributing-software-layers.png)
+### Scenario 2: need to install dependencies and then the code
 
-===
+from source (dependency hell)
+use a package manager
+user installs additional dependency using a package manager
 
-<!-- .slide: data-state="standard" -->
+==
 
-## Specification
+### Scenario 3: need to install dependencies and the code
 
-Let the user (or some tool) solve the probem...
-
-- requirements.txt
-- environment.yml
-- pyproject.toml
-- package.json
-etc...
-
-note:
-Specify the dependencies in a file and let the user build their own environment, container or vm.
+- use a package manager (app store)
+- use an installer
+- use an image (mostly long-term archival)
 
 ===
 
-## Considerations
+## Software changes over time
 
-- Large amount of isolation enhances reproducibility but decreases flexibility.
-- Leaving it up to the user can be done for simple scripts (most research software)
+Scenario 1: fix versions in your environment definition (but they may cease to work... -> image)
+Scenario 2: semantic versioning of the API
+Scenario 3: major new features or date-based, marketing issue
 
 ===
 
-## Rules of thumb   
+### Summary
 
-- Simple scripts can use a simple dependency specification
-- If other software might depend on this software, package it
-- To archive a specific software version and its environment, you could use a container
-
+Script/notebook -> Supplementary material/GitHub/Zenodo/Website (with environment definition and input data) -> review, reproduce, modify
+Library -> Suitable package manager -> install and use in a script
+Program -> Package manager or installer -> install and run on their computer
