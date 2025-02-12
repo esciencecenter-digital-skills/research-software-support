@@ -9,7 +9,7 @@ order: 3
 Choose one of the three examples of software below: [Comet](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-1-comet), [PureGoMe](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-2-puregome), or [gammaShiny](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-3-gammashiny). They have been described with statements that can be mapped to the FAIR4RS Principles. With each statement in the software description, identify the principle(s) it maps to, and the (sub)facet(s) of the principle(s) it addresses. A single statement may map to multiple (sub)facets.
 
 
-|**The FAIR4RS Principles are:** (<small> https://zenodo.org/records/6623556 </small>)|
+|**The FAIR4RS Principles** <small> (https://zenodo.org/records/6623556) </small>|
 |:------|
 | **F: Software, and its associated metadata, is easy for both humans and machines to find.** |
 | F1. Software is assigned a globally unique and persistent identifier. <br> --- F1.1. Components of the software representing levels of granularity are assigned distinct identifiers. <br> --- F1.2. Different versions of the software are assigned distinct identifiers. <br> F2. Software is described with rich metadata. <br> F3. Metadata clearly and explicitly include the identifier of the software they describe. <br> F4. Metadata are FAIR, searchable and indexable. |
