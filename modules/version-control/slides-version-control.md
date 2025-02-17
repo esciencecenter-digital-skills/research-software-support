@@ -57,6 +57,35 @@ note:
 #TODO: make this slide graphical instead
 #TODO: reword this slide
 
+===
+
+<!-- .slide: data-state="standard center" -->
+
+## Each change is stored...
+
+... alongside useful metadata.
+
+A single unit of change is called a [commit](version_control_terminology).
+
+<img src="media/git-diff.png" width="80%">
+
+note:
+A version control system (like git) keeps track of the individual changes for us.
+
+==
+
+<!-- .slide: data-state="standard center" -->
+
+## Sequential changes form a log
+
+The data structure that contains the codebase plus the commit history is called a [repository](version_control_terminology).
+
+<img src="media/git-log.png" width="80%">
+
+note:
+
+#TODO: show a github commit history instead?
+
 ==
 
 <!-- .slide: data-state="standard center"  -->
