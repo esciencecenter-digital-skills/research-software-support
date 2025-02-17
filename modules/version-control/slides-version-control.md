@@ -33,18 +33,46 @@ Lets see a more practical, systematic, and robust way of doing this...
 ===
 
 <!-- .slide: data-state="standard center"  -->
-## Documents are...
+## Documents are treated as...
 
-<div >
-  a series of changes
+<div>
+  ... a series of changes
   <img style="height: 30vh; margin: 0; padding: 0;" src="https://swcarpentry.github.io/git-novice/fig/play-changes.svg"/>
 </div>
 
 note:
-In version control systems, documents start with a base version and record all the changes that happened on top of that base version. Because of this you can always "play back" to an earlier version, while it does not store duplicates.
+In version control systems, documents start with a base version and record all the changes that happened on top of that base version. Because of this you can always "play back" to an earlier version or compare separate iterations, without having to store near-identical variations of the same documents.
+
+==
+
+<!-- .slide: data-state="standard center"  -->
+## Software consists of one or more documents...
+
+... each of which are treated as a series of changes.
+
+We typically call the group of documents that comprise the software the [codebase](version_control_terminology).
+
+note:
+
+#TODO: make this slide graphical instead
+#TODO: reword this slide
+
+==
+
+<!-- .slide: data-state="standard center"  -->
+## Changes can be complex
+
+- Additions/deletions to a file
+- Changes to a document
+- New files added
+- Files moved into different folders
+- ...
+
+note:
+
+#TODO: consider moving this slide to later in the presentation
 
 ===
-
 
 <!-- .slide: data-state="standard center" -->
 
