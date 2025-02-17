@@ -284,7 +284,7 @@ If two people change the same line...
 This line contains a typos.
 ```
 ... [merge conflicts](version_control_terminology) may arise:
-<!-- .element: class="fragment" data-fragment-index="2" -->
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 ```bash
 <<<<<< HEAD (Current Change)
@@ -293,43 +293,69 @@ This line contained a typo.
 This line contained typos.
 >>>>>> feature-branch (Incoming Change)
 ```
-<!-- .element: class="fragment" data-fragment-index="2" -->
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
 
-If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a [merge conflict](version_control_terminology) arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
+If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a merge conflict arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
 
 Resolving merge conflicts can be time-consuming and error prone, especially for large conflicts. Therefore it is a good idea for teams to agree on some basic practices to avoid creating conflicts in the first place.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Avoiding merge conflicts
 
-How to minimize creating merge conflicts:
+<div style="display: grid; grid-template-columns: repeat(2, 2fr); gap: 10; text-align: center;">
+  <div class="fragment" data-fragment-index="1">
+    <div>
+      <img src="media/communication.png" style="height: 100px;">
+      <strong>Communication</strong>
+      <ul>
+        <li>Who is working on what?</li>
+        <li>Follow or create common standards</li>
+      </ul>
+    </div>
+  </div>
+  <div class="fragment" data-fragment-index="2">
+    <div>
+      <img src="media/updating.png" style="height: 100px;">
+      <strong>Frequent updates</strong>
+      <ul>
+        <li><a href="version_control_terminology">push and pull</a> changes regularly</li>
+        <li>Review each other's work before merging</li>
+      </ul>
+    </div>
+  </div>
+  <div class="fragment" data-fragment-index="3">
+    <div>
+      <img src="media/workflow.png" style="height: 100px;">
+      <strong>Organized workflow</strong>
+      <ul>
+        <li>Commit hygeine and feature branches</li>
+        <li>Avoid "scope creep"</li>
+      </ul>
+    </div>
+  </div>
+  <div class="fragment" data-fragment-index="4">
+    <div>
+      <img src="media/tools.png" style="height: 100px;">
+      <strong>Tools are your friends</strong>
+      <ul>
+        <li><em>Kanban boards</em> for task assignment</li>
+        <li><em>linters</em> for style aherence</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-- !! Communication !!:
-  - discuss who is working on what
-  - follow existing (or agree on common) code standards such as formatting, style guides, etc.
-- Frequent updates:
-  - [push and pull](version_control_terminology) each other's changes regularly.
-- Organize changes:
-  - use "feature branches" rather than making changes to the main document directly
-  - avoid "scope creep" and instead create separate independent branches for isolated topics
-  - review each other's changes before merging them
-- Use (automated) tools to help you with above:
-  - *linters* and *formatters* help safeguard/automate adherence to style principles.
-  - *Kanban boards* or other task management systems help avoid multiple people working on the same issue
-
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<small>All icons from <a href="https://icons8.com/icons/pricing">Icons8</a></small>
 
 note:
 
 Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but they will need some attention to resolve.
 
 Communication is key!
-
-#TODO: make slide less texty. Spread over slides or use images?
 
 ===
 
