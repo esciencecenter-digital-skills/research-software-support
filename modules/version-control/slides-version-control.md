@@ -366,6 +366,12 @@ Communication is key!
 - For collaborative development a remote, cloud hosted repository is often used as central hub
 - Communication is key to avoid conflicting versions of the same software
 
-note:
+===
 
-#TODO: revisit these
+<!-- .slide: data-state="keepintouch" -->
+
+www.esciencecenter.nl
+
+info@esciencecenter.nl
+
+020 - 460 47 70
