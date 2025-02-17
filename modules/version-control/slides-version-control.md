@@ -309,7 +309,11 @@ Communication is key!
 
 <!-- .slide: data-state="standard" -->
 ## Key Points
-- Version control is like unlimited **undo** in MS Word, and more
+- Version control is like unlimited undo in MS Word... and more!
 - Version control also allows many people to work in parallel
 - For collaborative development a remote, cloud hosted repository is often used as central hub
 - Communication is key to avoid conflicting versions of the same software
+
+note:
+
+#TODO: revisit these
