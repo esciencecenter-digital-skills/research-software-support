@@ -237,27 +237,73 @@ Other uses of branches:
 
 ===
 
-<!-- .slide: data-state="standard" -->
-## Some terminology
-
-Files can be stored in:
- - **working directory**: the files you can see
- - **staging area / index**: files about to be committed
- - **local repository**: the (permanent) record on a given user's disk 
- - **remote repository**: an online copy of the record, often used as the central repository
-
-===
-
 <!-- .slide: data-state="standard center" -->
+## What can go wrong?
 
-## The right tool?
-
-<img src="media/repository_logos.png" width="90%">
+<img src="media/conflict.png" height="80%">
 
 note:
-Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents. It is often good to know what is the default or most-used tool in your university, institute or group. 
+If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a [merge conflict](version_control_terminology) arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
 
-Git (for version control) with Gitlab and Github (for collaboration) are the mainstream, used by many and with lots of features. You might run into projects using other repositories.
+Resolving merge conflicts can be time-consuming and error prone, especially for large conflicts. Therefore it is a good idea for teams to agree on some basic practices to avoid creating conflicts in the first place.
+
+==
+
+<!-- .slide: data-state="standard" -->
+## Merge conflicts
+
+If two people change the same line...
+
+```bash
+This line contains a typos.
+```
+... [merge conflicts](version_control_terminology) may arise:
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+```bash
+<<<<<< HEAD (Current Change)
+This line contained a typo.
+=======
+This line contained typos.
+>>>>>> feature-branch (Incoming Change)
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+note:
+
+If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a [merge conflict](version_control_terminology) arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
+
+Resolving merge conflicts can be time-consuming and error prone, especially for large conflicts. Therefore it is a good idea for teams to agree on some basic practices to avoid creating conflicts in the first place.
+
+==
+
+<!-- .slide: data-state="standard center" -->
+## Avoiding merge conflicts
+
+How to minimize creating merge conflicts:
+
+- !! Communication !!:
+  - discuss who is working on what
+  - follow existing (or agree on common) code standards such as formatting, style guides, etc.
+- Frequent updates:
+  - [push and pull](version_control_terminology) each other's changes regularly.
+- Organize changes:
+  - use "feature branches" rather than making changes to the main document directly
+  - avoid "scope creep" and instead create separate independent branches for isolated topics
+  - review each other's changes before merging them
+- Use (automated) tools to help you with above:
+  - *linters* and *formatters* help safeguard/automate adherence to style principles.
+  - *Kanban boards* or other task management systems help avoid multiple people working on the same issue
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+note:
+
+Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but they will need some attention to resolve.
+
+Communication is key!
+
+#TODO: make slide less texty. Spread over slides or use images?
 
 ===
 
