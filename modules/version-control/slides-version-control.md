@@ -169,30 +169,27 @@ This is the equialent of the "commit message" at the level of a new version.
 ===
 
 <!-- .slide: data-state="standard center" -->
-## Avoiding merge conflicts
+## Collaborating using VC
 
-How to minimize creating merge conflicts:
+More than one...
 
-- Communicate:
-  - discuss who is working on what
-  - agree on common standards such as formatting, (conflicting) style guides, linting rules, etc.
-- Frequent merging:
-  - Merge (small) changes back to the central repository often
-  - Pull changes to your local repository regularly
-- Organize changes:
-  - use "feature branches" rather than making changes to the main document directly 
-  - avoid "scope creep" and instead create separate independent branches for isolated topics
-  - review each other's changes before merging them
+<div style="float: left; width: 49%;" class="fragment" data-fragment-index="1">
+  ... source of change...
+  <img style="height: 80%; padding-top: 20px;" src="media/versions.svg"/>
+</div>
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<div style="float: right; width: 49%;" class="fragment" data-fragment-index="2">
+  ...can be merged into a single document.
+  <img style="height: 80%; padding-top: 20px;" src="media/merge.svg"/>
+</div>
 
 note:
-Resolving merge conflicts can be time-consuming and error prone, especially for larger changes/conflicts. Therefore it is a good idea for teams to agree on some basic practices to avoid creating conflicts in the first place. Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but they will need some attention to resolve. 
+When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
 
-===
+==
 
 <!-- .slide: data-state="standard center" -->
-## Collaboration
+## Keeping a Centralized Repository
 
 <img style="height: 350px;" src="https://www.researchgate.net/profile/Mark-Ziemann/publication/371671830/figure/fig2/AS:11431281168661745@1687060872300/Distributed-version-control-Adapted-from-48.png" alt="Distributed version control. Adapted from [48]."/>
 
@@ -200,7 +197,43 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
 
 
 note:
-Collaborative code developers often make use of a remote server (like GitHub, or GitLab) as a central repository from which all other repositories derive. But this is not the only way you can use version control to do collaborative development. 
+Collaborative code developers often make use of a remote server (like GitHub, or GitLab) as a central repository from which all other repositories derive. But this is not the only way you can use version control to do collaborative development.
+
+==
+
+<!-- .slide: data-state="standard center" -->
+## Hosting the Main Repository
+
+<img src="media/repository_logos_focused.png" width="80%"> <!-- non-focused image can be found until SHA 8c658f43, v1.6.0 -->
+
+
+note:
+Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents.
+
+Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for sticking to them.
+
+GitLab is fully open source and allows for setting up private environments (#TODO: lookup the terminology). Conversely, GitHub is owned by Microsoft and uses (some) proprietary software components, but is more widely used and more people will be familiar with the interface and functionality.
+
+==
+
+<!-- .slide: data-state="standard center" -->
+## Branching
+
+A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
+
+<img src="https://book.the-turing-way.org/_images/sub-branch.png" width="60%">
+<small> Image by: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow-branches">The Turing Way</a></small>
+
+What uses can you think of to create branches, other than "feature branches"?
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+note:
+The main branch is supposed to be a stable version, that one can mostly rely on to work as expected. Changes created in branches may get merged back into the stable version, or may persist (or die) as a parallel version
+Branches here are indicated as "feature branches", i.e. branches used while creating new features in a code base.
+
+Other uses of branches:
+- a sandbox or playground, for trying out different things without "damaging" the stable version
+- organizing/storing results alongside their different variations/settings 
 
 ===
 
