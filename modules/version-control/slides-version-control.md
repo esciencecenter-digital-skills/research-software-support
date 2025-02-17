@@ -103,71 +103,68 @@ note:
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
+## Revisiting Past Versions
 
-## Changes are stored
+Say you have dozens (hundreds, thousands) of old versions, how do you manage to find a useful previous version?
 
-<img src="media/git-diff.png" width="80%">
 
-note:
-A version control system (like git) keeps track of the individual changes for us. 
-
-===
-
-<!-- .slide: data-state="standard center" -->
-
-## Changes are stored
-
-<img src="media/git-log.png" width="80%">
+- effective committing (sizing & messages)
+- versioning systems
+- CHANGELOGs
 
 note:
-The changes are stored along with some useful metadata. A set of changes, along with its metadata is called a "commit". 
 
-===
+#TODO: replace list below with a cartoon or image, the list will become separate slides
+
+==
 
 <!-- .slide: data-state="standard" -->
-## More than one...
 
-<div style="float: left; width: 49%;">
-  independent change
-  <img style="height: 350px;" src="media/versions.svg"/>
-</div>
+## Effective Committing
 
-<div style="float: right; width: 49%;">
-  can be merged
-  <img style="height: 350px;" src="media/merge.svg"/>
-</div>
+- Keep commits small and focused
+  - #TODO: add ref on atomic commits
+- Add useful commit messages to each commit
+  - short main message, room for additional detail
+  - #TODO: show example
 
 note:
-When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
-## Merge conflicts
 
-However, if multiple contributors work on the same thing...
+## Versioning
 
-```bash
-This line contains a typos.
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-... then "merge conflicts" may arise: 
-<!-- .element: class="fragment" data-fragment-index="2" -->
-
-```bash
-<<<<<<< contributor1
-This line contains typos.
-=======
-This line contains a typo.
->>>>>>> contributor2
-```
-<!-- .element: class="fragment" data-fragment-index="2" -->
+Use a logical system to keep track of (stable) versions.
+- Semantic Versioning (SemVer):
+  - v1.3.12 => major.minor.patch
+  - #TODO: add link to SemVer
+- Create a different (logical) system 
+  - and document it in the repo
+  - #TODO: show example from ruff
+- Update on zenodo to create a DOI
 
 note:
 
-If changes are made to the same section (usually the same or consecutive line(s) of text) of a document a **conflict** arises. Changes cannot be automatically merged, as the interpreter does not know which version or which combination to use. Human intervention is required and can involve rolling back a change, finding common ground between changes, etc.
+Not every change or addition needs a new version number; this is what commits/commit messages are for.
+
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Change Logs
+
+Keep a human readable log summarizing the changes of each new version
+
+note:
+
+This is the equialent of the "commit message" at the level of a new version.
+
+#TODO: show example imaghe of a change log
 
 ===
 
