@@ -257,9 +257,11 @@ Separate local repositories are similar to but distinct from individual branches
 note:
 Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents.
 
-Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for sticking to them.
+Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for dloing so.
 
-GitLab is fully open source and allows for setting up private environments (#TODO: lookup the terminology). Conversely, GitHub is owned by Microsoft and uses (some) proprietary software components, but is more widely used and more people will be familiar with the interface and functionality.
+GitLab is fully open source and offers a self-managed option, allowing organizations to host and manage their own GitLab instances on-premises or in their private cloud environments. This provides full control over data and customization.
+
+Conversely, GitHub is owned by Microsoft and uses (some) proprietary software, but is more widely used and more people will be familiar with the interface and functionality. It offers no self-managed option, but does allow for private repositories.
 
 ===
 
