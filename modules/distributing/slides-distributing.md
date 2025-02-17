@@ -13,7 +13,21 @@ author: Jaro Camphuijsen, Lourens Veen
 
 <!-- .slide: data-state="standard" -->
 
-## Jargon!
+## Why distribute?
+
+1. For reproducibility/transparency of research
+2. For developers that want to reuse parts of your software/methods
+3. For users that want to use your software
+
+note:
+There are many potential reasons for distributing your software. In science, these three
+scenarios are the most common. Note that users and developers can include yourself!
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Kinds of software
 
 
 Script, program, notebook, package, library, image, container, it's confusing!
@@ -26,7 +40,7 @@ to describe various kinds of software, and they're often used sloppily as well. 
 start with explaining a bit how software is put together, and what all these terms mean.
 
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -68,7 +82,7 @@ Like with cooking, where you might get some ready-made pasta or sauce, the funct
 called from a function can be made by someone else. Your laptop has tens or hundreds of
 thousands of functions in it to do everything it does.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -91,7 +105,6 @@ thousands of functions in it to do everything it does.
 </div>
 
 
-
 note:
 A script is a small bit of software, usually a single file with one or a few functions
 in it. A notebook is a script that is run in a special environment, like Jupyter, which
@@ -102,7 +115,7 @@ Scripts and notebooks are run interactively by a user, who can see the code and 
 any errors, if they occur. The functions called by the functions in a script are usually
 not in the script itself, but come from libraries.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -138,7 +151,7 @@ or by reporting it to the user in a well-defined way.
 Designing APIs and handling errors is hard, so making a good library is not so easy, but
 libraries are very reusable.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -168,7 +181,7 @@ which it communicates through some kind of user interface, be it graphical or us
 or on the command line.
 
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -204,7 +217,7 @@ While you can easily use multiple libraries in a script, you can't usually use m
 frameworks in a single program, because they would disagree over what to do. So
 frameworks are really a special-purpose kind of software.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -230,7 +243,7 @@ installing is done using a tool called a package manager, like pip or conda.
 Especially older programming languages may not have a standard package index or package
 manager, e.g. C++ and Fortran.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
@@ -260,20 +273,6 @@ your computer (that's called a Virtual Machine or a Container) inside which the 
 runs. Containers cannot be combined and you can't call them from a script, so they're
 only useful for programs, not for libraries, and the user needs special software to be
 able to run the program.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Why distribute?
-
-1. For reproducibility/transparency of research
-2. For developers that want to reuse parts of your software/methods
-3. For users that want to use your software
-
-note:
-There are many potential reasons for distributing your software. In science, these three
-scenarios are the most common. Note that users and developers can include yourself!
 
 ===
 
