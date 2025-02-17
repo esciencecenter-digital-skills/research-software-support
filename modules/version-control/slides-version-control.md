@@ -64,46 +64,49 @@ Even complex (binary, data, image, ...) files can ultimately be rendered in plai
 ===
 
 <!-- .slide: data-state="standard center" -->
+## Changes...
 
-## Each change is stored...
+... are stored using a version control (VC) system (usually `git`).
 
-... alongside useful metadata.
+<img src="media/git-diff.png" width="70%">
 
-A single unit of change is called a [commit](version_control_terminology).
-
-<img src="media/git-diff.png" width="80%">
-
-note:
-A version control system (like git) keeps track of the individual changes for us.
-
-==
-
-<!-- .slide: data-state="standard center" -->
-
-## Sequential changes form a log
-
-The data structure that contains the codebase plus the commit history is called a [repository](version_control_terminology).
-
-<img src="media/git-log.png" width="80%">
+A single unit of change is called a [commit](version_control_terminology), and is typically associated with a brief [commit message](version_control_terminology), [commit hash](version_control_terminology) (SHA), and other metadata.
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
-
-#TODO: show a github commit history instead?
+Commit hashes are unique references to a commit, while commit messages are human readable descriptions. Other metadata can include the author(s), timestamp, etc.
 
 ==
 
 <!-- .slide: data-state="standard center"  -->
-## Changes can be complex
+## A commit...
 
-- Additions/deletions to a file
-- Changes to a document
-- New files added
-- Files moved into different folders
+... can be of any size or type:
+
+- Single line additions/deletions/changes
+- Additions/deletions/changes of (multiple) large sections
+- Adding or deleting files
+- Moving files into different folders
 - ...
 
 note:
+A commit is the fundamental unit of change in version control, but its scope is not strictly defined. 
 
-#TODO: consider moving this slide to later in the presentation
+Ideally, a commit should be large enough to represent a meaningful improvement while remaining small enough to focus on a single, coherent change. Balancing these factors helps maintain clarity and makes it easier to track, review, and revert changes when needed.
+
+==
+
+<!-- .slide: data-state="standard center" -->
+## Sequential commits...
+
+... form a log
+
+The data structure that contains the software plus the commit history is called a [repository](version_control_terminology).
+
+<img src="media/git-log.png" width="70%">
+
+note:
+A good rule of thumb for commit sizing is whether you can write a clear, concise commit message summarizing the change. If the commit is too small, the message will simply describe the specific action taken. If it's too large, summarizing it succinctly becomes difficult. Striking the right balance ultimately also allows the commit log to be read almost like a history book.
 
 ===
 
