@@ -17,7 +17,7 @@ You are probably using version control every day. Word and other documents store
 <!-- .slide: data-state="standard center" -->
 ### Version Control
 
-*a system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
+*A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
 revisit specific versions later.*
 
 <div class="fragment" data-fragment-index="1">
@@ -33,7 +33,7 @@ Lets see a more practical, systematic, and robust way of doing this...
 ===
 
 <!-- .slide: data-state="standard center"  -->
-## Documents are treated as...
+## Documents are...
 
 <div>
   ... a series of changes
@@ -41,21 +41,25 @@ Lets see a more practical, systematic, and robust way of doing this...
 </div>
 
 note:
-In version control systems, documents start with a base version and record all the changes that happened on top of that base version. Because of this you can always "play back" to an earlier version or compare separate iterations, without having to store near-identical variations of the same documents.
+In version control systems, documents start with a base version (which may or may not be empty) and record all the changes that happened on top of that base version. Because of this you can always "play back" to an earlier version or compare separate iterations, without having to store near-identical variations of the same documents.
 
 ==
 
 <!-- .slide: data-state="standard center"  -->
-## Software consists of one or more documents...
+## Software is...
 
-... each of which are treated as a series of changes.
+... a collection of one or more documents.
 
-We typically call the group of documents that comprise the software the [codebase](version_control_terminology).
+- Code
+- Documentation
+- Environment & infrastructural files
+- ...
+
 
 note:
+Any piece of code is nothing more than a (plain) text document, not too different from a word file. The same is generally true for most other files comprising the software. Therefore, changes are excessively easy and computationally efficient to track.
 
-#TODO: make this slide graphical instead
-#TODO: reword this slide
+Even complex (binary, data, image, ...) files can ultimately be rendered in plain text, and therefore tracked using version control. Although changes are not easy to visualize and it will require multiplying the data storage for each change.
 
 ===
 
