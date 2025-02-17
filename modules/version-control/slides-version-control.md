@@ -5,20 +5,30 @@ order: 1
 ---
 
 <!-- .slide: data-state="title"  -->
-
 # Version Control
 
 What is version control and why should I use it?
 
 note:
-You are probably using version control every day. Word documents store a history of changes for you, which you can undo. 
+You are probably using version control every day. Word and other documents store a history of changes for you, which you can undo. Google docs have an even more intricate system of reviewing history, etc.
 
 ===
 
 <!-- .slide: data-state="standard center" -->
-<img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="45%">
+### Version Control
 
-<small> "Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com </small>
+*a system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
+revisit specific versions later.*
+
+<div class="fragment" data-fragment-index="1">
+  <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="38%">
+  <small> <a href="http://www.phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
+</div>
+
+note:
+Strictly speaking, this is a form of version control: separate versions are stored, commented on, and organized in some way.
+
+Lets see a more practical, systematic, and robust way of doing this...
 
 ===
 
