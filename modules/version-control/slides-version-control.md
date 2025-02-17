@@ -111,32 +111,20 @@ A good rule of thumb for commit sizing is whether you can write a clear, concise
 ===
 
 <!-- .slide: data-state="standard" -->
-## Revisiting Past Versions
+## Keeping track
 
-Say you have dozens (hundreds, thousands) of old versions, how do you manage to find a useful previous version?
+#### Question:
+Say you have dozens (hundreds, thousands, ...) of old versions, how do you manage to find a specific/useful previous version?
 
-
-- effective committing (sizing & messages)
-- versioning systems
-- CHANGELOGs
-
-note:
-
-#TODO: replace list below with a cartoon or image, the list will become separate slides
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Effective Committing
-
-- Keep commits small and focused
-  - #TODO: add ref on atomic commits
-- Add useful commit messages to each commit
-  - short main message, room for additional detail
-  - #TODO: show example
+- Effective committing (sizing & messages)
+<!-- .element: class="fragment" data-fragment-index="1" -->
+- Versioning systems
+<!-- .element: class="fragment" data-fragment-index="1" -->
+- Create Change logs and DOIs for stable/important versions
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
+We've talked above extensively about commit hygeine, so will now discuss the other 2 aspects.
 
 ==
 
@@ -144,34 +132,59 @@ note:
 
 ## Versioning
 
-Use a logical system to keep track of (stable) versions.
-- Semantic Versioning (SemVer):
-  - v1.3.12 => major.minor.patch
-  - #TODO: add link to SemVer
-- Create a different (logical) system 
-  - and document it in the repo
-  - #TODO: show example from ruff
-- Update on zenodo to create a DOI
+Use a logical system to keep track of (stable) versions
+... and document the system used in the repository.
+
+<div>
+  <ul>
+    <div class="fragment" data-fragment-index="1" style="text-align: center;">
+      <strong>Common systems</strong>:
+    </div>
+    <div class="fragment" data-fragment-index="1">
+      <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>:
+        <ul>
+          <li>4.3.12 = major.minor.patch</li>
+          <li>pro: version numbers have a functional relevance</li>
+          <li>con: users must keep track of the precise version used</li>
+        </ul>
+      </li>
+    </div>
+    <div class="fragment" data-fragment-index="2">
+      <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>:
+        <ul>
+          <li>2025.02.03 = YYYY.MM.DD</li>
+          <li>pro: simpler implementation</li>
+          <li>con: development is usually not as linear as this system implies</li>
+        </ul>
+      </li>
+    </div>
+  </ul>
+</div>
 
 note:
-
-Not every change or addition needs a new version number; this is what commits/commit messages are for.
+Not every change or addition needs a new version number; this is what commits are for.
 
 Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+
+<!-- TODO: is there a way to make the entire list a single element using md comments rather than defining it as a div? That would make above much more readable. -->
 
 ==
 
 <!-- .slide: data-state="standard" -->
+## Change logs & DOIs
 
-## Change Logs
+Keep a human readable log summarizing the changes of each new version.
 
-Keep a human readable log summarizing the changes of each new version
+Host versions on servers such as [Zenodo](https://zenodo.org/) or [GitHub](https://github.com/)/[GitLab](https://gitlab.com/) to generate a DOI.
+
+<img src="media/ChangeLog.png" width="45%">
+<small>Excerpt of release notes for <a href="https://github.com/astral-sh/ruff/releases/tag/0.8.6">ruff linter v0.8.6</a></small>
 
 note:
 
-This is the equialent of the "commit message" at the level of a new version.
+This is the equivalent of the "commit message" at the level of a new version.
 
-#TODO: show example imaghe of a change log
+There are a few (near) synonyms used for this: change log, release notes, change history, etc. However, it is separate from the commit log or commit history, as per the comment above.
 
 ===
 
