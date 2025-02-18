@@ -16,7 +16,9 @@ author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Pau
 ## What is documentation?
 
 - Provides context for your work
-- Allows your collaborators **and future you** to understand what has been done and why
+- Explains what this is and how to use it
+- Explains what has been done and why
+
 
 ===
 
@@ -30,21 +32,29 @@ Make your software reusable:
 - A user should be able to install your software
 - A contributor should be able to add to, improve, or fix code
 
+note:
+
+"a contributor" includes future you. Don't touch your code for a year or two and you will not immediately remember the decisions that you made in the past.
+
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Documentation purpose types
+## Documentation types
 
 Documentation can have different purposes:
 
-- **User documentation**: What does the software do? How can it be used?
+- **User documentation**
 <!-- .element: class="fragment" data-fragment-index="1" -->
-
-- **Developer documentation**: How can your software be modified or extended?
+  - What does the software do? How can it be used?
+<!-- .element: class="fragment" data-fragment-index="1" -->
+- **Developer documentation**
 <!-- .element: class="fragment" data-fragment-index="2" -->
-
-- **Deployment documentation**: What hardware and software requirements are there?
+  - How can your software be modified or extended? Why were certain development choices made.
+<!-- .element: class="fragment" data-fragment-index="2" -->
+- **Deployment documentation**
+<!-- .element: class="fragment" data-fragment-index="3" -->
+  - How to install the software? What hardware and other software is needed?
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ===
@@ -55,9 +65,10 @@ Documentation can have different purposes:
 
 <!-- add visual with documentation format with increasing complexity -->
 
-- In-code: intended for contributors (comments, docstrings, ...)
 - README: simple text file, first thing that users/collaborators see
-- Websites, Wikis 
+- In-code: intended for developers (comments, docstrings, ...)
+- Websites, Wikis
+- Tutorials
 
 ===
 
@@ -94,46 +105,21 @@ Note:
 
 <!-- .slide: data-state="standard"  -->
 
-## Why write in-code documentation?
+## In-code documentation?
 
-In-code documentation:
+- Code comments:
+  - Provide context for (complex parts) of the code
+  - Explains certain coding decisions
+  - Can often be replaced by better programming
+- Docstrings:
+  - Special comments that describe (use of) functions/classes/etc.
+  - Can be called by users/websites
+  - Follow a standardized syntax (per programming language)
 
-+ Makes code more understandable
-+ Explains decisions that were made
-
-===
-
-<!-- .slide: data-state="standard"  -->
-
-## When **not** to use in-code documentation?
-
-+ When the code is self-explanatory
-+ To replace good variable/function names
-+ To replace version control
-+ To keep old (zombie) code around
-
-===
+==
 
 <!-- .slide: data-state="standard"  -->
-
-## Readable code vs commented code
-
-```python=
-# convert from degrees celsius to fahrenheit
-def convert(d):
-    return d * 5 / 9 + 32
-```
-vs
-```python=
-def celsius_to_fahrenheit(degrees):
-    return degrees * 5 / 9 + 32
-```
-
-===
-
-<!-- .slide: data-state="standard"  -->
-
-## What makes a good comment?
+## Exercise: In-line comments
 
 **Comment A**
 
@@ -151,36 +137,8 @@ if temperature > -50:
     print('do something')
 </code></pre>
 
-How are these different? Which one do you prefer?
-
-===
-
-<!-- .slide: data-state="standard"  -->
-
-## Docstrings: a special kind of comment
-
-```python=
-def celsius_to_fahrenheit(degrees):
-  """Convert degrees Celsius to degrees Fahrenheit."""
-  return degrees * 5 / 9 + 32
-```
-
-Why is this OK?
-
-Note:
-Docstrings can be used to generate user documentation.
-They are accessible outside the code.
-They follow a standardized syntax.
-
-===
-
-<!-- .slide: data-state="standard"  -->
-
-## In-code commenting: key points
-
-+ Explicit, descriptive naming already provides important documentation.
-+ Comments should describe the why for your code, not the what.
-+ Writing docstrings is an easy way to write documentation while you code, as they are accessible outside the code itself.
+- How are these different? Which one do you prefer?
+- Can you think of a way to avoid using comments altogether?
 
 ===
 
@@ -189,13 +147,11 @@ They follow a standardized syntax.
 ## User/API documentation
 
 + What if a README file is not enough?
-+ How do I easily create user documentation?
++ Use tools to create API documentation from existing docstrings
 
-===
+note:
 
-<!-- .slide: data-state="standard"  -->
-
-## Tools
+tools include
 
 + **Sphinx** / **mkdocs** (documentation generator)
   - creates nicely-formatted HTML pages out of .md or .rst files
@@ -206,17 +162,28 @@ They follow a standardized syntax.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard"  -->
+## Tutorials
 
++ Example code that allows users to run specific test cases 
++ Jupyter notebooks are often used for this purpose
+
+===
+
+<!-- .slide: data-state="standard" -->
 ## Take-home message
 
-Documentation is a vital part of a project, and should be kept and created alongside the corresponding code.
+- Documentation is a vital part of a project.
+- It should be kept and created alongside the corresponding code.
+- Depending on the purpose/scope documentation needs to meet different criteria.
+- Documentation can take many shapes.
 
-Depending on the purpose and state of the project documentation needs to meet different criteria.
+===
 
-Documentation can take different shapes:
-+ Readable code
-+ In-code comments
-+ Docstrings
-+ README files
-+ Tutorials/notebooks
+<!-- .slide: data-state="keepintouch" -->
+
+www.esciencecenter.nl
+
+info@esciencecenter.nl
+
+020 - 460 47 70
