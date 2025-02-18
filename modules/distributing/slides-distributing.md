@@ -301,9 +301,9 @@ combination with other calculations.
 
 In this case, what's really needed is a library. As mentioned before, making libraries
 isn't that easy, so they may need some help from a Research Software Engineer to design
-a good interface. Another option is to take the script, cut out the specific set-up, and
-call it a framework, but while a lot easier that's a bad idea because the resulting
-software cannot be combined with anything else.
+a good interface. Another option, and often a better one actually, is to contribute to
+an existing widely used library. That will give your code more exposure, and may get you
+some help from its maintainers as well, in the form of reviews.
 
 ===
 
