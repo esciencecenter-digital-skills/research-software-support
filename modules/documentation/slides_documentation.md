@@ -163,29 +163,24 @@ tools include
 ===
 
 <!-- .slide: data-state="standard"  -->
-
 ## Tutorials
 
 + Example code that allows users to run specific test cases 
 + Jupyter notebooks are often used for this purpose
 
-<!-- .slide: data-state="standard" -->
+===
 
+<!-- .slide: data-state="standard" -->
 ## Take-home message
 
-Documentation is a vital part of a project, and should be kept and created alongside the corresponding code.
+- Documentation is a vital part of a project.
+- It should be kept and created alongside the corresponding code.
+- Depending on the purpose/scope documentation needs to meet different criteria.
+- Documentation can take many shapes.
 
-Depending on the purpose and state of the project documentation needs to meet different criteria.
-
-Documentation can take different shapes:
-+ Readable code
-+ In-code comments
-+ Docstrings
-+ README files
-+ Tutorials/notebooks
+===
 
 <!-- .slide: data-state="keepintouch" -->
-
 
 www.esciencecenter.nl
 
