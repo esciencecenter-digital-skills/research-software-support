@@ -54,7 +54,7 @@ Documentation can have different purposes:
 <!-- .element: class="fragment" data-fragment-index="2" -->
 - **Deployment documentation**
 <!-- .element: class="fragment" data-fragment-index="3" -->
-  - How to maintain the software? How to set up a webapp?
+  - How to install the software? What hardware and other software is needed?
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ===
