@@ -1,5 +1,5 @@
 ---
-title: Continuous Integration
+title: CI/CD
 type: reading
 order: 3
 ---
