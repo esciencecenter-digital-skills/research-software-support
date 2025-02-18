@@ -382,7 +382,7 @@ again, running an old operating system is a security risk.
 
 ### Updating software
 
-- Everything changes
+- Can't we just put it online and be done?
 - For scripts, you probably can
 - Libraries and programs need maintenance
 
@@ -395,9 +395,9 @@ time, and that also needs to be taken into account.
 For example, the LimePy library in the AMUSE astrophysics software uses a function in
 the SciPy library that does not exist anymore. The old version of SciPy it was written
 for was designed for an old version of Python, which is no longer supported and
-shouldn't be used anymore, for security reasons. Also, other software my script uses may
-require the newer version, and you can't install multiple versions of the same thing at
-the same time. So that script doesn't work anymore.
+shouldn't be used anymore, for security reasons. Also, a script using LimePy may use
+other libraries that require a newer SciPy, and you can't install multiple versions of
+the same thing at the same time, so you won't be able to run that script anymore.
 
 Because of this, all software needs to be updated from time to time in order to continue
 to work. This is tricky in science, which works in terms of projects that are finished
