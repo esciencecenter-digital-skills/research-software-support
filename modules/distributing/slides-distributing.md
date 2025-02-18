@@ -255,7 +255,7 @@ able to run the program.
 ### Distributing scripts/notebooks
 
 - Make script/notebook available for download
-- Make environment definition, e.g. requirements.txt, environment.yml
+- Make environment file, e.g. requirements.txt, environment.yml
 - User uses a package manager to create environment
 - User runs the script/notebook
 - Optional: use an image (mostly long-term archival)
@@ -263,9 +263,9 @@ able to run the program.
 note:
 In this case, you have a script or a notebook, and also an environment (e.g. using Conda
 or virtualenv) with the libraries you use installed in it. This environment is really
-just a folder on your computer with the libraries in it, and some magic that makes it so
-that when the script calls a function that is in a library, the library will be found
-and the function run.
+just a folder on your computer with the libraries in it, and some machinery that makes
+it so that when the script calls a function that is in a library, the library will be
+found and the function run.
 
 So, you need to share your script or notebook of course, but the user will also need a
 similar environment to run it, otherwise those library functions are missing. You can
