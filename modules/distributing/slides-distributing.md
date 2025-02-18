@@ -233,7 +233,7 @@ frameworks are really a special-purpose kind of software.
 note:
 Packages are often used to distribute software. A package is an archive file (e.g. a
 ZIP file) that contains software, usually a library or a program. There is also metadata
-that describes licenses and authors and other packages containing software that is
+that describes, among other things, licenses and authors and other packages containing software that is
 needed by this one.
 
 Packages are usually uploaded to a package index, an online store of packages where
@@ -404,7 +404,7 @@ a good option too if available.
 Another option is to make an installer. That's a single file that is a working program,
 like a package, but it is also itself a program that when run will install your program
 onto the user's system. If you've installed software on Windows then you may have seen
-one, although they've mostly been replaced by app stores and my cause the operating
+one, although they've mostly been replaced by app stores and may cause the operating
 system to warn about suspicious software.
 
 Finally, you could make an image here, but as before, it would be very large, and it
@@ -417,7 +417,7 @@ again, running an old operating system is a security risk.
 
 <!-- .slide: data-state="standard" -->
 
-## Updating software
+### Updating software
 
 - Everything changes
 - For scripts, you probably can
@@ -426,8 +426,7 @@ again, running an old operating system is a security risk.
 
 note:
 Scripts are built on top of libraries, which sit on top of an operating system, which
-sits on top of hardware, and all that stuff is constantly changing in the name of
-progress. Furthermore, people change and expect to use software in different ways over
+sits on top of hardware, and all that stuff is constantly changing. Furthermore, people change and expect to use software in different ways over
 time, and that also needs to be taken into account.
 
 For example, the LimePy library in the AMUSE astrophysics software uses a function in
@@ -453,7 +452,7 @@ to continue to work.
 
 ### Versioning
 
-- Use Semantic Versioning for libraries (X.Y.Z)
+- Use [Semantic Versioning](semver.org) for libraries (X.Y.Z)
 - Less important for applications
 
 note:
