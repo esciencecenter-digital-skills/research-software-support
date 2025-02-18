@@ -12,27 +12,19 @@ order: 1
 
 <!-- .slide: data-state="standard" -->
 
-## What is software testing?
+### What is software testing?
 
-> “Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.”
-
-<small>[From IBM Featured Topics](https://www.ibm.com/topics/software-testing) </small>
+> Software testing is the process of evaluating and verifying that a software and its components meet specified requirements and work as expected. Its primary purpose is to identify defects, errors, flaws, or bugs early in the development process.
 
 Note:
 
-What is software testing?
+As with any other engineering/scientific approach, it's important to check that the expected/required results of your software are accomplished. As such, software testing is analogous to testing lab protocols or (experimental) equipment before publication/putting it on the market.
 
-Software testing is the process of evaluating and verifying that a software and its components meet specified requirements and work as expected. Its primary purpose is to identify defects, errors, flaws, or bugs early in the development process.
-
-Software testing can be done manually, where a human actively uses the software to observe for defects, or automatically, where test scripts or tools are used to execute tests.
-
-Untested software can be compared to uncalibrated experimental devices.
-
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
-## Risks of poorly tested (research) software
+### Risks of poorly tested (research) software
 
 <center>
 <img src="media/testing-motivation1.png" width="30%" style="display:inline;">
@@ -55,79 +47,94 @@ The loss of the Mars Climate Orbiter in 1999 is another prominent example of a c
 
 There is also the case of the Ariane flight V88, an European Space Agency rocket which was destroyed just 40 seconds after its launch due to a software bug; see https://en.wikipedia.org/wiki/Ariane_flight_V88.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
-## Why test your software ?
+### Why test your software ?
 
-- Ensure software reliability, validity, and reproducibility.
-- Confirm correct installation and demonstrate use.
-- Boost developer confidence for contributions and modifications.
-- Maintain expected software functionality.
-- Simplify and manage code complexity.
+- Ensure reliability and reproducibility
+- Boost developer confidence
+- Detect problems with (updated) dependencies early
+- Simplify and manage code complexity
+- Confirm correct installation and demonstrate use
 
 Note:
 
-Why testing your software is so crucial?
+- Ensuring software reliability, validity, and reproducibility for research software directly influences the reproducibility of the results ontained.
+- A good test suite gives collaborators and (external) contributors confidence to make modifications without breaking existing functionalities.
+- As mentioned before, software almost always relies on other software (its dependencies). As the dependencies change or get updated, your use of these depencies may also need to change. Having tests in place will detect such issues as soon as they arise and allow you stay ahead of the curve.
+- Code that is easy to test is often easier to understand and maintain. By writing good tests, you push yourself to write good code.
+- Tests can be used as an example or tutorial for (new) users to see how to use the software, or to test that their installation was successful.
 
-Specifically for research software, tests are vital for ensuring the reliability, validity, and reproducibility of your scientific results.
-
-They help users by enabling them confirm that the software is installed correctly, providing usage examples.
-
-Tests also help other developers modify and contribute to your software. A good test suite gives collaborators confidence to make modifications without breaking existing functionalities.
-They preserve the expected functionality of the software.
-
-Manage complexity: Code that is easy to test is often easier to understand and maintain.
-
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
-## Types of testing
+### The Power of Automated Testing
 
-- **Unit tests**: Assess individual components for correctness.
-- **Integration tests**: Verify interactions between different parts of the software.
-- **System tests**: Evaluate the complete and integrated software system.
-- **Regression tests**: Ensure new changes don’t disrupt existing functionality.
+Software is inherently automatable: use its power to test itself!
+
+- Faster Execution – Runs tests in seconds/minutes vs. hours of manual testing.
+- Higher Accuracy – Eliminates human error, ensuring consistent results.
+- Early Detection – Identifies issues when they arise.
+- Scalability – Handles large test suites without extra effort.
+- Cost Efficiency – Saves time and resources in the long run.
 
 Note:
 
-There are several types of software testing, each of which with its own purpose.
+Developers (and researchers) generally run a number of tests or test scripts manually at certain points in the development process. However, if we think of the problems mentioned in the previous slide, these would often not have been detected by manual testing.
 
-In unit tests each individual unit of a software is tested separately. The purpose is to ensure that each component of the software works as expected.
-
-Integration tests are a level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
-
-The complete, integrated system is checked via the so-called system tests. The purpose here is to evaluate whether the software as a whole gives the correct outputs for given inputs.
-
-Finally, regression tests check for unexpected side-effects in existing features after changes.
+Instead, we would encourage developers to collect those (and more!) tests into a test suite and have them run systematically. Many programming languages have existing tools that helkp you create and run tests suits: [PyTest](https://docs.pytest.org/) for Python, [testthat](https://testthat.r-lib.org/) for R, [JUnit](https://junit.org/) for Java, etc.
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Continuous Integration and Continuous Deployment (CI/CD)
+### Test types
 
-<center>
-<img src="media/cicd_scheme.png" width="50%">
-</center>
+- **Smoke tests** verify that the essential functions of the software work.
+- **Unit tests** assess individual components for correctness.
+- **Integration tests** verify interactions between different parts of the software.
+- **System tests** evaluate the complete and integrated software system.
+- **Regression tests** ensure new changes don’t disrupt existing functionality.
 
 Note:
 
-Continuous Integration (CI) is a practice in software development where team members regularly integrate their individual code changes, often several times a day, into a shared remote repository. After every integration, a working version of the project is build and the software's test suite is run automatically, making it possible to identify defects, errors, flaws, or bugs introduced by changes early in the development process. This helps keep the code up-to-date and reduces the chances of major issues when combining everyone's work.
+- Smoke test: A preliminary test to verify that the essential functions of the software work. If a smoke test fails, further testing is halted until the issues are resolved.
+- Unit test: A test that verifies the functionality of an individual unit (e.g., a function, method, or module) in isolation. In unit tests each individual unit of a software is tested separately.
+- Integration test: A test that checks the interaction between integrated components or modules. Individual units (that are tested in isolation using unit tests) are combined and tested as a group. The goal is to detect faults in how these units work together, especially focusing on data flow, APIs, and dependencies.
+- System test: A test that evaluates the complete system as a whole to ensure it meets functional (correct results, no crashes, ...) and non-functional (security, performance, ...) requirements. It checks how different components interact under real-world conditions. It is similar to an integration test but broader in scope.
+- Regression tests: A test that ensures recent code changes haven't negatively affected existing functionality. This often involves re-running previous test cases to confirm that everything still works as expected.
 
-Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown in the figure. CD is the practice of automatically deploying every working version of the project that passes the automated testing phase to its end-users.
+==
+
+<!-- .slide: data-state="standard" -->
+
+### Exercise
+
+Identify the test types in this story:
+
+<div style="text-align: left;">
+During the process of manufacturing a ballpoint pen, we see smoke coming out of one of our machines, so we halt production immediately, put out the fire, and check why it caught fire in the first place occurred before continuing. We produce the cap, the body, the tail, the ink cartridge, and the ballpoint in different machines and check the quality of each component before assembling the whole. Next we check that the cap and tail fit on the body and the ink cartridge fits inside. When everything is put together, we ensure that it writes properly and doesn't leak. In the future, we plan to supply different colors of ink and will re-run these tests for each new colored pen.
+</div>
 
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## Benefits of continuous integration
+### Continuous Integration and Deployment (CI/CD)
 
-<center>
-<img src="media/benefits_of_ci.png" width="70%">
-</center>
+CI/CD is "next level" automation for your software project!
+
+<img src="https://blog.cloudhm.co.th/wp-content/uploads/2021/03/ci-cd.png" width="50%">
+<small> Image source: https://blog.cloudhm.co.th/ci-cd/ </small>
+
+Note:
+
+Continuous Integration (CI) is a practice in software development where team members regularly integrate their individual code changes, often several times a day, into a shared remote repository. After every integration, a working version of the project is built and the software's test suite is run automatically, making it possible to identify defects, errors, flaws, or bugs introduced by changes early in the development process. This helps keep the code up-to-date and reduces the chances of major issues when combining everyone's work.
+
+Continuous deployment (CD) is the practice of automatically deploying every working version of the project that passes the automated testing phase to its end-users.
 
 ===
 
@@ -135,9 +142,9 @@ Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown
 
 ## Take home messages
 
-- Software testing is key for quality, reliability, and reproducibility
+- Automated software testing is key for quality, reliability, and reproducibility
 - Unit tests verify individual components, integration tests check component interactions
-- CI/CD streamline development and enhance deployment efficiency.
+- CI/CD streamlines development and enhances deployment efficiency
 
 ===
 
@@ -147,3 +154,5 @@ Continuous deployment (CD) is the next step after CI in the CI/CD pipeline shown
 www.esciencecenter.nl
 
 info@esciencecenter.nl
+
+020 - 460 47 70
