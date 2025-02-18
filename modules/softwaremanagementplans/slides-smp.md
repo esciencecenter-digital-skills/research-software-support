@@ -1,5 +1,5 @@
 ---
-title: Software Management Plans
+title: SMP slides
 type: slides
 order: 1
 ---
