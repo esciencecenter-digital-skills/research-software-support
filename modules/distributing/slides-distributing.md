@@ -125,8 +125,8 @@ not in the script itself, but come from libraries.
 
 - Lower levels of the pyramid
 - Ready-made functionality
-- Has an interface
-- Handles errors itself
+- Have an interface
+- Handle errors itself
 
 </div>
 
