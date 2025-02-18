@@ -46,7 +46,7 @@ Documentation can have different purposes:
 
 - **User documentation**
 <!-- .element: class="fragment" data-fragment-index="1" -->
-  - What does the software do? How can it be used? How to install it?
+  - What does the software do? How can it be used?
 <!-- .element: class="fragment" data-fragment-index="1" -->
 - **Developer documentation**
 <!-- .element: class="fragment" data-fragment-index="2" -->
