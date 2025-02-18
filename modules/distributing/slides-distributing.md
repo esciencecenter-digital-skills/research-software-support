@@ -186,12 +186,23 @@ or on the command line.
 
 ### Packages
 
+<div style="width: 50%; float: left; margin-top: 3%">
+
 - A file containing a collection of software
 - Intended for distribution
 - Usually holds a library or a program
 - Has metadata
 - Listed in a package index
 - Installed using a package manager
+
+</div>
+
+<div style="width: 50%; float: right; margin-top: 6%">
+
+<img src="media/packages.png" width="100%">
+
+</div>
+
 
 note:
 Packages are often used to distribute software. A package is an archive file (e.g. a
