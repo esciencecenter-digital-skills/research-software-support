@@ -53,7 +53,7 @@ There is also the case of the Ariane flight V88, an European Space Agency rocket
 
 ### Why test your software ?
 
-- Ensure reliability and reproducibility
+- Ensure continued reliability and reproducibility
 - Boost developer confidence
 - Detect problems with (updated) dependencies early
 - Simplify and manage code complexity
@@ -61,7 +61,7 @@ There is also the case of the Ariane flight V88, an European Space Agency rocket
 
 Note:
 
-- Ensuring software reliability, validity, and reproducibility for research software directly influences the reproducibility of the results ontained.
+- Ensuring software reliability, validity, and reproducibility for research software directly influences the reproducibility of the results obtained.
 - A good test suite gives collaborators and (external) contributors confidence to make modifications without breaking existing functionalities.
 - As mentioned before, software almost always relies on other software (its dependencies). As the dependencies change or get updated, your use of these depencies may also need to change. Having tests in place will detect such issues as soon as they arise and allow you stay ahead of the curve.
 - Code that is easy to test is often easier to understand and maintain. By writing good tests, you push yourself to write good code.
