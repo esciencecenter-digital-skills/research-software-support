@@ -180,43 +180,6 @@ depends on library Y. A program is not meant for programmers, but for end users,
 which it communicates through some kind of user interface, be it graphical or using text
 or on the command line.
 
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-### Frameworks
-
-<div style="width: 50%; float: left; margin-top: 3%">
-
-- Scaffold for programmers
-- Has flexible plug-ins
-- Decides what we do
-- Hard to combine
-
-</div>
-
-<div style="width: 50%; float: right; margin-top: 3%">
-
-<img src="media/frameworks.png" width="100%">
-
-</div>
-
-note:
-Frameworks are components that programmers use, but they are kind of the reverse of a
-library. With a library, the programmer makes a script that tells the library what
-should be done, and then the library knows how and does it. With a framework, the
-framework decides what should be done, but how it's done is decided by configurable
-components that the programmer can add or configure.
-
-For example, a web server framework can take care of setting up connections with
-browsers connecting to the site, but then call a plug-in to create the actual page being
-requested, which is then sent to the browser by the framework.
-
-While you can easily use multiple libraries in a script, you can't usually use multiple
-frameworks in a single program, because they would disagree over what to do. So
-frameworks are really a special-purpose kind of software.
-
 ===
 
 <!-- .slide: data-state="standard" -->
