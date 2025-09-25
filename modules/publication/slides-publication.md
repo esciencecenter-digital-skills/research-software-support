@@ -166,6 +166,90 @@ An "awesome list" is a list of awesome things curated by the community, often ho
 ==
 
 <!-- .slide: data-state="standard" -->
+### The Research Software Directory
+<style>
+.container{
+  display: flex;
+  text-align: start;
+}
+.col{
+  flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+<img src="media/rsd-front-page.png" alt="Screenshot of the front page of the RSD">
+</div>
+
+<div class="col" style="font-size: x-large">
+The Research Software Directory is an online service designed to <b>collect</b> and <b>present</b> “related research information” in a structured way. Our goals:
+<br>
+<br>
+<ul>
+<li><b>Enable RSEs</b> to show the impact their software has in research and society</li>
+
+<li><b>Help researchers</b> to find research software they need to do their research</li>
+
+<li><b>Allow organisations</b> to collect information about the research software output they produce</li>
+
+<li><b>Encourage citation</b> of research software in other research outputs</li>
+</ul>
+</div>
+
+</div>
+
+===
+
+<!-- .slide: data-state="standard" -->
+### User friendly data curation interface
+<style>
+.container{
+  display: flex;
+  text-align: start;
+}
+.col{
+  flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+<img src="media/rsd-data-curation.png" alt="Screenshot of page on which software can be edited by maintainers">
+</div>
+
+<div class="col" style="font-size: x-large">
+Free to use for RSEs and researchers
+
+<ul>
+<li>sign-in via SURFconext, ORCID, GitHub, LinkedIn or Helmholtz AAI</li>
+</ul>
+
+Semi-automatically collect all related information
+on your research software in one place
+
+Easy to use without extensive technical knowledge
+
+We automatically <b>harvest</b> data where possible
+
+<ul>
+<li>Contributors via ORCID / DOI+CFF</li>
+<li>Organisations via ROR</li>
+<li>Keywords & licences from DOI</li>
+<li>Releases & mentions via DOI</li>
+<li>Descriptions via source repository in GitLab/GitHub</li>
+<li>Citations via reference papers</li>
+<li>Downloads via package managers</li>
+</ul>
+</div>
+
+</div>
+
+===
+
+<!-- .slide: data-state="standard" -->
 ### Software Paper
 
 Publish a journal article about the software specifically
