@@ -163,7 +163,7 @@ This aids greatly in Findability by relevant researchers
 Note:
 An "awesome list" is a list of awesome things curated by the community, often hosted as a repository on GitHub.
 
-==
+===
 
 <!-- .slide: data-state="standard" -->
 ### The Research Software Directory
@@ -200,7 +200,7 @@ The Research Software Directory is an online service designed to <b>collect</b> 
 
 </div>
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### User friendly data curation interface
