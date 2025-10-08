@@ -62,6 +62,7 @@ Software needs to be understood both from a:
 - Aspects of software management
 - Different needs for different software
 - SMP template examples
+- SMP guided questionnaire
 
 Note:
 This presentation will introduce you to the concept of software management plans, as a first step towards better software stewardship and sustainability.
@@ -81,9 +82,9 @@ Finally, we will take a look at some concrete examples of software management pl
   - What resources does it need?
   - Who is responsible?
   - How long will it be available?
-  - ...
 - Can be part of a project proposal or generated in the early phases
-- Should be a "living document", to be updated as plans change
+
+> An SMP is a "living document", to be updated as plans change!
 
 
 Note:
@@ -191,40 +192,89 @@ All past versions and the latest release are available on Zenodo via this DOI.
 ===
 
 <!-- .slide: data-state="standard" -->
+## SMP Guided Questionnaire
 
-<center>
-<img src="media/groupedrequirements.png" width="60%" />
-</center>
+[smp.research.software](https://smp.research.software)
+
+<dl>
+<dt>1. Determine the Scope</dt>
+<dd>4 scope questions</dd>
+
+<dt>2. Fill in SMP</dt>
+<dd>7-15 content questions</dd>
+
+<dt>3. Download SMP</dt>
+<dd>
+
+- Word document,
+- Machine-readable file, or
+- Copier template input
+
+</dd>
+</dl>
 
 Note:
-In the practical guide, the core requirements for an SMP are listed, and grouped into four foci:
-- Purpose
-- Engineering
+
+The questionnaire extends the [Practical Guide to Software Management Plans](https://doi.org/10.5281/zenodo.7038280) and makes it easy to use.
+
+**Scope**
+Simple projects will get less questions, while complex one require more information.
+
+**Machine readable SMP**
+For automated analysis
+
+**Copier template input**
+When setting up a new Python project using the NLeSC Copier Template, this file can be passed using `--data-file=copier_template_answers.yml` to already fill in some questions.
+
+==
+
+<!-- .slide: data-state="standard" -->
+### Determine the Scope
+
+1. Is or will the software be publicly available?
+1. Will the software be reused, or is it only used once?
+1. Are there or will there be any other users apart from yourself?
+1. Is there or will there be a community around the software?
+
+==
+
+<!-- .slide: data-state="standard" -->
+### Fill in SMP
+
+<div style="float: left; width: 49%;">
+
+#### Mandatory
+
+- Name & Purpose
+- Authors
+- Ownership
+- Research Context
+- Versioning
+- Risks
+- Data Management Plan
+
+</div>
+<div style="float: left; width: 49%;">
+
+#### Optional
+
+- License
 - Documentation
-- Project Management.
+- Citation
+- Maintenance
+- Sustainability
+- Support
+- Software Quality Checklist
+- Packaging
+
+</div>
+
+Note:
+The optional questions depend on the previously determined scope.
 
 ===
 
 <!-- .slide: data-state="standard" -->
-
-## SMP templates
-
-- Should be provided by the institution
-- Include guidance:
-  - Instructions on how to fill it out
-  - Resources for information and support
-  - Institution-specific regulations
-  - Institution-specific resources available
-  - Who to contact for clarification/further information
-- Include an assessment rubric (e.g. with (un)acceptable answers)
-
-Note:
-The Software Management Plan template is a duty of the institution.
-A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
-
-An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
-
-===
 
 ## Not all software is equal
 
@@ -279,15 +329,42 @@ We recommend scrolling up and down between this and previous slide to do the exe
 
 #### How important are the different requirements for each?
 
-- Randomly choose 5 SMP requirements for each software from the previous slide
+- Randomly choose 5 SMP requirements for each software
 - Rate on a scale of 1-5 how important those aspects are to include in the SMP.
-    - It is not necessary to look them up, make an estimation from stated information.
 
-<img src="media/groupedrequirements.png" width="30%" />
+<div style="float: left; width: 49%; font-size: smaller; margin-top: 1em;">
+
+#### Mandatory
+
+- Name & Purpose
+- Authors
+- Ownership
+- Research Context
+- Versioning
+- Risks
+- Data Management Plan
+
+</div>
+<div style="float: left; width: 49%; font-size: smaller; margin-top: 1em;">
+
+#### Optional
+
+- License
+- Documentation
+- Citation
+- Maintenance
+- Sustainability
+- Support
+- Software Quality Checklist
+- Packaging
+
+</div>
 
 Note:
 
 We recommend scrolling up and down between this and previous slide to do the exercise.
+
+It is not necessary to look things up in detail, just make an estimation.
 
 ===
 
@@ -306,40 +383,37 @@ DCCs or organizations need to decide how it is determined which requirements to 
 
 <!-- .slide: data-state="standard" -->
 
-## Example 1: Templates per "management level"
+## Exercise: Guidelines per Requirement
 
-DCCs create a few SMP templates based on the management level of software
-<small> (example from SMP guide, we recommend making a variation of this theme)</small>
+DCCs provide a guidelines for each requirement in which cases it should or should not be included in the SMP. The SMP questionnaire makes an educated guess about this.
 
-<div style="width: 50%; float: left">
-  <ul>
-    <strong>Management level</strong>:
-    <li><strong>Low</strong>: single purpose/single user script with limited functionality</li>
-    <li><strong>Medium</strong>: primary research output with unique functionality may be reused</li>
-    <li><strong>High</strong>: mission critical software in continuous use, failure of which would threaten research line</li>
-  </ul>
-</div>
+- Open the SMP questionnaire at [smp.research.software](https://smp.research.software)
+- Fold out the "Scope" and "Software Management" tables of content (click on the triangle)
+- Provide different answers for the "Scope" questions and observe which "Software Management" items appear or vanish
 
-<div style="width: 50%; float: right">
-<img src="media/threelevels.png" width="70%">
-</div>
+Do you agree with the selection?
 
-Note:
-In practice, we recommend creating more groups and/or redefining which requirements belong to each category (in the current form most software will fall in between Low and Medium). 
-
-==
+===
 
 <!-- .slide: data-state="standard" -->
 
-## Example 2: Guidelines per requirement
+## Which SMP to Use?
+#### SMP Questionnaires or Templates...
 
-DCCs provide a guidelines for each requirement in which cases it should or should not be included in the SMP
+- Should be provided by the institution
+- Include guidance:
+  - Instructions on how to fill it out
+  - Resources for information and support
+  - Institution-specific regulations
+  - Institution-specific resources available
+  - Who to contact for clarification/further information
+- Include an assessment rubric (e.g. with (un)acceptable answers)
 
-For example:
-- **Purpose**: Always include.
-- **User Documentation**: If you want or expect users other than your direct colleagues to interact with the software.
-- **Citation**: If you would like the software to be citable independently of e.g. research paper.
-- **Risk analysis**: For mission critical software or software that needs to run 24/7.
+Note:
+The Software Management Plan template is a duty of the institution.
+A good SMP includes guidance on how to fill it out, including institution-specific regulations and resources.
+
+An assessment rubric should accompany the template, indicating per question or focus what conditions need to be met, and which answers are (un)acceptable.
 
 ===
 
@@ -352,7 +426,8 @@ For example:
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
-- Institutes should provide one or more SMP templates or guidelines
+- Institutes should provide one or more<br>SMP templates or guidelines
+  - E.g. use or fork https://github.com/SS-NES/docassemble-SMPDecisionTree
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
@@ -369,3 +444,4 @@ www.esciencecenter.nl
 info@esciencecenter.nl
 
 020 - 460 47 70
+
