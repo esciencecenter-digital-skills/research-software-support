@@ -4,7 +4,7 @@ type: exercise
 order: 5
 ---
 
-# Exercise: Find your registry
+# Exercise: Find your registry (10 mins)
 
 Software registries are an important player in the findability of research software.
 A collection of software registries can be found here: [Research Software Registries Awesome List](https://github.com/NLeSC/awesome-research-software-registries)

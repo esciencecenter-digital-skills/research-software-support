@@ -4,7 +4,7 @@ type: exercise
 order: 6
 ---
 
-# Review your software for publication
+# Review your software for publication (15&nbsp;mins)
 
 *In a live setting, this exercise is done in groups.
 Each group will be assigned a software project.
