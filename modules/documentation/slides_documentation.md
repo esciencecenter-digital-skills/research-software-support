@@ -126,24 +126,36 @@ We will try out "better programming" on the next slide.
 <!-- .slide: data-state="standard"  -->
 ## Exercise: In-line comments
 
-**Comment A**
+<div style="font-size: smaller;">
 
-<pre data-id="code-animation"><code style="overflow: hidden;" data-trim class="python">
-# Now we check if temperature is larger than -50:
+<ul>
+<li> Comment A
+<pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># Now we check if temperature is larger than -50:
 if temperature > -50:
     print('do something')
-</code></pre>
+</code></pre></li>
 
-**Comment B**
-
-<pre data-id="code-animation"><code style="overflow: hidden;" data-trim class="python">
-# We regard temperatures below -50 degrees as measurement errors
+<li>Comment B
+<pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># We regard temperatures below -50 degrees as measurement errors
 if temperature > -50:
     print('do something')
-</code></pre>
+</code></pre></li>
+
+<li class="fragment"> "Comment" C <pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># Our sensor is not certified to function properly below -50 degrees C
+MEASUREMENT_ERROR_THRESHOLD = -50
+&nbsp;
+if temperature > MEASUREMENT_ERROR_THRESHOLD:
+    print("do something")
+</code></pre></li>
+<ul>
+
+</div>
 
 - How are these different? Which one do you prefer?
-- Can you think of a way to avoid using comments altogether?
+- Can you think of a way to avoid/reduce using comments?
+
+Note:
+Expressive variable names can often make comments obsolete and increase readability.
 
 ===
 
