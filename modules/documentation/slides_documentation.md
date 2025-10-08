@@ -111,10 +111,15 @@ Note:
   - Provide context for (complex parts) of the code
   - Explains certain coding decisions
   - Can often be replaced by better programming
+    - e.g. expressive variable names
 - Docstrings:
   - Special comments that describe (use of) functions/classes/etc.
   - Can be called by users/websites
   - Follow a standardized syntax (per programming language)
+  - Can be used to generate documentation pages
+
+Note:
+We will try out "better programming" on the next slide.
 
 ==
 
