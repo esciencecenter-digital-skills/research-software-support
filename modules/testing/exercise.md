@@ -4,9 +4,7 @@ type: exercise
 order: 4
 ---
 
-# Exercise 2
-
-## Identify the test types in this story:
+## Exercise: Identify the test types in this story:
 
 <big>
 During the process of manufacturing a ballpoint pen, we see smoke coming out of one of our machines, so we halt production immediately, put out the fire, and check why it caught fire in the first place before continuing.
