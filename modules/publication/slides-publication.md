@@ -190,7 +190,7 @@ The Research Software Directory is an online service designed to <b>collect</b> 
 <ul>
 <li><b>Enable RSEs</b> to show the impact their software has in research and society</li>
 
-<li><b>Help researchers</b> to find research software they need to do their research</li>
+<li><b>Help researchers</b> to find research software they need in order to perform their research</li>
 
 <li><b>Allow organisations</b> to collect information about the research software output they produce</li>
 
