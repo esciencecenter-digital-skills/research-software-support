@@ -226,7 +226,6 @@ Branches here are indicated as "feature branches", i.e. branches used while crea
 
 Other uses of branches:
 - a sandbox or playground, for trying out different things without "damaging" the stable version
-- organizing/storing results alongside their different variations/settings
 - release management
 - custom/user specific changes
 - ...
