@@ -426,7 +426,7 @@ to continue to work.
 
 ### Versioning
 
-- Use [Semantic Versioning](semver.org) for libraries (X.Y.Z)
+- Use [Semantic Versioning](https://semver.org/) for libraries (X.Y.Z)
 - Less important for applications
 
 note:
