@@ -217,32 +217,22 @@ The Research Software Directory is an online service designed to <b>collect</b> 
 <div class="container">
 
 <div class="col">
-<img src="media/rsd-data-curation.png" alt="Screenshot of page on which software can be edited by maintainers">
+<img src="media/rsd-data-curation.png" alt="Screenshot of a software curation page for maintainers">
 </div>
 
 <div class="col" style="font-size: x-large">
-Free to use for RSEs and researchers
 
-<ul>
-<li>sign-in via SURFconext, ORCID, GitHub, LinkedIn or Helmholtz AAI</li>
-</ul>
+- Free and easy to use
+- Sign-in via SURFconext, ORCID, GitHub, LinkedIn
 
-Semi-automatically collect all related information
-on your research software in one place
-
-Easy to use without extensive technical knowledge
-
-We automatically <b>harvest</b> data where possible
-
-<ul>
-<li>Contributors via ORCID / DOI+CFF</li>
-<li>Organisations via ROR</li>
-<li>Keywords & licences from DOI</li>
-<li>Releases & mentions via DOI</li>
-<li>Descriptions via source repository in GitLab/GitHub</li>
-<li>Citations via reference papers</li>
-<li>Downloads via package managers</li>
-</ul>
+We automatically **harvest** data where possible:
+- Contributors via ORCID / DOI+CFF
+- Organisations via ROR
+- Keywords & licences from DOI
+- Releases & mentions via DOI
+- Descriptions via GitHub/GitLab
+- Citations via reference papers
+- Downloads via package managers
 </div>
 
 </div>
