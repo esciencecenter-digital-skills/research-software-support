@@ -14,7 +14,7 @@ order: 1
 
 ## Why would you cite software?
 - Understanding Research Fields
-- Credit for the researcher
+- Credit for the author
 - Recognition of the software
 - Discovering Software
 - Reproducibility
@@ -24,7 +24,9 @@ Note:
 
 **Understanding Research Fields**: Software is a product of research, and by not citing it, we leave holes in the record of research of progress in those fields.
 
-**Credit**: Academic researchers at all levels, including students, postdocs, faculty, and staff, should be credited for the software products they develop and contribute to, particularly when those products enable or further research done by others. Non-academic researchers should also be credited for their software work, though the specific forms of credit are different than for academic researchers.
+**Credit**: Academic researchers at all levels, including students, postdocs, faculty, and staff, should be credited for the software products they develop and contribute to, particularly when those products enable or further research done by others. Non-academic researchers should also be credited for their software work, though the specific forms of credit are different than for academic researchers. Academic researchers might put emphasis on publications and citations, whereas non-academic researchers might benefit more from community recognition and increased professional reputation.
+
+**Recognition of the software**: Software citation transforms research software from an invisible utility into a recognized, traceable, and creditable scholarly output.
 
 **Discovering Software**: Citations enable the specific software used in a research product to be found. Additional researchers can then use the same software for different purposes, leading to credit for those responsible for the software.
 
