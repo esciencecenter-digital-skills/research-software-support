@@ -121,7 +121,7 @@ Which one?
 
 Note:
 
-Anything is better than nothing. Gitlab and Github are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
+Anything is better than nothing. GitLab and GitHub are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
 
 ==
 
@@ -183,7 +183,7 @@ Some journals perform peer review of the software in question
 
 ## Automate as many steps as possible!
 
-For example, you can automate archiving on Zenodo by linking it to your github account
+For example, you can automate archiving on Zenodo by linking it to your GitHub account
 
 See instructions in the "Automating software publication" tab of this story
 
