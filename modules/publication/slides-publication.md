@@ -49,14 +49,19 @@ The goal is to allow others to find and use your code, if they so wish, without 
 
 Note:
 
-Citability - Allows the software authors to get credit for their work
-Reproducibility - If software is not published anywhere then few people will successfully reproduce analyses, simulations or other research results that were performed by other researchers
+**Citability** - Allows the software authors to get credit for their work
+
+**Reproducibility** - If software is not published anywhere then few people will successfully reproduce analyses, simulations or other research results that were performed by other researchers
 
 Additionally, publishing is essential for meeting the FAIR principles:
-Findability - if software lives on someone's harddrive then it cannot be easily found by anyone
-Accessibility - the software can e.g. be downloaded and installed using a standard protocol (authentication is still a possibility)
-Interoperability - publishing the dependencies (e.g. software libraries) and input/output formats and versions is necessary for interoperability
-Reusability - it's only reusable if it's available, and if people know what they are allowed to do with it (based on its software license)
+
+**Findability** - if software lives on someone's harddrive then it cannot be easily found by anyone
+
+**Accessibility** - the software can e.g. be downloaded and installed using a standard protocol (authentication is still a possibility)
+
+**Interoperability** - publishing the dependencies (e.g. software libraries) and input/output formats and versions is necessary for interoperability
+
+**Reusability** - it's only reusable if it's available, and if people know what they are allowed to do with it (based on its software license)
 
 ===
 
@@ -69,7 +74,7 @@ Reusability - it's only reusable if it's available, and if people know what they
 * Write a paper about those results
 * Possibly not even mentioning the software at all
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -90,7 +95,7 @@ Reusability - it's only reusable if it's available, and if people know what they
 * Registries
 * Software Paper
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### Software repository
@@ -107,7 +112,7 @@ Note:
 
 See license, citation and software management chapters
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### Software repository
@@ -116,9 +121,9 @@ Which one?
 
 Note:
 
-Anything is better than nothing. Gitlab and Github are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
+Anything is better than nothing. GitLab and GitHub are the mainstream, used by many and with lots of features. You might run into projects using other repositories. 
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### Tag/semantic versioning
@@ -129,21 +134,21 @@ If your software is used as a dependency of another software/workflow then speci
 
 Ideally, use "semantic versioning" in the form MAJOR.MINOR.PATCH (e.g. v2.1.5)
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### Get a Persistent Identifier
 
-Specific versions of the software should be published to an archiving service that provides persistent identifiers
+Specific versions of the software should be published to an archiving service that provides persistent identifiers.
 
 For example, Zenodo is a long term archiving service for scientific data and software.
-Zenodo will assign a DOI to the published data, making it citable
+Zenodo will assign a **D**igital **O**bject **I**dentifyer (**DOI**) to the published data, making it citable.
 
 Note:
 
 See Citation story
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 ### Registries
@@ -155,7 +160,10 @@ Add a link to your software on a relevant public registry
 
 This aids greatly in Findability by relevant researchers
 
-===
+Note:
+An "awesome list" is a list of awesome things curated by the community, often hosted as a repository on GitHub.
+
+==
 
 <!-- .slide: data-state="standard" -->
 ### Software Paper
@@ -175,7 +183,7 @@ Some journals perform peer review of the software in question
 
 ## Automate as many steps as possible!
 
-For example, you can automate archiving on Zenodo by linking it to your github account
+For example, you can automate archiving on Zenodo by linking it to your GitHub account
 
 See instructions in the "Automating software publication" tab of this story
 
