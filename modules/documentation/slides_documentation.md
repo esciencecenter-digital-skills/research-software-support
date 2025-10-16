@@ -57,6 +57,10 @@ Documentation can have different purposes:
   - How to install the software? What hardware and other software is needed?
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
+note:
+
+An example of "Deployment documentation" can be an SMP!
+
 ===
 
 <!-- .slide: data-state="standard" -->
