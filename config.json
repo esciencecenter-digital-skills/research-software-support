@@ -5,6 +5,8 @@
         "repoName":"research-software-support",
         "repoOwner": "esciencecenter-digital-skills",
         "organization": "Netherlands eScience Center",
-        "categoryOrder": ["Getting started", "Reusability", "Publishing & Citing", "Good Practices"]
+        "organizationURL": "https://www.esciencecenter.nl",
+        "organizationLogo": "/main/media/nlesc-logo.svg",
+        "categoryOrder": ["Getting Started", "Developing Software", "Sharing Software"]
     }
 }

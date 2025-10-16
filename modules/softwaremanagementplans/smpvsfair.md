@@ -20,11 +20,13 @@ You may think of:
 - Scholarly archive
 - Software sustainability
 
-What are the reasons and motivations that come to mind for you?
+Do any other reasons or motivation come to mind?
+For each reason, score how generally applicable they are to research software:
+1 = all, 2 = most, 3 = some, 4 = rarely, 5 = never
 
 ### Mapping motivations
 
-(**NB:** If you are not yet familiar with the FAIR principles for research software, [take a look at the chapter on FAIR software](/modules/fairsoftware.md) before doing the following exercise.)
+(**NB:** If you are not yet familiar with the FAIR principles for research software, take a look at the chapter on [Software Landscapes](/modules/softwarelandscape/slides) before doing the following exercise.)
 
 The motivations we listed above were important considerations for the development of Software Management Plans as well as the FAIR principles for research software.
 They do not match completely, however.
