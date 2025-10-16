@@ -10,7 +10,7 @@ order: 7
 Follow the links below to read more about software testing.
 
 ### The Turing Way
-Read in the Turing Way about [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing).
+Read in the Turing Way about [Code Testing](https://book.the-turing-way.org/reproducible-research/testing/).
 
 ### Code Refinery
 Read in CodeRefinery about [Automated testing](https://coderefinery.github.io/testing/motivation/)
@@ -25,7 +25,7 @@ Read this interesting article about [Testing Research Software](https://arxiv.or
 Follow the links below to read more about CI/CD.
 
 ### The Turing Way
-Read in the Turing Way about [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci).
+Read in the Turing Way about [Continuous Integration](https://book.the-turing-way.org/reproducible-research/ci/).
 
 ### Code Refinery
 Read in CodeRefinery about [Continuous integration](https://coderefinery.github.io/testing/continuous-integration/)

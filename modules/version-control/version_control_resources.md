@@ -10,6 +10,6 @@ order: 5
 
 [Git commands cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
 
-https://the-turing-way.netlify.app/reproducible-research/vcs 
+https://book.the-turing-way.org/reproducible-research/vcs/ 
 
 https://coderefinery.github.io/git-intro/

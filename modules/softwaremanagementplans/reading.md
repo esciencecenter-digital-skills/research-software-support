@@ -22,13 +22,13 @@ There are various practical guides online to the different aspects of software m
 
 Here is an (incomplete) list:
 
-- [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
-- [Testing](https://the-turing-way.netlify.app/reproducible-research/testing/testing-guidance.html)
-- [Packaging](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html)
+- [Version control](https://book.the-turing-way.org/reproducible-research/vcs/)
+- [Testing](https://book.the-turing-way.org/reproducible-research/testing/testing-guidance/)
+- [Packaging](https://book.the-turing-way.org/reproducible-research/renv/renv-package/)
 - [Documentation](https://guide.esciencecenter.nl/#/best_practices/documentation)
   - User
   - Deployment
   - Developer
-- [Citation](https://the-turing-way.netlify.app/communication/citable/citable-cff.html#cm-citable-cff)
-- [Software licensing](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html) and [compatibility](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-compatibility.html)
-- [Software Management Plan (SMP) Decision Tree!](http://smp.research.software/)
+- [Citation](https://book.the-turing-way.org/communication/citable/citable-cff/)
+- [Software licensing](https://book.the-turing-way.org/reproducible-research/licensing/) and [compatibility](https://book.the-turing-way.org/reproducible-research/licensing/licensing-compatibility/)
+- [Software Management Plan (SMP) Decision Tree!](https://smp.research.software/)
