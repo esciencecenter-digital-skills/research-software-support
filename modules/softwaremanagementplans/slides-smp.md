@@ -364,7 +364,7 @@ Software stewardship starts with a good plan, and is an important scientific ste
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 
