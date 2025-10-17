@@ -10,7 +10,7 @@ order: 1
 What is version control and why should I use it?
 
 note:
-You are probably using version control every day. Word and other documents store a history of changes for you, which you can undo. Google docs have an even more intricate system of reviewing history, etc.
+You are probably using version control every day. Word and other documents store a history of changes for you, which you can undo. Google Docs have an even more intricate system of reviewing history, etc.
 
 ===
 
@@ -22,7 +22,7 @@ revisit specific versions later.*
 
 <div class="fragment" data-fragment-index="1">
   <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="38%">
-  <small> <a href="http://www.phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
+  <small> <a href="https://phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
 </div>
 
 note:
@@ -124,7 +124,7 @@ Say you have dozens (hundreds, thousands, ...) of old versions, how do you manag
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
-We've talked above extensively about commit hygeine, so will now discuss the other 2 aspects.
+We've talked above extensively about commit hygiene, so will now discuss the other 2 aspects.
 
 ==
 
@@ -256,7 +256,7 @@ Separate local repositories are similar to but distinct from individual branches
 note:
 Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents.
 
-Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for dloing so.
+Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for doing so.
 
 GitLab is fully open source and offers a self-managed option, allowing organizations to host and manage their own GitLab instances on-premises or in their private cloud environments. This provides full control over data and customization.
 
@@ -333,7 +333,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
       <img src="media/workflow.png" style="height: 100px;">
       <strong>Organized workflow</strong>
       <ul>
-        <li>Commit hygeine and feature branches</li>
+        <li>Commit hygiene and feature branches</li>
         <li>Avoid "scope creep"</li>
       </ul>
     </div>
@@ -344,7 +344,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
       <strong>Tools are your friends</strong>
       <ul>
         <li><em>Kanban boards</em> for task assignment</li>
-        <li><em>linters</em> for style aherence</li>
+        <li><em>linters</em> for style adherence</li>
       </ul>
     </div>
   </div>
@@ -371,7 +371,7 @@ Communication is key!
 
 <!-- .slide: data-state="keepintouch" -->
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 
