@@ -162,7 +162,6 @@ libraries are very reusable.
 - At the top, or including all
 - Bigger than a script
 - End product, with user interface
-- Not meant for editing
 
 </div>
 
