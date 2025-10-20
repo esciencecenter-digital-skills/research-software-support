@@ -59,7 +59,7 @@ Documentation can have different purposes:
 
 note:
 
-An example of "Deployment documentation" can be an SMP!
+All of these types of documentation can be included in a SMP.
 
 ===
 
