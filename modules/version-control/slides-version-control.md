@@ -90,7 +90,7 @@ Commit hashes are unique references to a commit, while commit messages are human
 - ...
 
 note:
-A commit is the fundamental unit of change in version control, but its scope is not strictly defined. 
+A commit is the fundamental unit of change in version control, but its scope is not strictly defined.
 
 Ideally, a commit should be large enough to represent a meaningful improvement while remaining small enough to focus on a single, coherent change. Balancing these factors helps maintain clarity and makes it easier to track, review, and revert changes when needed.
 
@@ -357,6 +357,34 @@ note:
 Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but they will need some attention to resolve.
 
 Communication is key!
+
+In general: The more files you touch, the shorter the branch should live to avoid merge conflicts
+
+A strategy to specifically avoid is a "one branch per student" model: such branches
+usually end up diverging so much that they end up never getting merged.
+
+==
+
+<!-- .slide: data-state="standard" -->
+## Feature branches
+
+One dedicated branch for one task (feature)
+
+<div class="fragment" data-fragment-index="1">
+  <strong>Iterate quickly:</strong>
+  <br>
+  <ul>
+    <li>create branch</li>
+    <li>make changes</li>
+    <li>merge changes</li>
+    <li><div style="opacity: 50%">delete branch</div></li>
+  </ul>
+</div>
+
+Note:
+
+A task can be anything, small or large: fixing a typo, updating a reference, adding some documentation,
+fixing a bug, adding some new functionality, improving performance, performing a backend rewrite.
 
 ===
 
