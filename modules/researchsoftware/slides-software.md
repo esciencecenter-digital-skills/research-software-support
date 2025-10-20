@@ -255,7 +255,7 @@ Consider also version control software, a good software development practice tha
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

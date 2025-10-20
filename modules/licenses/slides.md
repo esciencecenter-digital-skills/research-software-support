@@ -279,7 +279,7 @@ In general with CLAs, you should be careful with commercial entities (state aid!
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

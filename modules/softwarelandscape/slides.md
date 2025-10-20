@@ -219,7 +219,7 @@ Note:
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 
