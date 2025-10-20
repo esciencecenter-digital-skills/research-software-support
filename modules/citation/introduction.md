@@ -17,4 +17,3 @@ Software has become a crucial part of scientific research, yet it is not cited o
 **Reproducibility**: Citation of specific software used is a crucial step in allowing other researchers to reproduce your results, although it is not sufficient. Additional information such as configurations and platform issues are also needed. Accurate information about the software — and its version! — used in your research is necessary for others to obtain and use the same software, making it easier to validate and build upon your research.
 
 In this module, we will further illustrate the importance of software citation, and we will demonstrate how scientific software can be cited, and how to facilitate this as the author of scientific software. Here, you will be introduced to the file type `CITATION.cff`, which was developed especially for this purpose.
-:::
