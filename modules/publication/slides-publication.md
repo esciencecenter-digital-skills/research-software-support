@@ -166,6 +166,80 @@ An "awesome list" is a list of awesome things curated by the community, often ho
 ==
 
 <!-- .slide: data-state="standard" -->
+### The Research Software Directory
+<style>
+.container{
+  display: flex;
+  text-align: start;
+}
+.col{
+  flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+<img src="media/rsd-front-page.png" alt="Screenshot of the front page of the RSD">
+</div>
+
+<div class="col" style="font-size: x-large">
+The Research Software Directory is an online service designed to <b>collect</b> and <b>present</b> “related research information” in a structured way. Our goals:
+<br>
+<br>
+<ul>
+<li><b>Enable RSEs</b> to show the impact their software has in research and society</li>
+
+<li><b>Help researchers</b> to find research software they need in order to perform their research</li>
+
+<li><b>Allow organisations</b> to collect information about the research software output they produce</li>
+
+<li><b>Encourage citation</b> of research software in other research outputs</li>
+</ul>
+</div>
+
+</div>
+
+===
+
+<!-- .slide: data-state="standard" -->
+### User friendly data curation interface
+<style>
+.container{
+  display: flex;
+  text-align: start;
+}
+.col{
+  flex: 1;
+}
+</style>
+
+<div class="container">
+
+<div class="col">
+<img src="media/rsd-data-curation.png" alt="Screenshot of a software curation page for maintainers">
+</div>
+
+<div class="col" style="font-size: x-large">
+
+- Free and easy to use
+- Sign-in via SURFconext, ORCID, GitHub, LinkedIn
+
+We automatically **harvest** data where possible:
+- Contributors via ORCID / DOI+CFF
+- Organisations via ROR
+- Keywords & licences from DOI
+- Releases & mentions via DOI
+- Descriptions via GitHub/GitLab
+- Citations via reference papers
+- Downloads via package managers
+</div>
+
+</div>
+
+===
+
+<!-- .slide: data-state="standard" -->
 ### Software Paper
 
 Publish a journal article about the software specifically
