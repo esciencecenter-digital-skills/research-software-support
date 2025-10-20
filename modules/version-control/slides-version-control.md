@@ -174,10 +174,10 @@ Not every change or addition needs a new version number; this is what commits ar
 
 - Widely used
 - "Maturity"
-  - 0.2.0   vs   3.1.4
+  - `0.2.0` vs `3.1.4`
 - Long-term-stable (LTS) versions
   - Maintain older versions with fresh patches
-- 1.0.0 as a milestone
+- `1.0.0` as a milestone
 
 </div>
 
@@ -186,12 +186,31 @@ Not every change or addition needs a new version number; this is what commits ar
 ### Cons
 
 - No info about "freshness"
-  - How old is version 2.7.1 ?
+  - How old is version `2.7.1` ?
 - "Bigger is better", marketing
 - Superstition 13, 14
-- 1.0.0 as a milestone
+- `1.0.0` as a milestone
 
 </div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer Examples
+
+These "projects" use CalVer to show freshness.
+
+- RSECon25: `YY`
+  - See https://rsecon25.society-rse.org/
+  - Every year new one
+- certifi 2025.10.5: `YYYY.MM.DD`
+  - See https://pypi.org/project/certifi/#history
+  - Certificates expire quickly, so they need to be recent
+- Ubuntu 26.04.1 `YY.0D.PATCH`
+  - See https://releases.ubuntu.com/
+  - Operating systems need to be updated regularly
+  - Using SemVer patch addition for "Service Packs"
 
 ==
 
@@ -213,7 +232,7 @@ Not every change or addition needs a new version number; this is what commits ar
 note:
 - Common assumptions are using the UTC timezone and the Gregorian calendar
 
-- The American date format (YYYY-0M-0D) is recommended, since sorting alphabetically results in sorting chronologically as well
+- The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format (YYYY-0M-0D) is recommended, since sorting alphabetically results in sorting chronologically as well
 
 ==
 
@@ -243,16 +262,6 @@ note:
 
 
 </div>
-
-note:
-
-Projects using CalVer communicate freshness:
-
-- Ubuntu (operating system), but using SemVer patch addition for "Service Packs"
-  - 26.04.1  `YY.01.PATCH`
-- Cool Conference '22 `YY`
-- certifi `YYYY.MM.DD`
-  - Browser certificates
 
 ==
 
