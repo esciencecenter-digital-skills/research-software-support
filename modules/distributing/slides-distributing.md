@@ -5,7 +5,7 @@ order: 1
 author: Jaro Camphuijsen, Lourens Veen
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Distributing Software
 
@@ -443,6 +443,8 @@ adding new functions, and the third number is incremented if the new version onl
 bugs.
 
 ===
+
+<!-- .slide: data-state="standard" -->
 
 ### Summary
 

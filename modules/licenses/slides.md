@@ -4,12 +4,9 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
-## Software Licensing
-
-
-
+# Software Licensing
 
 ===
 
