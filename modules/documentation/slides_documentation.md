@@ -44,18 +44,23 @@ note:
 
 Documentation can have different purposes:
 
-- **User documentation**
-<!-- .element: class="fragment" data-fragment-index="1" -->
-  - What does the software do? How can it be used?
-<!-- .element: class="fragment" data-fragment-index="1" -->
-- **Developer documentation**
-<!-- .element: class="fragment" data-fragment-index="2" -->
-  - How can your software be modified or extended? Why were certain development choices made.
-<!-- .element: class="fragment" data-fragment-index="2" -->
-- **Deployment documentation**
-<!-- .element: class="fragment" data-fragment-index="3" -->
-  - How to install the software? What hardware and other software is needed?
-<!-- .element: class="fragment" data-fragment-index="3" -->
+<ul>
+    <li class="fragment"><b>User documentation</b>
+    <ul>
+        <li>What does the software do? How can it be used?</li>
+    </ul>
+    </li>
+    <li class="fragment"><b>Developer documentation</b>
+    <ul>
+        <li>How can your software be modified or extended? Why were certain development choices made.</li>
+    </ul>
+    </li>
+    <li class="fragment"><b>Deployment documentation</b>
+    <ul>
+        <li>How to install the software? What hardware and other software is needed?</li>
+    </ul>
+    </li>
+</ul>
 
 note:
 
