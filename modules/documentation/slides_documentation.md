@@ -5,7 +5,7 @@ order: 1
 author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Paulus, Robin Richardson
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Documentation
 

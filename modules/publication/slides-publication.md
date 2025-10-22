@@ -4,7 +4,7 @@ type: slides
 order: 2
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Publishing Software
 
@@ -14,7 +14,7 @@ order: 2
 
 ## Before we dive in...
 
-What do you already know about software publication? 
+What do you already know about software publication?
 
 Note: Let participants discuss how they would publish a piece of software.
 
