@@ -266,6 +266,33 @@ note:
 ==
 
 <!-- .slide: data-state="standard" -->
+
+## Choosing a Versioning Scheme
+
+- Use **SemVer** when compatibility is important.
+- Pick **CalVer** if you are releasing on a schedule and timing is important.
+
+When in doubt, read up more about the differences.
+
+<style>
+.footnote_link {
+    color: white !important;
+}
+
+.footnote_link:hover {
+    color: var(--nlesc-purple) !important;
+}
+</style>
+
+<footer style="font-size: smaller;">
+[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
+<br>
+[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
+</footer>
+
+==
+
+<!-- .slide: data-state="standard" -->
 ## Change logs & DOIs
 
 Keep a human readable log summarizing the changes of each new version.
