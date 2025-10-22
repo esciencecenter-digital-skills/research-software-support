@@ -366,7 +366,7 @@ usually end up diverging so much that they end up never getting merged.
 ==
 
 <!-- .slide: data-state="standard" -->
-## Feature branches
+## Short-lived Feature Branches
 
 One dedicated branch for one task (feature)
 
@@ -377,7 +377,7 @@ One dedicated branch for one task (feature)
     <li>create branch</li>
     <li>make changes</li>
     <li>merge changes</li>
-    <li><div style="opacity: 50%">delete branch</div></li>
+    <li>delete branch</li>
   </ul>
 </div>
 
@@ -386,6 +386,7 @@ Note:
 A task can be anything, small or large: fixing a typo, updating a reference, adding some documentation,
 fixing a bug, adding some new functionality, improving performance, performing a backend rewrite.
 
+Deleting branches after merging helps keeping the overview of what is actively being worked on.
 ===
 
 <!-- .slide: data-state="standard" -->
