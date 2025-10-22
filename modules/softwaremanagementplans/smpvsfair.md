@@ -1,10 +1,10 @@
 ---
 title: SMP vs FAIR
 type: exercise
-order: 4
+order: 3
 ---
 
-## SMP vs FAIR
+## SMP vs FAIR (10 minutes)
 
 ### Why do we care?
 

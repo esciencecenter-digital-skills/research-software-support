@@ -58,16 +58,17 @@ Software needs to be understood both from a:
 
 ## Overview
 
+<!-- TODO change to reflect actual structure -->
+
 - Software Management Plan: what and why?
 - Aspects of software management
 - Different needs for different software
-- SMP template examples
 - SMP guided questionnaire
 
 Note:
 This presentation will introduce you to the concept of software management plans, as a first step towards better software stewardship and sustainability.
 We will look at different aspects of good software managements, as well as different needs for different types of software.
-Finally, we will take a look at some concrete examples of software management plans.
+Finally, we will take a look at how to create a software management plan.
 
 ===
 
@@ -150,7 +151,7 @@ By tackling them early, a conscious decision can be made rather than needing to 
 Resource planning moreover is vital for the sustainability of the software.
 Finally, the SMP will allow later verification of plans in a publicly funded project.
 
-===
+==
 
 <!-- .slide: data-state="standard" -->
 
@@ -171,6 +172,28 @@ minimize their efforts, by making considerations early in the process and
 working towards their goals, rather than having to make the call in the moment,
 when there may be other priorities/deadlines (publication, grant application,
 ...)
+
+===
+
+<!-- .slide: data-state="standard" -->
+
+## Not all software is equal
+
+![](media/softwarespectrum2.png)
+
+Note:
+It is important to realize when making an SMP, that research software comes in many shapes and sizes.
+
+An ad-hoc R script written by a PhD student to analyse data from a specific machine, is research software.
+
+It can also be a multinational collaboration to develop a tool that is used by thousands of researchers worldwide.
+
+Different software has different needs, but there are common principles in managing them and ensuring their sustainability.
+
+The diversity of research software does mean that not all requirements apply to every type of software.
+To address this, we can subset the core requirements to create different SMP templates tailored to software with different management needs.
+
+The SMP Guide distinguishes software with low, medium, and high management needs.
 
 
 ===
@@ -276,127 +299,6 @@ The optional questions depend on the previously determined scope.
 
 <!-- .slide: data-state="standard" -->
 
-## Not all software is equal
-
-![](media/softwarespectrum2.png)
-
-Note:
-It is important to realize when making an SMP, that research software comes in many shapes and sizes.
-
-An ad-hoc R script written by a PhD student to analyse data from a specific machine, is research software.
-
-It can also be a multinational collaboration to develop a tool that is used by thousands of researchers worldwide.
-
-Different software has different needs, but there are common principles in managing them and ensuring their sustainability.
-
-The diversity of research software does mean that not all requirements apply to every type of software.
-To address this, we can subset the core requirements to create different SMP templates tailored to software with different management needs.
-
-The SMP Guide distinguishes software with low, medium, and high management needs.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Exercise: How important is it?
-
-Note:
-While teaching, we will usually do this exercise using [mentimeter](https://www.mentimeter.com/app/folder/2612404) (this link is only accessible using an eScience Center account). It is not necessary to go to the slides vertically below this one.
-
-For self-studiers: see slides vertically below this one to see the exercise.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-#### Consider the following list of software:
-
-- [NEMO](https://www.nemo-ocean.eu/), a state of the art modelling framework, used for research and forecasting in ocean and climate sciences.
-- [AlphaFold](https://alphafold.com/), an AI system developed by Google DeepMind that predicts a protein’s 3D structure from its amino acid sequence.
-- A Jupyter notebook to get the average length of everyone in this classroom.
-- A software package you yourself have been involved in, if any.
-- [Facebook](https://www.facebook.com/), a social media platform connecting people globally.
-
-Go to next slide
-
-Note:
-
-We recommend scrolling up and down between this and previous slide to do the exercise.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-#### How important are the different requirements for each?
-
-- Randomly choose 5 SMP requirements for each software
-- Rate on a scale of 1-5 how important those aspects are to include in the SMP.
-
-<div style="float: left; width: 49%; font-size: smaller; margin-top: 1em;">
-
-#### Mandatory
-
-- Name & Purpose
-- Authors
-- Ownership
-- Research Context
-- Versioning
-- Risks
-- Data Management Plan
-
-</div>
-<div style="float: left; width: 49%; font-size: smaller; margin-top: 1em;">
-
-#### Optional
-
-- License
-- Documentation
-- Citation
-- Maintenance
-- Sustainability
-- Support
-- Software Quality Checklist
-- Packaging
-
-</div>
-
-Note:
-
-We recommend scrolling up and down between this and previous slide to do the exercise.
-
-It is not necessary to look things up in detail, just make an estimation.
-
-===
-
-<!-- .slide: data-state="standard" -->
-
-## Making the call
-
-Not all SMPs need to encompass every single requirement, this will generally depend on:
-  - **Purpose**: what is the reason or expected end-use for the software?
-  - **Reliability**: what is the effect of software failure and/or non-maintenance?
-  - **Maintenance**: what is the long-term effort needed to maintain the software?
-
-DCCs or organizations need to decide how it is determined which requirements to include and who is responsible for the decision.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Exercise: Guidelines per Requirement
-
-DCCs provide a guidelines for each requirement in which cases it should or should not be included in the SMP. The SMP questionnaire makes an educated guess about this.
-
-- Open the SMP questionnaire at [smp.research.software](https://smp.research.software)
-- Fold out the "Scope" and "Software Management" tables of content (click on the triangle)
-- Provide different answers for the "Scope" questions and observe which "Software Management" items appear or vanish
-
-Do you agree with the selection?
-
-===
-
-<!-- .slide: data-state="standard" -->
-
 ## Which SMP to Use?
 #### SMP Questionnaires or Templates...
 
@@ -426,8 +328,9 @@ An assessment rubric should accompany the template, indicating per question or f
 - Research software comes in many shapes and sizes
 - Software stewardship starts with a good plan
 - Good software management leads to better science
-- Institutes should provide one or more<br>SMP templates or guidelines
-  - E.g. use or fork https://github.com/SS-NES/docassemble-SMPDecisionTree
+- Institutes should provide one or more<br>SMP templates or guidelines, e.g.
+  - Use [smp.research.software](https://smp.research.software), or
+  - Fork [github.com/SS-NES/docassemble-SMPDecisionTree](https://github.com/SS-NES/docassemble-SMPDecisionTree)
 
 Note:
 Software is found in all stages of the research cycle, and is used for many different purposes.
@@ -444,4 +347,3 @@ www.esciencecenter.nl
 info@esciencecenter.nl
 
 020 - 460 47 70
-
