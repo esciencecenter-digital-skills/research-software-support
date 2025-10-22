@@ -207,7 +207,7 @@ These "projects" use CalVer to show freshness.
 - certifi 2025.10.5: `YYYY.MM.DD`
   - See https://pypi.org/project/certifi/#history
   - Certificates expire quickly, so they need to be recent
-- Ubuntu 26.04.1 `YY.0D.PATCH`
+- Ubuntu 26.04.1 `YY.0M.PATCH`
   - See https://releases.ubuntu.com/
   - Operating systems need to be updated regularly
   - Using SemVer patch addition for "Service Packs"
