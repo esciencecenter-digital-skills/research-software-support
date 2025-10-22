@@ -132,41 +132,163 @@ We've talked above extensively about commit hygiene, so will now discuss the oth
 
 ## Versioning
 
-Use a logical system to keep track of (stable) versions
+Use a logical system to keep track of (stable) versions<br>
 ... and document the system used in the repository.
 
-<div>
-  <ul>
-    <div class="fragment" data-fragment-index="1" style="text-align: center;">
-      <strong>Common systems</strong>:
-    </div>
-    <div class="fragment" data-fragment-index="1">
-      <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>:
-        <ul>
-          <li>4.3.12 = major.minor.patch</li>
-          <li>pro: version numbers have a functional relevance</li>
-          <li>con: users must keep track of the precise version used</li>
-        </ul>
-      </li>
-    </div>
-    <div class="fragment" data-fragment-index="2">
-      <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>:
-        <ul>
-          <li>2025.02.03 = YYYY.MM.DD</li>
-          <li>pro: simpler implementation</li>
-          <li>con: development is usually not as linear as this system implies</li>
-        </ul>
-      </li>
-    </div>
-  </ul>
-</div>
+The most common are:
+
+<ul>
+    <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>, and
+    <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>.
+</ul>
+
+note:
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## SemVer Terminology
+
+MAJOR.MINOR.PATCH
+
+- MAJOR: backwards incompatible changes
+  - ⚠️ MAJOR=0: API may change any time
+- MINOR: added backwards incompatible functionality
+- PATCH: backwards compatible bugfixes
+- 1.0.0 defines public API
 
 note:
 Not every change or addition needs a new version number; this is what commits are for.
 
-Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+==
 
-<!-- TODO: is there a way to make the entire list a single element using md comments rather than defining it as a div? That would make above much more readable. -->
+<!-- .slide: data-state="standard" -->
+
+## Using SemVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+- Widely used
+- "Maturity"
+  - `0.2.0` vs `3.1.4`
+- Long-term-stable (LTS) versions
+  - Maintain older versions with fresh patches
+- `1.0.0` as a milestone
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No info about "freshness"
+  - How old is version `2.7.1` ?
+- "Bigger is better", marketing
+- Superstition 13, 14
+- `1.0.0` as a milestone
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer Examples
+
+These "projects" use CalVer to show freshness.
+
+- RSECon25: `YY`
+  - See https://rsecon25.society-rse.org/
+  - Every year new one
+- certifi 2025.10.5: `YYYY.MM.DD`
+  - See https://pypi.org/project/certifi/#history
+  - Certificates expire quickly, so they need to be recent
+- Ubuntu 26.04.1 `YY.0M.PATCH`
+  - See https://releases.ubuntu.com/
+  - Operating systems need to be updated regularly
+  - Using SemVer patch addition for "Service Packs"
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer Terminology
+
+- `YYYY` Full year - 2006, 2016, 2106
+- `YY` Short year - 6, 16, 106
+- `0Y` Zero-padded year - 06, 16, 106
+- `MM` Short month - 1, 2 ... 11, 12
+- `0M` Zero-padded month - 01, 02 ... 11, 12
+- `WW` Short week (since start of year) - 1, 2, 33, 52
+- `0W` Zero-padded week - 01, 02, 33, 52
+- `DD` Short day - 1, 2 ... 30, 31
+- `0D` Zero-padded day - 01, 02 ... 30, 31
+
+
+note:
+- Common assumptions are using the UTC timezone and the Gregorian calendar
+
+- The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format (YYYY-0M-0D) is recommended, since sorting alphabetically results in sorting chronologically as well
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Using CalVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+
+- Communicates "freshness"
+  - Version from this month would be rather recent
+- No "bigger is better" marketing
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No indication of "maturity"
+  - `0.2.0` vs `3.1.4`
+- No indication of API breakage
+  - Is my code compatible with version `2016.10`?
+
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Choosing a Versioning Scheme
+
+- Use **SemVer** when compatibility is important.
+- Pick **CalVer** if you are releasing on a schedule and timing is important.
+
+When in doubt, read up more about the differences.
+
+<style>
+.footnote_link {
+    color: white !important;
+}
+
+.footnote_link:hover {
+    color: var(--nlesc-purple) !important;
+}
+</style>
+
+<footer style="font-size: smaller;">
+[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
+<br>
+[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
+</footer>
 
 ==
 
