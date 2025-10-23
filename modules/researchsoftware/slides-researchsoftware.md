@@ -31,20 +31,41 @@ The "telescope" is not a single tool, but complex: a "planet-scale array of eigh
 The separate telescopes collect data that is synchronized with atomic clocks, and the data is combined at highly specialised supercomputers.
 The data can be converted into an image using custom software.
 
-
 ===
 
 <!-- .slide: data-state="standard" -->
 
-## The research lifecycle
+## Why Treat Research Software Differently?
 
-<img src="media/researchcycle.png" alt="The Research Life Cycle" width="55%"/>
+Defining Research Software...
 
-In which stages is software used?
+- Acknowledges its importance during research
+- Designates it as research output
+- Enables proper attribution
+- Facilitates findability and reusability
 
 Note:
 
-Software is used all across the research life cycle.
+By defining research software:
+
+- we can more easily justify and emphasize how essential it is while doing research
+- we can emphasize that creating (good) research software is an essential part of research and that the product is a true "deliverable" e.g. in grant applications
+- we give the opportunity for the developers to gain (citable) recognition for their work
+- by tagging software as "research software", we make it more (computer) findable, and therefor more easily reused
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## How Important is the Distinction?
+
+- It's not a dogma
+- No need to attach correct labels for any given software
+- It helps figuring out which software deserves special treatment
+
+Note:
+
+The definitions are not always clear, and that's ok.
 
 ===
 
@@ -103,33 +124,12 @@ However, non-research software can also be used in these steps, and research sof
 
 <!-- .slide: data-state="standard" -->
 
-## Why the distinction?
-
-Defining Research Software...
-
-- Acknowledges its importance during research
-- Designates it as research output
-- Enables proper attribution
-- Facilitates findability and reusability
-
-Note:
-
-By defining research software:
-
-- we can more easily justify and emphasize how essential it is while doing research
-- we can emphasize that creating (good) research software is an essential part of research and that the product is a true "deliverable" e.g. in grant applications
-- we give the opportunity for the developers to gain (citable) recognition for their work
-- by tagging software as "research software", we make it more (computer) findable, and therefor more easily reused
-
-===
-
-<!-- .slide: data-state="standard" -->
-
 ## Take home messages
 
 - Software is an important part of research
 - Not all software used in research is Research Software
 - Defining "Research Software" provides recognition in the research community
+- Attaching the correct label is not what's important, it's finding out how to treat a piece of software
 
 ===
 

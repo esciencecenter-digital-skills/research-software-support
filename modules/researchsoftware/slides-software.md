@@ -175,7 +175,7 @@ Software is...
 - **complex**: it is creatively generated, interconnected, and multi-layered
 - **interdependent**: it builds upon and therefore depends on other software (and data)
 - **executable**: it needs to be run to have a value (e.g. to process data)
-- **dynamic**: it can (and will) break soon and therefore needs to be regularly updated 
+- **fragile**: its surroundings are dynamc, it can (and will) break soon and therefore needs to be regularly updated 
 
 <!-- Speaker notes -->
 Note:
@@ -184,7 +184,7 @@ While technically, software is a special kind of data (in that it is representat
 - Complexity; it is not a single file, but a collection of files that are interconnected and multi-layered, and do not necessarily stand on their own. Software is also the result of a creative process that provides a tool to do something, and not the result of a measurement or observation.
 - Interdependence; software is often built using other software, and rarely built completely from scratch. This makes it dependent on other existing applications, which themselves may also change over time. In the context of research software it also often depends on the data, data formats, data standards, metadata, etc, which also change when new equipment becomes available.
 - Executability; software is in its dryest form a set of instructions that can be an archive of a procedure. However, the main goal of software is that these instructions can be executed. While most forms of data can stand on their own (e.g. I can look at the list of ages of all the people in a room and make conclusions about average age, etc.), software cannot be directly interpreted (only in the context of what it does).
-- Dynamic vs static; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Versioning of software is very common, while data is often static (though versions may happen).
+- Fragility; its interdependence and context-dependency drives software to require maintenance to retain its value, and this maintenance is not straightforward. Versioning of software is very common, while data is often static (though versions may happen).
 
 ==
 
