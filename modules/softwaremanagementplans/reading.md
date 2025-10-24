@@ -1,7 +1,7 @@
 ---
 title: Reading material
 type: reading
-order: 6
+order: 5
 ---
 
 # Reading material
@@ -9,13 +9,17 @@ order: 6
 ## Software Management Plans
 [Software Management Plans – Current Concepts, Tools, and Application](https://doi.org/10.5334/dsj-2024-043) provides a good overview of SMPs
 
+### Software Management Plan Tool
+
+Guided questionnaire to create your own SMP: [smp.research.software](https://smp.research.software)
+
 ### Zenodo
 Read in Zenodo about [Practical guide to Software Management Plans](https://zenodo.org/records/7589725)
 
 ### Software Sustainability Institute
 Read in SSI Resources Hub about [Writing and using a software management plan](https://www.software.ac.uk/guide/writing-and-using-software-management-plan)
 
-### The Turing Way 
+### The Turing Way
 Read The Turing Way [chapter on Software Management Plans](https://book.the-turing-way.org/reproducible-research/rdm/rdm-smp)
 
 ## Overview of practical guides
