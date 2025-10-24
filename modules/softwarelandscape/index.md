@@ -1,8 +1,8 @@
 ---
-title: Software in the Scientific Landscape
+title: The Research Software Landscape
 category: Getting Started
 order: 13
-abstract: What role does software play in the scientific landscape? 
+abstract: What role does software play in the scientific landscape? What initiatives exist to support research software?
 author: eScience Center
 thumbnail: "thumbnail-landscape.jpg"
 visibility: visible
