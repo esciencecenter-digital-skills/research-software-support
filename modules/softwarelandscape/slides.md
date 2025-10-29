@@ -172,6 +172,8 @@ https://researchsoftwaretraining.nl/
 Note:
 The dutch research software training network brings together all initiatives on training for research software and related topics. You may know of the Carpentries, and you might be following these materials because you know of the Netherlands eScience Center's training program, but there is much more!
 
+Worth checking what local training about good practices for research software development is offered at your local institute, so you can refer researchers to those!
+
 ===
 
 
