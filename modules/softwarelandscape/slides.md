@@ -87,7 +87,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 
 <img src="https://www.fz-juelich.de/en/rse/about/rse-worldwide/rse-worldwide-1-2.jpg/@@images/image/great" >
 
-<small>[The national associations around the world as at 2023. (image courtesy of Ian Cosden, US RSE Association)](https://www.fz-juelich.de/en/rse/about/rse-worldwide)</small>
+<small>[The national associations around the world as at 2024 (Credit: Daniel S. Katz [https://doi.org/10.5281/zenodo.7295422](https://private-user-images.githubusercontent.com/12695232/366456280-fb682fe7-ed21-403f-bb2f-7c729c240857.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE3NDY5MTksIm5iZiI6MTc2MTc0NjYxOSwicGF0aCI6Ii8xMjY5NTIzMi8zNjY0NTYyODAtZmI2ODJmZTctZWQyMS00MDNmLWJiMmYtN2M3MjljMjQwODU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDI5VDE0MDMzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI0Y2JmMjY0N2FlMTMyYTQxZjlkMWEyMDdjNGEyNGY0MzljNzdhMGNhYzdlMjE3NjQ4ZDY4NjNkZTQxYjM1MDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HclJ_tXtTbjTobcqSNCo-bcSd21etdoMF9minMGsUtE))</small>
 
 Note:
 RSE stands for Research Software Engineer. This is a person that writes or contributes to Research Software. 
