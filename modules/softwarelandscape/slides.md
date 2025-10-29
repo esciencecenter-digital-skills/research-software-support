@@ -117,6 +117,24 @@ This is supported by many organisations, including UNESCO. The Netherlands recen
 
 ===
 
+<!-- .slide: data-state="standard" -->
+### What communities to connect to?
+**Overwhelmed?**
+- It might be hard to distinguish what initiatives try to tackle which problems
+- Some of the communities might be overlapping in people and goals
+- What communities might benefit the researchers of your insitute?
+- What communities would you recomment researchers to connect with?
+
+Let's do an exercise to explore these initiatives a bit better.
+
+Note: problems mentioned earlier in this slide deck include:
+- Software quality and sustainability
+- Reproducibility of research
+- Attribution for researchers writing code
+- Funding for research software
+
+===
+
 <!-- .slide: data-state="standard center" -->
 ## The FAIR principles
 
