@@ -29,6 +29,12 @@ order: 1
 - Using closed-source software decreases flexibility
 - Closed-source software hides the research method
 
+Note:
+Some examples of what the pitfalls or practical implications of using closed-source software are:
+- It can be a barrier to reproducibility if a product needs to be purchased.
+- Research methods could be obfuscated.
+- Some behavior might be undocumented. This can be the case for open-source software as well, but there you can dig into it and verify.
+
 ==
 
 <!-- .slide: data-state="standard center" -->
