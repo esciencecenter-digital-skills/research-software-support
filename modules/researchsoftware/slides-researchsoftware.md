@@ -60,8 +60,8 @@ By defining research software:
 ## How Important is the Distinction?
 
 - It's not a dogma
-- No need to attach correct labels for any given software
-- It helps figuring out which software deserves special treatment
+- No need to attach exact labels for any given software, instead ...
+- ... reflect on which software deserves special treatment
 
 Note:
 
