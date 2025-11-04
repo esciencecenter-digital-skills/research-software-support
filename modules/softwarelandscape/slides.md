@@ -34,12 +34,12 @@ order: 1
 <!-- .slide: data-state="standard center" -->
 ### Problems in research software
 
-- **So** researchers often write software themselves 
+- **So** researchers often write software themselves
 - **But** researchers are not trained as software engineers
 - **And** software is not (yet) regarded as valuable research output
 
 Note:
-First is a true statement. 
+First is a true statement.
 Second statement describes a problem with code quality, sustainability and reproducibility
 Third statement uncovers a problem with attribution, funding, etc.
 
@@ -61,11 +61,11 @@ Third statement uncovers a problem with attribution, funding, etc.
 <img src="media/research-software-landscape-logos.svg" />
 
 note:
-Many initiatives have been started to solve the problems that were mentioned. 
+Many initiatives have been started to solve the problems that were mentioned.
 
 - Research Software Engineers communities and networks
-- Open Science 
-- FAIR for Research Software 
+- Open Science
+- FAIR for Research Software
   - [ReSA (Research Software Alliance)](https://www.researchsoft.org/)
   - RDA (Research Data Alliance)
   - FORCE11 (SCholarly Communication)
@@ -73,7 +73,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 - FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
 - Software Heritage (https://www.softwareheritage.org/)
 - Research Software training
-  - Carpentries 
+  - Carpentries
   - Code Refinery
   - The Turing Way
 
@@ -85,15 +85,16 @@ Many initiatives have been started to solve the problems that were mentioned.
 <!-- .slide: data-state="standard center" id="rse-world" -->
 ## The worldwide RSE movement
 
-<img src="https://www.fz-juelich.de/en/rse/about/rse-worldwide/rse-worldwide-1-2.jpg/@@images/image/great" >
+<img style="width: 90%;" src="./media/rse-worldwide.jpg" >
 
-<small>[The national associations around the world as at 2024 (Credit: Daniel S. Katz [https://doi.org/10.5281/zenodo.7295422](https://private-user-images.githubusercontent.com/12695232/366456280-fb682fe7-ed21-403f-bb2f-7c729c240857.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE3NDY5MTksIm5iZiI6MTc2MTc0NjYxOSwicGF0aCI6Ii8xMjY5NTIzMi8zNjY0NTYyODAtZmI2ODJmZTctZWQyMS00MDNmLWJiMmYtN2M3MjljMjQwODU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDI5VDE0MDMzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI0Y2JmMjY0N2FlMTMyYTQxZjlkMWEyMDdjNGEyNGY0MzljNzdhMGNhYzdlMjE3NjQ4ZDY4NjNkZTQxYjM1MDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HclJ_tXtTbjTobcqSNCo-bcSd21etdoMF9minMGsUtE))</small>
+<span style="font-size: large;">The national associations around the world as of 2024 (Credit: Daniel S. Katz [doi.org/10.5281/zenodo.7295422](https://doi.org/10.5281/zenodo.7295422))</span>
 
 Note:
-RSE stands for Research Software Engineer. This is a person that writes or contributes to Research Software. 
-The community of RSE's is growing and many strive for recognition of the RSE trade and respecting software as scientific output. 
+RSE stands for Research Software Engineer. This is a person that writes or contributes to Research Software.
 
-The eScience Center published their role description of RSEs in general and a job profile specific to RSEs at the eScience Center. 
+The community of RSE's is growing and many strive for recognition of the RSE trade and respecting software as scientific output.
+
+The eScience Center published their role description of RSEs in general and a job profile specific to RSEs at the eScience Center.
 
 ===
 
