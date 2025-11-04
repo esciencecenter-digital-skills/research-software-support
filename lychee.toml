@@ -1,0 +1,18 @@
+# see https://lychee.cli.rs/usage/config/#default-location-of-the-configuration-file
+
+# Maximum number of allowed redirects.
+max_redirects = 10
+
+# Maximum number of allowed retries before a link is declared dead.
+max_retries = 2
+
+# Website timeout from connect to response finished.
+timeout = 30
+
+# Comma-separated list of accepted status codes for valid links
+accept = ["200", "403", "429"]
+
+# Only test links with the given schemes (e.g. https).
+# Omit to check links with any other scheme.
+# At the moment, we support http, https, file, and mailto.
+scheme = ["https", "http"]
