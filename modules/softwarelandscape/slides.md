@@ -61,7 +61,7 @@ Third statement uncovers a problem with attribution, funding, etc.
 <img src="media/research-software-landscape-logos.svg" />
 
 note:
-Many initiatives have been started or adopted from to solve the problems that were mentioned. 
+Many initiatives have been started to solve the problems that were mentioned. 
 
 - Research Software Engineers communities and networks
 - Open Science 
