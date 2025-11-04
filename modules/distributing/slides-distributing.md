@@ -5,7 +5,7 @@ order: 1
 author: Jaro Camphuijsen, Lourens Veen
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Distributing Software
 
@@ -161,8 +161,7 @@ libraries are very reusable.
 
 - At the top, or including all
 - Bigger than a script
-- Not meant for programming
-- User interface
+- End product, with user interface
 
 </div>
 
@@ -426,7 +425,7 @@ to continue to work.
 
 ### Versioning
 
-- Use [Semantic Versioning](semver.org) for libraries (X.Y.Z)
+- Use [Semantic Versioning](https://semver.org/) for libraries (X.Y.Z)
 - Less important for applications
 
 note:
@@ -444,9 +443,21 @@ bugs.
 
 ===
 
+<!-- .slide: data-state="standard" -->
+
 ### Summary
 
 - Script/notebook: publish with environment
 - Library: package and upload
 - Program: app store, package, installer
 
+===
+
+<!-- .slide: data-state="keepintouch" -->
+
+
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
+
+info@esciencecenter.nl
+
+020 - 460 47 70

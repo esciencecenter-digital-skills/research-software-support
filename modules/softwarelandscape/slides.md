@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Software in the Research Landscape
 
@@ -28,6 +28,12 @@ order: 1
 - Existing software is often closed source
 - Using closed-source software decreases flexibility
 - Closed-source software hides the research method
+
+Note:
+Some examples of what the pitfalls or practical implications of using closed-source software are:
+- It can be a barrier to reproducibility if a product needs to be purchased.
+- Research methods could be obfuscated.
+- Some behavior might be undocumented. This can be the case for open-source software as well, but there you can dig into it and verify.
 
 ==
 
@@ -111,6 +117,24 @@ This is supported by many organisations, including UNESCO. The Netherlands recen
 
 ===
 
+<!-- .slide: data-state="standard" -->
+### What communities to connect to?
+**Overwhelmed?**
+- It might be hard to distinguish what initiatives try to tackle which problems
+- Some of the communities might be overlapping in people and goals
+- What communities might benefit the researchers of your insitute?
+- What communities would you recomment researchers to connect with?
+
+Let's do an exercise to explore these initiatives a bit better.
+
+Note: problems mentioned earlier in this slide deck include:
+- Software quality and sustainability
+- Reproducibility of research
+- Attribution for researchers writing code
+- Funding for research software
+
+===
+
 <!-- .slide: data-state="standard center" -->
 ## The FAIR principles
 
@@ -172,6 +196,8 @@ https://researchsoftwaretraining.nl/
 Note:
 The dutch research software training network brings together all initiatives on training for research software and related topics. You may know of the Carpentries, and you might be following these materials because you know of the Netherlands eScience Center's training program, but there is much more!
 
+Worth checking what local training about good practices for research software development is offered at your local institute, so you can refer researchers to those!
+
 ===
 
 
@@ -219,7 +245,7 @@ Note:
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

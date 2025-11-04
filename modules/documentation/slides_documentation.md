@@ -5,7 +5,7 @@ order: 1
 author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Paulus, Robin Richardson
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Documentation
 
@@ -44,18 +44,27 @@ note:
 
 Documentation can have different purposes:
 
-- **User documentation**
-<!-- .element: class="fragment" data-fragment-index="1" -->
-  - What does the software do? How can it be used?
-<!-- .element: class="fragment" data-fragment-index="1" -->
-- **Developer documentation**
-<!-- .element: class="fragment" data-fragment-index="2" -->
-  - How can your software be modified or extended? Why were certain development choices made.
-<!-- .element: class="fragment" data-fragment-index="2" -->
-- **Deployment documentation**
-<!-- .element: class="fragment" data-fragment-index="3" -->
-  - How to install the software? What hardware and other software is needed?
-<!-- .element: class="fragment" data-fragment-index="3" -->
+<ul>
+    <li class="fragment"><b>User documentation</b>
+    <ul>
+        <li>What does the software do? How can it be used?</li>
+    </ul>
+    </li>
+    <li class="fragment"><b>Developer documentation</b>
+    <ul>
+        <li>How can your software be modified or extended? Why were certain development choices made.</li>
+    </ul>
+    </li>
+    <li class="fragment"><b>Deployment documentation</b>
+    <ul>
+        <li>How to install the software? What hardware and other software is needed?</li>
+    </ul>
+    </li>
+</ul>
+
+note:
+
+All of these types of documentation can be included in a SMP.
 
 ===
 
@@ -111,34 +120,51 @@ Note:
   - Provide context for (complex parts) of the code
   - Explains certain coding decisions
   - Can often be replaced by better programming
+    - e.g. expressive variable names
 - Docstrings:
   - Special comments that describe (use of) functions/classes/etc.
   - Can be called by users/websites
   - Follow a standardized syntax (per programming language)
+  - Can be used to generate documentation pages
+
+Note:
+We will try out "better programming" on the next slide.
 
 ==
 
 <!-- .slide: data-state="standard"  -->
 ## Exercise: In-line comments
 
-**Comment A**
+<div style="font-size: smaller;">
 
-<pre data-id="code-animation"><code style="overflow: hidden;" data-trim class="python">
-# Now we check if temperature is larger than -50:
+<ul>
+<li> Comment A
+<pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># Now we check if temperature is larger than -50:
 if temperature > -50:
     print('do something')
-</code></pre>
+</code></pre></li>
 
-**Comment B**
-
-<pre data-id="code-animation"><code style="overflow: hidden;" data-trim class="python">
-# We regard temperatures below -50 degrees as measurement errors
+<li>Comment B
+<pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># We regard temperatures below -50 degrees as measurement errors
 if temperature > -50:
     print('do something')
-</code></pre>
+</code></pre></li>
+
+<li class="fragment"> "Comment" C <pre style="width: 100%;"><code style="overflow: hidden;" data-trim class="python"># Our sensor is not certified to function properly below -50 degrees C
+MEASUREMENT_ERROR_THRESHOLD = -50
+&nbsp;
+if temperature > MEASUREMENT_ERROR_THRESHOLD:
+    print("do something")
+</code></pre></li>
+<ul>
+
+</div>
 
 - How are these different? Which one do you prefer?
-- Can you think of a way to avoid using comments altogether?
+- Can you think of a way to avoid/reduce using comments?
+
+Note:
+Expressive variable names can often make comments obsolete and increase readability.
 
 ===
 
@@ -182,7 +208,7 @@ tools include
 
 <!-- .slide: data-state="keepintouch" -->
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

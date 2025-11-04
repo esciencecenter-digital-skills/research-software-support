@@ -4,13 +4,13 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title"  -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top"  -->
 # Version Control
 
 What is version control and why should I use it?
 
 note:
-You are probably using version control every day. Word and other documents store a history of changes for you, which you can undo. Google docs have an even more intricate system of reviewing history, etc.
+You are probably using version control every day. Word and other documents store a history of changes for you, which you can undo. Google Docs have an even more intricate system of reviewing history, etc.
 
 ===
 
@@ -22,7 +22,7 @@ revisit specific versions later.*
 
 <div class="fragment" data-fragment-index="1">
   <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="38%">
-  <small> <a href="http://www.phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
+  <small> <a href="https://phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
 </div>
 
 note:
@@ -90,7 +90,7 @@ Commit hashes are unique references to a commit, while commit messages are human
 - ...
 
 note:
-A commit is the fundamental unit of change in version control, but its scope is not strictly defined. 
+A commit is the fundamental unit of change in version control, but its scope is not strictly defined.
 
 Ideally, a commit should be large enough to represent a meaningful improvement while remaining small enough to focus on a single, coherent change. Balancing these factors helps maintain clarity and makes it easier to track, review, and revert changes when needed.
 
@@ -124,7 +124,7 @@ Say you have dozens (hundreds, thousands, ...) of old versions, how do you manag
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
-We've talked above extensively about commit hygeine, so will now discuss the other 2 aspects.
+We've talked above extensively about commit hygiene, so will now discuss the other 2 aspects.
 
 ==
 
@@ -132,41 +132,163 @@ We've talked above extensively about commit hygeine, so will now discuss the oth
 
 ## Versioning
 
-Use a logical system to keep track of (stable) versions
+Use a logical system to keep track of (stable) versions<br>
 ... and document the system used in the repository.
 
-<div>
-  <ul>
-    <div class="fragment" data-fragment-index="1" style="text-align: center;">
-      <strong>Common systems</strong>:
-    </div>
-    <div class="fragment" data-fragment-index="1">
-      <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>:
-        <ul>
-          <li>4.3.12 = major.minor.patch</li>
-          <li>pro: version numbers have a functional relevance</li>
-          <li>con: users must keep track of the precise version used</li>
-        </ul>
-      </li>
-    </div>
-    <div class="fragment" data-fragment-index="2">
-      <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>:
-        <ul>
-          <li>2025.02.03 = YYYY.MM.DD</li>
-          <li>pro: simpler implementation</li>
-          <li>con: development is usually not as linear as this system implies</li>
-        </ul>
-      </li>
-    </div>
-  </ul>
-</div>
+The most common are:
+
+<ul>
+    <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>, and
+    <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>.
+</ul>
+
+note:
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## SemVer Terminology
+
+MAJOR.MINOR.PATCH
+
+- MAJOR: backwards incompatible changes
+  - ⚠️ MAJOR=0: API may change any time
+- MINOR: added backwards incompatible functionality
+- PATCH: backwards compatible bugfixes
+- 1.0.0 defines public API
 
 note:
 Not every change or addition needs a new version number; this is what commits are for.
 
-Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+==
 
-<!-- TODO: is there a way to make the entire list a single element using md comments rather than defining it as a div? That would make above much more readable. -->
+<!-- .slide: data-state="standard" -->
+
+## Using SemVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+- Widely used
+- "Maturity"
+  - `0.2.0` vs `3.1.4`
+- Long-term-stable (LTS) versions
+  - Maintain older versions with fresh patches
+- `1.0.0` as a milestone
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No info about "freshness"
+  - How old is version `2.7.1` ?
+- "Bigger is better", marketing
+- Superstition 13, 14
+- `1.0.0` as a milestone
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer Examples
+
+These "projects" use CalVer to show freshness.
+
+- RSECon25: `YY`
+  - See https://rsecon25.society-rse.org/
+  - Every year new one
+- certifi 2025.10.5: `YYYY.MM.DD`
+  - See https://pypi.org/project/certifi/#history
+  - Certificates expire quickly, so they need to be recent
+- Ubuntu 26.04.1 `YY.0M.PATCH`
+  - See https://releases.ubuntu.com/
+  - Operating systems need to be updated regularly
+  - Using SemVer patch addition for "Service Packs"
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer Terminology
+
+- `YYYY` Full year - 2006, 2016, 2106
+- `YY` Short year - 6, 16, 106
+- `0Y` Zero-padded year - 06, 16, 106
+- `MM` Short month - 1, 2 ... 11, 12
+- `0M` Zero-padded month - 01, 02 ... 11, 12
+- `WW` Short week (since start of year) - 1, 2, 33, 52
+- `0W` Zero-padded week - 01, 02, 33, 52
+- `DD` Short day - 1, 2 ... 30, 31
+- `0D` Zero-padded day - 01, 02 ... 30, 31
+
+
+note:
+- Common assumptions are using the UTC timezone and the Gregorian calendar
+
+- The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format (YYYY-0M-0D) is recommended, since sorting alphabetically results in sorting chronologically as well
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Using CalVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+
+- Communicates "freshness"
+  - Version from this month would be rather recent
+- No "bigger is better" marketing
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No indication of "maturity"
+  - `0.2.0` vs `3.1.4`
+- No indication of API breakage
+  - Is my code compatible with version `2016.10`?
+
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Choosing a Versioning Scheme
+
+- Use **SemVer** when compatibility is important.
+- Pick **CalVer** if you are releasing on a schedule and timing is important.
+
+When in doubt, read up more about the differences.
+
+<style>
+.footnote_link {
+    color: white !important;
+}
+
+.footnote_link:hover {
+    color: var(--nlesc-purple) !important;
+}
+</style>
+
+<footer style="font-size: smaller;">
+[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
+<br>
+[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
+</footer>
 
 ==
 
@@ -214,7 +336,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
 
-<img src="https://book.the-turing-way.org/_images/sub-branch.png" width="60%">
+<img src="https://book.the-turing-way.org/build/sub-branch-2b0bb776b6bfc330966865fd9780ee83.png" width="60%">
 <small> Image by: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow-branches">The Turing Way</a></small>
 
 **What uses can you think of to create branches, other than "feature branches"?**
@@ -226,7 +348,6 @@ Branches here are indicated as "feature branches", i.e. branches used while crea
 
 Other uses of branches:
 - a sandbox or playground, for trying out different things without "damaging" the stable version
-- organizing/storing results alongside their different variations/settings
 - release management
 - custom/user specific changes
 - ...
@@ -257,7 +378,7 @@ Separate local repositories are similar to but distinct from individual branches
 note:
 Many different tools exist specifically for collaborative version control of computer source code and other simple text-based documents.
 
-Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for dloing so.
+Git (for version control) with GitLab and GitHub (for collaboration) are the mainstream, used by many and with lots of features. We recommend against using any of the other tools unless the users already know what they are doing or have very strong reasons for doing so.
 
 GitLab is fully open source and offers a self-managed option, allowing organizations to host and manage their own GitLab instances on-premises or in their private cloud environments. This provides full control over data and customization.
 
@@ -334,7 +455,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
       <img src="media/workflow.png" style="height: 100px;">
       <strong>Organized workflow</strong>
       <ul>
-        <li>Commit hygeine and feature branches</li>
+        <li>Commit hygiene and feature branches</li>
         <li>Avoid "scope creep"</li>
       </ul>
     </div>
@@ -345,7 +466,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
       <strong>Tools are your friends</strong>
       <ul>
         <li><em>Kanban boards</em> for task assignment</li>
-        <li><em>linters</em> for style aherence</li>
+        <li><em>linters</em> for style adherence</li>
       </ul>
     </div>
   </div>
@@ -359,6 +480,35 @@ Keep in mind, that it is unrealistic to prevent all conflicts. This is fine, but
 
 Communication is key!
 
+In general: The more files you touch, the shorter the branch should live to avoid merge conflicts
+
+A strategy to specifically avoid is a "one branch per student" model: such branches
+usually end up diverging so much that they end up never getting merged.
+
+==
+
+<!-- .slide: data-state="standard" -->
+## Short-lived Feature Branches
+
+One dedicated branch for one task (feature)
+
+<div class="fragment" data-fragment-index="1">
+  <strong>Iterate quickly:</strong>
+  <br>
+  <ul>
+    <li>create branch</li>
+    <li>make changes</li>
+    <li>merge changes</li>
+    <li>delete branch</li>
+  </ul>
+</div>
+
+Note:
+
+A task can be anything, small or large: fixing a typo, updating a reference, adding some documentation,
+fixing a bug, adding some new functionality, improving performance, performing a backend rewrite.
+
+Deleting branches after merging helps keeping the overview of what is actively being worked on.
 ===
 
 <!-- .slide: data-state="standard" -->
@@ -372,7 +522,7 @@ Communication is key!
 
 <!-- .slide: data-state="keepintouch" -->
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

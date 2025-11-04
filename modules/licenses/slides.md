@@ -4,12 +4,9 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
-## Software Licensing
-
-
-
+# Software Licensing
 
 ===
 
@@ -279,7 +276,7 @@ In general with CLAs, you should be careful with commercial entities (state aid!
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 

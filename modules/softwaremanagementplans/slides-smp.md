@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # Software Management Plans
 
@@ -69,6 +69,8 @@ Note:
 This presentation will introduce you to the concept of software management plans, as a first step towards better software stewardship and sustainability.
 We will look at different aspects of good software managements, as well as different needs for different types of software.
 Finally, we will take a look at how to create a software management plan.
+
+About the 'Different needs for different software": an SMP can sometimes be very short. To not frighten people that they have to create an extensive big SMP for each case; the SMP is just meant as a tool to help you think about software management.
 
 ===
 
@@ -342,7 +344,7 @@ Software stewardship starts with a good plan, and is an important scientific ste
 <!-- .slide: data-state="keepintouch" -->
 
 
-www.esciencecenter.nl
+[www.esciencecenter.nl](https://www.esciencecenter.nl)
 
 info@esciencecenter.nl
 
