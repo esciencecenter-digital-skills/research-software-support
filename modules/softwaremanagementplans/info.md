@@ -11,4 +11,4 @@ In this module you will learn to answer the following questions:
 - Why is making a software management plan useful to researchers?
 - How do I assess the management level of a piece of research software?
 - How can I make sure the researcher thought of all the relevant steps for their software?
-- How can I explain to researchers, policy makers, or other staff why a software management plan is important?
+- How can I explain to researchers, policymakers, or other staff why a software management plan is important?

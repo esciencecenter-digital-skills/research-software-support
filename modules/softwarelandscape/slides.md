@@ -74,7 +74,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 - FAIR for Research Software
   - [ReSA (Research Software Alliance)](https://www.researchsoft.org/)
   - RDA (Research Data Alliance)
-  - FORCE11 (SCholarly Communication)
+  - FORCE11 (Scholarly Communication)
 
 - FOSS (Free and Open Source Software)(https://freeopensourcesoftware.org/)
 - Software Heritage (https://www.softwareheritage.org/)
@@ -123,7 +123,7 @@ This is supported by many organisations, including UNESCO. The Netherlands recen
 **Overwhelmed?**
 - It might be hard to distinguish what initiatives try to tackle which problems
 - Some of the communities might be overlapping in people and goals
-- What communities might benefit the researchers of your insitute?
+- What communities might benefit the researchers of your institute?
 - What communities would you recomment researchers to connect with?
 
 Let's do an exercise to explore these initiatives a bit better.
@@ -195,7 +195,7 @@ https://researchsoftwaretraining.nl/
 
 
 Note:
-The dutch research software training network brings together all initiatives on training for research software and related topics. You may know of the Carpentries, and you might be following these materials because you know of the Netherlands eScience Center's training program, but there is much more!
+The Dutch research software training network brings together all initiatives on training for research software and related topics. You may know of the Carpentries, and you might be following these materials because you know of the Netherlands eScience Center's training program, but there is much more!
 
 Worth checking what local training about good practices for research software development is offered at your local institute, so you can refer researchers to those!
 

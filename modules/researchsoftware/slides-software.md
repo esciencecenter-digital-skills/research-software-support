@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 
 # What is software?
 
@@ -83,7 +83,7 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 <!-- Speaker notes -->
 Note:
-This software was written using special typewriters that would punch holes in cardboard cards. It would encode instructions to the computer hardware, in this case the hardware is a UNIVAC 90/30 (1974). One punchcard from the old UNIVAC 90/30 system would hold a single line of code. A program usually consisted of a whole stack of these cards.
+This software was written using special typewriters that would punch holes in cardboard cards. It would encode instructions to the computer hardware, in this case the hardware is a UNIVAC 90/30 (1974). One punch card from the old UNIVAC 90/30 system would hold a single line of code. A program usually consisted of a whole stack of these cards.
 
 ==
 
@@ -138,7 +138,7 @@ In this image, we can get a glimpse of the complexity of modern software. We can
 ## Software is a form of data
 
 <img src="media/data_definition.png" width="70%">
-<small>Definition by <a href="https://www.merriam-webster.com/dictionary/data/">Merriam Webster English Dictionary</a></small>
+<small>Definition by <a href="https://www.merriam-webster.com/dictionary/data/">Merriam-Webster English Dictionary</a></small>
 
 ==
 
@@ -175,7 +175,7 @@ Software is...
 - **complex**: it is creatively generated, interconnected, and multi-layered
 - **interdependent**: it builds upon and therefore depends on other software (and data)
 - **executable**: it needs to be run to have a value (e.g. to process data)
-- **fragile**: its surroundings are dynamc, it can (and will) break soon and therefore needs to be regularly updated 
+- **fragile**: its surroundings are dynamic, it can (and will) break soon and therefore needs to be regularly updated 
 
 <!-- Speaker notes -->
 Note:
@@ -208,7 +208,7 @@ Note:
 Regarding the reasons for lack of maintenance:
 - funding opportunities for this do exist, but are rare and usually only for large projects
 - while you can sometimes publish a major update to a software package, this is also rare, and will even more rarely result in a high-impact/highly cited paper. it is also not highly appreciated e.g. on a CV.
-- while academics can often create software that "does the job" well, a different skillset is required to maintain the software (or write it in a way to facilitate maintenance)
+- while academics can often create software that "does the job" well, a different skill set is required to maintain the software (or write it in a way to facilitate maintenance)
 - academics often work on projects by themselves and then move on soon after their papers are published, leaving a knowledge gap for others to maintain the software
 
 ===

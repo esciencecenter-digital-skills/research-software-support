@@ -8,7 +8,7 @@ order: 6
 
 ## Software is data
 
-In computer science, the fact that software is data is considered one of the fundamental concepts of computing. The fact that the thing that operates the machine (software) is the same kind of thing as the thing it operates on (data) is definitely one of the strengths of current computersystems and one of the main reasons why we can do such complex and powerful things with the combination of hardware and software.
+In computer science, the fact that software is data is considered one of the fundamental concepts of computing. The fact that the thing that operates the machine (software) is the same kind of thing as the thing it operates on (data) is definitely one of the strengths of current computer systems and one of the main reasons why we can do such complex and powerful things with the combination of hardware and software.
 
 The following blogpost discusses why this concept is so powerful: [Fundamental Concepts of Computing: Software is Data!](https://www.blackliszt.com/2014/04/fundamental-concepts-of-computing-software-is-data.html)
 

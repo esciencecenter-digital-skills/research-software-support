@@ -25,7 +25,7 @@ Their paper [Introducing the FAIR principles for research software](https://doi.
 
 ### FAIR software (20 minutes, optional)
 
-While the intepretation of the FAIR4RS working group has been the dominant set of principles since its publication, it was not the first attempt to apply FAIR to software.
+While the interpretation of the FAIR4RS working group has been the dominant set of principles since its publication, it was not the first attempt to apply FAIR to software.
 [This paper by Anna Lena Lamprecht et al.](https://doi.org/10.3233/ds-190026) was published a few years earlier, and also described an extension of the FAIR principles for software.
 The paper is a more elaborate in its descriptions of software, the different aspects of software, and how they are or are not addressed by FAIR.
 It is a good read if you want to get a deeper understanding of software and its relation to the FAIR principles.
