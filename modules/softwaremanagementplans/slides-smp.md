@@ -70,7 +70,7 @@ This presentation will introduce you to the concept of software management plans
 We will look at different aspects of good software managements, as well as different needs for different types of software.
 Finally, we will take a look at how to create a software management plan.
 
-About the 'Different needs for different software": an SMP can sometimes be very short. To not frighten people that they have to create an extensive big SMP for each case; the SMP is just meant as a tool to help you think about software management.
+About the "Different needs for different software": an SMP can sometimes be very short. To not frighten people that they have to create an extensive big SMP for each case; the SMP is just meant as a tool to help you think about software management.
 
 ===
 

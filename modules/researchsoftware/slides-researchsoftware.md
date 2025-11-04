@@ -82,7 +82,7 @@ Note:
 A definition of research software, from the FAIR4RS working group.
 It is important that not all software that is used in research is research software.
 For example, a text editor that is used to write a paper is not research software.
-Nor is powerpoint, a web browser, or the software used to guide the telescope.
+Nor is PowerPoint, a web browser, or the software used to guide the telescope.
 Even tools like R or Python are not necessarily research software.
 The code written in R or Python for an analysis would be research software, however.
 Just like a custom-made Excel macro that is used to analyse data.
