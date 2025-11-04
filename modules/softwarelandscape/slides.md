@@ -176,7 +176,18 @@ The working group behind this was a collaboration between the Research Software 
 
 ## FAIR (for software)
 
-![FAIR for Research Software principles](media/fair4rs_principles.png)
+<table style="text-align: left; font-size: small;">
+<tr><th style="padding: 0.5em 1em;"><b>The FAIR4RS Principles</b> (<a href="https://zenodo.org/records/6623556">zenodo.org/records/6623556</a>)</th></tr>
+<tr><td style="padding: 0.5em 1em;"><b>F: Software, and its associated metadata, is easy for both humans and machines to find.</b></td></tr>
+<tr><td style="padding: 0.5em 1em;">F1. Software is assigned a globally unique and persistent identifier. <br> — F1.1. Components of the software representing levels of granularity are assigned distinct identifiers. <br> — F1.2. Different versions of the software are assigned distinct identifiers. <br> F2. Software is described with rich metadata. <br> F3. Metadata clearly and explicitly include the identifier of the software they describe. <br> F4. Metadata are FAIR, searchable and indexable.</td></tr>
+<tr><td style="padding: 0.5em 1em;"><b>A: Software, and its metadata, is retrievable via standardized protocols.</b></td></tr>
+<tr><td style="padding: 0.5em 1em;">A1. Software is retrievable by its identifier using a standardized communications protocol. <br> — A1.1. The protocol is open, free, and universally implementable. <br> — A1.2. The protocol allows for an authentication and authorization procedure, where necessary. <br> A2. Metadata are accessible, even when the software is no longer available.</td></tr>
+<tr><td style="padding: 0.5em 1em;"><b>I: Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via  application programming interfaces (APIs), described through standards.</b></td></tr>
+<tr><td style="padding: 0.5em 1em;">I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards. <br> I2. Software includes qualified references to other objects.</td></tr>
+<tr><td style="padding: 0.5em 1em;"><b>R: Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).</b></td></tr>
+<tr><td style="padding: 0.5em 1em;">R1. Software is described with a plurality of accurate and relevant attributes. <br> — R1.1. Software is given a clear and accessible license. <br> — R1.2. Software is associated with detailed provenance. <br> R2. Software includes qualified references to other software. <br> R3. Software meets domain-relevant community standards.</td></tr>
+</table>
+
 
 Note:
 These are the interpretations given to the FAIR principles for software by the working group.
