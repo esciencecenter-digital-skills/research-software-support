@@ -6,7 +6,7 @@ order: 3
 
 ## **Exercise:** Mapping the FAIR principles
 
-Choose one of the three examples of software below: [Comet](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-1-comet), [PureGoMe](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-2-puregome), or [gammaShiny](http://localhost:3000/research-software-support/modules/softwarelandscape/exercise2#software-3-gammashiny). They have been described with statements that can be mapped to the FAIR4RS Principles. With each statement in the software description, identify the principle(s) it maps to, and the (sub)facet(s) of the principle(s) it addresses. A single statement may map to multiple (sub)facets.
+Choose one of the three examples of software below: [Comet](#software-1-comet), [PureGoMe](#software-2-puregome), or [gammaShiny](#software-3-gammashiny). They have been described with statements that can be mapped to the FAIR4RS Principles. With each statement in the software description, identify the principle(s) it maps to, and the (sub)facet(s) of the principle(s) it addresses. A single statement may map to multiple (sub)facets.
 
 <table style="text-align: left;">
 <tr><th style="padding: 0.5em 1em;"><b>The FAIR4RS Principles</b> (<a href="https://zenodo.org/records/6623556">zenodo.org/records/6623556</a>)</th></tr>
