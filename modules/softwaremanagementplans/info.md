@@ -9,5 +9,6 @@ In this module you will learn to answer the following questions:
 - What is a software management plan?
 - Why are software management plans important for science?
 - Why is making a software management plan useful to researchers?
-- How do I identify what should be in a software management plan for a given piece of software?
-- How do I guide a researcher through tailoring a software management plan to their software?
+- How do I assess the management level of a piece of research software?
+- How can I make sure the researcher thought of all the relevant steps for their software?
+- How can I explain to researchers, policy makers, or other staff why a software management plan is important?

@@ -36,6 +36,6 @@ These are potential homework exercises that can be used in a live workshop setti
 
 ### Software Management Plan
 
-1. Create a software management plan template which fits your piece of software by using step 2 and 3 from the [Template Building exercise](/modules/softwaremanagementplans/templatebuilding) in the software management plan module.
+1. Explore software management plans fitting your piece of software by using the [Exploring the SMP Questionnaire](/modules/softwaremanagementplans/smp_questionnaire) exercise in the software management plan module.
 
-2. Fill out your own software management plan template. Keep it short and to the point. 
+2. Fill out your own software management plan and download the Word file.
