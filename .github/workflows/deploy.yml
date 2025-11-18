@@ -1,18 +1,18 @@
 name: Deploy to gh-pages
 
-on: 
+on:
   release:
     types: [published]
   workflow_dispatch:
 
 jobs:
   deploy_with_NEBULA:
-    permissions: 
+    permissions:
       contents: write
     uses: esciencecenter-digital-skills/NEBULA/.github/workflows/deploy.yml@v1.5.0
     with:
       content_organization: ${{ github.repository_owner}}
       content_repository: ${{ github.event.repository.name }}
       content_ref: ${{ github.sha }}
-      nebula_ref: v2.0.0
+      nebula_ref: v2.0.1
       deploy_to_ghpages: true
