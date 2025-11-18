@@ -28,7 +28,7 @@ revisit specific versions later.*
 note:
 Strictly speaking, this is a form of version control: separate versions are stored, commented on, and organized in some way.
 
-Lets see a more practical, systematic, and robust way of doing this...
+Let's see a more practical, systematic, and robust way of doing this...
 
 ===
 
@@ -57,7 +57,7 @@ In version control systems, documents start with a base version (which may or ma
 
 
 note:
-Any piece of code is nothing more than a (plain) text document, not too different from a word file. The same is generally true for most other files comprising the software. Therefore, changes are excessively easy and computationally efficient to track.
+Any piece of code is nothing more than a (plain) text document, not too different from a Word file. The same is generally true for most other files comprising the software. Therefore, changes are excessively easy and computationally efficient to track.
 
 Even complex (binary, data, image, ...) files can ultimately be rendered in plain text, and therefore tracked using version control. Although changes are not easy to visualize and it will require multiplying the data storage for each change.
 
@@ -327,7 +327,7 @@ More than one...
 </div>
 
 note:
-When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
+When collaborating you might have various versions (sets of changes) that co-exist at the same time on so-called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
 
 ==
 

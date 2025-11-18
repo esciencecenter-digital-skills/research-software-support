@@ -15,6 +15,6 @@ Use it to communicate important information about your project! For many smaller
 - https://makeareadme.com>
 - https://gist.github.com/jxson/1784669
 
-## Popular tools foor building more complex documentation
+## Popular tools for building more complex documentation
 
 - https://coderefinery.github.io/documentation/tools

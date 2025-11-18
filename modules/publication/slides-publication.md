@@ -55,7 +55,7 @@ Note:
 
 Additionally, publishing is essential for meeting the FAIR principles:
 
-**Findability** - if software lives on someone's harddrive then it cannot be easily found by anyone
+**Findability** - if software lives on someone's hard drive then it cannot be easily found by anyone
 
 **Accessibility** - the software can e.g. be downloaded and installed using a standard protocol (authentication is still a possibility)
 
@@ -69,7 +69,7 @@ Additionally, publishing is essential for meeting the FAIR principles:
 
 ## Traditional publishing pipeline
 
-* Write some code and leave it on your harddrive
+* Write some code and leave it on your hard drive
 * Generate scientific results with it
 * Write a paper about those results
 * Possibly not even mentioning the software at all

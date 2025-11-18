@@ -73,7 +73,7 @@ the function. (There's more to it, but this is all we need here and gives a good
 A function, or procedure which is really a better term but not what most people use
 anymore, is a list of instructions, like a recipe.
 
-To make lasagna, you use sheets of dough, Bechamel sauce, and tomato sauce, and stack
+To make lasagna, you use sheets of dough, Béchamel sauce, and tomato sauce, and stack
 them up in alternating layers before cooking everything in the oven. Of course tomato
 sauce does not grow on trees, so you'll need a sub-recipe to make that, and it's the
 same with functions: they call other functions.
