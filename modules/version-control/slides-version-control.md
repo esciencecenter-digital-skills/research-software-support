@@ -336,7 +336,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
 
-<img src="/modules/version-control/media/git-branching-turing-way.png" width="60%" alt="Several development branches in Git.">
+<img src="media/git-branching-turing-way.png" width="60%" alt="Several development branches in Git.">
 <small> Image by: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow-branches">The Turing Way</a></small>
 
 **What uses can you think of to create branches, other than "feature branches"?**
