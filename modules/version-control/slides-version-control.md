@@ -28,7 +28,7 @@ revisit specific versions later.*
 note:
 Strictly speaking, this is a form of version control: separate versions are stored, commented on, and organized in some way.
 
-Lets see a more practical, systematic, and robust way of doing this...
+Let's see a more practical, systematic, and robust way of doing this...
 
 ===
 
@@ -57,7 +57,7 @@ In version control systems, documents start with a base version (which may or ma
 
 
 note:
-Any piece of code is nothing more than a (plain) text document, not too different from a word file. The same is generally true for most other files comprising the software. Therefore, changes are excessively easy and computationally efficient to track.
+Any piece of code is nothing more than a (plain) text document, not too different from a Word file. The same is generally true for most other files comprising the software. Therefore, changes are excessively easy and computationally efficient to track.
 
 Even complex (binary, data, image, ...) files can ultimately be rendered in plain text, and therefore tracked using version control. Although changes are not easy to visualize and it will require multiplying the data storage for each change.
 
@@ -327,7 +327,7 @@ More than one...
 </div>
 
 note:
-When collaborating you might have various versions (sets of changes) that co-exist at the same time on so called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
+When collaborating you might have various versions (sets of changes) that co-exist at the same time on so-called "branches". Modern version control software can usually automatically merge multiple changes into a single document.
 
 ==
 
@@ -336,7 +336,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
 
-<img src="https://book.the-turing-way.org/build/sub-branch-2b0bb776b6bfc330966865fd9780ee83.png" width="60%">
+<img src="/modules/version-control/media/git-branching-turing-way.png" width="60%" alt="Several development branches in Git.">
 <small> Image by: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow-branches">The Turing Way</a></small>
 
 **What uses can you think of to create branches, other than "feature branches"?**

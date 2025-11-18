@@ -14,7 +14,7 @@ Choose a piece of research software that you know, or pick one of the packages i
 - [ESMValTool](https://research-software-directory.org/software/esmvaltool)
 - [LitStudy](https://research-software-directory.org/software/litstudy)
 - [Haddock](https://research-software-directory.org/software/haddock3)
-- [worcs](https://cjvanlissa.github.io/worcs/index.html)
+- [WORCS](https://cjvanlissa.github.io/worcs/index.html)
 - [democracy-topic-modelling](https://research-software-directory.org/software/democracy-topic-modelling)
 
 In teams:

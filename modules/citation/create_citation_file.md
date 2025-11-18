@@ -1,9 +1,9 @@
 ---
-title: CFFinit tool
+title: cffinit tool
 type: exercise
 order: 5
 ---
 
 ## Using cffinit to create `CITATION.cff`
 
-This tutorial demonstrates the use of CFFinit, to create a `CITATION.cff` file. You can find the tool at [citation-file-format.github.io/cff-initializer-javascript](https://citation-file-format.github.io/cff-initializer-javascript/#/).
+This tutorial demonstrates the use of cffinit, to create a `CITATION.cff` file. You can find the tool at [citation-file-format.github.io/cff-initializer-javascript](https://citation-file-format.github.io/cff-initializer-javascript/#/).

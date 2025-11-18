@@ -6,7 +6,7 @@ order: 4
 
 # Distributing software (10 minutes)
 
-Modern software contsists of an often large collection of components (libraries, packages) that are combined together to form an application. This whole collection needs to be reproduced on the computer of the user for things to work. There are two ways of doing that: 
+Modern software consists of an often large collection of components (libraries, packages) that are combined together to form an application. This whole collection needs to be reproduced on the computer of the user for things to work. There are two ways of doing that: 
 
 1) combining them all together on the computer of the developer, and then wrapping everything up into a package, installer, container image, or VM image that is sent to the user, or 
 2) putting the components that you made yourself on the Internet (as a package), and relying on the user to download the other components (packages) and assembling it all together into a working application
@@ -31,7 +31,7 @@ Option 2) is more efficient than option 1), because the user can just install ea
 
 Dependency hell was mostly solved by the invention of package managers, which automate the process of downloading and installing the required components. Example are pip, conda, apt, and Homebrew. If each component is put into a package with some metadata that describes which other packages it needs, then the package manager can do all that automatically, at least assuming that everything is Open Source and freely available online, because it cannot go to the shop to buy a license for everything. Still, often everything is Open Source and then this saves a huge amount of work. Dependency hell is not the only problem however.
 
-Software is continuously developed, and that means that it changes over time. Those changes sometimes change how a component is used by other components, which then need to be updated too. So the user may end up with an older program that only works with an older version of component X, while they also want to used a different newer program that works only with a newer version of X. A good package manager will give an error message in that case, but that doesn't solve the problem. Which version do you install?
+Software is continuously developed, and that means that it changes over time. Those changes sometimes change how a component is used by other components, which then need to be updated too. So the user may end up with an older program that only works with an older version of component X, while they also want to use a different newer program that works only with a newer version of X. A good package manager will give an error message in that case, but that doesn't solve the problem. Which version do you install?
 
 There are again two common solutions to this, distributions and environments. A distribution, like Ubuntu, is made by a group of people who create a collection of packages that are all compatible with each other, meaning that every package in it that uses package X works with the same version of package X, namely the one that's included in the distribution. This takes a significant amount of work, but it's very nice because you only have one version of everything, and maximal space efficiency. Of course there are still updates, but they happen once every six months or several years, and then everything is updated at once. That does mean that you don't get the latest version right away, but also that things just work and don't suddenly break. (Cathedral!)
 
@@ -39,7 +39,7 @@ Another way to fix the multiple options of X problem is to use environments. An 
 
 ## Which option to choose when
 
-Scientific software is often a script, which is basically the topmost component in the whole collection of components. Scripts mostly just tell other components what to do. Since the script isn't used by other components, it can be packaged as an application in either of the above-mentioned ways. Users can the install and run it to *reproduce* the results, but not easily use it in their own script or modify it to do something different but related.
+Scientific software is often a script, which is basically the topmost component in the whole collection of components. Scripts mostly just tell other components what to do. Since the script isn't used by other components, it can be packaged as an application in either of the above-mentioned ways. Users can then install and run it to *reproduce* the results, but not easily use it in their own script or modify it to do something different but related.
 
 Sometimes, scientists (or Research Software Engineers!) develop components that are intended for use by others in their scripts, or even in other components. Those need to be packaged as packages for a package manager, because they need to be combined with other packages on the user's computer. (The user is a programmer, in this case!) This allows the software to be *reused* by others in their scripts.
 

@@ -27,7 +27,7 @@ It is not necessary to dive too deep into the codebase/repository for this. Answ
 
 ## Documentation contents
 
-*Which of the following piees of information are/should be included, and where?*
+*Which of the following pieces of information are/should be included, and where?*
 
 - Purpose
 - Authors

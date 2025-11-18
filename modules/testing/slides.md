@@ -63,7 +63,7 @@ Note:
 
 - Ensuring software reliability, validity, and reproducibility for research software directly influences the reproducibility of the results obtained.
 - A good test suite gives collaborators and (external) contributors confidence to make modifications without breaking existing functionalities.
-- As mentioned before, software almost always relies on other software (its dependencies). As the dependencies change or get updated, your use of these depencies may also need to change. Having tests in place will detect such issues as soon as they arise and allow you stay ahead of the curve.
+- As mentioned before, software almost always relies on other software (its dependencies). As the dependencies change or get updated, your use of these dependencies may also need to change. Having tests in place will detect such issues as soon as they arise and allow you stay ahead of the curve.
 - Code that is easy to test is often easier to understand and maintain. By writing good tests, you push yourself to write good code.
 - Tests can be used as an example or tutorial for (new) users to see how to use the software, or to test that their installation was successful.
 
@@ -85,7 +85,7 @@ Note:
 
 Developers (and researchers) generally run a number of tests or test scripts manually at certain points in the development process. However, if we think of the problems mentioned in the previous slide, these would often not have been detected by manual testing.
 
-Instead, we would encourage developers to collect those (and more!) tests into a test suite and have them run systematically. Many programming languages have existing tools that helkp you create and run tests suits: [PyTest](https://docs.pytest.org/) for Python, [testthat](https://testthat.r-lib.org/) for R, [JUnit](https://junit.org/) for Java, etc.
+Instead, we would encourage developers to collect those (and more!) tests into a test suite and have them run systematically. Many programming languages have existing tools that help you create and run tests suits: [PyTest](https://docs.pytest.org/) for Python, [testthat](https://testthat.r-lib.org/) for R, [JUnit](https://junit.org/) for Java, etc.
 
 ===
 
