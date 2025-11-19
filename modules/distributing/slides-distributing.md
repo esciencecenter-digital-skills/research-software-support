@@ -46,26 +46,18 @@ start with explaining a bit how software is put together, and what all these ter
 
 ### Functions (or Procedures)
 
-<div style="width: 40%; float: left; margin-top: 3%">
 
 - Ordered list of instructions
 - Like a recipe
 - Can refer to other recipes
 - Closed box
 
-</div>
-
-<div style="width: 60%; float: right; margin-top: 3%">
-
-<pre style="font-size: 70%; text-align: left">
-def minmax(list_of_things):
+<pre style="font-size: 70%; width: max-content;"><code>def minmax(list_of_things):
     sorted_things = sorted(list_of_things)
     smallest = sorted_things[0]
     largest = sorted_things[-1]
     return smallest, largest
-</pre>
-
-</div>
+</code></pre>
 
 note:
 To start, let's simplify everything way down and look at a basic component of software,
