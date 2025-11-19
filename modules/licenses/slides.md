@@ -90,9 +90,9 @@ It's better if the software has an Open Source license, because these are profes
 
 <!-- .slide: data-state="standard" -->
 
-<div style="width: 50%; float: left">
-
 ## Why share software?
+
+<div style="width: 50%; float: left; margin-top: 1em; margin-left: 5%;">
 
 - Reproducibility
 - Increasing impact
@@ -102,11 +102,11 @@ It's better if the software has an Open Source license, because these are profes
 
 </div>
 
-<div style="width: 40%; float: right">
+<div style="width: 40%; float: right; margin-right: 4%;">
 <img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
 </div>
 
-<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<div style="clear: both; margin: auto; padding-top: .5em;">
 <small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
 
@@ -125,9 +125,9 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
 
 <!-- .slide: data-state="standard" -->
 
-<div style="width: 50%; float: left">
-
 ## How to share software
+
+<div style="width: 50%; float: left; margin-top: 1em; margin-left: 5%;">
 
 - Put it online
 - Add a license
@@ -137,11 +137,11 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
 
 </div>
 
-<div style="width: 40%; float: right">
+<div style="width: 40%; float: right; margin-right: 4%;">
 <img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
 </div>
 
-<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<div style="clear: both; margin: auto; padding-top: .5em;">
 <small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
 
@@ -239,9 +239,9 @@ Finally, there are some nice tools available that make it easier to select an Op
 
 <!-- .slide: data-state="standard" -->
 
-<div style="width: 50%; float: left">
-
 ## Contributing to software
+
+<div style="width: 55%; float: left; margin-top: 1em;">
 
 - Under the license
 - Contributor License Agreements
@@ -250,11 +250,11 @@ Finally, there are some nice tools available that make it easier to select an Op
 
 </div>
 
-<div style="width: 50%; float: right">
+<div style="width: 44%; float: right;">
 <img src="media/Kleine_Dinge.jpg" width="100%">
 </div>
 
-<div style="float: left; clear: both; padding-left: 35%; padding-top: 3em">
+<div style="clear: both; margin: auto; padding-top: .5em;">
 <small>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/white-and-green-quote-board-xCEuxxhpY3o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
 
