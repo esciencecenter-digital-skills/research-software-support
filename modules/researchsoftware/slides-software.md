@@ -10,6 +10,122 @@ order: 1
 
 ===
 
+<!-- .slide: data-state="standard 10 center" -->
+
+## Theme Background Usage
+
+<div style="font-size: x-large;">
+
+- background image for eye candy
+  - `data-background-image="./media/code-1839406_1280.jpg"`
+- covered by a colored overlay with adjustable opacity
+  - `data-state="standard 6"`
+
+</div>
+
+<img style="width: 50%; padding: 1em;" src="./media/Untitled.png">
+
+<div style="font-size: x-large;">
+
+```
+<!-- .slide: data-state="standard 6 center" data-background-image="./media/code-1839406_1280.jpg" -->
+```
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard 10 center" -->
+
+## Background Image
+
+- place in `./media/`
+- avoid too much visual noise
+- choose something visually fitting for the content
+- "CC0" (or similar) licenses recommended, pick from e.g.
+  - https://pixabay.com/
+  - https://www.pexels.com/
+
+```
+<!-- .slide: data-background-image="./media/code-1839406_1280.jpg" -->
+```
+
+==
+
+<!-- .slide: data-state="standard 10 center" -->
+
+## Colored Overlay
+
+- integer from 0-10 determines the opacity
+- default is `8` (80%).
+- color is determined by slide theme, see
+  - <a href="https://nlesc-slides.github.io/2024-06-03_slide_manual">nlesc-slides.github.io/2024-06-03_slide_manual</a>
+
+<div style="font-size: smaller;">
+
+| number | opacity |
+| ------ | ------- |
+|0|0%|
+|1|10%|
+|...|...|
+|10|100%|
+
+</div>
+
+```
+<!-- .slide: data-state="standard 10" -->
+```
+
+==
+
+<!-- .slide: data-state="standard 10 center" -->
+
+## White Background: `standard 10`
+
+```
+<!-- .slide: data-state="standard 10" -->
+```
+
+==
+
+<!-- .slide: data-state="standard 10 center" data-background-image="./media/code-1839406_1280.jpg" -->
+
+recommended use:
+
+==
+
+<!-- .slide: data-state="standard 6 center" data-background-image="./media/code-1839406_1280.jpg" -->
+
+# Stronger Background <br> for Titles
+
+<div style="font-size: x-large;">
+
+```
+<!-- .slide: data-state="standard 6 center" data-background-image="./media/code-1839406_1280.jpg" -->
+```
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard 8 center" data-background-image="./media/code-1839406_1280.jpg" -->
+
+### Subtle Background for Slides
+
+- a bit of eye-candy
+- little distractions
+- smooth fade of opacity
+
+<div style="font-size: x-large;">
+
+```
+<!-- .slide: data-state="standard 8 center" data-background-image="./media/code-1839406_1280.jpg" -->
+```
+
+</div>
+
+===
+
 <!-- .slide: data-state="standard center" -->
 
 ## Some history
