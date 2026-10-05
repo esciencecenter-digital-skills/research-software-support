@@ -243,7 +243,7 @@ able to run the program.
 
 <!-- .slide: data-state="standard" -->
 
-### Scenario 1: Review & reproduce
+### Scenario 1: A Script
 
 - You have a script
 - The script uses some libraries
@@ -257,7 +257,7 @@ able to run the program.
 ### Distributing scripts/notebooks
 
 - Make script/notebook available for download
-- Make environment file, e.g. requirements.txt, environment.yml
+- Create an environment file, e.g. requirements.txt, environment.yml
 - User uses a package manager to create environment
 - User runs the script/notebook
 - Optional: use an image (mostly long-term archival)
@@ -330,8 +330,8 @@ dependencies in the metadata!
 
 For languages like Fortran or C++ that don't have a standard package manager, you could
 try Conda, or make packages for an operating system-specific packaging system like
-APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), HomeBrew or macPorts (macOS) or
-even EasyBuild, Spack or Nix (on High-Performance Computing)
+APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), nix, HomeBrew or macPorts (macOS) or
+even EasyBuild or Spack (on High-Performance Computing)
 
 ===
 
@@ -346,8 +346,7 @@ even EasyBuild, Spack or Nix (on High-Performance Computing)
 note:
 Scientists don't often make whole applications with user interfaces that anyone can just
 pick up and use. That's a lot of work, and you don't get credit for it in science.
-Nevertheless there are examples of this, e.g. MaxEnt in ecology, and it could happen. In
-this case, what you have is a program.
+Nevertheless there are examples of this, e.g. [MaxEnt](https://github.com/mrmaxent/Maxent) in ecology, and it could happen. In this case, what you have is a program.
 
 ===
 
