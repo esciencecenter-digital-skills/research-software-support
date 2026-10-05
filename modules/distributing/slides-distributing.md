@@ -330,7 +330,7 @@ dependencies in the metadata!
 
 For languages like Fortran or C++ that don't have a standard package manager, you could
 try Conda, or make packages for an operating system-specific packaging system like
-APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), nix, HomeBrew or macPorts (macOS) or
+APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), Nix, HomeBrew or macPorts (macOS) or
 even EasyBuild or Spack (on High-Performance Computing)
 
 ===
