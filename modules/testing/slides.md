@@ -1,5 +1,5 @@
 ---
-title: Software Testing
+title: Software Testing Slides
 type: slides
 order: 1
 ---
@@ -101,11 +101,21 @@ Instead, we would encourage developers to collect those (and more!) tests into a
 
 Note:
 
+First of all: any tests are better than none, regardless of what type!
+
 - Smoke test: A preliminary test to verify that the essential functions of the software work. If a smoke test fails, further testing is halted until the issues are resolved.
 - Unit test: A test that verifies the functionality of an individual unit (e.g., a function, method, or module) in isolation. In unit tests each individual unit of a software is tested separately.
 - Integration test: A test that checks the interaction between integrated components or modules. Individual units (that are tested in isolation using unit tests) are combined and tested as a group. The goal is to detect faults in how these units work together, especially focusing on data flow, APIs, and dependencies.
 - System test: A test that evaluates the complete system as a whole to ensure it meets functional (correct results, no crashes, ...) and non-functional (security, performance, ...) requirements. It checks how different components interact under real-world conditions. It is similar to an integration test but broader in scope.
 - Regression tests: A test that ensures recent code changes haven't negatively affected existing functionality. This often involves re-running previous test cases to confirm that everything still works as expected.
+
+In practice, smoke tests are the type of thing you would be doing manually. Besides their function as smoke test, they would typically be integration/system tests.
+
+The line between integration and system tests can be blurry anyway, and often any tests that are not at the unit level are called integration tests.
+
+For most projects, the test suite will consist of mainly unit tests and integration tests.
+
+On the other side of the spectrum, avoid the trap of just writing unit tests for every little thing. While unit tests are fast, they also give the least 'return on investment'. A good collection of small/medium scale integration tests is likely easier to maintain while still giving enough confidence. Guillermo Rauch summarized it as: <a href=https://kentcdodds.com/blog/write-tests>"Write tests. Not too many. Mostly integration."</a>
 
 ==
 

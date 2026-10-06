@@ -243,7 +243,7 @@ able to run the program.
 
 <!-- .slide: data-state="standard" -->
 
-### Scenario 1: Review & reproduce
+### Scenario 1: A Script
 
 - You have a script
 - The script uses some libraries
@@ -257,7 +257,7 @@ able to run the program.
 ### Distributing scripts/notebooks
 
 - Make script/notebook available for download
-- Make environment file, e.g. requirements.txt, environment.yml
+- Create an environment file, e.g. requirements.txt, environment.yml
 - User uses a package manager to create environment
 - User runs the script/notebook
 - Optional: use an image (mostly long-term archival)
@@ -320,7 +320,7 @@ some help from its maintainers as well, in the form of reviews.
 note:
 The best way to distribute a library is by making a package for it, if there is a
 suitable packaging system available. Most modern programming languages have one, e.g.
-PyPI and pip for Python, or CRAN and install.packages() for R, or Cargo for Rust.
+[PyPI](https://pypi.org/) and pip for Python, or [CRAN](https://cran.r-project.org/) and install.packages() for R, or Cargo for Rust.
 
 So your steps here are to find the right packaging system based on the programming
 language the library is written in, then creating a package for that system (there is
@@ -329,9 +329,9 @@ that users can use their package manager to install it. Make sure to list all th
 dependencies in the metadata!
 
 For languages like Fortran or C++ that don't have a standard package manager, you could
-try Conda, or make packages for an operating system-specific packaging system like
-APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), HomeBrew or macPorts (macOS) or
-even EasyBuild, Spack or Nix (on High-Performance Computing)
+try [Conda](https://docs.conda.io/en/latest/), or make packages for an operating system-specific packaging system like
+APT/DPKG (Debian/Ubuntu Linux), DNF/RPM (Red Hat Linux), [Nix](https://nixos.org/), [Homebrew](https://brew.sh/) or [MacPorts](https://www.macports.org/) (macOS) or
+even [EasyBuild](https://easybuild.io/) or [Spack](https://spack.io/) (on High-Performance Computing)
 
 ===
 
@@ -346,8 +346,7 @@ even EasyBuild, Spack or Nix (on High-Performance Computing)
 note:
 Scientists don't often make whole applications with user interfaces that anyone can just
 pick up and use. That's a lot of work, and you don't get credit for it in science.
-Nevertheless there are examples of this, e.g. MaxEnt in ecology, and it could happen. In
-this case, what you have is a program.
+Nevertheless there are examples of this, e.g. [MaxEnt](https://github.com/mrmaxent/Maxent) in ecology, and it could happen. In this case, what you have is a program.
 
 ===
 
