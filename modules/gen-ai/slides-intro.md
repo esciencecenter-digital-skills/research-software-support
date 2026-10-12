@@ -47,17 +47,17 @@ order: 1
 
 <div style="font-size:0.82em; text-align:left; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
   <strong>Artificial Intelligence</strong>
-  <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+  <div class="fragment" data-fragment-index="0" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
     <strong>Machine Learning</strong>
-    <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+    <div class="fragment" data-fragment-index="1" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
       <strong>Deep Learning</strong>
-      <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; background:lightgray; border-radius:8px;">
+      <div class="fragment" data-fragment-index="2" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; background:lightgray; border-radius:8px;">
         <strong>Generative AI</strong>
         <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1rem; margin-top:0.5rem; text-align:center;">
-          <div class="fragment grow" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;"><strong>Language models</strong></div>
-          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Image models</div>
-          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Audio models</div>
-          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Video models</div>
+          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;"><strong>Language models</strong></div>
+          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Image models</div>
+          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Audio models</div>
+          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Video models</div>
         </div>
       </div>
     </div>
@@ -81,23 +81,66 @@ Note:
 
 ## AI Capabilities
 
-<div style="font-size: x-large">
-
-| AI Capability | Example |
-| ------------- | ------- |
-| Generate | Draft text, code, images, slides |
-| Summarize | Papers, meeting notes, transcripts |
-| Classify | Publications, species, images, emails |
-| Extract | Metadata, entities, keywords |
-| Translate | Languages, programming languages |
-| Search | Semantic search over documents |
-| Recommend | Papers, resources |
-| Predict | Forecast outcomes with data |
-| Detect | Anomalies, fraud, tumors |
-| Converse | Chat assistants |
-| Reason | Solve problems, infer conclusions |
-| Act | Use tools, execute workflows, control robots |
-
+<style>
+  .reveal .stepper .step { border: 2px solid lightgray; }
+  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
+  .reveal .stepper .step.first { border-color: blue; }
+  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
+  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
+  .reveal .stepper .step.first.fragment,
+  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
+  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
+  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
+</style>
+<div class="stepper" style="min-height:18em; font-size:0.82em; text-align:left;">
+  <div class="step first fragment" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Create</strong>
+    <span>Generate</span>
+    <span>Summarize</span>
+    <span>Translate</span>
+  </div>
+  <div class="detail fragment fade-out" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
+    <em style="color:gray;">e.g.</em>
+    <span>Draft text, code, images, slides</span>
+    <span>Papers, meeting notes, transcripts</span>
+    <span>Languages, programming languages</span>
+  </div>
+  <div class="step fragment" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Understand</strong>
+    <span>Classify</span>
+    <span>Extract</span>
+    <span>Detect</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
+    <em style="color:gray;">e.g.</em>
+    <span>Publications, species, images, emails</span>
+    <span>Metadata, entities, keywords</span>
+    <span>Anomalies, fraud, tumors</span>
+  </div>
+  <div class="step fragment" data-fragment-index="1" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Find</strong>
+    <span>Search</span>
+    <span>Recommend</span>
+    <span>Predict</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="1" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
+    <em style="color:gray;">e.g.</em>
+    <span>Semantic search over documents</span>
+    <span>Papers, resources</span>
+    <span>Forecast outcomes with data</span>
+  </div>
+  <div class="step fragment" data-fragment-index="2" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Interact</strong>
+    <span>Converse</span>
+    <span>Reason</span>
+    <span>Act</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="2" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
+    <em style="color:gray;">e.g.</em>
+    <span>Chat assistants</span>
+    <span>Solve problems, infer conclusions</span>
+    <span>Use tools, execute workflows, control robots</span>
+  </div>
 </div>
 
 ==
@@ -254,15 +297,27 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ## Up-Skill rather than De-Skill
 
-<div style="font-size: smaller;">
-
-- Locate technical information quickly: Instead of reading through multiple documentation pages, you can ask AI to find the relevant function, argument, or method for your task.
-- Summarise key concepts: AI can condense long documentation into concise, understandable explanations. You can even ask AI to tailor explanations to you code and dataset.
-- Clarify ambiguous points: You can follow up iteratively, asking AI to rephrase explanations or provide examples.
-- Code comprehension: Paste code generated by AI or colleagues and ask for line-by-line explanations.
-- Contextual learning: Ask why certain functions or methods are used, what alternatives exist, and best practices.
-
-</div>
+<style>
+  .reveal .upskill .fragment.current-visible:not(.current-fragment) { display: none; }
+  .reveal .upskill .fragment.fade-out.visible { display: none; }
+</style>
+<ul class="upskill" style="display:block; min-height:11em; font-size:0.82em; text-align:left;">
+  <li><strong>Locate technical information quickly</strong>
+    <ul class="fragment fade-out" data-fragment-index="0"><li>Instead of reading through multiple documentation pages, you can ask AI to find the relevant function, argument, or method for your task.</li></ul>
+  </li>
+  <li class="fragment" data-fragment-index="0"><strong>Summarise key concepts</strong>
+    <ul class="fragment current-visible" data-fragment-index="0"><li>AI can condense long documentation into concise, understandable explanations. You can even ask AI to tailor explanations to your code and dataset.</li></ul>
+  </li>
+  <li class="fragment" data-fragment-index="1"><strong>Clarify ambiguous points</strong>
+    <ul class="fragment current-visible" data-fragment-index="1"><li>You can follow up iteratively, asking AI to rephrase explanations or provide examples.</li></ul>
+  </li>
+  <li class="fragment" data-fragment-index="2"><strong>Code comprehension</strong>
+    <ul class="fragment current-visible" data-fragment-index="2"><li>Paste code generated by AI or colleagues and ask for line-by-line explanations.</li></ul>
+  </li>
+  <li class="fragment" data-fragment-index="3"><strong>Contextual learning</strong>
+    <ul class="fragment current-visible" data-fragment-index="3"><li>Ask why certain functions or methods are used, what alternatives exist, and best practices.</li></ul>
+  </li>
+</ul>
 
 ==
 
@@ -282,17 +337,46 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ## Hosting
 
-<div style="font-size: x-large;">
-
-| Route | Useful when | Questions for support |
-|---|---|---|
-| Commercial hosted service | Fast access and broad capability matter | What data is retained, where, for how long and under which terms? |
-| EU-hosted service | Jurisdiction, procurement or institutional policy matters | Which legal entity, subprocessors and service commitments apply? |
-| Institution-hosted service | Sensitive data or local integration matters | Who operates it, who can access logs and how is it maintained? |
-| Open-weight model | Inspectability, adaptation or local execution matters | What do the licence, training-data disclosures and hardware needs permit? |
-| Local model | Data must remain within a controlled environment | What quality, update, support and security trade-offs follow? |
-
+<style>
+  .reveal .stepper .step { border: 2px solid lightgray; }
+  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
+  .reveal .stepper .step.first { border-color: blue; }
+  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
+  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
+  .reveal .stepper .step.first.fragment,
+  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
+  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
+  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
+</style>
+<div class="stepper" style="min-height:17em; font-size:0.82em; text-align:left;">
+  <div style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; margin-bottom:0.4em; padding:0 1em; border:2px solid transparent; font-size:0.8em; color:gray;"><span>Route</span><span>Useful when …</span></div>
+  <div class="step first fragment" data-fragment-index="0" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Commercial hosted service</strong>
+    <span>Fast access and broad capability matter</span>
+  </div>
+  <div class="detail fragment fade-out" data-fragment-index="0" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> What data is retained, where, for how long and under which terms?</div>
+  <div class="step fragment" data-fragment-index="0" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>EU-hosted service</strong>
+    <span>Jurisdiction, procurement or institutional policy matters</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="0" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> Which legal entity, subprocessors and service commitments apply?</div>
+  <div class="step fragment" data-fragment-index="1" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Institution-hosted service</strong>
+    <span>Sensitive data or local integration matters</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="1" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> Who operates it, who can access logs and how is it maintained?</div>
+  <div class="step fragment" data-fragment-index="2" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+    <strong>Local model</strong>
+    <span>Data must remain within a controlled environment</span>
+  </div>
+  <div class="detail fragment current-visible" data-fragment-index="2" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> What quality, update, support and security trade-offs follow?</div>
 </div>
+
+Note:
+- The routes run from most convenient (commercial) to most control (local)
+- Open-weight models are a property of the model, not a hosting route: they can run on any of these routes
+  - Useful when inspectability, adaptation or local execution matters
+  - Ask: What do the licence, training-data disclosures and hardware needs permit?
 
 ==
 
@@ -361,19 +445,63 @@ Note:
 
 ## A Risk Map for Research Support
 
-<div style="font-size: large">
-
-| Risk | Typical failure | Support response |
-|---|---|---|
-| Reliability | Plausible but false claims, fabricated references or buggy code | Require source checking, tests, domain review and uncertainty labels |
-| Privacy and confidentiality | Sensitive prompts or files reach an external provider | Classify data, use approved environments and minimise inputs |
-| Security | Prompt injection, malicious content, unsafe tool calls or leaked secrets | Limit permissions, sandbox actions and review connected tools |
-| Bias and representativeness | Training data or evaluation gaps shape outputs | Examine affected groups, document limitations and seek domain expertise |
-| Copyright and licensing | Outputs or training data create unclear reuse conditions | Check licences, provenance, attribution and institutional guidance |
-| Reproducibility | Model, prompt, retrieval context or interface changes | Record versions, inputs, settings, outputs and review decisions |
-| Sustainability | Resource-intensive computation or duplicated infrastructure | Match model size and frequency to the task; prefer proportionate use |
-
+<style>
+  .reveal .stepper .step { border: 2px solid lightgray; }
+  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
+  .reveal .stepper .step.first { border-color: blue; }
+  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
+  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
+  .reveal .stepper .step.first.fragment,
+  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
+  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
+  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
+</style>
+<div class="stepper dim" style="font-size:0.82em; text-align:left;">
+  <div style="display:grid; grid-template-columns:repeat(12, 1fr); gap:0.6em;">
+    <div class="step first fragment" data-fragment-index="0" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🎯 Reliability</strong></div>
+    <div class="step fragment" data-fragment-index="0" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🔒 Privacy</strong></div>
+    <div class="step fragment" data-fragment-index="1" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🛡️ Security</strong></div>
+    <div class="step fragment" data-fragment-index="2" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>⚖️ Bias</strong></div>
+    <div class="step fragment" data-fragment-index="3" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>©️ Copyright</strong></div>
+    <div class="step fragment" data-fragment-index="4" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🔁 Reproducibility</strong></div>
+    <div class="step fragment" data-fragment-index="5" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🌱 Sustainability</strong></div>
+  </div>
+  <div style="display:grid; margin-top:1em;">
+    <div class="fragment fade-out" data-fragment-index="0" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Plausible but false claims, fabricated references or buggy code</div>
+      <div><strong>Support response</strong><br>Require source checking, tests, domain review and uncertainty labels</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="0" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Sensitive prompts or files reach an external provider</div>
+      <div><strong>Support response</strong><br>Classify data, use approved environments and minimise inputs</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="1" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Prompt injection, malicious content, unsafe tool calls or leaked secrets</div>
+      <div><strong>Support response</strong><br>Limit permissions, sandbox actions and review connected tools</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="2" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Training data or evaluation gaps shape outputs</div>
+      <div><strong>Support response</strong><br>Examine affected groups, document limitations and seek domain expertise</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="3" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Outputs or training data create unclear reuse conditions</div>
+      <div><strong>Support response</strong><br>Check licences, provenance, attribution and institutional guidance</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="4" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Model, prompt, retrieval context or interface changes</div>
+      <div><strong>Support response</strong><br>Record versions, inputs, settings, outputs and review decisions</div>
+    </div>
+    <div class="fragment current-visible" data-fragment-index="5" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
+      <div><strong>Typical failure</strong><br>Resource-intensive computation or duplicated infrastructure</div>
+      <div><strong>Support response</strong><br>Match model size and frequency to the task; prefer proportionate use</div>
+    </div>
+  </div>
 </div>
+
+Note:
+- Privacy includes confidentiality
+- Bias includes representativeness
+- Copyright includes licensing
 
 ==
 
@@ -421,12 +549,6 @@ Dangerous when an agent has **all three**:
 # Practice
 
 ==
-
-<!-- .slide: data-state="standard 10" -->
-
-# Good Practices
-
-===
 
 <!-- .slide: data-state="standard 10" -->
 
