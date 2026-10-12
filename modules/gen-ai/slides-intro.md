@@ -10,20 +10,23 @@ order: 1
 }
 </style>
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" data-background-video="media/15681494_960_540_30fps.mp4" data-background-video-loop="true" data-background-video-muted="true" -->
+<!-- https://www.pexels.com/video/futuristic-circuit-board-animation-37013442/ -->
+
 # Generative AI
 
 ### A Pilot
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
+<!-- https://www.pexels.com/photo/very-large-array-observation-facility-in-new-mexico-usa-5032708/ -->
 
 # Overview
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## A Brief History of AI
 
@@ -41,7 +44,7 @@ order: 1
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## From AI to genAI
 
@@ -77,7 +80,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## AI Capabilities
 
@@ -145,7 +148,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## Four roles for AI in research
 
@@ -156,7 +159,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## What is an LLM?
 
@@ -168,7 +171,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## Agent = Model + Harness
 
@@ -181,7 +184,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## How GenAI fits in your workflow
 
@@ -213,7 +216,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
 
 ## What You Can Use It For Today
 
@@ -238,13 +241,14 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
+<!-- https://pixabay.com/illustrations/weigh-up-plus-minus-libra-2856321/ -->
 
 # Strengths & Weaknesses
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
 ## Well Suited
 
@@ -258,7 +262,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
 ## Dangerous Territory
 
@@ -276,7 +280,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
 > "LLMs doesn't know they are wrong. They don't know anything. They are very good at sounding right."
 >
@@ -293,7 +297,7 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
 ## Up-Skill rather than De-Skill
 
@@ -321,19 +325,20 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
 ## Exercise 1: AI Battle (15 min)
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="media/pexels-dkomov-34804016.jpg" -->
+<!-- https://www.pexels.com/photo/modern-workspace-with-laptop-and-code-display-34804016/ -->
 
 # Access & Deployment
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-dkomov-34804016.jpg" -->
 
 ## Hosting
 
@@ -380,7 +385,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-dkomov-34804016.jpg" -->
 
 ## Residency vs Jurisdiction
 
@@ -396,7 +401,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-dkomov-34804016.jpg" -->
 
 ## Cost Model
 
@@ -418,7 +423,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-dkomov-34804016.jpg" -->
 
 ## A Framework for Tool Assessment
 
@@ -435,13 +440,14 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="./media/pexels-ekaterina-bolovtsova-6077797.jpg" -->
+<!-- https://www.pexels.com/photo/a-golden-balance-scale-beside-a-laptop-6077797/ -->
 
 # Security, Biases & Ethics
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-ekaterina-bolovtsova-6077797.jpg" -->
 
 ## A Risk Map for Research Support
 
@@ -505,7 +511,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-ekaterina-bolovtsova-6077797.jpg" -->
 
 ## The Lethal Trifecta
 
@@ -525,7 +531,7 @@ Dangerous when an agent has **all three**:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-ekaterina-bolovtsova-6077797.jpg" -->
 
 ## Licensing
 
@@ -538,19 +544,20 @@ Dangerous when an agent has **all three**:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-ekaterina-bolovtsova-6077797.jpg" -->
 
 ## Exercise 2: Checking AI Client Settings (15 mins)
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
+<!-- https://www.pexels.com/photo/young-man-jumping-on-green-hill-5104548/ -->
 
 # Practice
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
 
 ##  Good Practices
 
@@ -564,7 +571,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
 
 ## The Prompt Framework
 
@@ -598,7 +605,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
 
 ## Prompt Engineering Tips
 
@@ -619,7 +626,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
 
 ## Transparency about AI
 
@@ -636,19 +643,20 @@ Record, where relevant:
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="./media/pexels-trungnguyenphotog-5104548.jpg" -->
 
 ## Exercise 3: AI Declaration Tool (15 min)
 
 ===
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 6" data-background-image="media/pexels-ekaterina-bolovtsova-6192336.jpg" -->
+<!-- https://www.pexels.com/photo/a-notebook-with-blank-pages-6192336/ -->
 
 # Wrap-Up
 
 ==
 
-<!-- .slide: data-state="standard 10" -->
+<!-- .slide: data-state="standard 9" data-background-image="media/pexels-ekaterina-bolovtsova-6192336.jpg" -->
 
 ## Key Takeaways
 
