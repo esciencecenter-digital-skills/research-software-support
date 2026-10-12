@@ -321,12 +321,18 @@ Find and record:
 
 <!-- .slide: data-state="standard 10" -->
 
+# Good Practices
+
+===
+
+<!-- .slide: data-state="standard 10" -->
+
 ##  Good Practices
 
 1. Before touching code, discuss the architecture with the AI — it's a good sparring partner
-1. Ask it to review your plan and surface edge cases you haven't considered
-1. Supply links to relevant documentation in your prompt
-1. Write the agreed plan to a file — this becomes compact context for future sessions
+2. Ask it to review your plan and surface edge cases you haven't considered
+3. Supply links to relevant documentation in your prompt
+4. Write the agreed plan to a file — this becomes compact context for future sessions
 
 ===
 
