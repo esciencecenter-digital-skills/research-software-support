@@ -7,7 +7,15 @@ order: 1
 <!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 # Generative AI
 
+### A Pilot
+
 ===
+
+<!-- .slide: data-state="standard 10" -->
+
+# Overview
+
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -21,7 +29,7 @@ order: 1
 - **2010s onward**: deep learning and foundation models enable broad generative capabilities
 - **2022+**: Chat LLM's (OpenAI launches public ChatGPT)
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -38,7 +46,7 @@ Artificial Intelligence
             └── Video models
 ```
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -63,7 +71,7 @@ Artificial Intelligence
 
 </div>
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -74,7 +82,7 @@ Artificial Intelligence
 3. Research co-creator: use AI during ideation, drafting or interpretation
 4. Research infrastructure: embed AI in services, repositories, portals or workflows
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -86,7 +94,7 @@ Artificial Intelligence
 - No separation between instructions and data: everything is just text in the context
 - Context window: everything the model "sees" — fills up, degrades, gets compacted
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -95,43 +103,66 @@ Artificial Intelligence
 - **Model**: the LLM, stateless, only produces text
 - **Harness**: the loop around it — runs tools, enforces permissions, manages context
   - Tools: file edits, shell, web search, MCP servers
-  - Skills and instruction files (`AGENTS.md`)
+  - Skills and instruction files `AGENTS.md`
   - "Memory" is just files fed back into the context
 
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
 ## How GenAI fits in your workflow
 
-- 💬 Planning / Sparring
-  - Discuss architecture, talk through trade-offs, get a second opinion on your design
-- ⌨️ Tab Completion
-  - Inline suggestions as you type — low risk, high daily value
-- 🧱 Code Block Generation
-  - Ask for a function, a regex, a test — review and integrate manually
-- 🤖 Agentic Coding
-  - Model reads/writes files, runs tests, operates autonomously — our focus today
-- 🌟 Autonomous Agents
-  - Execute scheduled tasks, react to web hooks, no or little user interaction
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; font-size:0.82em; text-align:left;">
+  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+    <strong>💬 Planning / Sparring</strong>
+    <p>Discuss architecture, talk through trade-offs, get a second opinion on your design</p>
+  </div>
+  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+    <strong>⌨️ Tab Completion</strong>
+    <p>Inline suggestions as you type — low risk, high daily value</p>
+  </div>
+  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+    <strong>🧱 Code Block Generation</strong>
+    <p>Ask for a function, a regex, a test — review and integrate manually</p>
+  </div>
+  <div style="padding:1rem; background:lightgray; border-radius:8px; border: 2px solid blue;">
+    <strong>🤖 Agentic Coding</strong>
+    <p>Model reads/writes files, runs tests, operates autonomously — <em>our focus today</em></p>
+  </div>
+  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+    <strong>🌟 Autonomous Agents</strong>
+    <p>Execute scheduled tasks, react to web hooks, no or little user interaction</p>
+  </div>
+</div>
 
-===
+Note:
+- Different risk profiles per use-case
+
+==
 
 <!-- .slide: data-state="standard 10" -->
 
 ## What You Can Use It For Today
 
-
-
-- 🔍 Code Explanation
-  - Paste unfamiliar code and ask for a walkthrough — useful for legacy scripts or inherited projects
-- ♻️ Refactoring
-  - Restructure working code for readability, performance, or style — with tests in place first
-- 🧪 Tests & Docs
-  - Generate unit tests and docstrings — read the tests, they reveal the model's assumptions
-- 🚀 DevOps
-  - CI config, Dockerfiles, environment files — well-covered territory with high AI reliability
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; font-size:0.82em; text-align:left;">
+  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+    <strong>🔍 Code Explanation</strong>
+    <p>Paste unfamiliar code and ask for a walkthrough — useful for legacy scripts or inherited projects</p>
+  </div>
+  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+    <strong>♻️ Refactoring</strong>
+    <p>Restructure working code for readability, performance, or style — with tests in place first</p>
+  </div>
+  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+    <strong>🧪 Tests &amp; Docs</strong>
+    <p>Generate unit tests and docstrings — read the tests, they reveal the model's assumptions</p>
+  </div>
+  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+    <strong>🚀 DevOps</strong>
+    <p>CI config, Dockerfiles, environment files — well-covered territory with high AI reliability</p>
+  </div>
+</div>
 
 ===
 
@@ -139,7 +170,7 @@ Artificial Intelligence
 
 # Strengths & Weaknesses
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -153,7 +184,7 @@ Artificial Intelligence
 - 📚 Learning about new-to-you technologies
 - 🔣 Regex (genuinely very good at this)
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -164,10 +195,30 @@ Artificial Intelligence
 - 📈 Feature creep — it will enthusiastically build things you didn't ask for
 - 🧩 Niche frameworks and languages
 - 🧮 Statistical reasoning — wrong df, silent NA drops, off-by-one lags
-- ✨ Looks correct ≠ works correctly
+- ✨ <strong>Looks correct ≠ works correctly</strong>
   - The output reads like it was written by a competent analyst. That is exactly the danger.
 
-===
+<p style="font-size:0.75em; color:chocolate; margin-top:1rem;">
+  The output reads like it was written by a competent analyst. That is exactly the danger.
+</p>
+
+
+==
+
+<!-- .slide: data-state="standard 10" -->
+
+> "It doesn't know it's wrong. It doesn't know anything. It's very good at sounding right."
+> <span class="fragment" style="color: gray;">– Claude.ai</span>
+
+Note:
+
+**Pattern matcher**, not reasoner
+
+- Hallucinations
+- Overconfidence
+- Domain Weakness
+
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -180,11 +231,11 @@ Artificial Intelligence
 - Code comprehension: Paste code generated by AI or colleagues and ask for line-by-line explanations.
 - Contextual learning: Ask why certain functions or methods are used, what alternatives exist, and best practices.
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
-## Excercise 1: AI Battle (20 min)
+## Exercise 1: AI Battle (15 min)
 
 ===
 
@@ -192,7 +243,7 @@ Artificial Intelligence
 
 # Access & Deployment
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -208,7 +259,7 @@ Artificial Intelligence
 
 </div>
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -219,7 +270,7 @@ Artificial Intelligence
 - An EU datacenter run by a US company is still subject to the US CLOUD Act
 - Also check: DPA, subprocessors, retention, no training on your data, zero data retention (ZDR)
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -231,7 +282,7 @@ Artificial Intelligence
   - Cache hits are cheaper, but cost still piles up
 - Larger models cost more: match model size to the task
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -250,7 +301,7 @@ Artificial Intelligence
 
 # Security, Biases & Ethics
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -270,7 +321,7 @@ Artificial Intelligence
 
 </div>
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -286,7 +337,7 @@ Remove one leg, and prompt injection loses most of its teeth.
 
 Sandboxing can help protecting against injection _and_ mistakes
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -299,25 +350,19 @@ Sandboxing can help protecting against injection _and_ mistakes
   - Vendor "public code" filters and indemnities shift liability, they don't guarantee clean code
 - Some open-source projects restrict or ban AI-generated contributions
 
+==
+
+<!-- .slide: data-state="standard 10" -->
+
+## Exercise 2: Checking AI Client Settings (15 mins)
+
 ===
 
 <!-- .slide: data-state="standard 10" -->
 
-## Excercise 2: Checking AI Client Settings
+# Practice
 
-Choose ChatGPT, Copilot or another available system.
-Find and record:
-
-- Check the settings:
-  - Find a setting about reusing your content for training?
-- Find which model you are using
-  - See the differences between lighter and heavier models
-- Look up information about the model
-- Find documentation of how model applies privacy & security (GDPR)
-
-(Coding With AI Lession: https://southampton-rsg-training.github.io/coding-with-ai/2-ai-assisted-coding.html )
-
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -334,7 +379,7 @@ Find and record:
 3. Supply links to relevant documentation in your prompt
 4. Write the agreed plan to a file — this becomes compact context for future sessions
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -342,26 +387,47 @@ Find and record:
 
 **Role + Context + Task + Constraints + References**
 
-- Role, "You are helping an RSE writing a data analysis pipeline in Python…"
-- Context, Hardware, data format, scale, existing codebase, language/version
-- Task, Specific, measurable outcome — not "make it faster", but "reduce runtime below 30s on 10GB input"
-- Constraints, Memory limits, coding conventions, libraries allowed, what must not change
-- References, Package docs, similar code, API specs — especially for niche libraries
+<table style="width:100%; border-collapse:collapse; font-size: smaller;">
+  <tr>
+    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Role</strong></td>
+    <td style="padding:0.4rem 0.8rem;">"You are helping an RSE writing a data analysis pipeline in Python…"</td>
+  </tr>
+  <tr>
+    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Context</strong></td>
+    <td style="padding:0.4rem 0.8rem;">Hardware, data format, scale, existing codebase, language/version</td>
+  </tr>
+  <tr>
+    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Task</strong></td>
+    <td style="padding:0.4rem 0.8rem;">Specific, measurable outcome — not "make it faster", but "reduce runtime below 30s on 10GB input"</td>
+  </tr>
+  <tr>
+    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Constraints</strong></td>
+    <td style="padding:0.4rem 0.8rem;">Memory limits, coding conventions, libraries allowed, what must not change</td>
+  </tr>
+  <tr>
+    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>References</strong></td>
+    <td style="padding:0.4rem 0.8rem;">Package docs, similar code, API specs — especially for niche libraries</td>
+  </tr>
+</table>
 
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
 ## Prompt Engineering Tips
 
 - Start broad ➜ discuss ➜ refine ➜ add constraints before implementation
-- Ambiguity during implementation is dangerous — be precise about signatures, types, return values
-- Ask for options: "Give me three approaches and their trade-offs"
-- Ask for steps: "Walk me through this optimisation step by step"
-- Provide examples: "This R function does X — implement the equivalent in Python"
-- Explaining the problem clearly helps you understand it better too
+- Ambiguity during <em>implementation</em> is dangerous — be precise about signatures, types, return values
+- Ask for <strong>options</strong>: "Give me three approaches and their trade-offs"
+- Ask for <strong>steps</strong>: "Walk me through this optimisation step by step"
+- Provide <strong>examples</strong>: "This R function does X — implement the equivalent in Python"
+- Explaining the problem clearly helps <em>you</em> understand it better too
 
-===
+Note:
+- Writing a good prompt _requires the same clarity as writing a good specification_.
+- If you can't write a good specification, you have not fully defined the problem yet.
+
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -378,38 +444,19 @@ Record, where relevant:
 - limitations, uncertainty and unresolved concerns
 - how the use affected authorship, attribution or interpretation
 
+==
+
+<!-- .slide: data-state="standard 10" -->
+
+## Exercise 3: AI Declaration Tool (15 min)
+
 ===
 
 <!-- .slide: data-state="standard 10" -->
 
-## Excercise 3: AI Declaration Tool (10 min)
+# Wrap-Up
 
-Use the AI Declaration tool: https://ai-declaration.org/
-
-===
-
-<!-- .slide: data-state="standard 10" -->
-
-## Sources and further reading:
-
-
-Primary lesson materials used for the comparison:
-
-- [Ethics, Reliability and Security](https://github.com/esciencecenter-digital-skills/coding-with-ai/blob/add_good_practices/episodes/3-ethics-reliability-and-security.md)
-- [Good Practices](https://github.com/esciencecenter-digital-skills/coding-with-ai/blob/add_good_practices/episodes/4-good-practices.md)
-- [GenAI implications for novices](https://carpentries-incubator.github.io/genai-implications-novice/index.html)
-- [AI fundamentals for researchers](https://southampton-rsg-training.github.io/ai-fundamentals-for-researchers/index.html)
-- [Open-source and open-data GenAI slides](https://cbds.gitlab.io/estp_2026/open-source-open-data/slides/genAI/index.html)
-- [CodeRefinery: Responsible Use of Generative AI in Assisted Coding](https://coderefinery.github.io/coding-with-ai/)
-
-Additional supporting references consulted:
-
-- [Southampton: Coding with AI](https://southampton-rsg-training.github.io/coding-with-ai/)
-- [Southampton: Developing Research Software with AI Tools](https://southampton-rsg-training.github.io/research-software-ai-tools/aio.html)
-- [Carpentries: Responsible machine learning in Python](https://carpentries-incubator.github.io/machine-learning-responsible-python/)
-- [Carpentries: Building Better Research Software](https://carpentries-incubator.github.io/fair-research-software/)
-
-===
+==
 
 <!-- .slide: data-state="standard 10" -->
 
@@ -420,8 +467,6 @@ Additional supporting references consulted:
 - Human review, domain knowledge and reproducible records remain central.
 - Tool choice should follow the research workflow and institutional context.
 - Research support professionals can turn broad principles into practical routes for safe, FAIR and sustainable use.
-
-===
 
 <!-- .slide: data-state="keepintouch" -->
 

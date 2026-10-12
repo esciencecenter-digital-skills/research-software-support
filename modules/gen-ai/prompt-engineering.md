@@ -1,7 +1,7 @@
 ---
 title: Prompt Engineering
 type: reading
-order: 2
+order: 5
 ---
 
 ## Prompt Engineering Framework
