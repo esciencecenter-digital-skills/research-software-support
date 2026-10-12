@@ -4,6 +4,12 @@ type: slides
 order: 1
 ---
 
+<style>
+.reveal.overview {
+  background-color: gray;
+}
+</style>
+
 <!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
 # Generative AI
 
@@ -21,6 +27,8 @@ order: 1
 
 ## A Brief History of AI
 
+<div style="font-size: smaller;">
+
 - **1940s–1950s**: neural computation, Turing’s questions and early machine intelligence
 - **1956 onward**: AI becomes a named research field, initially dominated by symbolic reasoning
 - **1960s–1970s**: strong optimism, expert systems and public investment
@@ -29,22 +37,43 @@ order: 1
 - **2010s onward**: deep learning and foundation models enable broad generative capabilities
 - **2022+**: Chat LLM's (OpenAI launches public ChatGPT)
 
+</div>
+
 ==
 
 <!-- .slide: data-state="standard 10" -->
 
-## Gen AI Tree
+## From AI to genAI
 
-```
-Artificial Intelligence
-└── Machine Learning
-    └── Deep Learning
-        └── Generative AI
-            ├── Language models
-            ├── Image models
-            ├── Audio models
-            └── Video models
-```
+<div style="font-size:0.82em; text-align:left; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+  <strong>Artificial Intelligence</strong>
+  <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+    <strong>Machine Learning</strong>
+    <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+      <strong>Deep Learning</strong>
+      <div class="fragment" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; background:lightgray; border-radius:8px;">
+        <strong>Generative AI</strong>
+        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1rem; margin-top:0.5rem; text-align:center;">
+          <div class="fragment grow" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;"><strong>Language models</strong></div>
+          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Image models</div>
+          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Audio models</div>
+          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Video models</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+Note:
+- Most AI is not generative
+- AI: expert systems, rule-based reasoning, search and planning, **and machine learning**
+- Machine learning: linear regression, random forests, clustering, **and deep learning**
+- Deep learning: image classifiers, speech recognition, anomaly detection, and **genAI**
+- genAI: Many current models are multimodal and span several of the four types
+- Simplifications:
+  - Generative AI sits inside deep learning in practice today, not by definition (earlier generative methods such as Markov chains were not deep learning)
+  - Not every language model is generative: encoder models such as BERT are used to classify and embed
+- Language models are the focus of this module
 
 ==
 
@@ -113,26 +142,26 @@ Artificial Intelligence
 
 ## How GenAI fits in your workflow
 
-<div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; font-size:0.82em; text-align:left;">
-  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+<div style="display:grid; grid-template-columns:repeat(6, 1fr); gap:1rem; font-size:0.82em; text-align:left;">
+  <div style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
     <strong>💬 Planning / Sparring</strong>
-    <p>Discuss architecture, talk through trade-offs, get a second opinion on your design</p>
+    <p style="margin:0.4rem 0 0;">Discuss architecture, talk through trade-offs, get a second opinion on your design</p>
   </div>
-  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
     <strong>⌨️ Tab Completion</strong>
-    <p>Inline suggestions as you type — low risk, high daily value</p>
+    <p style="margin:0.4rem 0 0;">Inline suggestions as you type — low risk, high daily value</p>
   </div>
-  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
     <strong>🧱 Code Block Generation</strong>
-    <p>Ask for a function, a regex, a test — review and integrate manually</p>
+    <p style="margin:0.4rem 0 0;">Ask for a function, a regex, a test — review and integrate manually</p>
   </div>
-  <div style="padding:1rem; background:lightgray; border-radius:8px; border: 2px solid blue;">
+  <div class="fragment" style="grid-column:span 3; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid blue;">
     <strong>🤖 Agentic Coding</strong>
-    <p>Model reads/writes files, runs tests, operates autonomously — <em>our focus today</em></p>
+    <p style="margin:0.4rem 0 0;">Model reads/writes files, runs tests, operates autonomously — <em>our focus today</em></p>
   </div>
-  <div style="padding:1rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="grid-column:span 3; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
     <strong>🌟 Autonomous Agents</strong>
-    <p>Execute scheduled tasks, react to web hooks, no or little user interaction</p>
+    <p style="margin:0.4rem 0 0;">Execute scheduled tasks, react to web hooks, no or little user interaction</p>
   </div>
 </div>
 
@@ -150,15 +179,15 @@ Note:
     <strong>🔍 Code Explanation</strong>
     <p>Paste unfamiliar code and ask for a walkthrough — useful for legacy scripts or inherited projects</p>
   </div>
-  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
     <strong>♻️ Refactoring</strong>
     <p>Restructure working code for readability, performance, or style — with tests in place first</p>
   </div>
-  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
     <strong>🧪 Tests &amp; Docs</strong>
     <p>Generate unit tests and docstrings — read the tests, they reveal the model's assumptions</p>
   </div>
-  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
     <strong>🚀 DevOps</strong>
     <p>CI config, Dockerfiles, environment files — well-covered territory with high AI reliability</p>
   </div>
@@ -194,9 +223,8 @@ Note:
 - 🔮 Used as an oracle or on autopilot
 - 📈 Feature creep — it will enthusiastically build things you didn't ask for
 - 🧩 Niche frameworks and languages
-- 🧮 Statistical reasoning — wrong df, silent NA drops, off-by-one lags
+- 🧮 Statistical reasoning — wrong tools/types, silent NA drops, off-by-one errors
 - ✨ <strong>Looks correct ≠ works correctly</strong>
-  - The output reads like it was written by a competent analyst. That is exactly the danger.
 
 <p style="font-size:0.75em; color:chocolate; margin-top:1rem;">
   The output reads like it was written by a competent analyst. That is exactly the danger.
@@ -207,13 +235,15 @@ Note:
 
 <!-- .slide: data-state="standard 10" -->
 
-> "It doesn't know it's wrong. It doesn't know anything. It's very good at sounding right."
-> <span class="fragment" style="color: gray;">– Claude.ai</span>
+> "LLMs doesn't know they are wrong. They don't know anything. They are very good at sounding right."
+>
+> <span class="fragment" style="color: gray;">– Claude.ai, asked about LLMs</span>
 
 Note:
 
-**Pattern matcher**, not reasoner
+Who said this quote?
 
+LLMs are a **pattern matcher**, not reasoner:
 - Hallucinations
 - Overconfidence
 - Domain Weakness
@@ -224,12 +254,15 @@ Note:
 
 ## Up-Skill rather than De-Skill
 
+<div style="font-size: smaller;">
 
 - Locate technical information quickly: Instead of reading through multiple documentation pages, you can ask AI to find the relevant function, argument, or method for your task.
 - Summarise key concepts: AI can condense long documentation into concise, understandable explanations. You can even ask AI to tailor explanations to you code and dataset.
 - Clarify ambiguous points: You can follow up iteratively, asking AI to rephrase explanations or provide examples.
 - Code comprehension: Paste code generated by AI or colleagues and ask for line-by-line explanations.
 - Contextual learning: Ask why certain functions or methods are used, what alternatives exist, and best practices.
+
+</div>
 
 ==
 
@@ -247,7 +280,9 @@ Note:
 
 <!-- .slide: data-state="standard 10" -->
 
-<div style="font-size: large">
+## Hosting
+
+<div style="font-size: x-large;">
 
 | Route | Useful when | Questions for support |
 |---|---|---|
@@ -268,7 +303,12 @@ Note:
 - **Residency**: where the data is stored and processed
 - **Jurisdiction**: whose law applies to the provider
 - An EU datacenter run by a US company is still subject to the US CLOUD Act
-- Also check: DPA, subprocessors, retention, no training on your data, zero data retention (ZDR)
+- Also check: Data Processing Addendum (DPA), Zero Data Retention (ZDR), subprocessors, no training on your data
+
+Note:
+- DPA, ZDR - see Exercise 2 "Client Settings"
+- Some LLM "vendors" offer models themselves, others are _routers_ that broker between you and other vendors
+  - Now you have _two_ companies to check
 
 ==
 
@@ -282,18 +322,32 @@ Note:
   - Cache hits are cheaper, but cost still piles up
 - Larger models cost more: match model size to the task
 
+Note:
+- Input tokens: what you type
+- Output tokens: what the LLM returns
+- Cache: input + output of previous turns
+  - The agent processes _the entire conversation_ every turn
+- Tips
+  - Start a new conversation for a new topic
+  - Use cheaper models for simpler tasks
+  - Play with the "thinking" level of models
+
 ==
 
 <!-- .slide: data-state="standard 10" -->
 
 ## A Framework for Tool Assessment
 
-- Purpose: What research task is being supported, and what would count as success?
-- Data: What information enters the system, and is it sensitive, personal, confidential or unpublished?
-- Control: Who can inspect, correct, stop and reproduce the workflow?
-- Evidence: How will quality, bias, uncertainty and failure be checked?
-- Governance: Which policies, licences, contracts and responsibilities apply?
-- Continuity: Can the work be rerun if the model, provider or interface changes?
+<div style="font-size: smaller;">
+
+- **Purpose** What research task is being supported, and what would count as success?
+- **Data** What information enters the system, and is it sensitive, personal, confidential or unpublished?
+- **Control** Who can inspect, correct, stop and reproduce the workflow?
+- **Evidence** How will quality, bias, uncertainty and failure be checked?
+- **Governance** Which policies, licences, contracts and responsibilities apply?
+- **Continuity** Can the work be rerun if the model, provider or interface changes?
+
+</div>
 
 ===
 
@@ -329,13 +383,17 @@ Note:
 
 Dangerous when an agent has **all three**:
 
-1. 🔐 Access to private data
-2. 🌐 Exposure to untrusted content (web pages, issues, emails, files)
-3. 📤 A way to communicate externally
+1. Access to private data 🔐
+2. Exposure to untrusted content (web pages, issues, emails, files) 🌐
+3. A way to communicate externally 📤
 
-Remove one leg, and prompt injection loses most of its teeth.
+<br>
+<br>
 
-Sandboxing can help protecting against injection _and_ mistakes
+<ul>
+  <li class="fragment">Remove one leg, and prompt injection loses most of its teeth.</li>
+  <li class="fragment">Sandboxing can help protecting against injection <em>and</em> mistakes.</li>
+</ul>
 
 ==
 
@@ -347,7 +405,7 @@ Sandboxing can help protecting against injection _and_ mistakes
 - Open-source licences rely on copyright, so licensing purely AI-written code is shaky
 - Generated code may reproduce licensed code verbatim
   - Snippet scanners exist (e.g. SCANOSS), but tooling is immature
-  - Vendor "public code" filters and indemnities shift liability, they don't guarantee clean code
+  - Vendor "public code" filters and indemnities shift liability, but don't guarantee clean code
 - Some open-source projects restrict or ban AI-generated contributions
 
 ==
@@ -378,6 +436,9 @@ Sandboxing can help protecting against injection _and_ mistakes
 2. Ask it to review your plan and surface edge cases you haven't considered
 3. Supply links to relevant documentation in your prompt
 4. Write the agreed plan to a file — this becomes compact context for future sessions
+
+Note:
+- Also see tab "Prompt Engineering"
 
 ==
 
@@ -410,11 +471,16 @@ Sandboxing can help protecting against injection _and_ mistakes
   </tr>
 </table>
 
+Note:
+- The better models get, the less important the "Role" becomes
+
 ==
 
 <!-- .slide: data-state="standard 10" -->
 
 ## Prompt Engineering Tips
+
+<div style="font-size: smaller;">
 
 - Start broad ➜ discuss ➜ refine ➜ add constraints before implementation
 - Ambiguity during <em>implementation</em> is dangerous — be precise about signatures, types, return values
@@ -422,6 +488,8 @@ Sandboxing can help protecting against injection _and_ mistakes
 - Ask for <strong>steps</strong>: "Walk me through this optimisation step by step"
 - Provide <strong>examples</strong>: "This R function does X — implement the equivalent in Python"
 - Explaining the problem clearly helps <em>you</em> understand it better too
+
+</div>
 
 Note:
 - Writing a good prompt _requires the same clarity as writing a good specification_.
@@ -467,6 +535,8 @@ Record, where relevant:
 - Human review, domain knowledge and reproducible records remain central.
 - Tool choice should follow the research workflow and institutional context.
 - Research support professionals can turn broad principles into practical routes for safe, FAIR and sustainable use.
+
+==
 
 <!-- .slide: data-state="keepintouch" -->
 
