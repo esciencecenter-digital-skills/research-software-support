@@ -62,7 +62,7 @@ Examples:
 
 Does the AI model ask you the right questions? Does it seem on the right track? Examine the output carefully.
 
-If it is making up facts ("hallucinations") or heading towards a wrong direction, you might need to ask the model to write out the current plan. You can tweak it later if necessary. Then you _destroy the models's context window_ (e.g. quitting the discussion), and start anew. Ask the AI model to read in the plan.
+If it is making up facts ("hallucinations") or heading towards a wrong direction, you might need to ask the model to write out the current plan. You can tweak it later if necessary. Then you _destroy the model's context window_ (e.g. quitting the discussion), and start anew. Ask the AI model to read in the plan.
 
 ### 3. Iterate
 
