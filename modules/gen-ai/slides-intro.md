@@ -282,7 +282,7 @@ Note:
 
 <!-- .slide: data-state="standard 9" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
 
-> "LLMs doesn't know they are wrong. They don't know anything. They are very good at sounding right."
+> "LLMs don't know they are wrong. They don't know anything. They are very good at sounding right."
 >
 > <span class="fragment" style="color: gray;">– Claude.ai, asked about LLMs</span>
 
