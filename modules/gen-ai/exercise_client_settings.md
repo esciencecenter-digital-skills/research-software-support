@@ -17,4 +17,4 @@ Choose ChatGPT, Copilot, Claude or another available system.
 
 Read up about ZDR and DPA at https://aiprivacy.pro/guides/enterprise-ai-dpa-vs-zdr .
 
-<p style="font-size: smaller;">(Adapted from "Coding With AI Lession": <a href="southampton-rsg-training.github.io/coding-with-ai/2-ai-assisted-coding.html">https://southampton-rsg-training.github.io/coding-with-ai/2-ai-assisted-coding.html</a>)<p>
+<p style="font-size: smaller;">(Adapted from "Coding With AI Lession": <a href="https://southampton-rsg-training.github.io/coding-with-ai/2-ai-assisted-coding.html">https://southampton-rsg-training.github.io/coding-with-ai/2-ai-assisted-coding.html</a>)<p>
