@@ -1,4 +1,4 @@
-# see https://lychee.cli.rs/usage/config/#default-location-of-the-configuration-file
+# see https://lychee.cli.rs/guides/config/#example
 
 # Maximum number of allowed redirects.
 max_redirects = 10
@@ -16,3 +16,11 @@ accept = ["200", "403", "429"]
 # Omit to check links with any other scheme.
 # At the moment, we support http, https, file, and mailto.
 scheme = ["https", "http"]
+
+# Proceed for server connections considered insecure (invalid TLS).
+insecure = true
+
+exclude = [
+	# unsplash doesn't like being link-checked and usually fails even if available
+	"^https://unsplash\\.com.*"
+]

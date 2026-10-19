@@ -1,6 +1,7 @@
 name: Links
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -11,7 +12,6 @@ on:
 
 jobs:
   linkChecker:
-    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -20,3 +20,5 @@ jobs:
       - name: Check links
         id: lychee
         uses: lycheeverse/lychee-action@v2
+        with:
+          args: --root-dir=/ ./
