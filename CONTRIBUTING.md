@@ -17,6 +17,16 @@ If you want to contribute to the content: look whether the issue you want to tac
 
 It is useful to take a look at [the NEBULA documentation](https://github.com/esciencecenter-digital-skills/NEBULA-docs) and specifically review [the section on directory structure and content tags](https://github.com/esciencecenter-digital-skills/NEBULA-docs/blob/main/module-dir-structure.md) before you start. 
 
+#### Check the links before inviting people to review your pull request
+
+We use [lychee](https://lychee.cli.rs/) to check if links in this lesson still exist. A GitHub action will run automatically when you make a pull request, to check if there are any broken links. Please check in its output if there are any link _related to your PR_ that are broken and fix them. Keep in mind that some websites will reject traffic by bots like lychee, so if you're sure your link works, you can ignore those errors.
+
+You can also [run lychee locally](https://lychee.cli.rs/guides/getting-started/). If you have [Docker installed](https://docs.docker.com/get-started/), you can run the following command to run it from your computer:
+
+```bash
+docker run --tty --rm --volume ./:/input lycheeverse/lychee --config=/input/lychee.toml --root-dir=/input /input
+```
+
 ## Target audience
 
 The target audience for this material is University management and support staff.
