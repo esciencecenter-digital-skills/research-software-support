@@ -29,7 +29,7 @@ order: 3
 
 ## Technical support
 - [Netherlands eScience Center](https://esciencecenter.nl/) (Research Software / Training)
-- [SURF](https://surf.nl/) (Academic ICT services / High Performance Computing / Data Storage)
+- [SURF](https://www.surf.nl/) (Academic ICT services / High Performance Computing / Data Storage)
 
 ## Other
 - [Practical Guide to Software Management Plans](https://zenodo.org/records/7248877)
