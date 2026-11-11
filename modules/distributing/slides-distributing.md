@@ -5,7 +5,7 @@ order: 1
 author: Jaro Camphuijsen, Lourens Veen
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # Distributing Software
 
@@ -80,7 +80,8 @@ thousands of functions in it to do everything it does.
 
 ### Scripts and Notebooks
 
-<div style="width: 50%; float: left; margin-top: 3%">
+<div class="columns items-center">
+<div>
 
 - Single file with function(s)
 - Sit at the top of a pyramid
@@ -89,11 +90,11 @@ thousands of functions in it to do everything it does.
 - User handles errors
 
 </div>
-
-<div style="width: 50%; float: right; margin-top: 0%">
+<div>
 
 <img src="media/scripts_notebooks.png" width="100%">
 
+</div>
 </div>
 
 
@@ -113,7 +114,8 @@ not in the script itself, but come from libraries.
 
 ### Libraries
 
-<div style="width: 50%; float: left; margin-top: 5%">
+<div class="columns items-center">
+<div>
 
 - Lower levels of the pyramid
 - Ready-made functionality
@@ -121,11 +123,11 @@ not in the script itself, but come from libraries.
 - Handle errors itself
 
 </div>
-
-<div style="width: 50%; float: right; margin-top: 0%">
+<div>
 
 <img src="media/scripts_notebooks.png" width="100%">
 
+</div>
 </div>
 
 
@@ -149,18 +151,19 @@ libraries are very reusable.
 
 ### Programs
 
-<div style="width: 50%; float: left; margin-top: 3%">
+<div class="columns items-center">
+<div>
 
 - At the top, or including all
 - Bigger than a script
 - End product, with user interface
 
 </div>
-
-<div style="width: 50%; float: right; margin-top: 3%">
+<div>
 
 <img src="media/programs.png" width="100%">
 
+</div>
 </div>
 
 note:
@@ -177,7 +180,8 @@ or on the command line.
 
 ### Packages
 
-<div style="width: 50%; float: left; margin-top: 3%">
+<div class="columns items-center">
+<div>
 
 - A file containing a collection of software
 - Intended for distribution
@@ -187,11 +191,11 @@ or on the command line.
 - Installed using a package manager
 
 </div>
-
-<div style="width: 50%; float: right; margin-top: 6%">
+<div>
 
 <img src="media/packages.png" width="100%">
 
+</div>
 </div>
 
 
@@ -214,7 +218,8 @@ manager, e.g. C++ and Fortran.
 
 ### Images and containers
 
-<div style="width: 50%; float: left; margin-top: 3%">
+<div class="columns items-center">
+<div>
 
 - A file containing a collection of software
 - Everything, including the OS
@@ -222,11 +227,11 @@ manager, e.g. C++ and Fortran.
 - Can be run like a program, as a container
 
 </div>
-
-<div style="width: 50%; float: right; margin-top: 3%">
+<div>
 
 <img src="media/images_containers.png" width="100%">
 
+</div>
 </div>
 
 note:

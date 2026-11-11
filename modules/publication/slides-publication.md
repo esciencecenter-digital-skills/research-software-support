@@ -4,7 +4,7 @@ type: slides
 order: 2
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # Publishing Software
 
@@ -167,23 +167,13 @@ An "awesome list" is a list of awesome things curated by the community, often ho
 
 <!-- .slide: data-state="standard" -->
 ### The Research Software Directory
-<style>
-.container{
-  display: flex;
-  text-align: start;
-}
-.col{
-  flex: 1;
-}
-</style>
+<div class="columns" style="text-align: start">
 
-<div class="container">
-
-<div class="col">
+<div>
 <img src="media/rsd-front-page.png" alt="Screenshot of the front page of the RSD">
 </div>
 
-<div class="col" style="font-size: x-large">
+<div style="font-size: x-large">
 The Research Software Directory is an online service designed to <b>collect</b> and <b>present</b> “related research information” in a structured way. Our goals:
 <br>
 <br>
@@ -204,23 +194,13 @@ The Research Software Directory is an online service designed to <b>collect</b> 
 
 <!-- .slide: data-state="standard" -->
 ### User friendly data curation interface
-<style>
-.container{
-  display: flex;
-  text-align: start;
-}
-.col{
-  flex: 1;
-}
-</style>
+<div class="columns" style="text-align: start">
 
-<div class="container">
-
-<div class="col">
+<div>
 <img src="media/rsd-data-curation.png" alt="Screenshot of a software curation page for maintainers">
 </div>
 
-<div class="col" style="font-size: x-large">
+<div style="font-size: x-large">
 
 - Free and easy to use
 - Sign-in via SURFconext, ORCID, GitHub, LinkedIn

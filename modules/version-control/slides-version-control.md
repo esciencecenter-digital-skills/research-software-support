@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top"  -->
+<!-- .slide: data-state="title"  -->
 # Version Control
 
 What is version control and why should I use it?
@@ -14,7 +14,7 @@ You are probably using version control every day. Word and other documents store
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ### Version Control
 
 *A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
@@ -32,7 +32,7 @@ Let's see a more practical, systematic, and robust way of doing this...
 
 ===
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard"  -->
 ## Documents are...
 
 <div>
@@ -45,7 +45,7 @@ In version control systems, documents start with a base version (which may or ma
 
 ==
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard"  -->
 ## Software is...
 
 ... a collection of one or more documents.
@@ -63,7 +63,7 @@ Even complex (binary, data, image, ...) files can ultimately be rendered in plai
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Changes...
 
 ... are stored using a version control (VC) system (usually `git`).
@@ -78,7 +78,7 @@ Commit hashes are unique references to a commit, while commit messages are human
 
 ==
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard"  -->
 ## A commit...
 
 ... can be of any size or type:
@@ -96,7 +96,7 @@ Ideally, a commit should be large enough to represent a meaningful improvement w
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Sequential commits...
 
 ... form a log
@@ -168,7 +168,8 @@ Not every change or addition needs a new version number; this is what commits ar
 
 ## Using SemVer
 
-<div style="float: left; width: 49%;">
+<div class="columns">
+<div>
 
 ### Pros
 
@@ -180,8 +181,7 @@ Not every change or addition needs a new version number; this is what commits ar
 - `1.0.0` as a milestone
 
 </div>
-
-<div class="fragment" style="float: right; width: 49%;">
+<div class="fragment">
 
 ### Cons
 
@@ -191,6 +191,7 @@ Not every change or addition needs a new version number; this is what commits ar
 - Superstition 13, 14
 - `1.0.0` as a milestone
 
+</div>
 </div>
 
 ==
@@ -240,7 +241,8 @@ note:
 
 ## Using CalVer
 
-<div style="float: left; width: 49%;">
+<div class="columns">
+<div>
 
 ### Pros
 
@@ -250,8 +252,7 @@ note:
 - No "bigger is better" marketing
 
 </div>
-
-<div class="fragment" style="float: right; width: 49%;">
+<div class="fragment">
 
 ### Cons
 
@@ -261,6 +262,7 @@ note:
   - Is my code compatible with version `2016.10`?
 
 
+</div>
 </div>
 
 ==
@@ -274,20 +276,10 @@ note:
 
 When in doubt, read up more about the differences.
 
-<style>
-.footnote_link {
-    color: white !important;
-}
-
-.footnote_link:hover {
-    color: var(--nlesc-purple) !important;
-}
-</style>
-
 <footer style="font-size: smaller;">
-[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
+[1]: <a href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
 <br>
-[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
+[2]: <a href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
 </footer>
 
 ==
@@ -310,20 +302,21 @@ There are a few (near) synonyms used for this: change log, release notes, change
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Collaborating using VC
 
 More than one...
 <!-- .element: class="fragment" data-fragment-index="0" -->
 
-<div style="float: left; width: 49%;" class="fragment" data-fragment-index="1">
+<div class="columns">
+<div class="fragment" data-fragment-index="1">
   ... source of change...
   <img style="height: 80%; padding-top: 20px;" src="media/versions.svg"/>
 </div>
-
-<div style="float: right; width: 49%;" class="fragment" data-fragment-index="2">
+<div class="fragment" data-fragment-index="2">
   ... can be merged.
   <img style="height: 80%; padding-top: 20px;" src="media/merge.svg"/>
+</div>
 </div>
 
 note:
@@ -331,7 +324,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Branching
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
@@ -354,7 +347,7 @@ Other uses of branches:
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Keeping a centralized repository
 
 <img style="height: 350px;" src="https://www.researchgate.net/profile/Mark-Ziemann/publication/371671830/figure/fig2/AS:11431281168661745@1687060872300/Distributed-version-control-Adapted-from-48.png" alt="Distributed version control. Adapted from [48]."/>
@@ -369,7 +362,7 @@ Separate local repositories are similar to but distinct from individual branches
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Hosting the main repository
 
 <img src="media/repository_logos_focused.png" width="80%"> <!-- non-focused image can be found until SHA 8c658f43, v1.6.0 -->
@@ -386,7 +379,7 @@ Conversely, GitHub is owned by Microsoft and uses (some) proprietary software, b
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## What can go wrong?
 
 <img src="media/conflict.png" height="80%">
@@ -429,10 +422,10 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
 <!-- .slide: data-state="standard" -->
 ## Avoiding merge conflicts
 
-<div style="display: grid; grid-template-columns: repeat(2, 2fr); gap: 10; text-align: center;">
+<div class="columns" style="--gap: 0 10px; font-size: 0.85em">
   <div class="fragment" data-fragment-index="1">
     <div>
-      <img src="media/communication.png" style="height: 100px;">
+      <img src="media/communication.png" style="height: 60px;">
       <strong>Communication</strong>
       <ul>
         <li>Who is working on what?</li>
@@ -442,7 +435,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
   </div>
   <div class="fragment" data-fragment-index="2">
     <div>
-      <img src="media/updating.png" style="height: 100px;">
+      <img src="media/updating.png" style="height: 60px;">
       <strong>Frequent updates</strong>
       <ul>
         <li><a href="version_control_terminology">push and pull</a> changes regularly</li>
@@ -452,7 +445,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
   </div>
   <div class="fragment" data-fragment-index="3">
     <div>
-      <img src="media/workflow.png" style="height: 100px;">
+      <img src="media/workflow.png" style="height: 60px;">
       <strong>Organized workflow</strong>
       <ul>
         <li>Commit hygiene and feature branches</li>
@@ -462,7 +455,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
   </div>
   <div class="fragment" data-fragment-index="4">
     <div>
-      <img src="media/tools.png" style="height: 100px;">
+      <img src="media/tools.png" style="height: 60px;">
       <strong>Tools are your friends</strong>
       <ul>
         <li><em>Kanban boards</em> for task assignment</li>

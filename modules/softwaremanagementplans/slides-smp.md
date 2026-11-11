@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # Software Management Plans
 
@@ -104,7 +104,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 ## An SMP helps ...
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center;">
+<div class="columns" style="--columns: repeat(3, 1fr); --gap: 60px 10px; margin-bottom: 60px">
   <div>
     <img src="media/benefits/purpose.png" style="height: 100px;">
     <sub>... thinking about<br>purpose & necessity</sub>
@@ -117,9 +117,6 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
     <img src="media/benefits/problems_later.png" style="height: 100px;">
     <sub>... avoiding<br>problems later</sub>
   </div>
-</div>
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center; margin-top: 60px; margin-bottom: 60px;">
   <div>
     <img src="media/benefits/structure.png" style="height: 100px;">
     <sub>... structuring<br>development</sub>
@@ -266,7 +263,8 @@ When setting up a new Python project using the NLeSC Copier Template, this file 
 <!-- .slide: data-state="standard" -->
 ### Fill in SMP
 
-<div style="float: left; width: 49%;">
+<div class="columns">
+<div>
 
 #### Mandatory
 
@@ -279,7 +277,7 @@ When setting up a new Python project using the NLeSC Copier Template, this file 
 - Data Management Plan
 
 </div>
-<div style="float: left; width: 49%;">
+<div>
 
 #### Optional
 
@@ -292,6 +290,7 @@ When setting up a new Python project using the NLeSC Copier Template, this file 
 - Software Quality Checklist
 - Packaging
 
+</div>
 </div>
 
 Note:

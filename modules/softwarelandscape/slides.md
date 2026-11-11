@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # The Research Software Landscape
 
@@ -20,7 +20,7 @@ order: 1
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ### Why do researchers write software?
 **Existing software is not ... enough**
 
@@ -37,7 +37,7 @@ Some examples of what the pitfalls or practical implications of using closed-sou
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ### Problems in research software
 
 - **So** researchers often write software themselves
@@ -51,7 +51,7 @@ Third statement uncovers a problem with attribution, funding, etc.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ### This results in problems with:
 
 - Software quality and sustainability
@@ -61,7 +61,7 @@ Third statement uncovers a problem with attribution, funding, etc.
 
 ===
 
-<!-- .slide: data-state="standard black-overlay" id="landscape" data-background-image="media/landscape.jpg" -->
+<!-- .slide: data-state="standard" id="landscape" data-background-image="media/landscape.jpg" -->
 ## Current Landscape
 
 <img src="media/research-software-landscape-logos.svg" />
@@ -88,7 +88,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 ===
 
 
-<!-- .slide: data-state="standard center" id="rse-world" -->
+<!-- .slide: data-state="standard" id="rse-world" -->
 ## The worldwide RSE movement
 
 <img style="width: 90%;" src="./media/rse-worldwide.jpg" >
@@ -104,7 +104,7 @@ The eScience Center published their role description of RSEs in general and a jo
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Open Science
 
 <img src="media/unescoopenscience.png" width=40%>
@@ -136,7 +136,7 @@ Note: problems mentioned earlier in this slide deck include:
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## The FAIR principles
 
 <img src="media/fair.png" width="60%">
@@ -146,7 +146,7 @@ The FAIR principles standardize values that help openness, transparency, and acc
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## FAIR (for data)
 
@@ -158,7 +158,7 @@ This has been extended meanwhile.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## FAIR (for software)
 
@@ -195,7 +195,7 @@ In many cases these are rephrased to better fit software, but in some cases they
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Training
 
@@ -213,7 +213,7 @@ Worth checking what local training about good practices for research software de
 ===
 
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Challenges of the Research Software Landscape
 - Still developing
 - As a result:
@@ -229,7 +229,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 ## Practical implications for your work
 
 - Educate yourself and your surroundings

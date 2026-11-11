@@ -4,13 +4,13 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # What is software?
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some history
 
@@ -27,7 +27,7 @@ See next slide for explanation.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some history
 
@@ -42,7 +42,7 @@ A street organ's machinery is instructed by long "books" of cardboard with holes
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some history
 
@@ -57,7 +57,7 @@ A long book of cardboard with holes punched in it is used to give the street org
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some more history
 
@@ -73,7 +73,7 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some more history
 
@@ -87,7 +87,7 @@ This software was written using special typewriters that would punch holes in ca
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Some more history
 
@@ -101,7 +101,7 @@ These punchcards would be loaded into the computer to instruct which parts of th
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Software today
 
@@ -120,7 +120,7 @@ However, it ultimately still basically does the same: Software is a set of instr
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Complexity of modern software
 
@@ -133,7 +133,7 @@ In this image, we can get a glimpse of the complexity of modern software. We can
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard" -->
 
 ## Software is a form of data
 

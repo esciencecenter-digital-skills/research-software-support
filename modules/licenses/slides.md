@@ -4,7 +4,7 @@ type: slides
 order: 1
 ---
 
-<!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->
+<!-- .slide: data-state="title" -->
 
 # Software Licensing
 
@@ -31,7 +31,8 @@ Software is covered by copyright, and that's the main legal context in which we'
 
 <!-- .slide: data-state="standard" -->
 
-<div style="width: 70%; float: left; margin-top: 10%">
+<div class="columns items-center" style="--columns: 7fr 3fr">
+<div>
 
 ## About copyright
 
@@ -40,18 +41,14 @@ Software is covered by copyright, and that's the main legal context in which we'
 - Can be licensed
 
 </div>
-
-<div style="width: 30%; float: right">
+<div>
 
 <img src="media/Zytgloggeturm_Bern.jpg" width="100%">
 
 </div>
-
-<div style="float: left; clear: both; padding-left: 25%; padding-top: 1em">
-
-<small>Photo by <a href="//commons.wikimedia.org/wiki/User:JoachimKohler-HB" title="User:JoachimKohler-HB">JoachimKohler-HB</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=140063312">Link</a></small>
-
 </div>
+
+<p><small>Photo by <a href="//commons.wikimedia.org/wiki/User:JoachimKohler-HB" title="User:JoachimKohler-HB">JoachimKohler-HB</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=140063312">Link</a></small></p>
 
 
 
@@ -92,7 +89,8 @@ It's better if the software has an Open Source license, because these are profes
 
 ## Why share software?
 
-<div style="width: 50%; float: left; margin-top: 1em; margin-left: 5%;">
+<div class="columns items-center" style="--columns: 5fr 4fr">
+<div>
 
 - Reproducibility
 - Increasing impact
@@ -101,14 +99,12 @@ It's better if the software has an Open Source license, because these are profes
 - Public funding
 
 </div>
-
-<div style="width: 40%; float: right; margin-right: 4%;">
+<div>
 <img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
 </div>
-
-<div style="clear: both; margin: auto; padding-top: .5em;">
-<small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
+
+<p><small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
 
 
 Note:
@@ -127,7 +123,8 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
 
 ## How to share software
 
-<div style="width: 50%; float: left; margin-top: 1em; margin-left: 5%;">
+<div class="columns items-center" style="--columns: 5fr 4fr">
+<div>
 
 - Put it online
 - Add a license
@@ -136,14 +133,12 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
     3. Kinds of licenses
 
 </div>
-
-<div style="width: 40%; float: right; margin-right: 4%;">
+<div>
 <img src="media/Stephanie_Morales_Sharing.jpg" width="100%">
 </div>
-
-<div style="clear: both; margin: auto; padding-top: .5em;">
-<small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
+
+<p><small>Photo by <a href="https://unsplash.com/@stephaniemoarr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephanie Morales</a> on <a href="https://unsplash.com/photos/person-holding-white-ceramic-mug-DGt9zA3Fr0g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
 
 
 Note:
@@ -241,7 +236,8 @@ Finally, there are some nice tools available that make it easier to select an Op
 
 ## Contributing to software
 
-<div style="width: 55%; float: left; margin-top: 1em;">
+<div class="columns items-center" style="--columns: 5fr 4fr">
+<div>
 
 - Under the license
 - Contributor License Agreements
@@ -249,14 +245,12 @@ Finally, there are some nice tools available that make it easier to select an Op
     - Transfer or license?
 
 </div>
-
-<div style="width: 44%; float: right;">
+<div>
 <img src="media/Kleine_Dinge.jpg" width="100%">
 </div>
-
-<div style="clear: both; margin: auto; padding-top: .5em;">
-<small>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/white-and-green-quote-board-xCEuxxhpY3o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
 </div>
+
+<p><small>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/white-and-green-quote-board-xCEuxxhpY3o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small></p>
 
 
 Note:
