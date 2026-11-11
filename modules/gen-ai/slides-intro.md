@@ -42,6 +42,14 @@ order: 1
 
 </div>
 
+Note: 
+- **Turing Test**: a benchmark to assess a machine's ability to exhibit intelligent behaviour equivalent to a human by imitating interactive dialogue. Famous media depiction: the movie "Deus Ex Machina".
+- **Symbolic Reasoning**: an approach where human knowledge and logic are explicitly encoded into hard-coded rules, symbols and deductive relationships (e.g. if x and y, then z)
+- **An example of a 1966 expert system: ELIZA** - an early language processing computer program, famous for a script imitating a psychotherapist taught in the Rogerian school (in which the therapist often reflects back the patient's words to the patient). It is one of the first programs capable of attempting the Turing Test.
+- **AI Winters** - Overly optimistic promises about the development of AI were not met; lacking computing power to drive innovations -> governments and institutions pulled funding back, stagnating development of the field.
+- **1980's-2000's**: Breakthrough of personal computers leading new generation of (statistical) software. Python programming language written by Guido van Rossum (1989) and released in 1991. Programming language R designed by Ross Ihaka & Robert Gentleman (1993). 
+- **LLM** - ChatGPT launch date 30 Nov 2022. Modern application of the Turing Test on LLM: Jones, C. & Bergen, B.K. (2026) Large Language models pass a standard three-party Turing test: https://www.pnas.org/doi/10.1073/pnas.2524472123
+
 ==
 
 <!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
@@ -146,6 +154,9 @@ Note:
   </div>
 </div>
 
+Note:
+- AI is capable of producing answers across different categories of use applications
+
 ==
 
 <!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
@@ -156,6 +167,10 @@ Note:
 2. Research instrument: use AI to measure, classify, generate or analyse
 3. Research co-creator: use AI during ideation, drafting or interpretation
 4. Research infrastructure: embed AI in services, repositories, portals or workflows
+
+Note: 
+- The different roles of AI in research change their implications for FAIRness and governance burden.
+- The role of co-creator generates the most tension with FAIR principles
 
 ==
 
@@ -169,6 +184,12 @@ Note:
 - No separation between instructions and data: everything is just text in the context
 - Context window: everything the model "sees" — fills up, degrades, gets compacted
 
+Note:
+- **Token**: a word, part of a word or punctuation.
+- **Training cutoff**: model may miss a recent release. Search or uploaded materials can give it newer information.
+- **Instructions and data**: a model can mistake a sentence in a webpage for an instruction. This matters more when it can take actions. We get back to this topic later in the module.
+- **Context window**: think of it as a limited working space / memory. In a long chat, earlier details can get dropped or summarised, which will lower its precision.
+
 ==
 
 <!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
@@ -181,7 +202,12 @@ Note:
   - Skills and instruction files `AGENTS.md`
   - "Memory" is just files fed back into the context
 
-
+Note:
+- Stateless = doesn't remember previous chats on its own. Each call window uses the context it receives.
+- Harness checks permissions, runs the tool if allowed and feeds the results back to the model
+- Skills guide specific tasks. An agent.md file gives the AI agent project instructions and guard rail, such as how to run tests.
+- The model starts each call with the context it receives. The harness can bring saved notes / earlier results back into that context.
+  
 ==
 
 <!-- .slide: data-state="standard 9" data-background-image="media/pexels-braincontour-3018267-5032708.jpg" -->
@@ -239,6 +265,12 @@ Note:
   </div>
 </div>
 
+Note:
+- AI can provide a walkthrough of unfamiliar code - a useful starting point when you inherit or reuse a script
+- Refactoring is the process of re-organising code while preserving its function
+- A unit test checks a small piece of code against an expected result. A docstring explains how to use it. Read generated tests for assumptions about what should happen, especially in edge cases.
+- This is the work of making software easier to build, test and run consistently. CI runs checks automatically, a Dockerfile describes how to build a container image, and an environment file lists dependencies. AI can draft these files.
+
 ===
 
 <!-- .slide: data-state="standard 6" data-background-image="media/peggy_marco-weigh-up-2856321_1280.jpg" -->
@@ -259,6 +291,7 @@ Note:
 - 🔍 Sifting through log files and stack traces
 - 📚 Learning about new-to-you technologies
 - 🔣 Regex (genuinely very good at this)
+
 
 ==
 
