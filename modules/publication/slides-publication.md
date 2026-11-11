@@ -1,7 +1,7 @@
 ---
 title: Publishing Software
 type: slides
-order: 2
+order: 1
 ---
 
 <!-- .slide: data-state="title blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top" -->

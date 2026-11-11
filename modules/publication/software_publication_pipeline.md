@@ -1,7 +1,7 @@
 ---
 title: Publication pipeline
 type: reading
-order: 3
+order: 2
 ---
 
 # Software publication pipeline
