@@ -14,7 +14,7 @@ You are probably using version control every day. Word and other documents store
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ### Version Control
 
 *A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
@@ -32,7 +32,7 @@ Let's see a more practical, systematic, and robust way of doing this...
 
 ===
 
-<!-- .slide: data-state="standard 10 center"  -->
+<!-- .slide: data-state="standard 10"  -->
 ## Documents are...
 
 <div>
@@ -45,7 +45,7 @@ In version control systems, documents start with a base version (which may or ma
 
 ==
 
-<!-- .slide: data-state="standard 10 center"  -->
+<!-- .slide: data-state="standard 10"  -->
 ## Software is...
 
 ... a collection of one or more documents.
@@ -63,7 +63,7 @@ Even complex (binary, data, image, ...) files can ultimately be rendered in plai
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Changes...
 
 ... are stored using a version control (VC) system (usually `git`).
@@ -78,7 +78,7 @@ Commit hashes are unique references to a commit, while commit messages are human
 
 ==
 
-<!-- .slide: data-state="standard 10 center"  -->
+<!-- .slide: data-state="standard 10"  -->
 ## A commit...
 
 ... can be of any size or type:
@@ -96,7 +96,7 @@ Ideally, a commit should be large enough to represent a meaningful improvement w
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Sequential commits...
 
 ... form a log
@@ -310,7 +310,7 @@ There are a few (near) synonyms used for this: change log, release notes, change
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Collaborating using VC
 
 More than one...
@@ -331,7 +331,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Branching
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
@@ -354,7 +354,7 @@ Other uses of branches:
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Keeping a centralized repository
 
 <img style="height: 350px;" src="https://www.researchgate.net/profile/Mark-Ziemann/publication/371671830/figure/fig2/AS:11431281168661745@1687060872300/Distributed-version-control-Adapted-from-48.png" alt="Distributed version control. Adapted from [48]."/>
@@ -369,7 +369,7 @@ Separate local repositories are similar to but distinct from individual branches
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## Hosting the main repository
 
 <img src="media/repository_logos_focused.png" width="80%"> <!-- non-focused image can be found until SHA 8c658f43, v1.6.0 -->
@@ -386,7 +386,7 @@ Conversely, GitHub is owned by Microsoft and uses (some) proprietary software, b
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 ## What can go wrong?
 
 <img src="media/conflict.png" height="80%">

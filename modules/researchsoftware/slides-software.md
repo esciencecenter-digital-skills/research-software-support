@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some history
 
@@ -27,7 +27,7 @@ See next slide for explanation.
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some history
 
@@ -42,7 +42,7 @@ A street organ's machinery is instructed by long "books" of cardboard with holes
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some history
 
@@ -57,7 +57,7 @@ A long book of cardboard with holes punched in it is used to give the street org
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some more history
 
@@ -73,7 +73,7 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some more history
 
@@ -87,7 +87,7 @@ This software was written using special typewriters that would punch holes in ca
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Some more history
 
@@ -101,7 +101,7 @@ These punchcards would be loaded into the computer to instruct which parts of th
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software today
 
@@ -120,7 +120,7 @@ However, it ultimately still basically does the same: Software is a set of instr
 
 ==
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Complexity of modern software
 
@@ -133,7 +133,7 @@ In this image, we can get a glimpse of the complexity of modern software. We can
 
 ===
 
-<!-- .slide: data-state="standard 10 center" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software is a form of data
 
