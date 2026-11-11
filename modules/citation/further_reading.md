@@ -1,7 +1,7 @@
 ---
 title: Further reading
 type: reading
-order: 7
+order: 6
 ---
 
 ## Links for further reading
