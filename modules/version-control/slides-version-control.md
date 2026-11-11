@@ -114,183 +114,7 @@ The data structure that contains the software plus the commit history is called 
 note:
 A good rule of thumb for commit sizing is whether you can write a clear, concise commit message summarizing the change. If the commit is too small, the message will simply describe the specific action taken. If it's too large, summarizing it succinctly becomes difficult. Striking the right balance ultimately also allows the commit log to be read almost like a history book.
 
-===
 
-<!-- .slide: data-state="standard" -->
-## Keeping track
-
-#### Question:
-Say you have dozens (hundreds, thousands, ...) of old versions, how do you manage to find a specific/useful previous version?
-
-- Effective committing (sizing & messages)
-<!-- .element: class="fragment" data-fragment-index="1" -->
-- Versioning systems
-<!-- .element: class="fragment" data-fragment-index="1" -->
-- Create Change logs and tags for stable/important versions
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-note:
-We've talked above extensively about commit hygiene, so will now discuss the other 2 aspects.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Tagging versions
-
-Use a logical system to add a **tag** to stable versions<br>
-... and document the system used in the repository.
-
-The most common are:
-
-<ul>
-    <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>, and
-    <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>.
-</ul>
-
-note:
-Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is. These tags are meant to communicate with both humans and machines about important (stable) versions of the code.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## SemVer
-
-MAJOR.MINOR.PATCH
-
-- MAJOR: backwards incompatible changes
-  - ⚠️ MAJOR=0: API may change any time
-- MINOR: added backwards incompatible functionality
-- PATCH: backwards compatible bugfixes
-- 1.0.0 defines public API
-
-note:
-Not every change or addition needs a new version number; this is what commits are for.
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Using SemVer
-
-<div style="float: left; width: 49%;">
-
-### Pros
-
-- Widely used
-- "Maturity"
-  - `0.2.0` vs `3.1.4`
-- Long-term-stable (LTS) versions
-  - Maintain older versions with fresh patches
-- `1.0.0` as a milestone
-
-</div>
-
-<div class="fragment" style="float: right; width: 49%;">
-
-### Cons
-
-- No info about "freshness"
-  - How old is version `2.7.1` ?
-- "Bigger is better", marketing
-- Superstition 13, 14
-- `1.0.0` as a milestone
-
-</div>
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## CalVer
-
-These "projects" use CalVer to show freshness.
-
-- RSECon25: `YY`
-  - See https://rsecon25.society-rse.org/
-  - Every year new one
-- certifi 2025.10.5: `YYYY.MM.DD`
-  - See https://pypi.org/project/certifi/#history
-  - Certificates expire quickly, so they need to be recent
-- Ubuntu 26.04.1 `YY.0M.PATCH`
-  - See https://releases.ubuntu.com/
-  - Operating systems need to be updated regularly
-  - Using SemVer patch addition for "Service Packs"
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Using CalVer
-
-<div style="float: left; width: 49%;">
-
-### Pros
-
-
-- Communicates "freshness"
-  - Version from this month would be rather recent
-- No "bigger is better" marketing
-
-</div>
-
-<div class="fragment" style="float: right; width: 49%;">
-
-### Cons
-
-- No indication of "maturity"
-  - `0.2.0` vs `3.1.4`
-- No indication of API breakage
-  - Is my code compatible with version `2016.10`?
-
-
-</div>
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## Choosing a Versioning Scheme
-
-- Use **SemVer** when compatibility is important.
-- Pick **CalVer** if you are releasing on a schedule and timing is important.
-
-When in doubt, read up more about the differences.
-
-<style>
-.footnote_link {
-    color: white !important;
-}
-
-.footnote_link:hover {
-    color: var(--nlesc-purple) !important;
-}
-</style>
-
-<footer style="font-size: smaller;">
-[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
-<br>
-[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
-</footer>
-
-==
-
-<!-- .slide: data-state="standard" -->
-## Change logs & DOIs
-
-Keep a human readable log summarizing the changes of each new version.
-
-Host versions on servers such as [Zenodo](https://zenodo.org/) or [GitHub](https://github.com/)/[GitLab](https://gitlab.com/) to generate a DOI.
-
-<img src="media/ChangeLog.png" width="45%">
-<small>Excerpt of release notes for <a href="https://github.com/astral-sh/ruff/releases/tag/0.8.6">ruff linter v0.8.6</a></small>
-
-note:
-
-This is the equivalent of the "commit message" at the level of a new version.
-
-There are a few (near) synonyms used for this: change log, release notes, change history, etc. However, it is separate from the commit log or commit history, as per the comment above.
 
 ===
 
@@ -493,6 +317,185 @@ A task can be anything, small or large: fixing a typo, updating a reference, add
 fixing a bug, adding some new functionality, improving performance, performing a backend rewrite.
 
 Deleting branches after merging helps keeping the overview of what is actively being worked on.
+
+===
+
+<!-- .slide: data-state="standard" -->
+## Keeping track
+
+#### Question:
+Say you have dozens (hundreds, thousands, ...) of old versions, how do you manage to find a specific/useful previous version?
+
+- Effective committing (sizing & messages)
+<!-- .element: class="fragment" data-fragment-index="1" -->
+- Logical versioning systems
+<!-- .element: class="fragment" data-fragment-index="1" -->
+- Create Change logs and tags for stable/important versions
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+note:
+We've talked above extensively about commit hygiene, so will now discuss the other 2 aspects.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Tagging versions
+
+Use a logical system to add a **tag** to stable versions<br>
+... and document the system used in the repository.
+
+<img src="media/git-tagging.png" width="60%" alt="Several development branches with tags in Git.">
+<small> Image adapted from: <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-workflow-branches">The Turing Way</a></small>
+
+The most common are:
+
+<ul>
+    <li><a href="https://semver.org/">Semantic Versioning (SemVer)</a>, and
+    <li><a href="https://calver.org/">Calendar Versioning (CalVer)</a>.
+</ul>
+
+note:
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is. These tags are meant to communicate with both humans and machines about important (stable) versions of the code.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## SemVer
+
+MAJOR.MINOR.PATCH
+
+- MAJOR: backwards incompatible changes
+  - ⚠️ MAJOR=0: API may change any time
+- MINOR: added backwards incompatible functionality
+- PATCH: backwards compatible bugfixes
+- 1.0.0 defines public API
+
+note:
+Not every change or addition needs a new version number; this is what commits are for.
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Using SemVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+- Widely used
+- "Maturity"
+  - `0.2.0` vs `3.1.4`
+- Long-term-stable (LTS) versions
+  - Maintain older versions with fresh patches
+- `1.0.0` as a milestone
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No info about "freshness"
+  - How old is version `2.7.1` ?
+- "Bigger is better", marketing
+- Superstition 13, 14
+- `1.0.0` as a milestone
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## CalVer
+
+These "projects" use CalVer to show freshness.
+
+- RSECon25: `YY`
+  - See https://rsecon25.society-rse.org/
+  - Every year new one
+- certifi 2025.10.5: `YYYY.MM.DD`
+  - See https://pypi.org/project/certifi/#history
+  - Certificates expire quickly, so they need to be recent
+- Ubuntu 26.04.1 `YY.0M.PATCH`
+  - See https://releases.ubuntu.com/
+  - Operating systems need to be updated regularly
+  - Using SemVer patch addition for "Service Packs"
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Using CalVer
+
+<div style="float: left; width: 49%;">
+
+### Pros
+
+
+- Communicates "freshness"
+  - Version from this month would be rather recent
+- No "bigger is better" marketing
+
+</div>
+
+<div class="fragment" style="float: right; width: 49%;">
+
+### Cons
+
+- No indication of "maturity"
+  - `0.2.0` vs `3.1.4`
+- No indication of API breakage
+  - Is my code compatible with version `2016.10`?
+
+
+</div>
+
+==
+
+<!-- .slide: data-state="standard" -->
+
+## Choosing a Versioning Scheme
+
+- Use **SemVer** when compatibility is important.
+- Pick **CalVer** if you are releasing on a schedule and timing is important.
+
+When in doubt, read up more about the differences.
+
+<style>
+.footnote_link {
+    color: white !important;
+}
+
+.footnote_link:hover {
+    color: var(--nlesc-purple) !important;
+}
+</style>
+
+<footer style="font-size: smaller;">
+[1]: <a class="footnote_link" href="https://gosink.in/versioning-strategies-explained-semver-to-calver-and-beyond-and-which-one-should-you-choose-2/">gosink.in/versioning-strategies-explained-semver-<br>to-calver-and-beyond-and-which-one-should-you-choose-2/</a>
+<br>
+[2]: <a class="footnote_link" href="https://sensiolabs.com/blog/2025/semantic-vs-calendar-versioning">sensiolabs.com/blog/2025/semantic-vs-calendar-versioning</a>
+</footer>
+
+==
+
+<!-- .slide: data-state="standard" -->
+## Change logs
+
+Keep a human readable log summarizing the changes of each new version.
+
+<img src="media/ChangeLog.png" width="45%">
+<small>Excerpt of release notes for <a href="https://github.com/astral-sh/ruff/releases/tag/0.8.6">ruff linter v0.8.6</a></small>
+
+note:
+
+This is the equivalent of the "commit message" at the level of a new tagged version.
+
+There are a few (near) synonyms used for this: change log, release notes, change history, etc. However, it is separate from the commit log or commit history, as per the comment above.
 
 ===
 
