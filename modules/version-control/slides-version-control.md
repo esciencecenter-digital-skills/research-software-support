@@ -14,15 +14,21 @@ You are probably using version control every day. Word and other documents store
 
 ===
 
-<!-- .slide: data-state="standard center" -->
-### Version Control
+<!-- .slide: data-state="standard two_pane" -->
 
-*A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
-revisit specific versions later.*
+  ### Version Control
 
-<div class="fragment" data-fragment-index="1">
-  <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="38%">
-  <small> <a href="https://phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
+<div style="display:grid; grid-template-columns:repeat(2, 1fr);">
+  <div style="grid-column:span 1;" class="fragment" data-fragment-index="2">
+    <img src="https://swcarpentry.github.io/git-novice/fig/phd101212s.png" width="90%">
+    <small> <a href="https://phdcomics.com">Piled Higher and Deeper</a> by Jorge Cham </small>
+  </div>
+  <div style="grid-column:span 1; position:relative; vertical-align:middle;" class="fragment" data-fragment-index="1">
+
+  *A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
+  revisit specific versions later.*
+
+  </div>
 </div>
 
 note:
