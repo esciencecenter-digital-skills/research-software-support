@@ -149,13 +149,13 @@ The most common are:
 </ul>
 
 note:
-Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is. 
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is. These tags are meant to communicate with both humans and machines about important (stable) versions of the code.
 
 ==
 
 <!-- .slide: data-state="standard" -->
 
-## SemVer Terminology
+## SemVer
 
 MAJOR.MINOR.PATCH
 
@@ -203,7 +203,7 @@ Not every change or addition needs a new version number; this is what commits ar
 
 <!-- .slide: data-state="standard" -->
 
-## CalVer Examples
+## CalVer
 
 These "projects" use CalVer to show freshness.
 
@@ -217,28 +217,6 @@ These "projects" use CalVer to show freshness.
   - See https://releases.ubuntu.com/
   - Operating systems need to be updated regularly
   - Using SemVer patch addition for "Service Packs"
-
-==
-
-<!-- .slide: data-state="standard" -->
-
-## CalVer Terminology
-
-- `YYYY` Full year - 2006, 2016, 2106
-- `YY` Short year - 6, 16, 106
-- `0Y` Zero-padded year - 06, 16, 106
-- `MM` Short month - 1, 2 ... 11, 12
-- `0M` Zero-padded month - 01, 02 ... 11, 12
-- `WW` Short week (since start of year) - 1, 2, 33, 52
-- `0W` Zero-padded week - 01, 02, 33, 52
-- `DD` Short day - 1, 2 ... 30, 31
-- `0D` Zero-padded day - 01, 02 ... 30, 31
-
-
-note:
-- Common assumptions are using the UTC timezone and the Gregorian calendar
-
-- The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date format (YYYY-0M-0D) is recommended, since sorting alphabetically results in sorting chronologically as well
 
 ==
 
