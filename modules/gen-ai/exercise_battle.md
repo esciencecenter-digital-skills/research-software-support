@@ -8,7 +8,7 @@ order: 2
 
 - Discuss with two generative AI models at the same time, use <a href="https://arena.ai">arena.ai</a> in **battle mode** — two AIs answer the same prompt, you vote for the better response.
 - Indicate after each round which one is better
-  - If one "wins" a round, it's answers will be used as context for the follow-up questions for *both* bodels
+  - If one "wins" a round, it's answers will be used as context for the follow-up questions for *both* models
   - Be aware that they will be *very* confident in their approaches. Make sure to understand and judge every aspect of the discussion.
 
 <div style="text-align:left; margin-top:1rem;">
