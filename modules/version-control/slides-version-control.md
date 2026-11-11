@@ -14,7 +14,7 @@ You are probably using version control every day. Word and other documents store
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ### Version Control
 
 *A system that organizes and records changes to a (set of) file(s) and/or their metadata over time, allowing one to
@@ -32,7 +32,7 @@ Let's see a more practical, systematic, and robust way of doing this...
 
 ===
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard 10 center"  -->
 ## Documents are...
 
 <div>
@@ -45,7 +45,7 @@ In version control systems, documents start with a base version (which may or ma
 
 ==
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard 10 center"  -->
 ## Software is...
 
 ... a collection of one or more documents.
@@ -63,7 +63,7 @@ Even complex (binary, data, image, ...) files can ultimately be rendered in plai
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Changes...
 
 ... are stored using a version control (VC) system (usually `git`).
@@ -78,7 +78,7 @@ Commit hashes are unique references to a commit, while commit messages are human
 
 ==
 
-<!-- .slide: data-state="standard center"  -->
+<!-- .slide: data-state="standard 10 center"  -->
 ## A commit...
 
 ... can be of any size or type:
@@ -96,7 +96,7 @@ Ideally, a commit should be large enough to represent a meaningful improvement w
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Sequential commits...
 
 ... form a log
@@ -110,7 +110,7 @@ A good rule of thumb for commit sizing is whether you can write a clear, concise
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Keeping track
 
 #### Question:
@@ -128,7 +128,7 @@ We've talked above extensively about commit hygiene, so will now discuss the oth
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Versioning
 
@@ -147,7 +147,7 @@ Make sure that whatever versioning system you use is also documented in the repo
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## SemVer Terminology
 
@@ -164,7 +164,7 @@ Not every change or addition needs a new version number; this is what commits ar
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Using SemVer
 
@@ -195,7 +195,7 @@ Not every change or addition needs a new version number; this is what commits ar
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## CalVer Examples
 
@@ -214,7 +214,7 @@ These "projects" use CalVer to show freshness.
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## CalVer Terminology
 
@@ -236,7 +236,7 @@ note:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Using CalVer
 
@@ -265,7 +265,7 @@ note:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Choosing a Versioning Scheme
 
@@ -292,7 +292,7 @@ When in doubt, read up more about the differences.
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Change logs & DOIs
 
 Keep a human readable log summarizing the changes of each new version.
@@ -310,7 +310,7 @@ There are a few (near) synonyms used for this: change log, release notes, change
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Collaborating using VC
 
 More than one...
@@ -331,7 +331,7 @@ When collaborating you might have various versions (sets of changes) that co-exi
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Branching
 
 A project can have many [branches](version_control_terminology), which may or may not get [merged](version_control_terminology) back into the main version.
@@ -354,7 +354,7 @@ Other uses of branches:
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Keeping a centralized repository
 
 <img style="height: 350px;" src="https://www.researchgate.net/profile/Mark-Ziemann/publication/371671830/figure/fig2/AS:11431281168661745@1687060872300/Distributed-version-control-Adapted-from-48.png" alt="Distributed version control. Adapted from [48]."/>
@@ -369,7 +369,7 @@ Separate local repositories are similar to but distinct from individual branches
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Hosting the main repository
 
 <img src="media/repository_logos_focused.png" width="80%"> <!-- non-focused image can be found until SHA 8c658f43, v1.6.0 -->
@@ -386,7 +386,7 @@ Conversely, GitHub is owned by Microsoft and uses (some) proprietary software, b
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## What can go wrong?
 
 <img src="media/conflict.png" height="80%">
@@ -398,7 +398,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Merge conflicts
 
 If two people change the same line...
@@ -426,7 +426,7 @@ Resolving merge conflicts can be time-consuming and error prone, especially for 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Avoiding merge conflicts
 
 <div style="display: grid; grid-template-columns: repeat(2, 2fr); gap: 10; text-align: center;">
@@ -487,7 +487,7 @@ usually end up diverging so much that they end up never getting merged.
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Short-lived Feature Branches
 
 One dedicated branch for one task (feature)
@@ -511,7 +511,7 @@ fixing a bug, adding some new functionality, improving performance, performing a
 Deleting branches after merging helps keeping the overview of what is actively being worked on.
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Key Points
 - Version control is like unlimited undo in MS Word... and more!
 - Version control streamlines working in parallel

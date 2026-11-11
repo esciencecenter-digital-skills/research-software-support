@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Research reproducibility
 
@@ -28,7 +28,7 @@ However, it also comes with its own particular challenges: software reproducibil
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software reusability
 
@@ -54,7 +54,7 @@ Software needs to be understood both from a:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Overview
 
@@ -74,7 +74,7 @@ About the "Different needs for different software": an SMP can sometimes be very
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Software Management Plan (SMP)
 
@@ -100,7 +100,7 @@ It also addresses the intended lifespan, and allocates responsibility: who makes
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## An SMP helps ...
 
@@ -155,7 +155,7 @@ Finally, the SMP will allow later verification of plans in a publicly funded pro
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## An SMP is not ...
 
@@ -177,7 +177,7 @@ when there may be other priorities/deadlines (publication, grant application,
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Not all software is equal
 
@@ -200,7 +200,7 @@ The SMP Guide distinguishes software with low, medium, and high management needs
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 <center>
 <img src="media/smpguide.png" width="50%" />
@@ -216,7 +216,7 @@ All past versions and the latest release are available on Zenodo via this DOI.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## SMP Guided Questionnaire
 
 [smp.research.software](https://smp.research.software)
@@ -253,7 +253,7 @@ When setting up a new Python project using the NLeSC Copier Template, this file 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Determine the Scope
 
 1. Is or will the software be publicly available?
@@ -263,7 +263,7 @@ When setting up a new Python project using the NLeSC Copier Template, this file 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Fill in SMP
 
 <div style="float: left; width: 49%;">
@@ -299,7 +299,7 @@ The optional questions depend on the previously determined scope.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Which SMP to Use?
 #### SMP Questionnaires or Templates...
@@ -321,7 +321,7 @@ An assessment rubric should accompany the template, indicating per question or f
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 
 ## Take home messages

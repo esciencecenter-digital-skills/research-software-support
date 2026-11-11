@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Common questions
 
@@ -29,7 +29,7 @@ Software is covered by copyright, and that's the main legal context in which we'
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 <div style="width: 70%; float: left; margin-top: 10%">
 
@@ -66,7 +66,7 @@ The owner of the copyright on a work can give permission to others to do things 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Using others' software
 
@@ -88,7 +88,7 @@ It's better if the software has an Open Source license, because these are profes
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why share software?
 
@@ -123,7 +123,7 @@ Scientific software is sometimes shared, but also sometimes kept to themselves b
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## How to share software
 
@@ -158,7 +158,7 @@ Finally, different Open Source licenses specify different terms and conditions f
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Who owns a work?
 
@@ -177,7 +177,7 @@ Funding may also come with restrictions or stipulations regarding ownership. For
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Kinds of licenses
 
@@ -218,7 +218,7 @@ Finally, the Affero GPL is designed for use with software that is designed to be
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Choosing a license
 
@@ -237,7 +237,7 @@ Finally, there are some nice tools available that make it easier to select an Op
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Contributing to software
 

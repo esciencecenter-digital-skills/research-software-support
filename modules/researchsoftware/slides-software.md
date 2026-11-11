@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some history
 
@@ -27,7 +27,7 @@ See next slide for explanation.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some history
 
@@ -42,7 +42,7 @@ A street organ's machinery is instructed by long "books" of cardboard with holes
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some history
 
@@ -57,7 +57,7 @@ A long book of cardboard with holes punched in it is used to give the street org
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some more history
 
@@ -73,7 +73,7 @@ Who knows what this is? Looks similar to the previous thing, right? This is soft
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some more history
 
@@ -87,7 +87,7 @@ This software was written using special typewriters that would punch holes in ca
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Some more history
 
@@ -101,7 +101,7 @@ These punchcards would be loaded into the computer to instruct which parts of th
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Software today
 
@@ -120,7 +120,7 @@ However, it ultimately still basically does the same: Software is a set of instr
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Complexity of modern software
 
@@ -133,7 +133,7 @@ In this image, we can get a glimpse of the complexity of modern software. We can
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Software is a form of data
 
@@ -142,7 +142,7 @@ In this image, we can get a glimpse of the complexity of modern software. We can
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software is data
 
@@ -160,13 +160,13 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## BUT
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software is a special type of data
 
@@ -188,7 +188,7 @@ While technically, software is a special kind of data (in that it is representat
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software requires dedicated maintenance
 
@@ -213,7 +213,7 @@ Regarding the reasons for lack of maintenance:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Software vs data management
 
@@ -241,7 +241,7 @@ Consider also version control software, a good software development practice tha
 ===
 
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Take home messages
 

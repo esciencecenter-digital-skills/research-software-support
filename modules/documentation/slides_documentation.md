@@ -11,7 +11,7 @@ author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Pau
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## What is documentation?
 
@@ -22,7 +22,7 @@ author: Luisa Orozco, Barbara Vreede, Jaro Camphuijsen, Carlos Martinez, Max Pau
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why document software?
 
@@ -38,7 +38,7 @@ note:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Documentation types
 
@@ -68,7 +68,7 @@ All of these types of documentation can be included in a SMP.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Documentation formats
 
@@ -81,7 +81,7 @@ All of these types of documentation can be included in a SMP.
 
 ===
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard 10"  -->
 
 ## A good README file
 
@@ -112,7 +112,7 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard 10"  -->
 
 ## In-code documentation?
 
@@ -132,7 +132,7 @@ We will try out "better programming" on the next slide.
 
 ==
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard 10"  -->
 ## Exercise: In-line comments
 
 <div style="font-size: smaller;">
@@ -168,7 +168,7 @@ Expressive variable names can often make comments obsolete and increase readabil
 
 ===
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard 10"  -->
 
 ## User/API documentation
 
@@ -188,7 +188,7 @@ tools include
 
 ===
 
-<!-- .slide: data-state="standard"  -->
+<!-- .slide: data-state="standard 10"  -->
 ## Tutorials
 
 + Example code that allows users to run specific test cases 
@@ -196,7 +196,7 @@ tools include
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Take-home message
 
 - Documentation is a vital part of a project.

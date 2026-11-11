@@ -11,7 +11,7 @@ order: 1
 ===
 
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Why do researchers write software?
 **Trends in research**
 - Research depends on building on previous research
@@ -20,7 +20,7 @@ order: 1
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ### Why do researchers write software?
 **Existing software is not ... enough**
 
@@ -37,7 +37,7 @@ Some examples of what the pitfalls or practical implications of using closed-sou
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ### Problems in research software
 
 - **So** researchers often write software themselves
@@ -51,7 +51,7 @@ Third statement uncovers a problem with attribution, funding, etc.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ### This results in problems with:
 
 - Software quality and sustainability
@@ -88,7 +88,7 @@ Many initiatives have been started to solve the problems that were mentioned.
 ===
 
 
-<!-- .slide: data-state="standard center" id="rse-world" -->
+<!-- .slide: data-state="standard 10 center" id="rse-world" -->
 ## The worldwide RSE movement
 
 <img style="width: 90%;" src="./media/rse-worldwide.jpg" >
@@ -104,7 +104,7 @@ The eScience Center published their role description of RSEs in general and a jo
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Open Science
 
 <img src="media/unescoopenscience.png" width=40%>
@@ -118,7 +118,7 @@ This is supported by many organisations, including UNESCO. The Netherlands recen
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### What communities to connect to?
 **Overwhelmed?**
 - It might be hard to distinguish what initiatives try to tackle which problems
@@ -136,7 +136,7 @@ Note: problems mentioned earlier in this slide deck include:
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## The FAIR principles
 
 <img src="media/fair.png" width="60%">
@@ -146,7 +146,7 @@ The FAIR principles standardize values that help openness, transparency, and acc
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## FAIR (for data)
 
@@ -158,7 +158,7 @@ This has been extended meanwhile.
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## FAIR (for software)
 
@@ -172,7 +172,7 @@ The working group behind this was a collaboration between the Research Software 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## FAIR (for software)
 
@@ -195,7 +195,7 @@ In many cases these are rephrased to better fit software, but in some cases they
 
 ===
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 
 ## Training
 
@@ -213,7 +213,7 @@ Worth checking what local training about good practices for research software de
 ===
 
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Challenges of the Research Software Landscape
 - Still developing
 - As a result:
@@ -229,7 +229,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard center" -->
+<!-- .slide: data-state="standard 10 center" -->
 ## Practical implications for your work
 
 - Educate yourself and your surroundings
@@ -240,7 +240,7 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Take home messages
 

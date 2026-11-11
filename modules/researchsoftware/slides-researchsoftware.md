@@ -10,7 +10,7 @@ order: 3
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## *Ceci n'est pas une photo*
 
@@ -33,7 +33,7 @@ The data can be converted into an image using custom software.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why Treat Research Software Differently?
 
@@ -55,7 +55,7 @@ By defining research software:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## How Important is the Distinction?
 
@@ -69,7 +69,7 @@ The definitions are not always clear, and that's ok.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### What is Research Software?
 
@@ -90,7 +90,7 @@ Or a custom-made web application that is used to collect data.
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## The research lifecycle
 
@@ -106,7 +106,7 @@ However, non-research software can also be used in these steps, and research sof
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## The research lifecycle
 
@@ -122,7 +122,7 @@ However, non-research software can also be used in these steps, and research sof
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Take home messages
 

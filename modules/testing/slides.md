@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### What is software testing?
 
@@ -22,7 +22,7 @@ As with any other engineering/scientific approach, it's important to check that 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Risks of poorly tested (research) software
 
@@ -49,7 +49,7 @@ There is also the case of the Ariane flight V88, an European Space Agency rocket
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Why test your software ?
 
@@ -69,7 +69,7 @@ Note:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### The Power of Automated Testing
 
@@ -89,7 +89,7 @@ Instead, we would encourage developers to collect those (and more!) tests into a
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Test types
 
@@ -119,7 +119,7 @@ On the other side of the spectrum, avoid the trap of just writing unit tests for
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Exercise
 
@@ -127,7 +127,7 @@ On the other side of the spectrum, avoid the trap of just writing unit tests for
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Continuous Integration and Deployment (CI/CD)
 
@@ -144,7 +144,7 @@ Continuous deployment (CD) is the practice of automatically deploying every work
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Take home messages
 

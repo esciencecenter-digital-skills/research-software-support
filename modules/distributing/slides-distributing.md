@@ -11,7 +11,7 @@ author: Jaro Camphuijsen, Lourens Veen
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why distribute?
 
@@ -25,7 +25,7 @@ scenarios are the most common. Note that users and developers can include yourse
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Kinds of software
 
@@ -42,7 +42,7 @@ start with explaining a bit how software is put together, and what all these ter
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Functions (or Procedures)
 
@@ -76,7 +76,7 @@ thousands of functions in it to do everything it does.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Scripts and Notebooks
 
@@ -109,7 +109,7 @@ not in the script itself, but come from libraries.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Libraries
 
@@ -145,7 +145,7 @@ libraries are very reusable.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Programs
 
@@ -173,7 +173,7 @@ or on the command line.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Packages
 
@@ -210,7 +210,7 @@ manager, e.g. C++ and Fortran.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Images and containers
 
@@ -241,7 +241,7 @@ able to run the program.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Scenario 1: A Script
 
@@ -252,7 +252,7 @@ able to run the program.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Distributing scripts/notebooks
 
@@ -285,7 +285,7 @@ work without an Internet, or in the future when all that old stuff is no longer 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Scenario 2: A reusable method
 
@@ -309,7 +309,7 @@ some help from its maintainers as well, in the form of reviews.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Distributing libraries
 
@@ -335,7 +335,7 @@ even [EasyBuild](https://easybuild.io/) or [Spack](https://spack.io/) (on High-P
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Scenario 3: A whole application
 
@@ -350,7 +350,7 @@ Nevertheless there are examples of this, e.g. [MaxEnt](https://github.com/mrmaxe
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Distributing programs
 
@@ -379,7 +379,7 @@ again, running an old operating system is a security risk.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Updating software
 
@@ -412,7 +412,7 @@ to continue to work.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Versioning
 
@@ -434,7 +434,7 @@ bugs.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Summary
 

@@ -10,7 +10,7 @@ order: 2
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Before we dive in...
 
@@ -22,7 +22,7 @@ Answers can potentially be collected in a collaborative document.
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## What do we mean by publishing?
 
@@ -37,7 +37,7 @@ The goal is to allow others to find and use your code, if they so wish, without 
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why Publish?
 
@@ -65,7 +65,7 @@ Additionally, publishing is essential for meeting the FAIR principles:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Traditional publishing pipeline
 
@@ -76,7 +76,7 @@ Additionally, publishing is essential for meeting the FAIR principles:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ### Consequences
 
@@ -86,7 +86,7 @@ Additionally, publishing is essential for meeting the FAIR principles:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## Modern publishing pipeline
 
 * Software repository
@@ -97,7 +97,7 @@ Additionally, publishing is essential for meeting the FAIR principles:
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Software repository
 
 Put all source files in a public version-controlled repository
@@ -114,7 +114,7 @@ See license, citation and software management chapters
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Software repository
 Which one?
 <img src="media/repository_logos.png" width="80%">
@@ -125,7 +125,7 @@ Anything is better than nothing. GitLab and GitHub are the mainstream, used by m
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Tag/semantic versioning
 
 It is important to communicate the actual version of the software used for a particular piece of research
@@ -136,7 +136,7 @@ Ideally, use "semantic versioning" in the form MAJOR.MINOR.PATCH (e.g. v2.1.5)
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Get a Persistent Identifier
 
 Specific versions of the software should be published to an archiving service that provides persistent identifiers.
@@ -150,7 +150,7 @@ See Citation story
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Registries
 Add a link to your software on a relevant public registry
 
@@ -165,7 +165,7 @@ An "awesome list" is a list of awesome things curated by the community, often ho
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### The Research Software Directory
 <style>
 .container{
@@ -202,7 +202,7 @@ The Research Software Directory is an online service designed to <b>collect</b> 
 
 ==
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### User friendly data curation interface
 <style>
 .container{
@@ -239,7 +239,7 @@ We automatically **harvest** data where possible:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ### Software Paper
 
 Publish a journal article about the software specifically
@@ -253,7 +253,7 @@ Some journals perform peer review of the software in question
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Automate as many steps as possible!
 

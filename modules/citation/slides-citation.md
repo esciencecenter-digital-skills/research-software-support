@@ -10,7 +10,7 @@ order: 1
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 
 ## Why would you cite software?
 - Understanding Research Fields
@@ -34,7 +34,7 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## The software citation principles
 
 - Importance
@@ -62,7 +62,7 @@ Note:
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## What software to cite?
 
 *"...the software itself should be cited on the same basis as any other research product; authors should cite the appropriate set of software products."*
@@ -71,14 +71,14 @@ Which software would you cite?
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ## How to make your software citable?
 
 ## `CITATION.cff`
 
 ===
 
-<!-- .slide: data-state="standard" -->
+<!-- .slide: data-state="standard 10" -->
 ```
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
