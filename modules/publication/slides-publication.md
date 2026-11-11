@@ -142,7 +142,7 @@ Ideally, use "semantic versioning" in the form MAJOR.MINOR.PATCH (e.g. v2.1.5)
 Specific versions of the software should be published to an archiving service that provides persistent identifiers.
 
 For example, Zenodo is a long term archiving service for scientific data and software.
-Zenodo will assign a **D**igital **O**bject **I**dentifyer (**DOI**) to the published data, making it citable.
+Zenodo will assign a **D**igital **O**bject **I**dentifier (**DOI**) to the published data, making it citable.
 
 Note:
 

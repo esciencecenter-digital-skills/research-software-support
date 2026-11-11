@@ -1,7 +1,7 @@
 ---
 title: Find your registry
 type: exercise
-order: 5
+order: 4
 ---
 
 # Exercise: Find your registry (10 mins)

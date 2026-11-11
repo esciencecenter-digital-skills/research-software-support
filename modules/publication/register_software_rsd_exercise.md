@@ -1,7 +1,7 @@
 ---
 title: Register your software
 type: exercise
-order: 7
+order: 5
 ---
 
 # Register your software in the Research Software Directory (15 mins)
