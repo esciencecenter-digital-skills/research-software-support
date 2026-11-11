@@ -493,6 +493,7 @@ A task can be anything, small or large: fixing a typo, updating a reference, add
 fixing a bug, adding some new functionality, improving performance, performing a backend rewrite.
 
 Deleting branches after merging helps keeping the overview of what is actively being worked on.
+
 ===
 
 <!-- .slide: data-state="standard" -->
