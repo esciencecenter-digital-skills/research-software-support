@@ -126,7 +126,7 @@ Say you have dozens (hundreds, thousands, ...) of old versions, how do you manag
 <!-- .element: class="fragment" data-fragment-index="1" -->
 - Versioning systems
 <!-- .element: class="fragment" data-fragment-index="1" -->
-- Create Change logs and DOIs for stable/important versions
+- Create Change logs and tags for stable/important versions
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
@@ -136,9 +136,9 @@ We've talked above extensively about commit hygiene, so will now discuss the oth
 
 <!-- .slide: data-state="standard" -->
 
-## Versioning
+## Tagging versions
 
-Use a logical system to keep track of (stable) versions<br>
+Use a logical system to add a **tag** to stable versions<br>
 ... and document the system used in the repository.
 
 The most common are:
@@ -149,7 +149,7 @@ The most common are:
 </ul>
 
 note:
-Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is.
+Make sure that whatever versioning system you use is also documented in the repo, so that others (and future you) can see what the logic is. 
 
 ==
 
