@@ -1,7 +1,7 @@
 ---
-title: CITATION.cff file
-type: reading
-order: 4
+title: CITATION.cff
+type: exercise
+order: 5
 ---
 
 ## The `CITATION.cff` file
@@ -26,3 +26,7 @@ identifiers:
     value: 10.5281/zenodo.1234
 date-released: 2021-08-11
 ```
+
+### Using cffinit to create `CITATION.cff`
+
+Use the cffinit tool to to create a `CITATION.cff` file. You can find the tool at[citation-file-format.github.io/cff-initializer-javascript](https://citation-file-format.github.io/cff-initializer-javascript/#/).
