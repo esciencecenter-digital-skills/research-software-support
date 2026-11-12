@@ -50,6 +50,16 @@ Documentation on how to integrate Zenodo with your repository...
 * [on GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 * [on GitLab](https://gitlab.com/sbeniamine/gitlab2zenodo)
 
+### An example with GitHub-Zenodo integration
+1. Choose a software repository on GitHub that you own (either existing, or create a new one).
+1. Navigate to [zenodo.org](https://zenodo.org/)
+1. Log in with your Zenodo account (create a new one if necessary, you can also use your GitHub account to sign in to Zenodo)
+1. Navigate to the "GitHub" tab, located in a drop-down menu under your username
+1. Look through the list of repositories listed until you find the one you wanted to archive
+1. Flip the toggle on the right to "ON"
+1. Go back to your repository on github.com and make a new release. Zenodo will automatically archive this release.
+1. Add the Zenodo badge for your repository to the README file.
+
 
 ## Registries
 To improve findability of the software, it should be shared in [existing software registries](https://github.com/NLeSC/awesome-research-software-registries). Preferably, software is added to a registry specific to the domain and/or programming language. Software can be shared in multiple registries if they are relevant to the software. 
@@ -59,7 +69,7 @@ To improve findability of the software, it should be shared in [existing softwar
 A major, but also optional step is to publish a journal article about the software specifically in a dedicated software journal. Some examples are:
 
 * [Journal of Open Research Software (JORS)](https://openresearchsoftware.metajnl.com/)
-* [Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
+* [Journal of Open Source Software (JOSS)](https://joss.theoj.org/) (have a look at their [review checklist](https://github.com/openjournals/joss-reviews/blob/master/.buffy/templates/reviewer_checklist.md))
 * [SoftwareX](https://www.sciencedirect.com/journal/softwarex)
 
 [Check this extensive list of software journals](https://www.software.ac.uk/top-tip/which-journals-should-i-publish-my-software)

@@ -1,7 +1,7 @@
 ---
 title: Further reading
 type: reading
-order: 8
+order: 6
 ---
 
 # Reading material
