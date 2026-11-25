@@ -48,19 +48,19 @@ order: 1
 
 ## From AI to genAI
 
-<div style="font-size:0.82em; text-align:left; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+<div class="card bordered" style="font-size:0.82em;">
   <strong>Artificial Intelligence</strong>
-  <div class="fragment" data-fragment-index="0" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+  <div class="card bordered fragment" data-fragment-index="0">
     <strong>Machine Learning</strong>
-    <div class="fragment" data-fragment-index="1" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; border:2px solid lightgray; border-radius:8px;">
+    <div class="card bordered fragment" data-fragment-index="1">
       <strong>Deep Learning</strong>
-      <div class="fragment" data-fragment-index="2" style="margin-top:0.5rem; padding:0.6rem 1rem 1rem; background:lightgray; border-radius:8px;">
+      <div class="card fragment" data-fragment-index="2">
         <strong>Generative AI</strong>
-        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1rem; margin-top:0.5rem; text-align:center;">
-          <div style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;"><strong>Language models</strong></div>
-          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Image models</div>
-          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Audio models</div>
-          <div class="fragment semi-fade-out" data-fragment-index="3" style="padding:0.6rem; background:white; border-radius:8px; border:2px solid white;">Video models</div>
+        <div class="columns" style="--columns: repeat(4, 1fr); --gap: 1rem; text-align:center;">
+          <div class="card"><strong>Language models</strong></div>
+          <div class="card fragment semi-fade-out" data-fragment-index="3">Image models</div>
+          <div class="card fragment semi-fade-out" data-fragment-index="3">Audio models</div>
+          <div class="card fragment semi-fade-out" data-fragment-index="3">Video models</div>
         </div>
       </div>
     </div>
@@ -84,62 +84,51 @@ Note:
 
 ## AI Capabilities
 
-<style>
-  .reveal .stepper .step { border: 2px solid lightgray; }
-  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
-  .reveal .stepper .step.first { border-color: blue; }
-  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
-  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
-  .reveal .stepper .step.first.fragment,
-  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
-  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
-  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
-</style>
-<div class="stepper" style="min-height:18em; font-size:0.82em; text-align:left;">
-  <div class="step first fragment" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+<div class="stepper" style="--columns: 7em repeat(3, 1fr); --gap: 1em; min-height:18em; font-size:0.82em;">
+  <div class="step card columns items-center">
     <strong>Create</strong>
     <span>Generate</span>
     <span>Summarize</span>
     <span>Translate</span>
   </div>
-  <div class="detail fragment fade-out" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
-    <em style="color:gray;">e.g.</em>
+  <div class="detail columns">
+    <em class="muted">e.g.</em>
     <span>Draft text, code, images, slides</span>
     <span>Papers, meeting notes, transcripts</span>
     <span>Languages, programming languages</span>
   </div>
-  <div class="step fragment" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="step card columns items-center fragment">
     <strong>Understand</strong>
     <span>Classify</span>
     <span>Extract</span>
     <span>Detect</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="0" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
-    <em style="color:gray;">e.g.</em>
+  <div class="detail columns">
+    <em class="muted">e.g.</em>
     <span>Publications, species, images, emails</span>
     <span>Metadata, entities, keywords</span>
     <span>Anomalies, fraud, tumors</span>
   </div>
-  <div class="step fragment" data-fragment-index="1" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="step card columns items-center fragment">
     <strong>Find</strong>
     <span>Search</span>
     <span>Recommend</span>
     <span>Predict</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="1" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
-    <em style="color:gray;">e.g.</em>
+  <div class="detail columns">
+    <em class="muted">e.g.</em>
     <span>Semantic search over documents</span>
     <span>Papers, resources</span>
     <span>Forecast outcomes with data</span>
   </div>
-  <div class="step fragment" data-fragment-index="2" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="step card columns items-center fragment">
     <strong>Interact</strong>
     <span>Converse</span>
     <span>Reason</span>
     <span>Act</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="2" style="display:grid; grid-template-columns:7em repeat(3, 1fr); gap:1em; align-items:start; margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;">
-    <em style="color:gray;">e.g.</em>
+  <div class="detail columns">
+    <em class="muted">e.g.</em>
     <span>Chat assistants</span>
     <span>Solve problems, infer conclusions</span>
     <span>Use tools, execute workflows, control robots</span>
@@ -188,26 +177,26 @@ Note:
 
 ## How GenAI fits in your workflow
 
-<div style="display:grid; grid-template-columns:repeat(6, 1fr); gap:1rem; font-size:0.82em; text-align:left;">
-  <div style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
+<div class="columns" style="--columns: repeat(6, 1fr); --gap: 1rem; font-size:0.82em;">
+  <div class="card" style="grid-column:span 2;">
     <strong>💬 Planning / Sparring</strong>
-    <p style="margin:0.4rem 0 0;">Discuss architecture, talk through trade-offs, get a second opinion on your design</p>
+    <p>Discuss architecture, talk through trade-offs, get a second opinion on your design</p>
   </div>
-  <div class="fragment" style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
+  <div class="card fragment" style="grid-column:span 2;">
     <strong>⌨️ Tab Completion</strong>
-    <p style="margin:0.4rem 0 0;">Inline suggestions as you type — low risk, high daily value</p>
+    <p>Inline suggestions as you type — low risk, high daily value</p>
   </div>
-  <div class="fragment" style="grid-column:span 2; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
+  <div class="card fragment" style="grid-column:span 2;">
     <strong>🧱 Code Block Generation</strong>
-    <p style="margin:0.4rem 0 0;">Ask for a function, a regex, a test — review and integrate manually</p>
+    <p>Ask for a function, a regex, a test — review and integrate manually</p>
   </div>
-  <div class="fragment" style="grid-column:span 3; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid blue;">
+  <div class="card highlight fragment" style="grid-column:span 3;">
     <strong>🤖 Agentic Coding</strong>
-    <p style="margin:0.4rem 0 0;">Model reads/writes files, runs tests, operates autonomously — <em>our focus today</em></p>
+    <p>Model reads/writes files, runs tests, operates autonomously — <em>our focus today</em></p>
   </div>
-  <div class="fragment" style="grid-column:span 3; padding:0.9rem; background:lightgray; border-radius:8px; border:2px solid lightgray;">
+  <div class="card fragment" style="grid-column:span 3;">
     <strong>🌟 Autonomous Agents</strong>
-    <p style="margin:0.4rem 0 0;">Execute scheduled tasks, react to web hooks, no or little user interaction</p>
+    <p>Execute scheduled tasks, react to web hooks, no or little user interaction</p>
   </div>
 </div>
 
@@ -220,20 +209,20 @@ Note:
 
 ## What You Can Use It For Today
 
-<div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; font-size:0.82em; text-align:left;">
-  <div style="padding:0.9rem; background:lightgray; border-radius:8px;">
+<div class="columns" style="--gap: 1rem; font-size:0.82em;">
+  <div class="card">
     <strong>🔍 Code Explanation</strong>
     <p>Paste unfamiliar code and ask for a walkthrough — useful for legacy scripts or inherited projects</p>
   </div>
-  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="card fragment">
     <strong>♻️ Refactoring</strong>
     <p>Restructure working code for readability, performance, or style — with tests in place first</p>
   </div>
-  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="card fragment">
     <strong>🧪 Tests &amp; Docs</strong>
     <p>Generate unit tests and docstrings — read the tests, they reveal the model's assumptions</p>
   </div>
-  <div class="fragment" style="padding:0.9rem; background:lightgray; border-radius:8px;">
+  <div class="card fragment">
     <strong>🚀 DevOps</strong>
     <p>CI config, Dockerfiles, environment files — well-covered territory with high AI reliability</p>
   </div>
@@ -273,7 +262,7 @@ Note:
 - 🧮 Statistical reasoning — wrong tools/types, silent NA drops, off-by-one errors
 - ✨ <strong>Looks correct ≠ works correctly</strong>
 
-<p style="font-size:0.75em; color:chocolate; margin-top:1rem;">
+<p class="card bordered highlight" style="font-size:0.75em;">
   The output reads like it was written by a competent analyst. That is exactly the danger.
 </p>
 
@@ -284,7 +273,7 @@ Note:
 
 > “[An LLM] doesn’t know it’s wrong. It doesn’t know anything. It’s very good at sounding right.”
 >
-> <span class="fragment" style="color: gray;">– Claude.ai, asked about LLMs</span>
+> <span class="fragment">– Claude.ai, asked about LLMs</span>
 
 Note:
 
@@ -301,25 +290,21 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ## Up-Skill rather than De-Skill
 
-<style>
-  .reveal .upskill .fragment.current-visible:not(.current-fragment) { display: none; }
-  .reveal .upskill .fragment.fade-out.visible { display: none; }
-</style>
-<ul class="upskill" style="display:block; min-height:11em; font-size:0.82em; text-align:left;">
-  <li><strong>Locate technical information quickly</strong>
-    <ul class="fragment fade-out" data-fragment-index="0"><li>Instead of reading through multiple documentation pages, you can ask AI to find the relevant function, argument, or method for your task.</li></ul>
+<ul class="stepper" style="min-height:11em; font-size:0.82em;">
+  <li class="step"><strong>Locate technical information quickly</strong>
+    <ul class="detail"><li>Instead of reading through multiple documentation pages, you can ask AI to find the relevant function, argument, or method for your task.</li></ul>
   </li>
-  <li class="fragment" data-fragment-index="0"><strong>Summarise key concepts</strong>
-    <ul class="fragment current-visible" data-fragment-index="0"><li>AI can condense long documentation into concise, understandable explanations. You can even ask AI to tailor explanations to your code and dataset.</li></ul>
+  <li class="step fragment"><strong>Summarise key concepts</strong>
+    <ul class="detail"><li>AI can condense long documentation into concise, understandable explanations. You can even ask AI to tailor explanations to your code and dataset.</li></ul>
   </li>
-  <li class="fragment" data-fragment-index="1"><strong>Clarify ambiguous points</strong>
-    <ul class="fragment current-visible" data-fragment-index="1"><li>You can follow up iteratively, asking AI to rephrase explanations or provide examples.</li></ul>
+  <li class="step fragment"><strong>Clarify ambiguous points</strong>
+    <ul class="detail"><li>You can follow up iteratively, asking AI to rephrase explanations or provide examples.</li></ul>
   </li>
-  <li class="fragment" data-fragment-index="2"><strong>Code comprehension</strong>
-    <ul class="fragment current-visible" data-fragment-index="2"><li>Paste code generated by AI or colleagues and ask for line-by-line explanations.</li></ul>
+  <li class="step fragment"><strong>Code comprehension</strong>
+    <ul class="detail"><li>Paste code generated by AI or colleagues and ask for line-by-line explanations.</li></ul>
   </li>
-  <li class="fragment" data-fragment-index="3"><strong>Contextual learning</strong>
-    <ul class="fragment current-visible" data-fragment-index="3"><li>Ask why certain functions or methods are used, what alternatives exist, and best practices.</li></ul>
+  <li class="step fragment"><strong>Contextual learning</strong>
+    <ul class="detail"><li>Ask why certain functions or methods are used, what alternatives exist, and best practices.</li></ul>
   </li>
 </ul>
 
@@ -342,39 +327,28 @@ LLMs are a **pattern matcher**, not reasoner:
 
 ## Hosting
 
-<style>
-  .reveal .stepper .step { border: 2px solid lightgray; }
-  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
-  .reveal .stepper .step.first { border-color: blue; }
-  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
-  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
-  .reveal .stepper .step.first.fragment,
-  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
-  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
-  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
-</style>
-<div class="stepper" style="min-height:17em; font-size:0.82em; text-align:left;">
-  <div style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; margin-bottom:0.4em; padding:0 1em; border:2px solid transparent; font-size:0.8em; color:gray;"><span>Route</span><span>Useful when …</span></div>
-  <div class="step first fragment" data-fragment-index="0" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+<div class="stepper" style="--columns: 1fr 1.4fr; --gap: 1em; min-height:17em; font-size:0.82em;">
+  <div class="columns muted" style="font-size:0.8em;"><span>Route</span><span>Useful when …</span></div>
+  <div class="step card columns items-center">
     <strong>Commercial hosted service</strong>
     <span>Fast access and broad capability matter</span>
   </div>
-  <div class="detail fragment fade-out" data-fragment-index="0" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> What data is retained, where, for how long and under which terms?</div>
-  <div class="step fragment" data-fragment-index="0" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="detail"><strong>Ask:</strong> What data is retained, where, for how long and under which terms?</div>
+  <div class="step card columns items-center fragment">
     <strong>EU-hosted service</strong>
     <span>Jurisdiction, procurement or institutional policy matters</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="0" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> Which legal entity, subprocessors and service commitments apply?</div>
-  <div class="step fragment" data-fragment-index="1" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="detail"><strong>Ask:</strong> Which legal entity, subprocessors and service commitments apply?</div>
+  <div class="step card columns items-center fragment">
     <strong>Institution-hosted service</strong>
     <span>Sensitive data or local integration matters</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="1" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> Who operates it, who can access logs and how is it maintained?</div>
-  <div class="step fragment" data-fragment-index="2" style="display:grid; grid-template-columns:1fr 1.4fr; gap:1em; align-items:center; margin-bottom:0.5em; padding:0.5em 1em; background:lightgray; border-radius:8px;">
+  <div class="detail"><strong>Ask:</strong> Who operates it, who can access logs and how is it maintained?</div>
+  <div class="step card columns items-center fragment">
     <strong>Local model</strong>
     <span>Data must remain within a controlled environment</span>
   </div>
-  <div class="detail fragment current-visible" data-fragment-index="2" style="margin-bottom:0.8em; padding:0 1em; border:2px solid transparent;"><strong>Ask:</strong> What quality, update, support and security trade-offs follow?</div>
+  <div class="detail"><strong>Ask:</strong> What quality, update, support and security trade-offs follow?</div>
 </div>
 
 Note:
@@ -451,55 +425,65 @@ Note:
 
 ## A Risk Map for Research Support
 
-<style>
-  .reveal .stepper .step { border: 2px solid lightgray; }
-  .reveal .stepper .step.fragment.current-fragment { border-color: blue; }
-  .reveal .stepper .step.first { border-color: blue; }
-  .reveal .stepper .step.first.fragment.visible { border-color: lightgray; }
-  .reveal .stepper.dim .step.fragment { opacity: 0.35; visibility: inherit; }
-  .reveal .stepper .step.first.fragment,
-  .reveal .stepper.dim .step.fragment.visible { opacity: 1; visibility: inherit; }
-  .reveal .stepper .detail.fragment.current-visible:not(.current-fragment),
-  .reveal .stepper .detail.fragment.fade-out.visible { display: none !important; }
-</style>
-<div class="stepper dim" style="font-size:0.82em; text-align:left;">
-  <div style="display:grid; grid-template-columns:repeat(12, 1fr); gap:0.6em;">
-    <div class="step first fragment" data-fragment-index="0" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🎯 Reliability</strong></div>
-    <div class="step fragment" data-fragment-index="0" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🔒 Privacy</strong></div>
-    <div class="step fragment" data-fragment-index="1" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🛡️ Security</strong></div>
-    <div class="step fragment" data-fragment-index="2" style="grid-column:span 3; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>⚖️ Bias</strong></div>
-    <div class="step fragment" data-fragment-index="3" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>©️ Copyright</strong></div>
-    <div class="step fragment" data-fragment-index="4" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🔁 Reproducibility</strong></div>
-    <div class="step fragment" data-fragment-index="5" style="grid-column:span 4; padding:0.5em 0.8em; background:lightgray; border-radius:8px;"><strong>🌱 Sustainability</strong></div>
+<div class="stepper preview" style="font-size:0.82em;">
+  <div class="columns" style="--columns: repeat(12, 1fr); --gap: 0.6em;">
+    <div class="step card" style="grid-column:span 3;"><strong>🎯 Reliability</strong></div>
+    <div class="step card fragment" style="grid-column:span 3;"><strong>🔒 Privacy</strong></div>
+    <div class="step card fragment" style="grid-column:span 3;"><strong>🛡️ Security</strong></div>
+    <div class="step card fragment" style="grid-column:span 3;"><strong>⚖️ Bias</strong></div>
+    <div class="step card fragment" style="grid-column:span 4;"><strong>©️ Copyright</strong></div>
+    <div class="step card fragment" style="grid-column:span 4;"><strong>🔁 Reproducibility</strong></div>
+    <div class="step card fragment" style="grid-column:span 4;"><strong>🌱 Sustainability</strong></div>
   </div>
-  <div style="display:grid; margin-top:1em;">
-    <div class="fragment fade-out" data-fragment-index="0" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Plausible but false claims, fabricated references or buggy code</div>
-      <div><strong>Support response</strong><br>Require source checking, tests, domain review and uncertainty labels</div>
+  <div class="details">
+    <div class="detail">
+      <strong class="label">🎯 Reliability</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Plausible but false claims, fabricated references or buggy code</div>
+        <div><strong>Support response</strong><br>Require source checking, tests, domain review and uncertainty labels</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="0" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Sensitive prompts or files reach an external provider</div>
-      <div><strong>Support response</strong><br>Classify data, use approved environments and minimise inputs</div>
+    <div class="detail">
+      <strong class="label">🔒 Privacy</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Sensitive prompts or files reach an external provider</div>
+        <div><strong>Support response</strong><br>Classify data, use approved environments and minimise inputs</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="1" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Prompt injection, malicious content, unsafe tool calls or leaked secrets</div>
-      <div><strong>Support response</strong><br>Limit permissions, sandbox actions and review connected tools</div>
+    <div class="detail">
+      <strong class="label">🛡️ Security</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Prompt injection, malicious content, unsafe tool calls or leaked secrets</div>
+        <div><strong>Support response</strong><br>Limit permissions, sandbox actions and review connected tools</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="2" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Training data or evaluation gaps shape outputs</div>
-      <div><strong>Support response</strong><br>Examine affected groups, document limitations and seek domain expertise</div>
+    <div class="detail">
+      <strong class="label">⚖️ Bias</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Training data or evaluation gaps shape outputs</div>
+        <div><strong>Support response</strong><br>Examine affected groups, document limitations and seek domain expertise</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="3" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Outputs or training data create unclear reuse conditions</div>
-      <div><strong>Support response</strong><br>Check licences, provenance, attribution and institutional guidance</div>
+    <div class="detail">
+      <strong class="label">©️ Copyright</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Outputs or training data create unclear reuse conditions</div>
+        <div><strong>Support response</strong><br>Check licences, provenance, attribution and institutional guidance</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="4" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Model, prompt, retrieval context or interface changes</div>
-      <div><strong>Support response</strong><br>Record versions, inputs, settings, outputs and review decisions</div>
+    <div class="detail">
+      <strong class="label">🔁 Reproducibility</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Model, prompt, retrieval context or interface changes</div>
+        <div><strong>Support response</strong><br>Record versions, inputs, settings, outputs and review decisions</div>
+      </div>
     </div>
-    <div class="fragment current-visible" data-fragment-index="5" style="grid-area:1/1; display:grid; grid-template-columns:1fr 1fr; gap:2em; padding:0 0.8em;">
-      <div><strong>Typical failure</strong><br>Resource-intensive computation or duplicated infrastructure</div>
-      <div><strong>Support response</strong><br>Match model size and frequency to the task; prefer proportionate use</div>
+    <div class="detail">
+      <strong class="label">🌱 Sustainability</strong>
+      <div class="columns" style="--gap: 2em;">
+        <div><strong>Typical failure</strong><br>Resource-intensive computation or duplicated infrastructure</div>
+        <div><strong>Support response</strong><br>Match model size and frequency to the task; prefer proportionate use</div>
+      </div>
     </div>
   </div>
 </div>
@@ -579,23 +563,23 @@ Note:
 
 <table style="width:100%; border-collapse:collapse; font-size: smaller;">
   <tr>
-    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Role</strong></td>
+    <th scope="row" style="padding:0.4rem 0.8rem; white-space:nowrap;">Role</th>
     <td style="padding:0.4rem 0.8rem;">"You are helping an RSE writing a data analysis pipeline in Python…"</td>
   </tr>
   <tr>
-    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Context</strong></td>
+    <th scope="row" style="padding:0.4rem 0.8rem; white-space:nowrap;">Context</th>
     <td style="padding:0.4rem 0.8rem;">Hardware, data format, scale, existing codebase, language/version</td>
   </tr>
   <tr>
-    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Task</strong></td>
+    <th scope="row" style="padding:0.4rem 0.8rem; white-space:nowrap;">Task</th>
     <td style="padding:0.4rem 0.8rem;">Specific, measurable outcome — not "make it faster", but "reduce runtime below 30s on 10GB input"</td>
   </tr>
   <tr>
-    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>Constraints</strong></td>
+    <th scope="row" style="padding:0.4rem 0.8rem; white-space:nowrap;">Constraints</th>
     <td style="padding:0.4rem 0.8rem;">Memory limits, coding conventions, libraries allowed, what must not change</td>
   </tr>
   <tr>
-    <td style="padding:0.4rem 0.8rem; color:blue; white-space:nowrap;"><strong>References</strong></td>
+    <th scope="row" style="padding:0.4rem 0.8rem; white-space:nowrap;">References</th>
     <td style="padding:0.4rem 0.8rem;">Package docs, similar code, API specs — especially for niche libraries</td>
   </tr>
 </table>
